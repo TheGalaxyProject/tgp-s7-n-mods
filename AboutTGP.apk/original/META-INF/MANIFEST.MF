@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: 1f8J0kmCF55coOBoWm8ksEzIQNc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: XThk+xgS/zcUbnNoSpvKhevTp9U=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: htjUOPmvcg2PuM02A52LLgik4F0=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: EZpYY7yStVmB9Zad4RgcR5toxqg=
+
+Name: res/layout/support_activity.xml
+SHA1-Digest: fzG4zuW4KuT4lAlSimW00jkMVbM=
+
+Name: resources.arsc
+SHA1-Digest: vx387GI9cqGITdvlqW5zZDKXOjE=
+
+Name: res/menu/amnixmenu.xml
+SHA1-Digest: t7j5cUgv53r3GuiEgPdSavdZPZY=
+
+Name: classes.dex
+SHA1-Digest: 9vREf+tW1nzIEKpE/w8KOXd5Dcg=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: sKqA2/vz9J9Hn8FGGcGJeWA5If4=
+
+Name: res/drawable-hdpi/paypal_icon.jpg
+SHA1-Digest: BIGSrc1lqKJqlefJh9Ddwog0Noo=
+
