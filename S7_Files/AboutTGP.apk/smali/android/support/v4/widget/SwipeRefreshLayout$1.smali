@@ -1,6 +1,9 @@
 .class Landroid/support/v4/widget/SwipeRefreshLayout$1;
-.super Landroid/view/animation/Animation;
+.super Ljava/lang/Object;
 .source "SwipeRefreshLayout.java"
+
+# interfaces
+.implements Landroid/view/animation/Animation$AnimationListener;
 
 
 # annotations
@@ -21,121 +24,109 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/SwipeRefreshLayout;
 
     .prologue
-    .line 90
+    .line 171
     iput-object p1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public applyTransformation(FLandroid/view/animation/Transformation;)V
-    .locals 6
-    .param p1, "interpolatedTime"    # F
-    .param p2, "t"    # Landroid/view/animation/Transformation;
+.method public onAnimationEnd(Landroid/view/animation/Animation;)V
+    .locals 2
+    .param p1, "animation"    # Landroid/view/animation/Animation;
 
     .prologue
-    .line 93
-    const/4 v2, 0x0
+    .line 182
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    .line 94
-    .local v2, "targetTop":I
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-boolean v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mRefreshing:Z
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mFrom:I
-    invoke-static {v3}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$000(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    if-eqz v0, :cond_1
 
-    move-result v3
+    .line 184
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    iget-object v4, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-object v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mProgress:Landroid/support/v4/widget/MaterialProgressDrawable;
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mOriginalOffsetTop:I
-    invoke-static {v4}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$100(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    const/16 v1, 0xff
 
-    move-result v4
+    invoke-virtual {v0, v1}, Landroid/support/v4/widget/MaterialProgressDrawable;->setAlpha(I)V
 
-    if-eq v3, v4, :cond_0
+    .line 185
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    .line 95
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-object v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mProgress:Landroid/support/v4/widget/MaterialProgressDrawable;
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mFrom:I
-    invoke-static {v3}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$000(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    invoke-virtual {v0}, Landroid/support/v4/widget/MaterialProgressDrawable;->start()V
 
-    move-result v3
+    .line 186
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    iget-object v4, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-boolean v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mNotify:Z
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mOriginalOffsetTop:I
-    invoke-static {v4}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$100(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    if-eqz v0, :cond_0
 
-    move-result v4
+    .line 187
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    iget-object v5, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-object v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mListener:Landroid/support/v4/widget/SwipeRefreshLayout$OnRefreshListener;
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mFrom:I
-    invoke-static {v5}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$000(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    if-eqz v0, :cond_0
 
-    move-result v5
+    .line 188
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    sub-int/2addr v4, v5
+    iget-object v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mListener:Landroid/support/v4/widget/SwipeRefreshLayout$OnRefreshListener;
 
-    int-to-float v4, v4
+    invoke-interface {v0}, Landroid/support/v4/widget/SwipeRefreshLayout$OnRefreshListener;->onRefresh()V
 
-    mul-float/2addr v4, p1
-
-    float-to-int v4, v4
-
-    add-int v2, v3, v4
-
-    .line 97
+    .line 191
     :cond_0
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mTarget:Landroid/view/View;
-    invoke-static {v3}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$200(Landroid/support/v4/widget/SwipeRefreshLayout;)Landroid/view/View;
+    iget-object v1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    move-result-object v3
+    iget-object v1, v1, Landroid/support/v4/widget/SwipeRefreshLayout;->mCircleView:Landroid/support/v4/widget/CircleImageView;
 
-    invoke-virtual {v3}, Landroid/view/View;->getTop()I
+    invoke-virtual {v1}, Landroid/support/v4/widget/CircleImageView;->getTop()I
 
-    move-result v3
+    move-result v1
 
-    sub-int v1, v2, v3
+    iput v1, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mCurrentTargetOffsetTop:I
 
-    .line 98
-    .local v1, "offset":I
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    .line 195
+    :goto_0
+    return-void
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mTarget:Landroid/view/View;
-    invoke-static {v3}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$200(Landroid/support/v4/widget/SwipeRefreshLayout;)Landroid/view/View;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Landroid/view/View;->getTop()I
-
-    move-result v0
-
-    .line 99
-    .local v0, "currentTop":I
-    add-int v3, v1, v0
-
-    if-gez v3, :cond_1
-
-    .line 100
-    rsub-int/lit8 v1, v0, 0x0
-
-    .line 102
+    .line 193
     :cond_1
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$1;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    # invokes: Landroid/support/v4/widget/SwipeRefreshLayout;->setTargetOffsetTopAndBottom(I)V
-    invoke-static {v3, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$300(Landroid/support/v4/widget/SwipeRefreshLayout;I)V
+    invoke-virtual {v0}, Landroid/support/v4/widget/SwipeRefreshLayout;->reset()V
 
-    .line 103
+    goto :goto_0
+.end method
+
+.method public onAnimationRepeat(Landroid/view/animation/Animation;)V
+    .locals 0
+    .param p1, "animation"    # Landroid/view/animation/Animation;
+
+    .prologue
+    .line 178
+    return-void
+.end method
+
+.method public onAnimationStart(Landroid/view/animation/Animation;)V
+    .locals 0
+    .param p1, "animation"    # Landroid/view/animation/Animation;
+
+    .prologue
+    .line 174
     return-void
 .end method

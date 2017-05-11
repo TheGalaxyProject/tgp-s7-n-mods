@@ -190,26 +190,25 @@
     .line 139
     .local p0, "this":Landroid/support/v4/util/ArrayMap;, "Landroid/support/v4/util/ArrayMap<TK;TV;>;"
     .local p1, "map":Ljava/util/Map;, "Ljava/util/Map<+TK;+TV;>;"
-    iget v2, p0, Landroid/support/v4/util/ArrayMap;->mSize:I
+    iget v1, p0, Landroid/support/v4/util/ArrayMap;->mSize:I
 
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
-    move-result v3
+    move-result v2
 
-    add-int/2addr v2, v3
+    add-int/2addr v1, v2
 
-    invoke-virtual {p0, v2}, Landroid/support/v4/util/ArrayMap;->ensureCapacity(I)V
+    invoke-virtual {p0, v1}, Landroid/support/v4/util/ArrayMap;->ensureCapacity(I)V
 
     .line 140
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
-    move-result-object v2
+    move-result-object v1
 
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .local v1, "i$":Ljava/util/Iterator;
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 

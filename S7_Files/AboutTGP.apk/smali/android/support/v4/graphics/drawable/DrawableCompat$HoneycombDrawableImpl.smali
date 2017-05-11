@@ -19,7 +19,7 @@
     .locals 0
 
     .prologue
-    .line 56
+    .line 154
     invoke-direct {p0}, Landroid/support/v4/graphics/drawable/DrawableCompat$BaseDrawableImpl;-><init>()V
 
     return-void
@@ -32,9 +32,22 @@
     .param p1, "drawable"    # Landroid/graphics/drawable/Drawable;
 
     .prologue
-    .line 59
+    .line 157
     invoke-static {p1}, Landroid/support/v4/graphics/drawable/DrawableCompatHoneycomb;->jumpToCurrentState(Landroid/graphics/drawable/Drawable;)V
 
-    .line 60
+    .line 158
     return-void
+.end method
+
+.method public wrap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    .locals 1
+    .param p1, "drawable"    # Landroid/graphics/drawable/Drawable;
+
+    .prologue
+    .line 162
+    invoke-static {p1}, Landroid/support/v4/graphics/drawable/DrawableCompatHoneycomb;->wrapForTinting(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v0
+
+    return-object v0
 .end method

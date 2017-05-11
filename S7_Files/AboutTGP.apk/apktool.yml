@@ -8,8 +8,8 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '8'
-  targetSdkVersion: '19'
+  minSdkVersion: '13'
+  targetSdkVersion: '25'
 sharedLibrary: false
 unknownFiles: {}
 usesFramework:

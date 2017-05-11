@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/view/GravityCompat;
+.class public final Landroid/support/v4/view/GravityCompat;
 .super Ljava/lang/Object;
 .source "GravityCompat.java"
 
@@ -61,14 +61,13 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     .prologue
-    .line 27
+    .line 204
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 62
     return-void
 .end method
 

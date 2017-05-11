@@ -474,7 +474,7 @@
 
     .line 103
     .local v2, "parent":Ljava/io/File;
-    invoke-virtual {v2}, Ljava/io/File;->mkdir()Z
+    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
     move-result v4
 

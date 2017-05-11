@@ -19,10 +19,6 @@
 
 .field public static final button2:I = 0x7f080001
 
-.field public static final button3:I = 0x7f080002
-
-.field public static final button4:I = 0x7f080003
-
 .field public static final menuitem1:I = 0x7f080004
 
 

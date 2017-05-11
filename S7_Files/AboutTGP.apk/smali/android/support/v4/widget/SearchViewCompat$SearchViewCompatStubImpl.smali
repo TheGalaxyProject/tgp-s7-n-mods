@@ -74,9 +74,9 @@
     return v0
 .end method
 
-.method public newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)Ljava/lang/Object;
+.method public newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)Ljava/lang/Object;
     .locals 1
-    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;
+    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;
 
     .prologue
     .line 83
@@ -85,9 +85,9 @@
     return-object v0
 .end method
 
-.method public newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;)Ljava/lang/Object;
+.method public newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)Ljava/lang/Object;
     .locals 1
-    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;
+    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;
 
     .prologue
     .line 74
@@ -147,20 +147,20 @@
     return-void
 .end method
 
-.method public setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
     .locals 0
-    .param p1, "searchView"    # Ljava/lang/Object;
-    .param p2, "listener"    # Ljava/lang/Object;
+    .param p1, "searchView"    # Landroid/view/View;
+    .param p2, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;
 
     .prologue
     .line 88
     return-void
 .end method
 
-.method public setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
     .locals 0
-    .param p1, "searchView"    # Ljava/lang/Object;
-    .param p2, "listener"    # Ljava/lang/Object;
+    .param p1, "searchView"    # Landroid/view/View;
+    .param p2, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;
 
     .prologue
     .line 79

@@ -32,7 +32,7 @@
     .locals 0
 
     .prologue
-    .line 380
+    .line 409
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +45,7 @@
     .param p1, "in"    # Landroid/os/Parcel;
 
     .prologue
-    .line 382
+    .line 412
     new-instance v0, Landroid/support/v4/app/FragmentManagerState;
 
     invoke-direct {v0, p1}, Landroid/support/v4/app/FragmentManagerState;-><init>(Landroid/os/Parcel;)V
@@ -55,10 +55,9 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1, "x0"    # Landroid/os/Parcel;
 
     .prologue
-    .line 380
+    .line 409
     invoke-virtual {p0, p1}, Landroid/support/v4/app/FragmentManagerState$1;->createFromParcel(Landroid/os/Parcel;)Landroid/support/v4/app/FragmentManagerState;
 
     move-result-object v0
@@ -71,7 +70,7 @@
     .param p1, "size"    # I
 
     .prologue
-    .line 386
+    .line 417
     new-array v0, p1, [Landroid/support/v4/app/FragmentManagerState;
 
     return-object v0
@@ -79,10 +78,9 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1, "x0"    # I
 
     .prologue
-    .line 380
+    .line 409
     invoke-virtual {p0, p1}, Landroid/support/v4/app/FragmentManagerState$1;->newArray(I)[Landroid/support/v4/app/FragmentManagerState;
 
     move-result-object v0

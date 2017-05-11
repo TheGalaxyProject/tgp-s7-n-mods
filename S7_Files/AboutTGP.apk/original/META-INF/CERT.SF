@@ -1,34 +1,40 @@
 Signature-Version: 1.0
-Created-By: 1.0 (Android)
-SHA1-Digest-Manifest: 568q7vgp1jdDstHFivT7OvQc3Sk=
+SHA1-Digest-Manifest: Uy5/hdlDlxaqUT2fiSSBrPBRBSc=
+Created-By: 1.0 (Android SignApk)
 
-Name: res/drawable-xhdpi/ic_launcher.png
-SHA1-Digest: g9jaEc+q1D2VU1vxXbENzRJJHJc=
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: K0OPwbarF+hFSYXZgZ17xVSy2E0=
+
+Name: res/drawable-hdpi-v4/tgp_logo.png
+SHA1-Digest: so406AnoBA/7tmTmF4OkHn9s8uk=
 
 Name: AndroidManifest.xml
-SHA1-Digest: 2frQArxZJgFzgSijYoMvGSiwnoM=
+SHA1-Digest: IkGLpwQp6LKobb3VnefHUPZYmks=
 
-Name: res/drawable-mdpi/ic_launcher.png
-SHA1-Digest: YB49LPTXxhZzl29pTkei+2EJbaU=
-
-Name: res/drawable-hdpi/ic_launcher.png
-SHA1-Digest: j3uC6fzp2Enty/WIckQKfaGaFD0=
-
-Name: res/layout/support_activity.xml
-SHA1-Digest: HGIm2edJLF3jq4Tr6+SvQuIjCqI=
-
-Name: res/menu/amnixmenu.xml
-SHA1-Digest: HeacjpETiKOIDxpv5LzB2bi14oM=
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: KajS3EvqZwZcaG36bUTy4yCN2QY=
 
 Name: resources.arsc
-SHA1-Digest: J3neWtwvptZfMHCQApULH5pk1XA=
+SHA1-Digest: tq73uyLzeM8MHiAZWOouNb7j/vQ=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: L1sk7PgGZP1A4gUk6XiLJFaUqas=
+
+Name: res/menu/amnixmenu.xml
+SHA1-Digest: kloMAwk+Ad9BZSaOR1oP0ao2ZnE=
 
 Name: classes.dex
-SHA1-Digest: wkPVXieBXk/Mr2mEcDK49mBcZug=
+SHA1-Digest: tXC5xhRv7WnsrC9bf09i4xRmhkM=
 
-Name: res/drawable-xxhdpi/ic_launcher.png
-SHA1-Digest: rwuDPly8E+gOpG45SDzToCBWHeA=
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: aJUnnxKKgBGzLwGjr3v08LTQe60=
 
-Name: res/drawable-hdpi/paypal_icon.jpg
-SHA1-Digest: GgXv1DxPI16BjndszSB2NhpfKQk=
+Name: res/drawable-hdpi-v4/paypal_icon.jpg
+SHA1-Digest: CQy/wteHZgYuXghoiwkPN6SR5w8=
+
+Name: res/layout-v17/support_activity.xml
+SHA1-Digest: rc4E68QDjQLYbBK0GC7x+UltB5A=
+
+Name: res/layout/support_activity.xml
+SHA1-Digest: rYTW03pXxg/wa7U/f3LLfTTNoO8=
 

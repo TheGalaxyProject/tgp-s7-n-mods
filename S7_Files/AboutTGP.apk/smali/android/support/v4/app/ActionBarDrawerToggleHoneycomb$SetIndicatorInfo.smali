@@ -34,10 +34,10 @@
 
     const/4 v11, 0x0
 
-    .line 103
+    .line 104
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 105
+    .line 106
     :try_start_0
     const-class v6, Landroid/app/ActionBar;
 
@@ -59,7 +59,7 @@
 
     iput-object v6, p0, Landroid/support/v4/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;->setHomeAsUpIndicator:Ljava/lang/reflect/Method;
 
-    .line 107
+    .line 108
     const-class v6, Landroid/app/ActionBar;
 
     const-string v7, "setHomeActionContentDescription"
@@ -82,55 +82,55 @@
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 137
+    .line 138
     :cond_0
     :goto_0
     return-void
 
-    .line 112
+    .line 113
     :catch_0
     move-exception v6
 
-    .line 116
+    .line 117
     invoke-virtual {p1, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 117
+    .line 118
     .local v2, "home":Landroid/view/View;
     if-eqz v2, :cond_0
 
-    .line 122
+    .line 123
     invoke-virtual {v2}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v3
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    .line 123
+    .line 124
     .local v3, "parent":Landroid/view/ViewGroup;
     invoke-virtual {v3}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
 
-    .line 124
+    .line 125
     .local v0, "childCount":I
     const/4 v6, 0x2
 
     if-ne v0, v6, :cond_0
 
-    .line 129
+    .line 130
     invoke-virtual {v3, v11}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 130
+    .line 131
     .local v1, "first":Landroid/view/View;
     invoke-virtual {v3, v12}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
-    .line 131
+    .line 132
     .local v4, "second":Landroid/view/View;
     invoke-virtual {v1}, Landroid/view/View;->getId()I
 
@@ -140,14 +140,14 @@
 
     move-object v5, v4
 
-    .line 133
+    .line 134
     .local v5, "up":Landroid/view/View;
     :goto_1
     instance-of v6, v5, Landroid/widget/ImageView;
 
     if-eqz v6, :cond_0
 
-    .line 135
+    .line 136
     check-cast v5, Landroid/widget/ImageView;
 
     .end local v5    # "up":Landroid/view/View;
@@ -158,6 +158,6 @@
     :cond_1
     move-object v5, v1
 
-    .line 131
+    .line 132
     goto :goto_1
 .end method

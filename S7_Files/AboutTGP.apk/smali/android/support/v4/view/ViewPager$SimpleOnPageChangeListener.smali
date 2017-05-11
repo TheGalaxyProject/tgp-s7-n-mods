@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 292
+    .line 325
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +35,7 @@
     .param p1, "state"    # I
 
     .prologue
-    .line 306
+    .line 339
     return-void
 .end method
 
@@ -46,7 +46,7 @@
     .param p3, "positionOffsetPixels"    # I
 
     .prologue
-    .line 296
+    .line 329
     return-void
 .end method
 
@@ -55,6 +55,6 @@
     .param p1, "position"    # I
 
     .prologue
-    .line 301
+    .line 334
     return-void
 .end method

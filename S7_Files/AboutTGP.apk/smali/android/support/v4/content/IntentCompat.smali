@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/content/IntentCompat;
+.class public final Landroid/support/v4/content/IntentCompat;
 .super Ljava/lang/Object;
 .source "IntentCompat.java"
 
@@ -18,6 +18,8 @@
 .field public static final ACTION_EXTERNAL_APPLICATIONS_AVAILABLE:Ljava/lang/String; = "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"
 
 .field public static final ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE:Ljava/lang/String; = "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"
+
+.field public static final CATEGORY_LEANBACK_LAUNCHER:Ljava/lang/String; = "android.intent.category.LEANBACK_LAUNCHER"
 
 .field public static final EXTRA_CHANGED_PACKAGE_LIST:Ljava/lang/String; = "android.intent.extra.changed_package_list"
 
@@ -99,7 +101,7 @@
     .param p0, "mainActivity"    # Landroid/content/ComponentName;
 
     .prologue
-    .line 221
+    .line 227
     sget-object v0, Landroid/support/v4/content/IntentCompat;->IMPL:Landroid/support/v4/content/IntentCompat$IntentCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/content/IntentCompat$IntentCompatImpl;->makeMainActivity(Landroid/content/ComponentName;)Landroid/content/Intent;
@@ -115,7 +117,7 @@
     .param p1, "selectorCategory"    # Ljava/lang/String;
 
     .prologue
-    .line 249
+    .line 253
     sget-object v0, Landroid/support/v4/content/IntentCompat;->IMPL:Landroid/support/v4/content/IntentCompat$IntentCompatImpl;
 
     invoke-interface {v0, p0, p1}, Landroid/support/v4/content/IntentCompat$IntentCompatImpl;->makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -130,7 +132,7 @@
     .param p0, "mainActivity"    # Landroid/content/ComponentName;
 
     .prologue
-    .line 266
+    .line 270
     sget-object v0, Landroid/support/v4/content/IntentCompat;->IMPL:Landroid/support/v4/content/IntentCompat$IntentCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/content/IntentCompat$IntentCompatImpl;->makeRestartActivityTask(Landroid/content/ComponentName;)Landroid/content/Intent;

@@ -30,7 +30,23 @@
 .method public abstract setThreadStatsTag(I)V
 .end method
 
+.method public abstract tagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+.end method
+
 .method public abstract tagSocket(Ljava/net/Socket;)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+.end method
+
+.method public abstract untagDatagramSocket(Ljava/net/DatagramSocket;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/net/SocketException;

@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/os/EnvironmentCompat;
+.class public final Landroid/support/v4/os/EnvironmentCompat;
 .super Ljava/lang/Object;
 .source "EnvironmentCompat.java"
 
@@ -10,11 +10,11 @@
 
 
 # direct methods
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     .prologue
-    .line 30
+    .line 76
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,6 +56,7 @@
 
     move-result-object v4
 
+    .line 64
     invoke-virtual {v4}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
 
     move-result-object v0

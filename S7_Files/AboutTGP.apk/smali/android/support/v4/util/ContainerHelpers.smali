@@ -122,19 +122,19 @@
     if-gt v1, v0, :cond_1
 
     .line 69
-    add-int v5, v1, v0
+    add-int v3, v1, v0
 
-    ushr-int/lit8 v2, v5, 0x1
+    ushr-int/lit8 v2, v3, 0x1
 
     .line 70
     .local v2, "mid":I
-    aget-wide v3, p0, v2
+    aget-wide v4, p0, v2
 
     .line 72
-    .local v3, "midVal":J
-    cmp-long v5, v3, p2
+    .local v4, "midVal":J
+    cmp-long v3, v4, p2
 
-    if-gez v5, :cond_0
+    if-gez v3, :cond_0
 
     .line 73
     add-int/lit8 v1, v2, 0x1
@@ -143,9 +143,9 @@
 
     .line 74
     :cond_0
-    cmp-long v5, v3, p2
+    cmp-long v3, v4, p2
 
-    if-lez v5, :cond_2
+    if-lez v3, :cond_2
 
     .line 75
     add-int/lit8 v0, v2, -0x1
@@ -154,7 +154,7 @@
 
     .line 80
     .end local v2    # "mid":I
-    .end local v3    # "midVal":J
+    .end local v4    # "midVal":J
     :cond_1
     xor-int/lit8 v2, v1, -0x1
 

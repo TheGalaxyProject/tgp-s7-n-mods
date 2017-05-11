@@ -21,6 +21,7 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/content/LocalBroadcastManager;Landroid/os/Looper;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/content/LocalBroadcastManager;
     .param p2, "x0"    # Landroid/os/Looper;
 
     .prologue

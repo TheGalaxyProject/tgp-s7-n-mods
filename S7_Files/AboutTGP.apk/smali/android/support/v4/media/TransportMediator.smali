@@ -82,21 +82,21 @@
     .line 159
     invoke-direct {p0}, Landroid/support/v4/media/TransportController;-><init>()V
 
-    .line 55
+    .line 54
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
-    .line 57
+    .line 56
     new-instance v0, Landroid/support/v4/media/TransportMediator$1;
 
     invoke-direct {v0, p0}, Landroid/support/v4/media/TransportMediator$1;-><init>(Landroid/support/v4/media/TransportMediator;)V
 
     iput-object v0, p0, Landroid/support/v4/media/TransportMediator;->mTransportKeyCallback:Landroid/support/v4/media/TransportMediatorCallback;
 
-    .line 130
+    .line 129
     new-instance v0, Landroid/support/v4/media/TransportMediator$2;
 
     invoke-direct {v0, p0}, Landroid/support/v4/media/TransportMediator$2;-><init>(Landroid/support/v4/media/TransportMediator;)V
@@ -145,7 +145,7 @@
     .line 164
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mView:Landroid/view/View;
 
-    invoke-static {v0}, Landroid/support/v4/view/KeyEventCompat;->getKeyDispatcherState(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
 
     move-result-object v0
 
@@ -215,7 +215,7 @@
     .locals 2
 
     .prologue
-    .line 212
+    .line 214
     iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -224,14 +224,14 @@
 
     if-gtz v1, :cond_0
 
-    .line 213
+    .line 215
     const/4 v0, 0x0
 
-    .line 217
+    .line 219
     :goto_0
     return-object v0
 
-    .line 215
+    .line 217
     :cond_0
     iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
@@ -241,7 +241,7 @@
 
     new-array v0, v1, [Landroid/support/v4/media/TransportStateListener;
 
-    .line 216
+    .line 218
     .local v0, "listeners":[Landroid/support/v4/media/TransportStateListener;
     iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
@@ -255,22 +255,22 @@
     .param p0, "keyCode"    # I
 
     .prologue
-    .line 112
+    .line 111
     sparse-switch p0, :sswitch_data_0
 
-    .line 127
+    .line 126
     const/4 v0, 0x0
 
     :goto_0
     return v0
 
-    .line 124
+    .line 123
     :sswitch_0
     const/4 v0, 0x1
 
     goto :goto_0
 
-    .line 112
+    .line 111
     nop
 
     :sswitch_data_0
@@ -293,12 +293,12 @@
     .locals 5
 
     .prologue
-    .line 239
+    .line 241
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     if-eqz v0, :cond_0
 
-    .line 240
+    .line 242
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
@@ -309,111 +309,98 @@
 
     iget-object v2, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
+    .line 243
     invoke-virtual {v2}, Landroid/support/v4/media/TransportPerformer;->onGetCurrentPosition()J
 
     move-result-wide v2
 
     iget-object v4, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
+    .line 244
     invoke-virtual {v4}, Landroid/support/v4/media/TransportPerformer;->onGetTransportControlFlags()I
 
     move-result v4
 
+    .line 242
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->refreshState(ZJI)V
 
-    .line 244
+    .line 246
     :cond_0
     return-void
 .end method
 
 .method private reportPlayingChanged()V
-    .locals 5
+    .locals 4
 
     .prologue
-    .line 221
+    .line 223
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->getListeners()[Landroid/support/v4/media/TransportStateListener;
 
-    move-result-object v4
-
-    .line 222
-    .local v4, "listeners":[Landroid/support/v4/media/TransportStateListener;
-    if-eqz v4, :cond_0
-
-    .line 223
-    move-object v0, v4
-
-    .local v0, "arr$":[Landroid/support/v4/media/TransportStateListener;
-    array-length v2, v0
-
-    .local v2, "len$":I
-    const/4 v1, 0x0
-
-    .local v1, "i$":I
-    :goto_0
-    if-ge v1, v2, :cond_0
-
-    aget-object v3, v0, v1
+    move-result-object v1
 
     .line 224
-    .local v3, "listener":Landroid/support/v4/media/TransportStateListener;
-    invoke-virtual {v3, p0}, Landroid/support/v4/media/TransportStateListener;->onPlayingChanged(Landroid/support/v4/media/TransportController;)V
+    .local v1, "listeners":[Landroid/support/v4/media/TransportStateListener;
+    if-eqz v1, :cond_0
 
-    .line 223
-    add-int/lit8 v1, v1, 0x1
+    .line 225
+    array-length v3, v1
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v3, :cond_0
+
+    aget-object v0, v1, v2
+
+    .line 226
+    .local v0, "listener":Landroid/support/v4/media/TransportStateListener;
+    invoke-virtual {v0, p0}, Landroid/support/v4/media/TransportStateListener;->onPlayingChanged(Landroid/support/v4/media/TransportController;)V
+
+    .line 225
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 227
-    .end local v0    # "arr$":[Landroid/support/v4/media/TransportStateListener;
-    .end local v1    # "i$":I
-    .end local v2    # "len$":I
-    .end local v3    # "listener":Landroid/support/v4/media/TransportStateListener;
+    .line 229
+    .end local v0    # "listener":Landroid/support/v4/media/TransportStateListener;
     :cond_0
     return-void
 .end method
 
 .method private reportTransportControlsChanged()V
-    .locals 5
+    .locals 4
 
     .prologue
-    .line 230
+    .line 232
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->getListeners()[Landroid/support/v4/media/TransportStateListener;
 
-    move-result-object v4
-
-    .line 231
-    .local v4, "listeners":[Landroid/support/v4/media/TransportStateListener;
-    if-eqz v4, :cond_0
-
-    .line 232
-    move-object v0, v4
-
-    .local v0, "arr$":[Landroid/support/v4/media/TransportStateListener;
-    array-length v2, v0
-
-    .local v2, "len$":I
-    const/4 v1, 0x0
-
-    .local v1, "i$":I
-    :goto_0
-    if-ge v1, v2, :cond_0
-
-    aget-object v3, v0, v1
+    move-result-object v1
 
     .line 233
-    .local v3, "listener":Landroid/support/v4/media/TransportStateListener;
-    invoke-virtual {v3, p0}, Landroid/support/v4/media/TransportStateListener;->onTransportControlsChanged(Landroid/support/v4/media/TransportController;)V
+    .local v1, "listeners":[Landroid/support/v4/media/TransportStateListener;
+    if-eqz v1, :cond_0
 
-    .line 232
-    add-int/lit8 v1, v1, 0x1
+    .line 234
+    array-length v3, v1
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v3, :cond_0
+
+    aget-object v0, v1, v2
+
+    .line 235
+    .local v0, "listener":Landroid/support/v4/media/TransportStateListener;
+    invoke-virtual {v0, p0}, Landroid/support/v4/media/TransportStateListener;->onTransportControlsChanged(Landroid/support/v4/media/TransportController;)V
+
+    .line 234
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 236
-    .end local v0    # "arr$":[Landroid/support/v4/media/TransportStateListener;
-    .end local v1    # "i$":I
-    .end local v2    # "len$":I
-    .end local v3    # "listener":Landroid/support/v4/media/TransportStateListener;
+    .line 238
+    .end local v0    # "listener":Landroid/support/v4/media/TransportStateListener;
     :cond_0
     return-void
 .end method
@@ -424,12 +411,12 @@
     .locals 1
 
     .prologue
-    .line 341
+    .line 344
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->destroy()V
 
-    .line 342
+    .line 345
     return-void
 .end method
 
@@ -439,11 +426,13 @@
 
     .prologue
     .line 200
-    iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mKeyEventCallback:Landroid/view/KeyEvent$Callback;
+    iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mKeyEventCallback:Landroid/view/KeyEvent$Callback;
 
-    iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mDispatcherState:Ljava/lang/Object;
+    iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mDispatcherState:Ljava/lang/Object;
 
-    invoke-static {p1, v0, v1, p0}, Landroid/support/v4/view/KeyEventCompat;->dispatch(Landroid/view/KeyEvent;Landroid/view/KeyEvent$Callback;Ljava/lang/Object;Ljava/lang/Object;)Z
+    check-cast v0, Landroid/view/KeyEvent$DispatcherState;
+
+    invoke-virtual {p1, v1, v0, p0}, Landroid/view/KeyEvent;->dispatch(Landroid/view/KeyEvent$Callback;Landroid/view/KeyEvent$DispatcherState;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -454,7 +443,7 @@
     .locals 1
 
     .prologue
-    .line 316
+    .line 318
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onGetBufferPercentage()I
@@ -468,7 +457,7 @@
     .locals 2
 
     .prologue
-    .line 301
+    .line 303
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onGetCurrentPosition()J
@@ -482,7 +471,7 @@
     .locals 2
 
     .prologue
-    .line 296
+    .line 298
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onGetDuration()J
@@ -520,7 +509,7 @@
     .locals 1
 
     .prologue
-    .line 332
+    .line 335
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onGetTransportControlFlags()I
@@ -534,7 +523,7 @@
     .locals 1
 
     .prologue
-    .line 311
+    .line 313
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onIsPlaying()Z
@@ -548,29 +537,29 @@
     .locals 1
 
     .prologue
-    .line 272
+    .line 274
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     if-eqz v0, :cond_0
 
-    .line 273
+    .line 275
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->pausePlaying()V
 
-    .line 275
+    .line 277
     :cond_0
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onPause()V
 
-    .line 276
+    .line 278
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->pushControllerState()V
 
-    .line 277
+    .line 279
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->reportPlayingChanged()V
 
-    .line 278
+    .line 280
     return-void
 .end method
 
@@ -578,16 +567,16 @@
     .locals 0
 
     .prologue
-    .line 247
+    .line 249
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->pushControllerState()V
 
-    .line 248
+    .line 250
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->reportPlayingChanged()V
 
-    .line 249
+    .line 251
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->reportTransportControlsChanged()V
 
-    .line 250
+    .line 252
     return-void
 .end method
 
@@ -596,12 +585,12 @@
     .param p1, "listener"    # Landroid/support/v4/media/TransportStateListener;
 
     .prologue
-    .line 204
+    .line 205
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 205
+    .line 206
     return-void
 .end method
 
@@ -610,12 +599,12 @@
     .param p1, "pos"    # J
 
     .prologue
-    .line 306
+    .line 308
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/media/TransportPerformer;->onSeekTo(J)V
 
-    .line 307
+    .line 309
     return-void
 .end method
 
@@ -623,29 +612,29 @@
     .locals 1
 
     .prologue
-    .line 258
+    .line 260
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     if-eqz v0, :cond_0
 
-    .line 259
+    .line 261
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->startPlaying()V
 
-    .line 261
+    .line 263
     :cond_0
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onStart()V
 
-    .line 262
+    .line 264
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->pushControllerState()V
 
-    .line 263
+    .line 265
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->reportPlayingChanged()V
 
-    .line 264
+    .line 266
     return-void
 .end method
 
@@ -653,29 +642,29 @@
     .locals 1
 
     .prologue
-    .line 286
+    .line 288
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     if-eqz v0, :cond_0
 
-    .line 287
+    .line 289
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mController:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->stopPlaying()V
 
-    .line 289
+    .line 291
     :cond_0
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mCallbacks:Landroid/support/v4/media/TransportPerformer;
 
     invoke-virtual {v0}, Landroid/support/v4/media/TransportPerformer;->onStop()V
 
-    .line 290
+    .line 292
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->pushControllerState()V
 
-    .line 291
+    .line 293
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->reportPlayingChanged()V
 
-    .line 292
+    .line 294
     return-void
 .end method
 
@@ -684,11 +673,11 @@
     .param p1, "listener"    # Landroid/support/v4/media/TransportStateListener;
 
     .prologue
-    .line 208
+    .line 210
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 209
+    .line 211
     return-void
 .end method

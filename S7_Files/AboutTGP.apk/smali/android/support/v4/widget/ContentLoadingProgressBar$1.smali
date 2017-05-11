@@ -24,6 +24,7 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/ContentLoadingProgressBar;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/ContentLoadingProgressBar;
 
     .prologue
     .line 42
@@ -37,7 +38,7 @@
 
 # virtual methods
 .method public run()V
-    .locals 3
+    .locals 4
 
     .prologue
     .line 46
@@ -45,16 +46,14 @@
 
     const/4 v1, 0x0
 
-    # setter for: Landroid/support/v4/widget/ContentLoadingProgressBar;->mPostedHide:Z
-    invoke-static {v0, v1}, Landroid/support/v4/widget/ContentLoadingProgressBar;->access$002(Landroid/support/v4/widget/ContentLoadingProgressBar;Z)Z
+    iput-boolean v1, v0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mPostedHide:Z
 
     .line 47
     iget-object v0, p0, Landroid/support/v4/widget/ContentLoadingProgressBar$1;->this$0:Landroid/support/v4/widget/ContentLoadingProgressBar;
 
-    const-wide/16 v1, -0x1
+    const-wide/16 v2, -0x1
 
-    # setter for: Landroid/support/v4/widget/ContentLoadingProgressBar;->mStartTime:J
-    invoke-static {v0, v1, v2}, Landroid/support/v4/widget/ContentLoadingProgressBar;->access$102(Landroid/support/v4/widget/ContentLoadingProgressBar;J)J
+    iput-wide v2, v0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mStartTime:J
 
     .line 48
     iget-object v0, p0, Landroid/support/v4/widget/ContentLoadingProgressBar$1;->this$0:Landroid/support/v4/widget/ContentLoadingProgressBar;

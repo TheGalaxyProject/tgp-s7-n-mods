@@ -24,9 +24,10 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/media/TransportMediatorJellybeanMR2;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     .prologue
-    .line 72
+    .line 70
     iput-object p1, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2$4;->this$0:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,13 +42,13 @@
     .param p1, "focusChange"    # I
 
     .prologue
-    .line 75
+    .line 73
     iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2$4;->this$0:Landroid/support/v4/media/TransportMediatorJellybeanMR2;
 
     iget-object v0, v0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mTransportCallback:Landroid/support/v4/media/TransportMediatorCallback;
 
     invoke-interface {v0, p1}, Landroid/support/v4/media/TransportMediatorCallback;->handleAudioFocusChange(I)V
 
-    .line 76
+    .line 74
     return-void
 .end method

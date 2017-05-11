@@ -3,6 +3,14 @@
 .source "LogWriter.java"
 
 
+# annotations
+.annotation build Landroid/support/annotation/RestrictTo;
+    value = {
+        .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+    }
+.end annotation
+
+
 # instance fields
 .field private mBuilder:Ljava/lang/StringBuilder;
 
@@ -15,10 +23,10 @@
     .param p1, "tag"    # Ljava/lang/String;
 
     .prologue
-    .line 39
+    .line 43
     invoke-direct {p0}, Ljava/io/Writer;-><init>()V
 
-    .line 31
+    .line 35
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x80
@@ -27,10 +35,10 @@
 
     iput-object v0, p0, Landroid/support/v4/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
 
-    .line 40
+    .line 44
     iput-object p1, p0, Landroid/support/v4/util/LogWriter;->mTag:Ljava/lang/String;
 
-    .line 41
+    .line 45
     return-void
 .end method
 
@@ -38,7 +46,7 @@
     .locals 3
 
     .prologue
-    .line 64
+    .line 68
     iget-object v0, p0, Landroid/support/v4/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
@@ -47,7 +55,7 @@
 
     if-lez v0, :cond_0
 
-    .line 65
+    .line 69
     iget-object v0, p0, Landroid/support/v4/util/LogWriter;->mTag:Ljava/lang/String;
 
     iget-object v1, p0, Landroid/support/v4/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
@@ -58,7 +66,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 66
+    .line 70
     iget-object v0, p0, Landroid/support/v4/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
 
     const/4 v1, 0x0
@@ -71,7 +79,7 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 68
+    .line 72
     :cond_0
     return-void
 .end method
@@ -82,10 +90,10 @@
     .locals 0
 
     .prologue
-    .line 44
+    .line 48
     invoke-direct {p0}, Landroid/support/v4/util/LogWriter;->flushBuilder()V
 
-    .line 45
+    .line 49
     return-void
 .end method
 
@@ -93,10 +101,10 @@
     .locals 0
 
     .prologue
-    .line 48
+    .line 52
     invoke-direct {p0}, Landroid/support/v4/util/LogWriter;->flushBuilder()V
 
-    .line 49
+    .line 53
     return-void
 .end method
 
@@ -107,34 +115,34 @@
     .param p3, "count"    # I
 
     .prologue
-    .line 52
+    .line 56
     const/4 v1, 0x0
 
     .local v1, "i":I
     :goto_0
     if-ge v1, p3, :cond_1
 
-    .line 53
+    .line 57
     add-int v2, p2, v1
 
     aget-char v0, p1, v2
 
-    .line 54
+    .line 58
     .local v0, "c":C
     const/16 v2, 0xa
 
     if-ne v0, v2, :cond_0
 
-    .line 55
+    .line 59
     invoke-direct {p0}, Landroid/support/v4/util/LogWriter;->flushBuilder()V
 
-    .line 52
+    .line 56
     :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 58
+    .line 62
     :cond_0
     iget-object v2, p0, Landroid/support/v4/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
 
@@ -142,7 +150,7 @@
 
     goto :goto_1
 
-    .line 61
+    .line 65
     .end local v0    # "c":C
     :cond_1
     return-void

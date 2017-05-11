@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/view/MotionEventCompat;
+.class public final Landroid/support/v4/view/MotionEventCompat;
 .super Ljava/lang/Object;
 .source "MotionEventCompat.java"
 
@@ -6,7 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroid/support/v4/view/MotionEventCompat$EclairMotionEventVersionImpl;,
+        Landroid/support/v4/view/MotionEventCompat$ICSMotionEventVersionImpl;,
+        Landroid/support/v4/view/MotionEventCompat$HoneycombMr1MotionEventVersionImpl;,
         Landroid/support/v4/view/MotionEventCompat$BaseMotionEventVersionImpl;,
         Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
     }
@@ -32,6 +33,96 @@
 
 .field public static final ACTION_SCROLL:I = 0x8
 
+.field public static final AXIS_BRAKE:I = 0x17
+
+.field public static final AXIS_DISTANCE:I = 0x18
+
+.field public static final AXIS_GAS:I = 0x16
+
+.field public static final AXIS_GENERIC_1:I = 0x20
+
+.field public static final AXIS_GENERIC_10:I = 0x29
+
+.field public static final AXIS_GENERIC_11:I = 0x2a
+
+.field public static final AXIS_GENERIC_12:I = 0x2b
+
+.field public static final AXIS_GENERIC_13:I = 0x2c
+
+.field public static final AXIS_GENERIC_14:I = 0x2d
+
+.field public static final AXIS_GENERIC_15:I = 0x2e
+
+.field public static final AXIS_GENERIC_16:I = 0x2f
+
+.field public static final AXIS_GENERIC_2:I = 0x21
+
+.field public static final AXIS_GENERIC_3:I = 0x22
+
+.field public static final AXIS_GENERIC_4:I = 0x23
+
+.field public static final AXIS_GENERIC_5:I = 0x24
+
+.field public static final AXIS_GENERIC_6:I = 0x25
+
+.field public static final AXIS_GENERIC_7:I = 0x26
+
+.field public static final AXIS_GENERIC_8:I = 0x27
+
+.field public static final AXIS_GENERIC_9:I = 0x28
+
+.field public static final AXIS_HAT_X:I = 0xf
+
+.field public static final AXIS_HAT_Y:I = 0x10
+
+.field public static final AXIS_HSCROLL:I = 0xa
+
+.field public static final AXIS_LTRIGGER:I = 0x11
+
+.field public static final AXIS_ORIENTATION:I = 0x8
+
+.field public static final AXIS_PRESSURE:I = 0x2
+
+.field public static final AXIS_RELATIVE_X:I = 0x1b
+
+.field public static final AXIS_RELATIVE_Y:I = 0x1c
+
+.field public static final AXIS_RTRIGGER:I = 0x12
+
+.field public static final AXIS_RUDDER:I = 0x14
+
+.field public static final AXIS_RX:I = 0xc
+
+.field public static final AXIS_RY:I = 0xd
+
+.field public static final AXIS_RZ:I = 0xe
+
+.field public static final AXIS_SIZE:I = 0x3
+
+.field public static final AXIS_THROTTLE:I = 0x13
+
+.field public static final AXIS_TILT:I = 0x19
+
+.field public static final AXIS_TOOL_MAJOR:I = 0x6
+
+.field public static final AXIS_TOOL_MINOR:I = 0x7
+
+.field public static final AXIS_TOUCH_MAJOR:I = 0x4
+
+.field public static final AXIS_TOUCH_MINOR:I = 0x5
+
+.field public static final AXIS_VSCROLL:I = 0x9
+
+.field public static final AXIS_WHEEL:I = 0x15
+
+.field public static final AXIS_X:I = 0x0
+
+.field public static final AXIS_Y:I = 0x1
+
+.field public static final AXIS_Z:I = 0xb
+
+.field public static final BUTTON_PRIMARY:I = 0x1
+
 .field static final IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
 
 
@@ -40,26 +131,43 @@
     .locals 2
 
     .prologue
-    .line 108
+    .line 91
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/4 v1, 0x5
+    const/16 v1, 0xe
 
     if-lt v0, v1, :cond_0
 
-    .line 109
-    new-instance v0, Landroid/support/v4/view/MotionEventCompat$EclairMotionEventVersionImpl;
+    .line 92
+    new-instance v0, Landroid/support/v4/view/MotionEventCompat$ICSMotionEventVersionImpl;
 
-    invoke-direct {v0}, Landroid/support/v4/view/MotionEventCompat$EclairMotionEventVersionImpl;-><init>()V
+    invoke-direct {v0}, Landroid/support/v4/view/MotionEventCompat$ICSMotionEventVersionImpl;-><init>()V
 
     sput-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
 
-    .line 113
+    .line 98
     :goto_0
     return-void
 
-    .line 111
+    .line 93
     :cond_0
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0xc
+
+    if-lt v0, v1, :cond_1
+
+    .line 94
+    new-instance v0, Landroid/support/v4/view/MotionEventCompat$HoneycombMr1MotionEventVersionImpl;
+
+    invoke-direct {v0}, Landroid/support/v4/view/MotionEventCompat$HoneycombMr1MotionEventVersionImpl;-><init>()V
+
+    sput-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
+
+    goto :goto_0
+
+    .line 96
+    :cond_1
     new-instance v0, Landroid/support/v4/view/MotionEventCompat$BaseMotionEventVersionImpl;
 
     invoke-direct {v0}, Landroid/support/v4/view/MotionEventCompat$BaseMotionEventVersionImpl;-><init>()V
@@ -69,14 +177,13 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     .prologue
-    .line 25
+    .line 503
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 80
     return-void
 .end method
 
@@ -84,12 +191,12 @@
     .locals 1
     .param p0, "event"    # Landroid/view/MotionEvent;
     .param p1, "pointerId"    # I
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     .prologue
-    .line 201
-    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
-
-    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->findPointerIndex(Landroid/view/MotionEvent;I)I
+    .line 397
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->findPointerIndex(I)I
 
     move-result v0
 
@@ -101,7 +208,7 @@
     .param p0, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 191
+    .line 385
     invoke-virtual {p0}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v0
@@ -120,7 +227,7 @@
     .param p0, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 183
+    .line 377
     invoke-virtual {p0}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v0
@@ -130,15 +237,63 @@
     return v0
 .end method
 
-.method public static getPointerCount(Landroid/view/MotionEvent;)I
+.method public static getAxisValue(Landroid/view/MotionEvent;I)F
+    .locals 1
+    .param p0, "event"    # Landroid/view/MotionEvent;
+    .param p1, "axis"    # I
+
+    .prologue
+    .line 475
+    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
+
+    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getAxisValue(Landroid/view/MotionEvent;I)F
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getAxisValue(Landroid/view/MotionEvent;II)F
+    .locals 1
+    .param p0, "event"    # Landroid/view/MotionEvent;
+    .param p1, "axis"    # I
+    .param p2, "pointerIndex"    # I
+
+    .prologue
+    .line 491
+    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
+
+    invoke-interface {v0, p0, p1, p2}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getAxisValue(Landroid/view/MotionEvent;II)F
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getButtonState(Landroid/view/MotionEvent;)I
     .locals 1
     .param p0, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 236
+    .line 500
     sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
 
-    invoke-interface {v0, p0}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getPointerCount(Landroid/view/MotionEvent;)I
+    invoke-interface {v0, p0}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getButtonState(Landroid/view/MotionEvent;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getPointerCount(Landroid/view/MotionEvent;)I
+    .locals 1
+    .param p0, "event"    # Landroid/view/MotionEvent;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .prologue
+    .line 441
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v0
 
@@ -149,12 +304,27 @@
     .locals 1
     .param p0, "event"    # Landroid/view/MotionEvent;
     .param p1, "pointerIndex"    # I
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     .prologue
-    .line 210
-    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
+    .line 408
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
-    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getPointerId(Landroid/view/MotionEvent;I)I
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getSource(Landroid/view/MotionEvent;)I
+    .locals 1
+    .param p0, "event"    # Landroid/view/MotionEvent;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .prologue
+    .line 453
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getSource()I
 
     move-result v0
 
@@ -165,12 +335,12 @@
     .locals 1
     .param p0, "event"    # Landroid/view/MotionEvent;
     .param p1, "pointerIndex"    # I
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     .prologue
-    .line 219
-    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
-
-    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getX(Landroid/view/MotionEvent;I)F
+    .line 419
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v0
 
@@ -181,14 +351,40 @@
     .locals 1
     .param p0, "event"    # Landroid/view/MotionEvent;
     .param p1, "pointerIndex"    # I
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     .prologue
-    .line 228
-    sget-object v0, Landroid/support/v4/view/MotionEventCompat;->IMPL:Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;
-
-    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/MotionEventCompat$MotionEventVersionImpl;->getY(Landroid/view/MotionEvent;I)F
+    .line 430
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v0
 
     return v0
+.end method
+
+.method public static isFromSource(Landroid/view/MotionEvent;I)Z
+    .locals 1
+    .param p0, "event"    # Landroid/view/MotionEvent;
+    .param p1, "source"    # I
+
+    .prologue
+    .line 462
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getSource()I
+
+    move-result v0
+
+    and-int/2addr v0, p1
+
+    if-ne v0, p1, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method

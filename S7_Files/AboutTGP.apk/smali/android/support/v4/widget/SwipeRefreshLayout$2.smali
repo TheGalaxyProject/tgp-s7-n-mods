@@ -4,8 +4,8 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroid/support/v4/widget/SwipeRefreshLayout;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroid/support/v4/widget/SwipeRefreshLayout;->startScaleUpAnimation(Landroid/view/animation/Animation$AnimationListener;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,9 +21,10 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/SwipeRefreshLayout;
 
     .prologue
-    .line 106
+    .line 436
     iput-object p1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$2;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
     invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
@@ -34,45 +35,16 @@
 
 # virtual methods
 .method public applyTransformation(FLandroid/view/animation/Transformation;)V
-    .locals 4
+    .locals 1
     .param p1, "interpolatedTime"    # F
     .param p2, "t"    # Landroid/view/animation/Transformation;
 
     .prologue
-    .line 109
-    iget-object v1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$2;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    .line 439
+    iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$2;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mFromPercentage:F
-    invoke-static {v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$400(Landroid/support/v4/widget/SwipeRefreshLayout;)F
+    invoke-virtual {v0, p1}, Landroid/support/v4/widget/SwipeRefreshLayout;->setAnimationProgress(F)V
 
-    move-result v1
-
-    const/4 v2, 0x0
-
-    iget-object v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$2;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
-
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mFromPercentage:F
-    invoke-static {v3}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$400(Landroid/support/v4/widget/SwipeRefreshLayout;)F
-
-    move-result v3
-
-    sub-float/2addr v2, v3
-
-    mul-float/2addr v2, p1
-
-    add-float v0, v1, v2
-
-    .line 110
-    .local v0, "percent":F
-    iget-object v1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$2;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
-
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mProgressBar:Landroid/support/v4/widget/SwipeProgressBar;
-    invoke-static {v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$500(Landroid/support/v4/widget/SwipeRefreshLayout;)Landroid/support/v4/widget/SwipeProgressBar;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v0}, Landroid/support/v4/widget/SwipeProgressBar;->setTriggerPercentage(F)V
-
-    .line 111
+    .line 440
     return-void
 .end method

@@ -32,7 +32,7 @@
     .locals 0
 
     .prologue
-    .line 116
+    .line 143
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +46,7 @@
     .param p2, "rhs"    # Landroid/support/v4/view/ViewPager$ItemInfo;
 
     .prologue
-    .line 119
+    .line 146
     iget v0, p1, Landroid/support/v4/view/ViewPager$ItemInfo;->position:I
 
     iget v1, p2, Landroid/support/v4/view/ViewPager$ItemInfo;->position:I
@@ -58,17 +58,13 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1, "x0"    # Ljava/lang/Object;
-    .param p2, "x1"    # Ljava/lang/Object;
 
     .prologue
-    .line 116
+    .line 143
     check-cast p1, Landroid/support/v4/view/ViewPager$ItemInfo;
 
-    .end local p1    # "x0":Ljava/lang/Object;
     check-cast p2, Landroid/support/v4/view/ViewPager$ItemInfo;
 
-    .end local p2    # "x1":Ljava/lang/Object;
     invoke-virtual {p0, p1, p2}, Landroid/support/v4/view/ViewPager$1;->compare(Landroid/support/v4/view/ViewPager$ItemInfo;Landroid/support/v4/view/ViewPager$ItemInfo;)I
 
     move-result v0

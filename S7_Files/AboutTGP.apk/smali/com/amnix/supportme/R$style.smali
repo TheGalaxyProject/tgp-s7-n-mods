@@ -15,11 +15,11 @@
 
 
 # static fields
-.field public static final AmniXTheme:I = 0x7f060002
+.field public static final AmniXTheme:I = 0x7f040001
 
-.field public static final AppBaseTheme:I = 0x7f060000
+.field public static final AppBaseTheme:I = 0x7f040000
 
-.field public static final AppTheme:I = 0x7f060001
+.field public static final AppTheme:I = 0x7f040002
 
 
 # direct methods

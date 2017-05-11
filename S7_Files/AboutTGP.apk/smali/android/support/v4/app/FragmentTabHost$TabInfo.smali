@@ -15,9 +15,15 @@
 
 
 # instance fields
-.field private final args:Landroid/os/Bundle;
+.field final args:Landroid/os/Bundle;
+    .annotation build Landroid/support/annotation/Nullable;
+    .end annotation
+.end field
 
-.field private final clss:Ljava/lang/Class;
+.field final clss:Ljava/lang/Class;
+    .annotation build Landroid/support/annotation/NonNull;
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/Class",
@@ -26,16 +32,29 @@
     .end annotation
 .end field
 
-.field private fragment:Landroid/support/v4/app/Fragment;
+.field fragment:Landroid/support/v4/app/Fragment;
 
-.field private final tag:Ljava/lang/String;
+.field final tag:Ljava/lang/String;
+    .annotation build Landroid/support/annotation/NonNull;
+    .end annotation
+.end field
 
 
 # direct methods
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Class;Landroid/os/Bundle;)V
     .locals 0
     .param p1, "_tag"    # Ljava/lang/String;
+        .annotation build Landroid/support/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Class;
+        .annotation build Landroid/support/annotation/NonNull;
+        .end annotation
+    .end param
     .param p3, "_args"    # Landroid/os/Bundle;
+        .annotation build Landroid/support/annotation/Nullable;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -48,75 +67,19 @@
     .end annotation
 
     .prologue
-    .line 67
+    .line 70
     .local p2, "_class":Ljava/lang/Class;, "Ljava/lang/Class<*>;"
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 68
+    .line 71
     iput-object p1, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
-    .line 69
+    .line 72
     iput-object p2, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
 
-    .line 70
+    .line 73
     iput-object p3, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
 
-    .line 71
+    .line 74
     return-void
-.end method
-
-.method static synthetic access$100(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Landroid/support/v4/app/Fragment;
-    .locals 1
-    .param p0, "x0"    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
-
-    .prologue
-    .line 61
-    iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->fragment:Landroid/support/v4/app/Fragment;
-
-    return-object v0
-.end method
-
-.method static synthetic access$102(Landroid/support/v4/app/FragmentTabHost$TabInfo;Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/Fragment;
-    .locals 0
-    .param p0, "x0"    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
-    .param p1, "x1"    # Landroid/support/v4/app/Fragment;
-
-    .prologue
-    .line 61
-    iput-object p1, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->fragment:Landroid/support/v4/app/Fragment;
-
-    return-object p1
-.end method
-
-.method static synthetic access$200(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Ljava/lang/String;
-    .locals 1
-    .param p0, "x0"    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
-
-    .prologue
-    .line 61
-    iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method static synthetic access$300(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Ljava/lang/Class;
-    .locals 1
-    .param p0, "x0"    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
-
-    .prologue
-    .line 61
-    iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
-
-    return-object v0
-.end method
-
-.method static synthetic access$400(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Landroid/os/Bundle;
-    .locals 1
-    .param p0, "x0"    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
-
-    .prologue
-    .line 61
-    iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
-
-    return-object v0
 .end method

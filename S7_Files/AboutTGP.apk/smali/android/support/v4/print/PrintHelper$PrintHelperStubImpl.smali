@@ -32,16 +32,16 @@
     .prologue
     const/4 v0, 0x2
 
-    .line 101
+    .line 115
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 102
+    .line 116
     iput v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mScaleMode:I
 
-    .line 103
+    .line 117
     iput v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mColorMode:I
 
-    .line 104
+    .line 118
     const/4 v0, 0x1
 
     iput v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mOrientation:I
@@ -54,7 +54,7 @@
     .param p1, "x0"    # Landroid/support/v4/print/PrintHelper$1;
 
     .prologue
-    .line 101
+    .line 115
     invoke-direct {p0}, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;-><init>()V
 
     return-void
@@ -66,7 +66,7 @@
     .locals 1
 
     .prologue
-    .line 112
+    .line 126
     iget v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mColorMode:I
 
     return v0
@@ -76,7 +76,7 @@
     .locals 1
 
     .prologue
-    .line 124
+    .line 138
     iget v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mOrientation:I
 
     return v0
@@ -86,29 +86,31 @@
     .locals 1
 
     .prologue
-    .line 128
+    .line 142
     iget v0, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mScaleMode:I
 
     return v0
 .end method
 
-.method public printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+.method public printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
     .locals 0
     .param p1, "jobName"    # Ljava/lang/String;
     .param p2, "bitmap"    # Landroid/graphics/Bitmap;
+    .param p3, "callback"    # Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;
 
     .prologue
-    .line 133
+    .line 147
     return-void
 .end method
 
-.method public printBitmap(Ljava/lang/String;Landroid/net/Uri;)V
+.method public printBitmap(Ljava/lang/String;Landroid/net/Uri;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
     .locals 0
     .param p1, "jobName"    # Ljava/lang/String;
     .param p2, "imageFile"    # Landroid/net/Uri;
+    .param p3, "callback"    # Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;
 
     .prologue
-    .line 137
+    .line 151
     return-void
 .end method
 
@@ -117,10 +119,10 @@
     .param p1, "colorMode"    # I
 
     .prologue
-    .line 117
+    .line 131
     iput p1, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mColorMode:I
 
-    .line 118
+    .line 132
     return-void
 .end method
 
@@ -129,7 +131,7 @@
     .param p1, "orientation"    # I
 
     .prologue
-    .line 121
+    .line 135
     iput p1, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mOrientation:I
 
     return-void
@@ -140,9 +142,9 @@
     .param p1, "scaleMode"    # I
 
     .prologue
-    .line 107
+    .line 121
     iput p1, p0, Landroid/support/v4/print/PrintHelper$PrintHelperStubImpl;->mScaleMode:I
 
-    .line 108
+    .line 122
     return-void
 .end method

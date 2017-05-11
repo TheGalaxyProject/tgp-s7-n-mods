@@ -43,20 +43,21 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/util/MapCollections;)V
     .locals 1
+    .param p1, "this$0"    # Landroid/support/v4/util/MapCollections;
 
     .prologue
-    .line 76
+    .line 75
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iput-object p1, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 74
+    .line 73
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
-    .line 77
+    .line 76
     invoke-virtual {p1}, Landroid/support/v4/util/MapCollections;->colGetSize()I
 
     move-result v0
@@ -65,12 +66,12 @@
 
     iput v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEnd:I
 
-    .line 78
+    .line 77
     const/4 v0, -0x1
 
     iput v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
-    .line 79
+    .line 78
     return-void
 .end method
 
@@ -86,12 +87,12 @@
 
     const/4 v2, 0x0
 
-    .line 133
+    .line 132
     iget-boolean v3, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v3, :cond_0
 
-    .line 134
+    .line 133
     new-instance v1, Ljava/lang/IllegalStateException;
 
     const-string v2, "This container does not support retaining Map.Entry objects"
@@ -100,7 +101,7 @@
 
     throw v1
 
-    .line 137
+    .line 136
     :cond_0
     instance-of v3, p1, Ljava/util/Map$Entry;
 
@@ -113,10 +114,10 @@
     :cond_1
     move-object v0, p1
 
-    .line 140
+    .line 139
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 141
+    .line 140
     .local v0, "e":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<**>;"
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -136,6 +137,7 @@
 
     if-eqz v3, :cond_2
 
+    .line 141
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -174,13 +176,13 @@
     .end annotation
 
     .prologue
-    .line 106
+    .line 105
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iget-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v0, :cond_0
 
-    .line 107
+    .line 106
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "This container does not support retaining Map.Entry objects"
@@ -189,7 +191,7 @@
 
     throw v0
 
-    .line 110
+    .line 109
     :cond_0
     iget-object v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -213,13 +215,13 @@
     .end annotation
 
     .prologue
-    .line 115
+    .line 114
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iget-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v0, :cond_0
 
-    .line 116
+    .line 115
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "This container does not support retaining Map.Entry objects"
@@ -228,7 +230,7 @@
 
     throw v0
 
-    .line 119
+    .line 118
     :cond_0
     iget-object v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -247,7 +249,7 @@
     .locals 2
 
     .prologue
-    .line 83
+    .line 82
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iget v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
@@ -273,12 +275,12 @@
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     const/4 v2, 0x0
 
-    .line 147
+    .line 146
     iget-boolean v3, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v3, :cond_0
 
-    .line 148
+    .line 147
     new-instance v2, Ljava/lang/IllegalStateException;
 
     const-string v3, "This container does not support retaining Map.Entry objects"
@@ -287,7 +289,7 @@
 
     throw v2
 
-    .line 151
+    .line 150
     :cond_0
     iget-object v3, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -297,7 +299,7 @@
 
     move-result-object v0
 
-    .line 152
+    .line 151
     .local v0, "key":Ljava/lang/Object;
     iget-object v3, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -309,7 +311,7 @@
 
     move-result-object v1
 
-    .line 153
+    .line 152
     .local v1, "value":Ljava/lang/Object;
     if-nez v0, :cond_1
 
@@ -318,11 +320,13 @@
     :goto_0
     if-nez v1, :cond_2
 
+    .line 153
     :goto_1
     xor-int/2addr v2, v3
 
     return v2
 
+    .line 152
     :cond_1
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
@@ -330,6 +334,7 @@
 
     goto :goto_0
 
+    .line 153
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
@@ -342,7 +347,7 @@
     .locals 1
 
     .prologue
-    .line 71
+    .line 70
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     invoke-virtual {p0}, Landroid/support/v4/util/MapCollections$MapIterator;->next()Ljava/util/Map$Entry;
 
@@ -362,7 +367,7 @@
     .end annotation
 
     .prologue
-    .line 88
+    .line 87
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iget v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
@@ -370,12 +375,12 @@
 
     iput v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
-    .line 89
+    .line 88
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
-    .line 90
+    .line 89
     return-object p0
 .end method
 
@@ -383,20 +388,20 @@
     .locals 2
 
     .prologue
-    .line 95
+    .line 94
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     iget-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v0, :cond_0
 
-    .line 96
+    .line 95
     new-instance v0, Ljava/lang/IllegalStateException;
 
     invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
 
     throw v0
 
-    .line 98
+    .line 97
     :cond_0
     iget-object v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -404,26 +409,26 @@
 
     invoke-virtual {v0, v1}, Landroid/support/v4/util/MapCollections;->colRemoveAt(I)V
 
-    .line 99
+    .line 98
     iget v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
     add-int/lit8 v0, v0, -0x1
 
     iput v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mIndex:I
 
-    .line 100
+    .line 99
     iget v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEnd:I
 
     add-int/lit8 v0, v0, -0x1
 
     iput v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEnd:I
 
-    .line 101
+    .line 100
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
-    .line 102
+    .line 101
     return-void
 .end method
 
@@ -436,14 +441,14 @@
     .end annotation
 
     .prologue
-    .line 124
+    .line 123
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     .local p1, "object":Ljava/lang/Object;, "TV;"
     iget-boolean v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->mEntryValid:Z
 
     if-nez v0, :cond_0
 
-    .line 125
+    .line 124
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "This container does not support retaining Map.Entry objects"
@@ -452,7 +457,7 @@
 
     throw v0
 
-    .line 128
+    .line 127
     :cond_0
     iget-object v0, p0, Landroid/support/v4/util/MapCollections$MapIterator;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -469,7 +474,7 @@
     .locals 2
 
     .prologue
-    .line 159
+    .line 158
     .local p0, "this":Landroid/support/v4/util/MapCollections$MapIterator;, "Landroid/support/v4/util/MapCollections<TK;TV;>.MapIterator;"
     new-instance v0, Ljava/lang/StringBuilder;
 

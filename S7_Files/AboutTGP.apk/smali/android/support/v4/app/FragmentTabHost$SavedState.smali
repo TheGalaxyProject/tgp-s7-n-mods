@@ -36,7 +36,7 @@
     .locals 1
 
     .prologue
-    .line 115
+    .line 118
     new-instance v0, Landroid/support/v4/app/FragmentTabHost$SavedState$1;
 
     invoke-direct {v0}, Landroid/support/v4/app/FragmentTabHost$SavedState$1;-><init>()V
@@ -46,34 +46,22 @@
     return-void
 .end method
 
-.method private constructor <init>(Landroid/os/Parcel;)V
+.method constructor <init>(Landroid/os/Parcel;)V
     .locals 1
     .param p1, "in"    # Landroid/os/Parcel;
 
     .prologue
-    .line 98
+    .line 101
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
 
-    .line 99
+    .line 102
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Landroid/support/v4/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;
 
-    .line 100
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/os/Parcel;Landroid/support/v4/app/FragmentTabHost$1;)V
-    .locals 0
-    .param p1, "x0"    # Landroid/os/Parcel;
-    .param p2, "x1"    # Landroid/support/v4/app/FragmentTabHost$1;
-
-    .prologue
-    .line 90
-    invoke-direct {p0, p1}, Landroid/support/v4/app/FragmentTabHost$SavedState;-><init>(Landroid/os/Parcel;)V
-
+    .line 103
     return-void
 .end method
 
@@ -82,10 +70,10 @@
     .param p1, "superState"    # Landroid/os/Parcelable;
 
     .prologue
-    .line 94
+    .line 97
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
 
-    .line 95
+    .line 98
     return-void
 .end method
 
@@ -95,7 +83,7 @@
     .locals 2
 
     .prologue
-    .line 110
+    .line 113
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -106,6 +94,7 @@
 
     move-result-object v0
 
+    .line 114
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v1
@@ -149,14 +138,14 @@
     .param p2, "flags"    # I
 
     .prologue
-    .line 104
+    .line 107
     invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 105
+    .line 108
     iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 106
+    .line 109
     return-void
 .end method

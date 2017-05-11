@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Support Me!</string>
-    <string name="about">About!</string>
-    <string name="wordfromdev">Some Words from Developer</string>
-    <string name="Greeting">"Hello! I Hope you likes my work!
+    <string name="Button1">Donate to The Galaxy Project</string>
+    <string name="Button2">View Donation URL</string>
+    <item type="string" name="APKTOOL_DUMMY_2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3">false</item>
+    <string name="Greeting">"Base FW: Samsung 7.0 G935FXXU1DQD7
 
-But folks, Its take lots of time, bunch of hardwork and plenty of money to do all this stuff
-So If you like my work and respect it then make a small Donation*,
-It will Apreceate me for my work and Encourage me to work further.
-Thank You.
+TGP Version: 12.10
 
-Regards
--(DEVELOPER NAME)"</string>
-    <string name="Button1">I love your work(Support me)</string>
-    <string name="Button2">I am unable to Support You(But I like)</string>
-    <string name="Button3">No! Thank You(Its just average!)</string>
-    <string name="Button4">View Donation URL</string>
-    <string name="doubttext">"*If You feel unsafe here or not able to donate through mobile, then you can also donate from PC too!
-Follow this:-
-1.Just click on \"View Donation URL\" button.
-2.Open same link in browser.
-3.A Paypal page will open, fill amount and donate."</string>
-    <string name="xda_Paypal_ID">4729939</string>
+- New Base Firmware XXU1DQD7
+- Removed unwanted files from isntaller
+- XXU1DQD7 Bootloaders+Modems for G93xF
+- Fixed issue with Samsung Health
+- Updated TGPKernels to 4.70
+- Updated SuperKernel to 2.5.2
+- Replaced Kernel Adiutor with MTweaks
+
+Applications Updated:
+- Android Pay 1.22.155022459
+- Facebook 122.0.0.17.71
+- Facebook App Installer D21.1.0
+- Facebook App Manager D21.1.0
+- Facebook Messenger 116.0.0.18.70
+- Gear VR Setup Wizard 2.4.25
+- Gmail 7.4.9.154371932.release
+- Google App 7.1.28.21.arm64
+- Google Chrome 58.0.3029.83
+- Google Drive 2.7.153.14.45
+- Google Play Music 7.7.4721-1.Q.3956937
+- Google Play Store 7.7.31.O-all [0] [PR]
+- Hangouts 19.0.154358895
+- Instagram 10.19.1
+- Upday 2.5.11144
+- OneDrive 4.12
+- OneNote 16.0.8067.1772
+- Samsung Game Launcher 2.1.19-0
+- Samsung Members 2.0.57
+- Skype 7.44.0.223
+- Snapchat 10.7.5.0
+- Twitter 6.46.0
+- YouTube 12.16.56
+
+   "</string>
+    <string name="about">About</string>
+    <string name="app_name">About TGP</string>
+    <string name="doubttext">" "</string>
+    <string name="wordfromdev">About The Galaxy Project</string>
+    <string name="xda_Paypal_ID">4280397</string>
 </resources>

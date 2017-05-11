@@ -1,10 +1,10 @@
-.class public Landroid/support/v4/view/ViewParentCompatICS;
+.class Landroid/support/v4/view/ViewParentCompatICS;
 .super Ljava/lang/Object;
 .source "ViewParentCompatICS.java"
 
 
 # direct methods
-.method public constructor <init>()V
+.method constructor <init>()V
     .locals 0
 
     .prologue

@@ -1,11 +1,11 @@
 .class Landroid/support/v4/widget/SwipeRefreshLayout$4;
-.super Landroid/support/v4/widget/SwipeRefreshLayout$BaseAnimationListener;
+.super Landroid/view/animation/Animation;
 .source "SwipeRefreshLayout.java"
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroid/support/v4/widget/SwipeRefreshLayout;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroid/support/v4/widget/SwipeRefreshLayout;->startAlphaAnimation(II)Landroid/view/animation/Animation;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,37 +17,62 @@
 # instance fields
 .field final synthetic this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
+.field final synthetic val$endingAlpha:I
+
+.field final synthetic val$startingAlpha:I
+
 
 # direct methods
-.method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;)V
-    .locals 1
+.method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;II)V
+    .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/SwipeRefreshLayout;
 
     .prologue
-    .line 123
+    .line 503
     iput-object p1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    const/4 v0, 0x0
+    iput p2, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->val$startingAlpha:I
 
-    invoke-direct {p0, p1, v0}, Landroid/support/v4/widget/SwipeRefreshLayout$BaseAnimationListener;-><init>(Landroid/support/v4/widget/SwipeRefreshLayout;Landroid/support/v4/widget/SwipeRefreshLayout$1;)V
+    iput p3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->val$endingAlpha:I
+
+    invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onAnimationEnd(Landroid/view/animation/Animation;)V
-    .locals 2
-    .param p1, "animation"    # Landroid/view/animation/Animation;
+.method public applyTransformation(FLandroid/view/animation/Transformation;)V
+    .locals 4
+    .param p1, "interpolatedTime"    # F
+    .param p2, "t"    # Landroid/view/animation/Transformation;
 
     .prologue
-    .line 126
+    .line 506
     iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    const/4 v1, 0x0
+    iget-object v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mProgress:Landroid/support/v4/widget/MaterialProgressDrawable;
 
-    # setter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mCurrPercentage:F
-    invoke-static {v0, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$802(Landroid/support/v4/widget/SwipeRefreshLayout;F)F
+    iget v1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->val$startingAlpha:I
 
-    .line 127
+    int-to-float v1, v1
+
+    iget v2, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->val$endingAlpha:I
+
+    iget v3, p0, Landroid/support/v4/widget/SwipeRefreshLayout$4;->val$startingAlpha:I
+
+    sub-int/2addr v2, v3
+
+    int-to-float v2, v2
+
+    mul-float/2addr v2, p1
+
+    add-float/2addr v1, v2
+
+    float-to-int v1, v1
+
+    invoke-virtual {v0, v1}, Landroid/support/v4/widget/MaterialProgressDrawable;->setAlpha(I)V
+
+    .line 508
     return-void
 .end method

@@ -19,6 +19,8 @@
 
 .field public static final paypal_icon:I = 0x7f020001
 
+.field public static final tgp_logo:I = 0x7f020002
+
 
 # direct methods
 .method public constructor <init>()V

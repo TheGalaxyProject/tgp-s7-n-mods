@@ -8,7 +8,7 @@
     .locals 0
 
     .prologue
-    .line 26
+    .line 27
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -19,7 +19,7 @@
     .param p0, "view"    # Landroid/view/View;
 
     .prologue
-    .line 66
+    .line 67
     invoke-virtual {p0}, Landroid/view/View;->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
 
     move-result-object v0
@@ -27,13 +27,52 @@
     return-object v0
 .end method
 
+.method public static getFitsSystemWindows(Landroid/view/View;)Z
+    .locals 1
+    .param p0, "view"    # Landroid/view/View;
+
+    .prologue
+    .line 87
+    invoke-virtual {p0}, Landroid/view/View;->getFitsSystemWindows()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getImportantForAccessibility(Landroid/view/View;)I
     .locals 1
     .param p0, "view"    # Landroid/view/View;
 
     .prologue
-    .line 54
+    .line 55
     invoke-virtual {p0}, Landroid/view/View;->getImportantForAccessibility()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getMinimumHeight(Landroid/view/View;)I
+    .locals 1
+    .param p0, "view"    # Landroid/view/View;
+
+    .prologue
+    .line 79
+    invoke-virtual {p0}, Landroid/view/View;->getMinimumHeight()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getMinimumWidth(Landroid/view/View;)I
+    .locals 1
+    .param p0, "view"    # Landroid/view/View;
+
+    .prologue
+    .line 75
+    invoke-virtual {p0}, Landroid/view/View;->getMinimumWidth()I
 
     move-result v0
 
@@ -45,7 +84,7 @@
     .param p0, "view"    # Landroid/view/View;
 
     .prologue
-    .line 70
+    .line 71
     invoke-virtual {p0}, Landroid/view/View;->getParentForAccessibility()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -53,12 +92,25 @@
     return-object v0
 .end method
 
+.method public static hasOverlappingRendering(Landroid/view/View;)Z
+    .locals 1
+    .param p0, "view"    # Landroid/view/View;
+
+    .prologue
+    .line 91
+    invoke-virtual {p0}, Landroid/view/View;->hasOverlappingRendering()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static hasTransientState(Landroid/view/View;)Z
     .locals 1
     .param p0, "view"    # Landroid/view/View;
 
     .prologue
-    .line 29
+    .line 30
     invoke-virtual {p0}, Landroid/view/View;->hasTransientState()Z
 
     move-result v0
@@ -73,7 +125,7 @@
     .param p2, "arguments"    # Landroid/os/Bundle;
 
     .prologue
-    .line 62
+    .line 63
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->performAccessibilityAction(ILandroid/os/Bundle;)Z
 
     move-result v0
@@ -86,10 +138,10 @@
     .param p0, "view"    # Landroid/view/View;
 
     .prologue
-    .line 37
+    .line 38
     invoke-virtual {p0}, Landroid/view/View;->postInvalidateOnAnimation()V
 
-    .line 38
+    .line 39
     return-void
 .end method
 
@@ -102,10 +154,10 @@
     .param p4, "bottom"    # I
 
     .prologue
-    .line 42
+    .line 43
     invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;->postInvalidate(IIII)V
 
-    .line 43
+    .line 44
     return-void
 .end method
 
@@ -115,10 +167,10 @@
     .param p1, "action"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 46
+    .line 47
     invoke-virtual {p0, p1}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
 
-    .line 47
+    .line 48
     return-void
 .end method
 
@@ -129,10 +181,35 @@
     .param p2, "delayMillis"    # J
 
     .prologue
-    .line 50
+    .line 51
     invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;->postOnAnimationDelayed(Ljava/lang/Runnable;J)V
 
-    .line 51
+    .line 52
+    return-void
+.end method
+
+.method public static requestApplyInsets(Landroid/view/View;)V
+    .locals 0
+    .param p0, "view"    # Landroid/view/View;
+
+    .prologue
+    .line 83
+    invoke-virtual {p0}, Landroid/view/View;->requestFitSystemWindows()V
+
+    .line 84
+    return-void
+.end method
+
+.method public static setBackground(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+    .param p0, "view"    # Landroid/view/View;
+    .param p1, "drawable"    # Landroid/graphics/drawable/Drawable;
+
+    .prologue
+    .line 95
+    invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    .line 96
     return-void
 .end method
 
@@ -142,10 +219,10 @@
     .param p1, "hasTransientState"    # Z
 
     .prologue
-    .line 33
+    .line 34
     invoke-virtual {p0, p1}, Landroid/view/View;->setHasTransientState(Z)V
 
-    .line 34
+    .line 35
     return-void
 .end method
 
@@ -155,9 +232,9 @@
     .param p1, "mode"    # I
 
     .prologue
-    .line 58
+    .line 59
     invoke-virtual {p0, p1}, Landroid/view/View;->setImportantForAccessibility(I)V
 
-    .line 59
+    .line 60
     return-void
 .end method

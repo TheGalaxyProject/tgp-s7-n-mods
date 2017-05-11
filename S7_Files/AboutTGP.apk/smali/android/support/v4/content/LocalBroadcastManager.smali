@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/content/LocalBroadcastManager;
+.class public final Landroid/support/v4/content/LocalBroadcastManager;
 .super Ljava/lang/Object;
 .source "LocalBroadcastManager.java"
 
@@ -463,10 +463,12 @@
 
     iget-object v1, v0, Landroid/support/v4/content/LocalBroadcastManager;->mAppContext:Landroid/content/Context;
 
+    .line 204
     invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
 
+    .line 203
     move-object/from16 v0, p1
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->resolveTypeIfNeeded(Landroid/content/ContentResolver;)Ljava/lang/String;
@@ -491,7 +493,7 @@
 
     move-result-object v6
 
-    .line 209
+    .line 210
     .local v6, "categories":Ljava/util/Set;, "Ljava/util/Set<Ljava/lang/String;>;"
     invoke-virtual/range {p1 .. p1}, Landroid/content/Intent;->getFlags()I
 
@@ -685,7 +687,7 @@
 
     goto :goto_1
 
-    .line 209
+    .line 210
     .end local v8    # "debug":Z
     .end local v9    # "entries":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Landroid/support/v4/content/LocalBroadcastManager$ReceiverRecord;>;"
     .end local v10    # "i":I
@@ -732,6 +734,7 @@
 
     move-result-object v7
 
+    .line 235
     invoke-static {v11}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v16
@@ -746,6 +749,7 @@
 
     move-result-object v7
 
+    .line 234
     invoke-static {v1, v7}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 236

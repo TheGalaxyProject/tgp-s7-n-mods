@@ -24,12 +24,12 @@
 # direct methods
 .method constructor <init>(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
     .locals 0
+    .param p1, "this$0"    # Lcom/amnix/supportme/supportme_activity_main_amnix;
 
     .prologue
-    .line 1
+    .line 80
     iput-object p1, p0, Lcom/amnix/supportme/supportme_activity_main_amnix$1;->this$0:Lcom/amnix/supportme/supportme_activity_main_amnix;
 
-    .line 80
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +47,7 @@
     iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix$1;->this$0:Lcom/amnix/supportme/supportme_activity_main_amnix;
 
     # invokes: Lcom/amnix/supportme/supportme_activity_main_amnix;->donatetoamnix()V
-    invoke-static {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->access$0(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
+    invoke-static {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->access$000(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
 
     .line 86
     return-void

@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/text/ICUCompat;
+.class public final Landroid/support/v4/text/ICUCompat;
 .super Ljava/lang/Object;
 .source "ICUCompat.java"
 
@@ -6,6 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/text/ICUCompat$ICUCompatImplLollipop;,
         Landroid/support/v4/text/ICUCompat$ICUCompatImplIcs;,
         Landroid/support/v4/text/ICUCompat$ICUCompatImplBase;,
         Landroid/support/v4/text/ICUCompat$ICUCompatImpl;
@@ -22,14 +23,31 @@
     .locals 2
 
     .prologue
-    .line 55
+    .line 53
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    .line 56
+    .line 54
     .local v0, "version":I
-    const/16 v1, 0xe
+    const/16 v1, 0x15
 
     if-lt v0, v1, :cond_0
+
+    .line 55
+    new-instance v1, Landroid/support/v4/text/ICUCompat$ICUCompatImplLollipop;
+
+    invoke-direct {v1}, Landroid/support/v4/text/ICUCompat$ICUCompatImplLollipop;-><init>()V
+
+    sput-object v1, Landroid/support/v4/text/ICUCompat;->IMPL:Landroid/support/v4/text/ICUCompat$ICUCompatImpl;
+
+    .line 61
+    :goto_0
+    return-void
+
+    .line 56
+    :cond_0
+    const/16 v1, 0xe
+
+    if-lt v0, v1, :cond_1
 
     .line 57
     new-instance v1, Landroid/support/v4/text/ICUCompat$ICUCompatImplIcs;
@@ -38,12 +56,10 @@
 
     sput-object v1, Landroid/support/v4/text/ICUCompat;->IMPL:Landroid/support/v4/text/ICUCompat$ICUCompatImpl;
 
-    .line 61
-    :goto_0
-    return-void
+    goto :goto_0
 
     .line 59
-    :cond_0
+    :cond_1
     new-instance v1, Landroid/support/v4/text/ICUCompat$ICUCompatImplBase;
 
     invoke-direct {v1}, Landroid/support/v4/text/ICUCompat$ICUCompatImplBase;-><init>()V
@@ -53,41 +69,25 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     .prologue
-    .line 21
+    .line 90
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 40
     return-void
 .end method
 
-.method public static addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
+.method public static maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
     .locals 1
-    .param p0, "locale"    # Ljava/lang/String;
+    .param p0, "locale"    # Ljava/util/Locale;
 
     .prologue
-    .line 96
+    .line 87
     sget-object v0, Landroid/support/v4/text/ICUCompat;->IMPL:Landroid/support/v4/text/ICUCompat$ICUCompatImpl;
 
-    invoke-interface {v0, p0}, Landroid/support/v4/text/ICUCompat$ICUCompatImpl;->addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public static getScript(Ljava/lang/String;)Ljava/lang/String;
-    .locals 1
-    .param p0, "locale"    # Ljava/lang/String;
-
-    .prologue
-    .line 70
-    sget-object v0, Landroid/support/v4/text/ICUCompat;->IMPL:Landroid/support/v4/text/ICUCompat$ICUCompatImpl;
-
-    invoke-interface {v0, p0}, Landroid/support/v4/text/ICUCompat$ICUCompatImpl;->getScript(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p0}, Landroid/support/v4/text/ICUCompat$ICUCompatImpl;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object v0
 

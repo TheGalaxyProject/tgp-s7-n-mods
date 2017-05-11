@@ -26,10 +26,10 @@
     .locals 2
 
     .prologue
-    .line 54
+    .line 59
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 55
+    .line 60
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x1
@@ -48,7 +48,7 @@
     .param p1, "r"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 58
+    .line 64
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Ljava/lang/StringBuilder;

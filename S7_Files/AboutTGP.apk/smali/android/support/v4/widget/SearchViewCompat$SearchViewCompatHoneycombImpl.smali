@@ -27,12 +27,27 @@
 
 
 # virtual methods
+.method protected checkIfLegalArg(Landroid/view/View;)V
+    .locals 0
+    .param p1, "searchView"    # Landroid/view/View;
+
+    .prologue
+    .line 248
+    invoke-static {p1}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 249
+    return-void
+.end method
+
 .method public getQuery(Landroid/view/View;)Ljava/lang/CharSequence;
     .locals 1
     .param p1, "searchView"    # Landroid/view/View;
 
     .prologue
-    .line 185
+    .line 189
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 190
     invoke-static {p1}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->getQuery(Landroid/view/View;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -45,7 +60,10 @@
     .param p1, "searchView"    # Landroid/view/View;
 
     .prologue
-    .line 205
+    .line 213
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 214
     invoke-static {p1}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->isIconified(Landroid/view/View;)Z
 
     move-result v0
@@ -58,7 +76,10 @@
     .param p1, "searchView"    # Landroid/view/View;
 
     .prologue
-    .line 225
+    .line 237
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 238
     invoke-static {p1}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->isQueryRefinementEnabled(Landroid/view/View;)Z
 
     move-result v0
@@ -71,7 +92,10 @@
     .param p1, "searchView"    # Landroid/view/View;
 
     .prologue
-    .line 215
+    .line 225
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 226
     invoke-static {p1}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->isSubmitButtonEnabled(Landroid/view/View;)Z
 
     move-result v0
@@ -79,15 +103,15 @@
     return v0
 .end method
 
-.method public newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)Ljava/lang/Object;
+.method public newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)Ljava/lang/Object;
     .locals 1
-    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;
+    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;
 
     .prologue
-    .line 169
+    .line 172
     new-instance v0, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$2;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$2;-><init>(Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$2;-><init>(Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
 
     invoke-static {v0}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->newOnCloseListener(Landroid/support/v4/widget/SearchViewCompatHoneycomb$OnCloseListenerCompatBridge;)Ljava/lang/Object;
 
@@ -96,15 +120,15 @@
     return-object v0
 .end method
 
-.method public newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;)Ljava/lang/Object;
+.method public newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)Ljava/lang/Object;
     .locals 1
-    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;
+    .param p1, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;
 
     .prologue
-    .line 149
+    .line 150
     new-instance v0, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$1;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$1;-><init>(Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$1;-><init>(Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
 
     invoke-static {v0}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompatHoneycomb$OnQueryTextListenerCompatBridge;)Ljava/lang/Object;
 
@@ -132,10 +156,13 @@
     .param p2, "iconify"    # Z
 
     .prologue
-    .line 200
+    .line 207
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 208
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setIconified(Landroid/view/View;Z)V
 
-    .line 201
+    .line 209
     return-void
 .end method
 
@@ -145,36 +172,54 @@
     .param p2, "maxpixels"    # I
 
     .prologue
-    .line 230
+    .line 243
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 244
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setMaxWidth(Landroid/view/View;I)V
 
-    .line 231
+    .line 245
     return-void
 .end method
 
-.method public setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
-    .locals 0
-    .param p1, "searchView"    # Ljava/lang/Object;
-    .param p2, "listener"    # Ljava/lang/Object;
+.method public setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
+    .locals 1
+    .param p1, "searchView"    # Landroid/view/View;
+    .param p2, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;
 
     .prologue
-    .line 180
-    invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
+    .line 183
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
 
-    .line 181
+    .line 184
+    invoke-virtual {p0, p2}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setOnCloseListener(Landroid/view/View;Ljava/lang/Object;)V
+
+    .line 185
     return-void
 .end method
 
-.method public setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
-    .locals 0
-    .param p1, "searchView"    # Ljava/lang/Object;
-    .param p2, "listener"    # Ljava/lang/Object;
+.method public setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
+    .locals 1
+    .param p1, "searchView"    # Landroid/view/View;
+    .param p2, "listener"    # Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;
 
     .prologue
-    .line 164
-    invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
-
     .line 165
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 167
+    invoke-virtual {p0, p2}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 166
+    invoke-static {p1, v0}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setOnQueryTextListener(Landroid/view/View;Ljava/lang/Object;)V
+
+    .line 168
     return-void
 .end method
 
@@ -185,10 +230,13 @@
     .param p3, "submit"    # Z
 
     .prologue
-    .line 190
+    .line 195
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 196
     invoke-static {p1, p2, p3}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setQuery(Landroid/view/View;Ljava/lang/CharSequence;Z)V
 
-    .line 191
+    .line 197
     return-void
 .end method
 
@@ -198,10 +246,13 @@
     .param p2, "hint"    # Ljava/lang/CharSequence;
 
     .prologue
-    .line 195
+    .line 201
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 202
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setQueryHint(Landroid/view/View;Ljava/lang/CharSequence;)V
 
-    .line 196
+    .line 203
     return-void
 .end method
 
@@ -211,10 +262,13 @@
     .param p2, "enable"    # Z
 
     .prologue
-    .line 220
+    .line 231
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 232
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setQueryRefinementEnabled(Landroid/view/View;Z)V
 
-    .line 221
+    .line 233
     return-void
 .end method
 
@@ -225,9 +279,12 @@
 
     .prologue
     .line 144
-    invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setSearchableInfo(Landroid/view/View;Landroid/content/ComponentName;)V
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
 
     .line 145
+    invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setSearchableInfo(Landroid/view/View;Landroid/content/ComponentName;)V
+
+    .line 146
     return-void
 .end method
 
@@ -237,9 +294,12 @@
     .param p2, "enabled"    # Z
 
     .prologue
-    .line 210
+    .line 219
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;->checkIfLegalArg(Landroid/view/View;)V
+
+    .line 220
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatHoneycomb;->setSubmitButtonEnabled(Landroid/view/View;Z)V
 
-    .line 211
+    .line 221
     return-void
 .end method

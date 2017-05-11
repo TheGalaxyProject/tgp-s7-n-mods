@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/net/TrafficStatsCompat;
+.class public final Landroid/support/v4/net/TrafficStatsCompat;
 .super Ljava/lang/Object;
 .source "TrafficStatsCompat.java"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroid/support/v4/net/TrafficStatsCompat$1;,
+        Landroid/support/v4/net/TrafficStatsCompat$Api24TrafficStatsCompatImpl;,
         Landroid/support/v4/net/TrafficStatsCompat$IcsTrafficStatsCompatImpl;,
         Landroid/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl;,
         Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
@@ -23,26 +23,47 @@
     .locals 2
 
     .prologue
-    .line 124
+    .line 160
+    const-string v0, "N"
+
+    sget-object v1, Landroid/os/Build$VERSION;->CODENAME:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 161
+    new-instance v0, Landroid/support/v4/net/TrafficStatsCompat$Api24TrafficStatsCompatImpl;
+
+    invoke-direct {v0}, Landroid/support/v4/net/TrafficStatsCompat$Api24TrafficStatsCompatImpl;-><init>()V
+
+    sput-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
+
+    .line 167
+    :goto_0
+    return-void
+
+    .line 162
+    :cond_0
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xe
 
-    if-lt v0, v1, :cond_0
+    if-lt v0, v1, :cond_1
 
-    .line 125
+    .line 163
     new-instance v0, Landroid/support/v4/net/TrafficStatsCompat$IcsTrafficStatsCompatImpl;
 
     invoke-direct {v0}, Landroid/support/v4/net/TrafficStatsCompat$IcsTrafficStatsCompatImpl;-><init>()V
 
     sput-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
-    .line 129
-    :goto_0
-    return-void
+    goto :goto_0
 
-    .line 127
-    :cond_0
+    .line 165
+    :cond_1
     new-instance v0, Landroid/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl;
 
     invoke-direct {v0}, Landroid/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl;-><init>()V
@@ -52,14 +73,13 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     .prologue
-    .line 28
+    .line 262
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 84
     return-void
 .end method
 
@@ -67,12 +87,12 @@
     .locals 1
 
     .prologue
-    .line 136
+    .line 174
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->clearThreadStatsTag()V
 
-    .line 137
+    .line 175
     return-void
 .end method
 
@@ -80,7 +100,7 @@
     .locals 1
 
     .prologue
-    .line 145
+    .line 183
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->getThreadStatsTag()I
@@ -95,12 +115,12 @@
     .param p0, "operationCount"    # I
 
     .prologue
-    .line 156
+    .line 194
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->incrementOperationCount(I)V
 
-    .line 157
+    .line 195
     return-void
 .end method
 
@@ -110,12 +130,12 @@
     .param p1, "operationCount"    # I
 
     .prologue
-    .line 167
+    .line 205
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0, p0, p1}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->incrementOperationCount(II)V
 
-    .line 168
+    .line 206
     return-void
 .end method
 
@@ -124,12 +144,31 @@
     .param p0, "tag"    # I
 
     .prologue
-    .line 182
+    .line 220
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->setThreadStatsTag(I)V
 
-    .line 183
+    .line 221
+    return-void
+.end method
+
+.method public static tagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .locals 1
+    .param p0, "socket"    # Ljava/net/DatagramSocket;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+
+    .prologue
+    .line 252
+    sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
+
+    invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->tagDatagramSocket(Ljava/net/DatagramSocket;)V
+
+    .line 253
     return-void
 .end method
 
@@ -143,12 +182,31 @@
     .end annotation
 
     .prologue
-    .line 194
+    .line 232
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->tagSocket(Ljava/net/Socket;)V
 
-    .line 195
+    .line 233
+    return-void
+.end method
+
+.method public static untagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .locals 1
+    .param p0, "socket"    # Ljava/net/DatagramSocket;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+
+    .prologue
+    .line 259
+    sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
+
+    invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->untagDatagramSocket(Ljava/net/DatagramSocket;)V
+
+    .line 260
     return-void
 .end method
 
@@ -162,11 +220,11 @@
     .end annotation
 
     .prologue
-    .line 201
+    .line 239
     sget-object v0, Landroid/support/v4/net/TrafficStatsCompat;->IMPL:Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;
 
     invoke-interface {v0, p0}, Landroid/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl;->untagSocket(Ljava/net/Socket;)V
 
-    .line 202
+    .line 240
     return-void
 .end method

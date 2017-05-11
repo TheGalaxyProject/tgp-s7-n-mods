@@ -33,6 +33,7 @@
     .line 29
     new-instance v0, Landroid/support/v4/app/ActivityOptionsCompatJB;
 
+    .line 30
     invoke-static {p0, p1, p2}, Landroid/app/ActivityOptions;->makeCustomAnimation(Landroid/content/Context;II)Landroid/app/ActivityOptions;
 
     move-result-object v1
@@ -54,6 +55,7 @@
     .line 35
     new-instance v0, Landroid/support/v4/app/ActivityOptionsCompatJB;
 
+    .line 36
     invoke-static {p0, p1, p2, p3, p4}, Landroid/app/ActivityOptions;->makeScaleUpAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
 
     move-result-object v1
@@ -74,6 +76,7 @@
     .line 41
     new-instance v0, Landroid/support/v4/app/ActivityOptionsCompatJB;
 
+    .line 42
     invoke-static {p0, p1, p2, p3}, Landroid/app/ActivityOptions;->makeThumbnailScaleUpAnimation(Landroid/view/View;Landroid/graphics/Bitmap;II)Landroid/app/ActivityOptions;
 
     move-result-object v1

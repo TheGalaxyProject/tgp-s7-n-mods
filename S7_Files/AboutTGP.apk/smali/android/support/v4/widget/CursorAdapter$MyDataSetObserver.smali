@@ -19,27 +19,16 @@
 
 
 # direct methods
-.method private constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
+.method constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
     .locals 0
 
     .prologue
-    .line 469
+    .line 491
     iput-object p1, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
 
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/support/v4/widget/CursorAdapter;Landroid/support/v4/widget/CursorAdapter$1;)V
-    .locals 0
-    .param p1, "x0"    # Landroid/support/v4/widget/CursorAdapter;
-    .param p2, "x1"    # Landroid/support/v4/widget/CursorAdapter$1;
-
-    .prologue
-    .line 469
-    invoke-direct {p0, p1}, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;-><init>(Landroid/support/v4/widget/CursorAdapter;)V
-
+    .line 492
     return-void
 .end method
 
@@ -49,19 +38,19 @@
     .locals 2
 
     .prologue
-    .line 472
+    .line 496
     iget-object v0, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Landroid/support/v4/widget/CursorAdapter;->mDataValid:Z
 
-    .line 473
+    .line 497
     iget-object v0, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     invoke-virtual {v0}, Landroid/support/v4/widget/CursorAdapter;->notifyDataSetChanged()V
 
-    .line 474
+    .line 498
     return-void
 .end method
 
@@ -69,18 +58,18 @@
     .locals 2
 
     .prologue
-    .line 478
+    .line 502
     iget-object v0, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     const/4 v1, 0x0
 
     iput-boolean v1, v0, Landroid/support/v4/widget/CursorAdapter;->mDataValid:Z
 
-    .line 479
+    .line 503
     iget-object v0, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     invoke-virtual {v0}, Landroid/support/v4/widget/CursorAdapter;->notifyDataSetInvalidated()V
 
-    .line 480
+    .line 504
     return-void
 .end method

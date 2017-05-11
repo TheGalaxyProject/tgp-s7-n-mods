@@ -11,10 +11,6 @@
 
 .field b2:Landroid/widget/Button;
 
-.field b3:Landroid/widget/Button;
-
-.field b4:Landroid/widget/Button;
-
 .field i:I
 
 
@@ -48,7 +44,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f050009
+    const v4, 0x7f060009
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -63,11 +59,11 @@
     .line 133
     new-instance v3, Ljava/lang/StringBuilder;
 
-    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    move-result-object v4
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    move-result-object v3
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -86,32 +82,24 @@
     return-void
 .end method
 
-.method static synthetic access$0(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
+.method static synthetic access$000(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
     .locals 0
+    .param p0, "x0"    # Lcom/amnix/supportme/supportme_activity_main_amnix;
 
     .prologue
-    .line 116
+    .line 17
     invoke-direct {p0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->donatetoamnix()V
 
     return-void
 .end method
 
-.method static synthetic access$1(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
+.method static synthetic access$100(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
     .locals 0
+    .param p0, "x0"    # Lcom/amnix/supportme/supportme_activity_main_amnix;
 
     .prologue
-    .line 122
+    .line 17
     invoke-direct {p0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->sources()V
-
-    return-void
-.end method
-
-.method static synthetic access$2(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
-    .locals 0
-
-    .prologue
-    .line 137
-    invoke-direct {p0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->xdaurl()V
 
     return-void
 .end method
@@ -159,7 +147,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f050009
+    const v4, 0x7f060009
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -177,11 +165,11 @@
     .local v1, "openbrowser":Landroid/content/Intent;
     new-instance v3, Ljava/lang/StringBuilder;
 
-    invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    move-result-object v4
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    move-result-object v3
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -209,7 +197,7 @@
 
     .prologue
     .line 123
-    const-string v1, "https://github.com/AmniX/Supportme.apk"
+    const-string v1, "https://github.com/djb77/Supportme.apk"
 
     .line 124
     .local v1, "sourcesurl":Ljava/lang/String;
@@ -231,36 +219,6 @@
     invoke-virtual {p0, v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->startActivity(Landroid/content/Intent;)V
 
     .line 127
-    return-void
-.end method
-
-.method private xdaurl()V
-    .locals 3
-
-    .prologue
-    .line 138
-    const-string v1, "http://forum.xda-developers.com/showthread.php?p=52602160"
-
-    .line 139
-    .local v1, "sourcesurl":Ljava/lang/String;
-    new-instance v0, Landroid/content/Intent;
-
-    const-string v2, "android.intent.action.VIEW"
-
-    invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    .line 140
-    .local v0, "openbrowser":Landroid/content/Intent;
-    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
-
-    .line 141
-    invoke-virtual {p0, v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->startActivity(Landroid/content/Intent;)V
-
-    .line 142
     return-void
 .end method
 
@@ -344,7 +302,7 @@
 
     move-result-object v1
 
-    const-string v2, "Well! It\'s Ok!\nThanks to like my work\nEnjoy!\n\nExisting..!!!"
+    const-string v2, "Closing"
 
     invoke-static {v1, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -372,7 +330,7 @@
 
     move-result-object v1
 
-    const-string v2, "Then just enjoy buddy!\n\nExisting..!!!"
+    const-string v2, "Closing"
 
     invoke-static {v1, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -436,45 +394,13 @@
 
     iput-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b2:Landroid/widget/Button;
 
-    .line 28
-    const v0, 0x7f080002
-
-    invoke-virtual {p0, v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/Button;
-
-    iput-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b3:Landroid/widget/Button;
-
-    .line 29
-    const v0, 0x7f080003
-
-    invoke-virtual {p0, v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/Button;
-
-    iput-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b4:Landroid/widget/Button;
-
     .line 30
     iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b1:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 31
-    iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b2:Landroid/widget/Button;
-
-    invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 32
-    iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b3:Landroid/widget/Button;
-
-    invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
     .line 33
-    iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b4:Landroid/widget/Button;
+    iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix;->b2:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

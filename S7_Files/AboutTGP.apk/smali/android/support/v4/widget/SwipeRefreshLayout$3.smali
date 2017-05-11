@@ -1,11 +1,11 @@
 .class Landroid/support/v4/widget/SwipeRefreshLayout$3;
-.super Landroid/support/v4/widget/SwipeRefreshLayout$BaseAnimationListener;
+.super Landroid/view/animation/Animation;
 .source "SwipeRefreshLayout.java"
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroid/support/v4/widget/SwipeRefreshLayout;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroid/support/v4/widget/SwipeRefreshLayout;->startScaleDownAnimation(Landroid/view/animation/Animation$AnimationListener;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,34 +20,35 @@
 
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;)V
-    .locals 1
+    .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/SwipeRefreshLayout;
 
     .prologue
-    .line 114
+    .line 477
     iput-object p1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$3;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    const/4 v0, 0x0
-
-    invoke-direct {p0, p1, v0}, Landroid/support/v4/widget/SwipeRefreshLayout$BaseAnimationListener;-><init>(Landroid/support/v4/widget/SwipeRefreshLayout;Landroid/support/v4/widget/SwipeRefreshLayout$1;)V
+    invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onAnimationEnd(Landroid/view/animation/Animation;)V
+.method public applyTransformation(FLandroid/view/animation/Transformation;)V
     .locals 2
-    .param p1, "animation"    # Landroid/view/animation/Animation;
+    .param p1, "interpolatedTime"    # F
+    .param p2, "t"    # Landroid/view/animation/Transformation;
 
     .prologue
-    .line 119
+    .line 480
     iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$3;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    const/4 v1, 0x0
+    const/high16 v1, 0x3f800000    # 1.0f
 
-    # setter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mCurrentTargetOffsetTop:I
-    invoke-static {v0, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$702(Landroid/support/v4/widget/SwipeRefreshLayout;I)I
+    sub-float/2addr v1, p1
 
-    .line 120
+    invoke-virtual {v0, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->setAnimationProgress(F)V
+
+    .line 481
     return-void
 .end method

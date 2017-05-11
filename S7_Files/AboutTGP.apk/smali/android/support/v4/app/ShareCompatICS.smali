@@ -59,6 +59,7 @@
 
     move-result-object v2
 
+    .line 37
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v3
@@ -75,6 +76,7 @@
 
     move-result-object v2
 
+    .line 36
     invoke-virtual {v1, v2}, Landroid/widget/ShareActionProvider;->setShareHistoryFileName(Ljava/lang/String;)V
 
     .line 38

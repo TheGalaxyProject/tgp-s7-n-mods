@@ -27,13 +27,13 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 77
+    .line 80
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 78
+    .line 81
     iput-object p1, p0, Landroid/support/v4/app/FragmentTabHost$DummyTabFactory;->mContext:Landroid/content/Context;
 
-    .line 79
+    .line 82
     return-void
 .end method
 
@@ -46,20 +46,20 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 83
+    .line 86
     new-instance v0, Landroid/view/View;
 
     iget-object v1, p0, Landroid/support/v4/app/FragmentTabHost$DummyTabFactory;->mContext:Landroid/content/Context;
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 84
+    .line 87
     .local v0, "v":Landroid/view/View;
     invoke-virtual {v0, v2}, Landroid/view/View;->setMinimumWidth(I)V
 
-    .line 85
+    .line 88
     invoke-virtual {v0, v2}, Landroid/view/View;->setMinimumHeight(I)V
 
-    .line 86
+    .line 89
     return-object v0
 .end method

@@ -21,10 +21,10 @@
     .locals 0
 
     .prologue
-    .line 62
+    .line 76
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 117
+    .line 133
     return-void
 .end method
 
@@ -33,10 +33,10 @@
     .param p0, "enabled"    # Z
 
     .prologue
-    .line 351
+    .line 378
     sput-boolean p0, Landroid/support/v4/app/FragmentManagerImpl;->DEBUG:Z
 
-    .line 352
+    .line 379
     return-void
 .end method
 
@@ -55,6 +55,10 @@
 .end method
 
 .method public abstract findFragmentById(I)Landroid/support/v4/app/Fragment;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract findFragmentByTag(Ljava/lang/String;)Landroid/support/v4/app/Fragment;
@@ -70,6 +74,12 @@
 .end method
 
 .method public abstract getFragments()Ljava/util/List;
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -86,11 +96,17 @@
 
 .method public openTransaction()Landroid/support/v4/app/FragmentTransaction;
     .locals 1
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
     .prologue
-    .line 142
+    .line 162
     invoke-virtual {p0}, Landroid/support/v4/app/FragmentManager;->beginTransaction()Landroid/support/v4/app/FragmentTransaction;
 
     move-result-object v0

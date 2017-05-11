@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method private constructor <init>(Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+.method constructor <init>(Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
     .locals 0
     .param p1, "algorithm"    # Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;
     .param p2, "defaultIsRtl"    # Z
@@ -32,19 +32,6 @@
     iput-boolean p2, p0, Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;->mDefaultIsRtl:Z
 
     .line 158
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;ZLandroid/support/v4/text/TextDirectionHeuristicsCompat$1;)V
-    .locals 0
-    .param p1, "x0"    # Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;
-    .param p2, "x1"    # Z
-    .param p3, "x2"    # Landroid/support/v4/text/TextDirectionHeuristicsCompat$1;
-
-    .prologue
-    .line 151
-    invoke-direct {p0, p1, p2}, Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroid/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
-
     return-void
 .end method
 

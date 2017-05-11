@@ -18,24 +18,14 @@
 
 
 # direct methods
-.method private constructor <init>()V
+.method constructor <init>()V
     .locals 0
 
     .prologue
-    .line 33
+    .line 34
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/support/v4/view/ScaleGestureDetectorCompat$1;)V
-    .locals 0
-    .param p1, "x0"    # Landroid/support/v4/view/ScaleGestureDetectorCompat$1;
-
-    .prologue
-    .line 33
-    invoke-direct {p0}, Landroid/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl;-><init>()V
-
+    .line 35
     return-void
 .end method
 
@@ -46,7 +36,7 @@
     .param p1, "o"    # Ljava/lang/Object;
 
     .prologue
-    .line 41
+    .line 44
     const/4 v0, 0x0
 
     return v0
@@ -58,6 +48,6 @@
     .param p2, "enabled"    # Z
 
     .prologue
-    .line 37
+    .line 40
     return-void
 .end method

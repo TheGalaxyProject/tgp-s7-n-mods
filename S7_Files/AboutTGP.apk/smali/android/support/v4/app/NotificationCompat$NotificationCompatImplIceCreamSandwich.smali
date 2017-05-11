@@ -1,9 +1,6 @@
 .class Landroid/support/v4/app/NotificationCompat$NotificationCompatImplIceCreamSandwich;
-.super Ljava/lang/Object;
+.super Landroid/support/v4/app/NotificationCompat$NotificationCompatImplBase;
 .source "NotificationCompat.java"
-
-# interfaces
-.implements Landroid/support/v4/app/NotificationCompat$NotificationCompatImpl;
 
 
 # annotations
@@ -22,49 +19,87 @@
     .locals 0
 
     .prologue
-    .line 121
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 621
+    invoke-direct {p0}, Landroid/support/v4/app/NotificationCompat$NotificationCompatImplBase;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public build(Landroid/support/v4/app/NotificationCompat$Builder;)Landroid/app/Notification;
-    .locals 13
+.method public build(Landroid/support/v4/app/NotificationCompat$Builder;Landroid/support/v4/app/NotificationCompat$BuilderExtender;)Landroid/app/Notification;
+    .locals 16
     .param p1, "b"    # Landroid/support/v4/app/NotificationCompat$Builder;
+    .param p2, "extender"    # Landroid/support/v4/app/NotificationCompat$BuilderExtender;
 
     .prologue
-    .line 123
-    iget-object v0, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mContext:Landroid/content/Context;
+    .line 624
+    new-instance v2, Landroid/support/v4/app/NotificationCompatIceCreamSandwich$Builder;
 
-    iget-object v1, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mNotification:Landroid/app/Notification;
+    move-object/from16 v0, p1
 
-    iget-object v2, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mContentTitle:Ljava/lang/CharSequence;
+    iget-object v3, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mContext:Landroid/content/Context;
 
-    iget-object v3, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mContentText:Ljava/lang/CharSequence;
+    move-object/from16 v0, p1
 
-    iget-object v4, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mContentInfo:Ljava/lang/CharSequence;
+    iget-object v4, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mNotification:Landroid/app/Notification;
 
-    iget-object v5, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mTickerView:Landroid/widget/RemoteViews;
+    .line 626
+    invoke-virtual/range {p1 .. p1}, Landroid/support/v4/app/NotificationCompat$Builder;->resolveTitle()Ljava/lang/CharSequence;
 
-    iget v6, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mNumber:I
+    move-result-object v5
 
-    iget-object v7, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mContentIntent:Landroid/app/PendingIntent;
+    invoke-virtual/range {p1 .. p1}, Landroid/support/v4/app/NotificationCompat$Builder;->resolveText()Ljava/lang/CharSequence;
 
-    iget-object v8, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mFullScreenIntent:Landroid/app/PendingIntent;
+    move-result-object v6
 
-    iget-object v9, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mLargeIcon:Landroid/graphics/Bitmap;
+    move-object/from16 v0, p1
 
-    iget v10, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mProgressMax:I
+    iget-object v7, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mContentInfo:Ljava/lang/CharSequence;
 
-    iget v11, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mProgress:I
+    move-object/from16 v0, p1
 
-    iget-boolean v12, p1, Landroid/support/v4/app/NotificationCompat$Builder;->mProgressIndeterminate:Z
+    iget-object v8, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mTickerView:Landroid/widget/RemoteViews;
 
-    invoke-static/range {v0 .. v12}, Landroid/support/v4/app/NotificationCompatIceCreamSandwich;->add(Landroid/content/Context;Landroid/app/Notification;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/widget/RemoteViews;ILandroid/app/PendingIntent;Landroid/app/PendingIntent;Landroid/graphics/Bitmap;IIZ)Landroid/app/Notification;
+    move-object/from16 v0, p1
 
-    move-result-object v0
+    iget v9, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mNumber:I
 
-    return-object v0
+    move-object/from16 v0, p1
+
+    iget-object v10, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mContentIntent:Landroid/app/PendingIntent;
+
+    move-object/from16 v0, p1
+
+    iget-object v11, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mFullScreenIntent:Landroid/app/PendingIntent;
+
+    move-object/from16 v0, p1
+
+    iget-object v12, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mLargeIcon:Landroid/graphics/Bitmap;
+
+    move-object/from16 v0, p1
+
+    iget v13, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mProgressMax:I
+
+    move-object/from16 v0, p1
+
+    iget v14, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mProgress:I
+
+    move-object/from16 v0, p1
+
+    iget-boolean v15, v0, Landroid/support/v4/app/NotificationCompat$Builder;->mProgressIndeterminate:Z
+
+    invoke-direct/range {v2 .. v15}, Landroid/support/v4/app/NotificationCompatIceCreamSandwich$Builder;-><init>(Landroid/content/Context;Landroid/app/Notification;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/widget/RemoteViews;ILandroid/app/PendingIntent;Landroid/app/PendingIntent;Landroid/graphics/Bitmap;IIZ)V
+
+    .line 629
+    .local v2, "builder":Landroid/support/v4/app/NotificationCompatIceCreamSandwich$Builder;
+    move-object/from16 v0, p2
+
+    move-object/from16 v1, p1
+
+    invoke-virtual {v0, v1, v2}, Landroid/support/v4/app/NotificationCompat$BuilderExtender;->build(Landroid/support/v4/app/NotificationCompat$Builder;Landroid/support/v4/app/NotificationBuilderWithBuilderAccessor;)Landroid/app/Notification;
+
+    move-result-object v3
+
+    return-object v3
 .end method

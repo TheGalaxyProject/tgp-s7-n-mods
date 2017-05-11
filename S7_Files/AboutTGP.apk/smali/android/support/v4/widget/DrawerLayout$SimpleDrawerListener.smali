@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 203
+    .line 274
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +35,7 @@
     .param p1, "drawerView"    # Landroid/view/View;
 
     .prologue
-    .line 214
+    .line 285
     return-void
 .end method
 
@@ -44,7 +44,7 @@
     .param p1, "drawerView"    # Landroid/view/View;
 
     .prologue
-    .line 210
+    .line 281
     return-void
 .end method
 
@@ -54,7 +54,7 @@
     .param p2, "slideOffset"    # F
 
     .prologue
-    .line 206
+    .line 277
     return-void
 .end method
 
@@ -63,6 +63,6 @@
     .param p1, "newState"    # I
 
     .prologue
-    .line 218
+    .line 289
     return-void
 .end method

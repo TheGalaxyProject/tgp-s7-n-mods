@@ -4,6 +4,7 @@
 
 # interfaces
 .implements Landroid/support/v4/content/Loader$OnLoadCompleteListener;
+.implements Landroid/support/v4/content/Loader$OnLoadCanceledListener;
 
 
 # annotations
@@ -20,6 +21,10 @@
     value = {
         "Ljava/lang/Object;",
         "Landroid/support/v4/content/Loader$OnLoadCompleteListener",
+        "<",
+        "Ljava/lang/Object;",
+        ">;",
+        "Landroid/support/v4/content/Loader$OnLoadCanceledListener",
         "<",
         "Ljava/lang/Object;",
         ">;"
@@ -80,6 +85,7 @@
 # direct methods
 .method public constructor <init>(Landroid/support/v4/app/LoaderManagerImpl;ILandroid/os/Bundle;Landroid/support/v4/app/LoaderManager$LoaderCallbacks;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/app/LoaderManagerImpl;
     .param p2, "id"    # I
     .param p3, "args"    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
@@ -94,22 +100,22 @@
     .end annotation
 
     .prologue
-    .line 228
+    .line 232
     .local p4, "callbacks":Landroid/support/v4/app/LoaderManager$LoaderCallbacks;, "Landroid/support/v4/app/LoaderManager$LoaderCallbacks<Ljava/lang/Object;>;"
     iput-object p1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 229
+    .line 233
     iput p2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
 
-    .line 230
+    .line 234
     iput-object p3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mArgs:Landroid/os/Bundle;
 
-    .line 231
+    .line 235
     iput-object p4, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
-    .line 232
+    .line 236
     return-void
 .end method
 
@@ -131,44 +137,44 @@
     .end annotation
 
     .prologue
-    .line 418
+    .line 467
     .local p1, "loader":Landroid/support/v4/content/Loader;, "Landroid/support/v4/content/Loader<Ljava/lang/Object;>;"
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
     if-eqz v1, :cond_3
 
-    .line 419
+    .line 468
     const/4 v0, 0x0
 
-    .line 420
+    .line 469
     .local v0, "lastBecause":Ljava/lang/String;
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v1, :cond_0
 
-    .line 421
+    .line 470
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v1, v1, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v1, v1, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iget-object v0, v1, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 422
+    .line 471
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v1, v1, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v1, v1, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     const-string v2, "onLoadFinished"
 
     iput-object v2, v1, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 425
+    .line 474
     :cond_0
     :try_start_0
     sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
@@ -197,6 +203,7 @@
 
     move-result-object v2
 
+    .line 475
     invoke-virtual {p1, p2}, Landroid/support/v4/content/Loader;->dataToString(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -209,9 +216,10 @@
 
     move-result-object v2
 
+    .line 474
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 427
+    .line 476
     :cond_1
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
@@ -219,55 +227,128 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 429
+    .line 478
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v1, :cond_2
 
-    .line 430
+    .line 479
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v1, v1, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v1, v1, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iput-object v0, v1, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 433
+    .line 482
     :cond_2
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
 
-    .line 435
+    .line 484
     .end local v0    # "lastBecause":Ljava/lang/String;
     :cond_3
     return-void
 
-    .line 429
+    .line 478
     .restart local v0    # "lastBecause":Ljava/lang/String;
     :catchall_0
     move-exception v1
 
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v2, :cond_4
 
-    .line 430
+    .line 479
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v2, v2, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v2, v2, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iput-object v0, v2, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
     :cond_4
     throw v1
+.end method
+
+.method cancel()Z
+    .locals 4
+
+    .prologue
+    .line 333
+    sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
+
+    if-eqz v1, :cond_0
+
+    const-string v1, "LoaderManager"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "  Canceling: "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 334
+    :cond_0
+    iget-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
+
+    if-eqz v1, :cond_2
+
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    if-eqz v1, :cond_2
+
+    iget-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
+
+    if-eqz v1, :cond_2
+
+    .line 335
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    invoke-virtual {v1}, Landroid/support/v4/content/Loader;->cancelLoad()Z
+
+    move-result v0
+
+    .line 336
+    .local v0, "cancelLoadResult":Z
+    if-nez v0, :cond_1
+
+    .line 337
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    invoke-virtual {p0, v1}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->onLoadCanceled(Landroid/support/v4/content/Loader;)V
+
+    .line 341
+    .end local v0    # "cancelLoadResult":Z
+    :cond_1
+    :goto_0
+    return v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method
 
 .method destroy()V
@@ -278,7 +359,7 @@
 
     const/4 v5, 0x0
 
-    .line 327
+    .line 345
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_0
@@ -305,20 +386,20 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 328
+    .line 346
     :cond_0
     const/4 v2, 0x1
 
     iput-boolean v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDestroyed:Z
 
-    .line 329
+    .line 347
     iget-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
 
-    .line 330
+    .line 348
     .local v1, "needReset":Z
     iput-boolean v5, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
 
-    .line 331
+    .line 349
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
     if-eqz v2, :cond_3
@@ -333,7 +414,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 332
+    .line 350
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_1
@@ -344,7 +425,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "  Reseting: "
+    const-string v4, "  Resetting: "
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -360,39 +441,39 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 333
+    .line 351
     :cond_1
     const/4 v0, 0x0
 
-    .line 334
+    .line 352
     .local v0, "lastBecause":Ljava/lang/String;
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v2, :cond_2
 
-    .line 335
+    .line 353
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v2, v2, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v2, v2, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iget-object v0, v2, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 336
+    .line 354
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v2, v2, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v2, v2, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     const-string v3, "onLoaderReset"
 
     iput-object v3, v2, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 339
+    .line 357
     :cond_2
     :try_start_0
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
@@ -403,89 +484,94 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 341
+    .line 359
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v2, :cond_3
 
-    .line 342
+    .line 360
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v2, v2, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v2, v2, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iput-object v0, v2, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
-    .line 346
+    .line 364
     .end local v0    # "lastBecause":Ljava/lang/String;
     :cond_3
     iput-object v6, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
-    .line 347
+    .line 365
     iput-object v6, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
 
-    .line 348
+    .line 366
     iput-boolean v5, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
 
-    .line 349
+    .line 367
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     if-eqz v2, :cond_5
 
-    .line 350
+    .line 368
     iget-boolean v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
 
     if-eqz v2, :cond_4
 
-    .line 351
+    .line 369
     iput-boolean v5, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
 
-    .line 352
+    .line 370
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-virtual {v2, p0}, Landroid/support/v4/content/Loader;->unregisterListener(Landroid/support/v4/content/Loader$OnLoadCompleteListener;)V
 
-    .line 354
+    .line 371
+    iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    invoke-virtual {v2, p0}, Landroid/support/v4/content/Loader;->unregisterOnLoadCanceledListener(Landroid/support/v4/content/Loader$OnLoadCanceledListener;)V
+
+    .line 373
     :cond_4
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-virtual {v2}, Landroid/support/v4/content/Loader;->reset()V
 
-    .line 356
+    .line 375
     :cond_5
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
     if-eqz v2, :cond_6
 
-    .line 357
+    .line 376
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
     invoke-virtual {v2}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->destroy()V
 
-    .line 359
+    .line 378
     :cond_6
     return-void
 
-    .line 341
+    .line 359
     .restart local v0    # "lastBecause":Ljava/lang/String;
     :catchall_0
     move-exception v2
 
     iget-object v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v3, v3, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v3, v3, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v3, :cond_7
 
-    .line 342
+    .line 360
     iget-object v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v3, v3, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v3, v3, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v3, v3, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v3, v3, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     iput-object v0, v3, Landroid/support/v4/app/FragmentManagerImpl;->mNoTransactionsBecause:Ljava/lang/String;
 
@@ -501,7 +587,7 @@
     .param p4, "args"    # [Ljava/lang/String;
 
     .prologue
-    .line 451
+    .line 500
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "mId="
@@ -512,7 +598,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(I)V
 
-    .line 452
+    .line 501
     const-string v0, " mArgs="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -521,7 +607,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
 
-    .line 453
+    .line 502
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "mCallbacks="
@@ -532,7 +618,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
 
-    .line 454
+    .line 503
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "mLoader="
@@ -543,12 +629,12 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
 
-    .line 455
+    .line 504
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     if-eqz v0, :cond_0
 
-    .line 456
+    .line 505
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -571,7 +657,7 @@
 
     invoke-virtual {v0, v1, p2, p3, p4}, Landroid/support/v4/content/Loader;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
-    .line 458
+    .line 507
     :cond_0
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
 
@@ -581,7 +667,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 459
+    .line 508
     :cond_1
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
@@ -593,7 +679,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Z)V
 
-    .line 460
+    .line 509
     const-string v0, "  mDeliveredData="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -602,7 +688,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Z)V
 
-    .line 461
+    .line 510
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "mData="
@@ -613,7 +699,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
 
-    .line 463
+    .line 512
     :cond_2
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
@@ -625,7 +711,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Z)V
 
-    .line 464
+    .line 513
     const-string v0, " mReportNextStart="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -634,7 +720,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Z)V
 
-    .line 465
+    .line 514
     const-string v0, " mDestroyed="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -643,7 +729,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Z)V
 
-    .line 466
+    .line 515
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "mRetaining="
@@ -654,7 +740,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Z)V
 
-    .line 467
+    .line 516
     const-string v0, " mRetainingStarted="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -663,7 +749,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Z)V
 
-    .line 468
+    .line 517
     const-string v0, " mListenerRegistered="
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
@@ -672,19 +758,19 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Z)V
 
-    .line 469
+    .line 518
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
     if-eqz v0, :cond_3
 
-    .line 470
+    .line 519
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, "Pending Loader "
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
 
-    .line 471
+    .line 520
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/Object;)V
@@ -693,7 +779,7 @@
 
     invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
 
-    .line 472
+    .line 521
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -716,7 +802,7 @@
 
     invoke-virtual {v0, v1, p2, p3, p4}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
-    .line 474
+    .line 523
     :cond_3
     return-void
 .end method
@@ -725,12 +811,12 @@
     .locals 3
 
     .prologue
-    .line 278
+    .line 283
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
 
     if-eqz v0, :cond_1
 
-    .line 279
+    .line 284
     sget-boolean v0, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v0, :cond_0
@@ -757,28 +843,28 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 280
+    .line 285
     :cond_0
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
 
-    .line 281
+    .line 286
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     iget-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetainingStarted:Z
 
     if-eq v0, v1, :cond_1
 
-    .line 282
+    .line 287
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     if-nez v0, :cond_1
 
-    .line 286
+    .line 291
     invoke-virtual {p0}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->stop()V
 
-    .line 291
+    .line 296
     :cond_1
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
@@ -792,16 +878,167 @@
 
     if-nez v0, :cond_2
 
-    .line 298
+    .line 303
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
 
     invoke-virtual {p0, v0, v1}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->callOnLoadFinished(Landroid/support/v4/content/Loader;Ljava/lang/Object;)V
 
-    .line 300
+    .line 305
     :cond_2
     return-void
+.end method
+
+.method public onLoadCanceled(Landroid/support/v4/content/Loader;)V
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/support/v4/content/Loader",
+            "<",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    .prologue
+    .local p1, "loader":Landroid/support/v4/content/Loader;, "Landroid/support/v4/content/Loader<Ljava/lang/Object;>;"
+    const/4 v4, 0x0
+
+    .line 382
+    sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
+
+    if-eqz v1, :cond_0
+
+    const-string v1, "LoaderManager"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "onLoadCanceled: "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 384
+    :cond_0
+    iget-boolean v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDestroyed:Z
+
+    if-eqz v1, :cond_2
+
+    .line 385
+    sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
+
+    if-eqz v1, :cond_1
+
+    const-string v1, "LoaderManager"
+
+    const-string v2, "  Ignoring load canceled -- destroyed"
+
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 407
+    :cond_1
+    :goto_0
+    return-void
+
+    .line 389
+    :cond_2
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
+
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mLoaders:Landroid/support/v4/util/SparseArrayCompat;
+
+    iget v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
+
+    invoke-virtual {v1, v2}, Landroid/support/v4/util/SparseArrayCompat;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-eq v1, p0, :cond_3
+
+    .line 392
+    sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
+
+    if-eqz v1, :cond_1
+
+    const-string v1, "LoaderManager"
+
+    const-string v2, "  Ignoring load canceled -- not active"
+
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_0
+
+    .line 396
+    :cond_3
+    iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+
+    .line 397
+    .local v0, "pending":Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+    if-eqz v0, :cond_1
+
+    .line 401
+    sget-boolean v1, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
+
+    if-eqz v1, :cond_4
+
+    const-string v1, "LoaderManager"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "  Switching to pending loader: "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 402
+    :cond_4
+    iput-object v4, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+
+    .line 403
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
+
+    iget-object v1, v1, Landroid/support/v4/app/LoaderManagerImpl;->mLoaders:Landroid/support/v4/util/SparseArrayCompat;
+
+    iget v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
+
+    invoke-virtual {v1, v2, v4}, Landroid/support/v4/util/SparseArrayCompat;->put(ILjava/lang/Object;)V
+
+    .line 404
+    invoke-virtual {p0}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->destroy()V
+
+    .line 405
+    iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
+
+    invoke-virtual {v1, v0}, Landroid/support/v4/app/LoaderManagerImpl;->installLoader(Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;)V
+
+    goto :goto_0
 .end method
 
 .method public onLoadComplete(Landroid/support/v4/content/Loader;Ljava/lang/Object;)V
@@ -823,7 +1060,7 @@
     .local p1, "loader":Landroid/support/v4/content/Loader;, "Landroid/support/v4/content/Loader<Ljava/lang/Object;>;"
     const/4 v5, 0x0
 
-    .line 362
+    .line 411
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_0
@@ -850,13 +1087,13 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 364
+    .line 413
     :cond_0
     iget-boolean v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDestroyed:Z
 
     if-eqz v2, :cond_2
 
-    .line 365
+    .line 414
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_1
@@ -867,12 +1104,12 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 415
+    .line 464
     :cond_1
     :goto_0
     return-void
 
-    .line 369
+    .line 418
     :cond_2
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
@@ -886,7 +1123,7 @@
 
     if-eq v2, p0, :cond_3
 
-    .line 372
+    .line 421
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_1
@@ -899,15 +1136,15 @@
 
     goto :goto_0
 
-    .line 376
+    .line 425
     :cond_3
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
-    .line 377
+    .line 426
     .local v1, "pending":Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
     if-eqz v1, :cond_5
 
-    .line 381
+    .line 430
     sget-boolean v2, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v2, :cond_4
@@ -934,11 +1171,11 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 382
+    .line 431
     :cond_4
     iput-object v5, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
-    .line 383
+    .line 432
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
     iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mLoaders:Landroid/support/v4/util/SparseArrayCompat;
@@ -947,17 +1184,17 @@
 
     invoke-virtual {v2, v3, v5}, Landroid/support/v4/util/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 384
+    .line 433
     invoke-virtual {p0}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->destroy()V
 
-    .line 385
+    .line 434
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
     invoke-virtual {v2, v1}, Landroid/support/v4/app/LoaderManagerImpl;->installLoader(Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;)V
 
     goto :goto_0
 
-    .line 391
+    .line 440
     :cond_5
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
 
@@ -967,24 +1204,24 @@
 
     if-nez v2, :cond_7
 
-    .line 392
+    .line 441
     :cond_6
     iput-object p2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
 
-    .line 393
+    .line 442
     const/4 v2, 0x1
 
     iput-boolean v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
 
-    .line 394
+    .line 443
     iget-boolean v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     if-eqz v2, :cond_7
 
-    .line 395
+    .line 444
     invoke-virtual {p0, p1, p2}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->callOnLoadFinished(Landroid/support/v4/content/Loader;Ljava/lang/Object;)V
 
-    .line 405
+    .line 454
     :cond_7
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
@@ -998,21 +1235,21 @@
 
     check-cast v0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
 
-    .line 406
+    .line 455
     .local v0, "info":Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
     if-eqz v0, :cond_8
 
     if-eq v0, p0, :cond_8
 
-    .line 407
+    .line 456
     const/4 v2, 0x0
 
     iput-boolean v2, v0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
 
-    .line 408
+    .line 457
     invoke-virtual {v0}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->destroy()V
 
-    .line 409
+    .line 458
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
     iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mInactiveLoaders:Landroid/support/v4/util/SparseArrayCompat;
@@ -1021,11 +1258,11 @@
 
     invoke-virtual {v2, v3}, Landroid/support/v4/util/SparseArrayCompat;->remove(I)V
 
-    .line 412
+    .line 461
     :cond_8
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
     if-eqz v2, :cond_1
 
@@ -1037,12 +1274,12 @@
 
     if-nez v2, :cond_1
 
-    .line 413
+    .line 462
     iget-object v2, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->this$0:Landroid/support/v4/app/LoaderManagerImpl;
 
-    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
+    iget-object v2, v2, Landroid/support/v4/app/LoaderManagerImpl;->mHost:Landroid/support/v4/app/FragmentHostCallback;
 
-    iget-object v2, v2, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
+    iget-object v2, v2, Landroid/support/v4/app/FragmentHostCallback;->mFragmentManager:Landroid/support/v4/app/FragmentManagerImpl;
 
     invoke-virtual {v2}, Landroid/support/v4/app/FragmentManagerImpl;->startPendingDeferredFragments()V
 
@@ -1053,34 +1290,38 @@
     .locals 2
 
     .prologue
-    .line 303
+    .line 308
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     if-eqz v0, :cond_0
 
-    .line 304
+    .line 309
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mReportNextStart:Z
 
     if-eqz v0, :cond_0
 
-    .line 305
+    .line 310
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mReportNextStart:Z
 
-    .line 306
+    .line 311
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
 
     if-eqz v0, :cond_0
 
-    .line 307
+    iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
+
+    if-nez v0, :cond_0
+
+    .line 312
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
 
     invoke-virtual {p0, v0, v1}, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->callOnLoadFinished(Landroid/support/v4/content/Loader;Ljava/lang/Object;)V
 
-    .line 311
+    .line 316
     :cond_0
     return-void
 .end method
@@ -1089,7 +1330,7 @@
     .locals 3
 
     .prologue
-    .line 270
+    .line 275
     sget-boolean v0, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v0, :cond_0
@@ -1116,28 +1357,28 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 271
+    .line 276
     :cond_0
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
 
-    .line 272
+    .line 277
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     iput-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetainingStarted:Z
 
-    .line 273
+    .line 278
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
-    .line 274
+    .line 279
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
-    .line 275
+    .line 280
     return-void
 .end method
 
@@ -1147,7 +1388,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 235
+    .line 239
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
 
     if-eqz v0, :cond_1
@@ -1156,24 +1397,24 @@
 
     if-eqz v0, :cond_1
 
-    .line 239
+    .line 243
     iput-boolean v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
-    .line 267
+    .line 272
     :cond_0
     :goto_0
     return-void
 
-    .line 243
+    .line 247
     :cond_1
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 248
+    .line 252
     iput-boolean v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
-    .line 250
+    .line 254
     sget-boolean v0, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v0, :cond_2
@@ -1200,7 +1441,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 251
+    .line 255
     :cond_2
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
@@ -1210,7 +1451,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 252
+    .line 256
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
 
     iget v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
@@ -1223,13 +1464,13 @@
 
     iput-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
-    .line 254
+    .line 258
     :cond_3
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     if-eqz v0, :cond_0
 
-    .line 255
+    .line 259
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1244,6 +1485,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
+    .line 260
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1258,7 +1500,7 @@
 
     if-nez v0, :cond_4
 
-    .line 257
+    .line 261
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1285,23 +1527,28 @@
 
     throw v0
 
-    .line 261
+    .line 265
     :cond_4
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
 
     if-nez v0, :cond_5
 
-    .line 262
+    .line 266
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     iget v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
 
     invoke-virtual {v0, v1, p0}, Landroid/support/v4/content/Loader;->registerListener(ILandroid/support/v4/content/Loader$OnLoadCompleteListener;)V
 
-    .line 263
+    .line 267
+    iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    invoke-virtual {v0, p0}, Landroid/support/v4/content/Loader;->registerOnLoadCanceledListener(Landroid/support/v4/content/Loader$OnLoadCanceledListener;)V
+
+    .line 268
     iput-boolean v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
 
-    .line 265
+    .line 270
     :cond_5
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
@@ -1316,7 +1563,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 314
+    .line 319
     sget-boolean v0, Landroid/support/v4/app/LoaderManagerImpl;->DEBUG:Z
 
     if-eqz v0, :cond_0
@@ -1343,16 +1590,16 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 315
+    .line 320
     :cond_0
     iput-boolean v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
 
-    .line 316
+    .line 321
     iget-boolean v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
 
     if-nez v0, :cond_1
 
-    .line 317
+    .line 322
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     if-eqz v0, :cond_1
@@ -1361,20 +1608,25 @@
 
     if-eqz v0, :cond_1
 
-    .line 319
+    .line 324
     iput-boolean v3, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
 
-    .line 320
+    .line 325
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-virtual {v0, p0}, Landroid/support/v4/content/Loader;->unregisterListener(Landroid/support/v4/content/Loader$OnLoadCompleteListener;)V
 
-    .line 321
+    .line 326
+    iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+
+    invoke-virtual {v0, p0}, Landroid/support/v4/content/Loader;->unregisterOnLoadCanceledListener(Landroid/support/v4/content/Loader$OnLoadCanceledListener;)V
+
+    .line 327
     iget-object v0, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-virtual {v0}, Landroid/support/v4/content/Loader;->stopLoading()V
 
-    .line 324
+    .line 330
     :cond_1
     return-void
 .end method
@@ -1383,20 +1635,20 @@
     .locals 2
 
     .prologue
-    .line 439
+    .line 488
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x40
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 440
+    .line 489
     .local v0, "sb":Ljava/lang/StringBuilder;
     const-string v1, "LoaderInfo{"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 441
+    .line 490
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v1
@@ -1407,32 +1659,32 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 442
+    .line 491
     const-string v1, " #"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 443
+    .line 492
     iget v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 444
+    .line 493
     const-string v1, " : "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 445
+    .line 494
     iget-object v1, p0, Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
 
     invoke-static {v1, v0}, Landroid/support/v4/util/DebugUtils;->buildShortClassTag(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
 
-    .line 446
+    .line 495
     const-string v1, "}}"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 447
+    .line 496
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1

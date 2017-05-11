@@ -18,24 +18,14 @@
 
 
 # direct methods
-.method private constructor <init>()V
+.method constructor <init>()V
     .locals 0
 
     .prologue
-    .line 120
+    .line 136
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/support/v4/app/ActionBarDrawerToggle$1;)V
-    .locals 0
-    .param p1, "x0"    # Landroid/support/v4/app/ActionBarDrawerToggle$1;
-
-    .prologue
-    .line 120
-    invoke-direct {p0}, Landroid/support/v4/app/ActionBarDrawerToggle$ActionBarDrawerToggleImplHC;-><init>()V
-
+    .line 137
     return-void
 .end method
 
@@ -46,7 +36,7 @@
     .param p1, "activity"    # Landroid/app/Activity;
 
     .prologue
-    .line 123
+    .line 141
     invoke-static {p1}, Landroid/support/v4/app/ActionBarDrawerToggleHoneycomb;->getThemeUpIndicator(Landroid/app/Activity;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -61,7 +51,7 @@
     .param p3, "contentDescRes"    # I
 
     .prologue
-    .line 135
+    .line 153
     invoke-static {p1, p2, p3}, Landroid/support/v4/app/ActionBarDrawerToggleHoneycomb;->setActionBarDescription(Ljava/lang/Object;Landroid/app/Activity;I)Ljava/lang/Object;
 
     move-result-object v0
@@ -77,7 +67,7 @@
     .param p4, "contentDescRes"    # I
 
     .prologue
-    .line 129
+    .line 147
     invoke-static {p1, p2, p3, p4}, Landroid/support/v4/app/ActionBarDrawerToggleHoneycomb;->setActionBarUpIndicator(Ljava/lang/Object;Landroid/app/Activity;Landroid/graphics/drawable/Drawable;I)Ljava/lang/Object;
 
     move-result-object v0

@@ -15,8 +15,5 @@
 
 
 # virtual methods
-.method public abstract addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
-.end method
-
-.method public abstract getScript(Ljava/lang/String;)Ljava/lang/String;
+.method public abstract maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
 .end method

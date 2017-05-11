@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.amnix.supportme">
-    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AmniXTheme">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.amnix.supportme" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AmniXTheme">
         <activity android:label="@string/wordfromdev" android:name="com.amnix.supportme.supportme_activity_main_amnix" android:screenOrientation="user">
             <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>

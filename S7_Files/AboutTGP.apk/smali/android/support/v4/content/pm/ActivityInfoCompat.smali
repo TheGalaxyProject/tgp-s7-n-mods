@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/content/pm/ActivityInfoCompat;
+.class public final Landroid/support/v4/content/pm/ActivityInfoCompat;
 .super Ljava/lang/Object;
 .source "ActivityInfoCompat.java"
 

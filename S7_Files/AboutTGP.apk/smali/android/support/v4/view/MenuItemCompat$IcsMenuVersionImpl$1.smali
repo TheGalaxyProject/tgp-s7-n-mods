@@ -26,6 +26,7 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/view/MenuItemCompat$IcsMenuVersionImpl;Landroid/support/v4/view/MenuItemCompat$OnActionExpandListener;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/view/MenuItemCompat$IcsMenuVersionImpl;
 
     .prologue
     .line 228

@@ -3,12 +3,12 @@
 .source "SwipeRefreshLayout.java"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/view/animation/Animation$AnimationListener;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroid/support/v4/widget/SwipeRefreshLayout;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroid/support/v4/widget/SwipeRefreshLayout;->finishSpinner(F)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,9 +24,10 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/SwipeRefreshLayout;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/SwipeRefreshLayout;
 
     .prologue
-    .line 130
+    .line 986
     iput-object p1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,46 +37,44 @@
 
 
 # virtual methods
-.method public run()V
-    .locals 3
+.method public onAnimationEnd(Landroid/view/animation/Animation;)V
+    .locals 2
+    .param p1, "animation"    # Landroid/view/animation/Animation;
 
     .prologue
-    .line 134
+    .line 994
     iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    const/4 v1, 0x1
+    iget-boolean v0, v0, Landroid/support/v4/widget/SwipeRefreshLayout;->mScale:Z
 
-    # setter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mReturningToStart:Z
-    invoke-static {v0, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$902(Landroid/support/v4/widget/SwipeRefreshLayout;Z)Z
+    if-nez v0, :cond_0
 
-    .line 135
+    .line 995
     iget-object v0, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
 
-    iget-object v1, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+    const/4 v1, 0x0
 
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mCurrentTargetOffsetTop:I
-    invoke-static {v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$700(Landroid/support/v4/widget/SwipeRefreshLayout;)I
+    invoke-virtual {v0, v1}, Landroid/support/v4/widget/SwipeRefreshLayout;->startScaleDownAnimation(Landroid/view/animation/Animation$AnimationListener;)V
 
-    move-result v1
+    .line 997
+    :cond_0
+    return-void
+.end method
 
-    iget-object v2, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
+.method public onAnimationRepeat(Landroid/view/animation/Animation;)V
+    .locals 0
+    .param p1, "animation"    # Landroid/view/animation/Animation;
 
-    invoke-virtual {v2}, Landroid/support/v4/widget/SwipeRefreshLayout;->getPaddingTop()I
+    .prologue
+    .line 1001
+    return-void
+.end method
 
-    move-result v2
+.method public onAnimationStart(Landroid/view/animation/Animation;)V
+    .locals 0
+    .param p1, "animation"    # Landroid/view/animation/Animation;
 
-    add-int/2addr v1, v2
-
-    iget-object v2, p0, Landroid/support/v4/widget/SwipeRefreshLayout$5;->this$0:Landroid/support/v4/widget/SwipeRefreshLayout;
-
-    # getter for: Landroid/support/v4/widget/SwipeRefreshLayout;->mReturnToStartPositionListener:Landroid/view/animation/Animation$AnimationListener;
-    invoke-static {v2}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$1000(Landroid/support/v4/widget/SwipeRefreshLayout;)Landroid/view/animation/Animation$AnimationListener;
-
-    move-result-object v2
-
-    # invokes: Landroid/support/v4/widget/SwipeRefreshLayout;->animateOffsetToStartPosition(ILandroid/view/animation/Animation$AnimationListener;)V
-    invoke-static {v0, v1, v2}, Landroid/support/v4/widget/SwipeRefreshLayout;->access$1100(Landroid/support/v4/widget/SwipeRefreshLayout;ILandroid/view/animation/Animation$AnimationListener;)V
-
-    .line 137
+    .prologue
+    .line 990
     return-void
 .end method

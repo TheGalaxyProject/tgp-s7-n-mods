@@ -31,61 +31,61 @@
 
 # virtual methods
 .method public onAudioFocusChange(I)V
-    .locals 8
+    .locals 9
     .param p1, "focusChange"    # I
 
     .prologue
     .line 188
-    const/4 v6, 0x0
+    const/4 v7, 0x0
 
     .line 189
-    .local v6, "keyCode":I
+    .local v7, "keyCode":I
     packed-switch p1, :pswitch_data_0
 
     .line 196
     :goto_0
-    if-eqz v6, :cond_0
+    if-eqz v7, :cond_0
 
     .line 197
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
-    move-result-wide v1
+    move-result-wide v2
 
     .line 198
-    .local v1, "now":J
-    new-instance v0, Landroid/view/KeyEvent;
+    .local v2, "now":J
+    new-instance v1, Landroid/view/KeyEvent;
 
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    const/4 v7, 0x0
+    const/4 v8, 0x0
 
-    move-wide v3, v1
+    move-wide v4, v2
 
-    invoke-direct/range {v0 .. v7}, Landroid/view/KeyEvent;-><init>(JJIII)V
+    invoke-direct/range {v1 .. v8}, Landroid/view/KeyEvent;-><init>(JJIII)V
 
-    invoke-virtual {p0, v6, v0}, Landroid/support/v4/media/TransportPerformer;->onMediaButtonDown(ILandroid/view/KeyEvent;)Z
+    invoke-virtual {p0, v7, v1}, Landroid/support/v4/media/TransportPerformer;->onMediaButtonDown(ILandroid/view/KeyEvent;)Z
 
     .line 199
-    new-instance v0, Landroid/view/KeyEvent;
+    new-instance v1, Landroid/view/KeyEvent;
 
-    const/4 v5, 0x1
+    const/4 v6, 0x1
 
-    const/4 v7, 0x0
+    const/4 v8, 0x0
 
-    move-wide v3, v1
+    move-wide v4, v2
 
-    invoke-direct/range {v0 .. v7}, Landroid/view/KeyEvent;-><init>(JJIII)V
+    invoke-direct/range {v1 .. v8}, Landroid/view/KeyEvent;-><init>(JJIII)V
 
-    invoke-virtual {p0, v6, v0}, Landroid/support/v4/media/TransportPerformer;->onMediaButtonUp(ILandroid/view/KeyEvent;)Z
+    invoke-virtual {p0, v7, v1}, Landroid/support/v4/media/TransportPerformer;->onMediaButtonUp(ILandroid/view/KeyEvent;)Z
 
     .line 201
-    .end local v1    # "now":J
+    .end local v2    # "now":J
     :cond_0
     return-void
 
     .line 193
     :pswitch_0
-    const/16 v6, 0x7f
+    const/16 v7, 0x7f
 
     goto :goto_0
 

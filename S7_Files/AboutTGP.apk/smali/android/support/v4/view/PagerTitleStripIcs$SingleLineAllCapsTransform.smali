@@ -64,7 +64,7 @@
     .line 43
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v0
 

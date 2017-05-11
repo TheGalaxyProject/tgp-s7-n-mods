@@ -1,9 +1,6 @@
 .class Landroid/support/v4/net/ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl;
-.super Ljava/lang/Object;
+.super Landroid/support/v4/net/ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl;
 .source "ConnectivityManagerCompat.java"
-
-# interfaces
-.implements Landroid/support/v4/net/ConnectivityManagerCompat$ConnectivityManagerCompatImpl;
 
 
 # annotations
@@ -22,8 +19,8 @@
     .locals 0
 
     .prologue
-    .line 74
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 125
+    invoke-direct {p0}, Landroid/support/v4/net/ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl;-><init>()V
 
     return-void
 .end method
@@ -35,7 +32,7 @@
     .param p1, "cm"    # Landroid/net/ConnectivityManager;
 
     .prologue
-    .line 77
+    .line 129
     invoke-static {p1}, Landroid/support/v4/net/ConnectivityManagerCompatJellyBean;->isActiveNetworkMetered(Landroid/net/ConnectivityManager;)Z
 
     move-result v0

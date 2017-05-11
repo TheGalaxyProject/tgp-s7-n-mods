@@ -26,9 +26,10 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl;Landroid/support/v4/view/AccessibilityDelegateCompat;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl;
 
     .prologue
-    .line 219
+    .line 232
     iput-object p1, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->this$0:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl;
 
     iput-object p2, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
@@ -46,7 +47,7 @@
     .param p2, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 223
+    .line 236
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->dispatchPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
@@ -61,14 +62,15 @@
     .param p1, "host"    # Landroid/view/View;
 
     .prologue
-    .line 260
+    .line 273
     iget-object v1, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
+    .line 274
     invoke-virtual {v1, p1}, Landroid/support/v4/view/AccessibilityDelegateCompat;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 
     move-result-object v0
 
-    .line 262
+    .line 275
     .local v0, "provider":Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
     if-eqz v0, :cond_0
 
@@ -91,12 +93,12 @@
     .param p2, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 228
+    .line 241
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
-    .line 229
+    .line 242
     return-void
 .end method
 
@@ -106,7 +108,7 @@
     .param p2, "info"    # Ljava/lang/Object;
 
     .prologue
-    .line 233
+    .line 246
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     new-instance v1, Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
@@ -115,7 +117,7 @@
 
     invoke-virtual {v0, p1, v1}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
 
-    .line 235
+    .line 248
     return-void
 .end method
 
@@ -125,12 +127,12 @@
     .param p2, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 239
+    .line 252
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
-    .line 240
+    .line 253
     return-void
 .end method
 
@@ -141,7 +143,7 @@
     .param p3, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 245
+    .line 258
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
@@ -158,7 +160,7 @@
     .param p3, "args"    # Landroid/os/Bundle;
 
     .prologue
-    .line 267
+    .line 280
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/support/v4/view/AccessibilityDelegateCompat;->performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
@@ -174,12 +176,12 @@
     .param p2, "eventType"    # I
 
     .prologue
-    .line 250
+    .line 263
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->sendAccessibilityEvent(Landroid/view/View;I)V
 
-    .line 251
+    .line 264
     return-void
 .end method
 
@@ -189,11 +191,11 @@
     .param p2, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 255
+    .line 268
     iget-object v0, p0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;->val$compat:Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     invoke-virtual {v0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
-    .line 256
+    .line 269
     return-void
 .end method

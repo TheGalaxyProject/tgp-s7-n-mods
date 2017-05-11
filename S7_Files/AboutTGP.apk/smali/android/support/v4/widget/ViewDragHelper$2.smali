@@ -24,9 +24,10 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/ViewDragHelper;)V
     .locals 0
+    .param p1, "this$0"    # Landroid/support/v4/widget/ViewDragHelper;
 
     .prologue
-    .line 333
+    .line 335
     iput-object p1, p0, Landroid/support/v4/widget/ViewDragHelper$2;->this$0:Landroid/support/v4/widget/ViewDragHelper;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,13 +41,13 @@
     .locals 2
 
     .prologue
-    .line 335
+    .line 338
     iget-object v0, p0, Landroid/support/v4/widget/ViewDragHelper$2;->this$0:Landroid/support/v4/widget/ViewDragHelper;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/support/v4/widget/ViewDragHelper;->setDragState(I)V
 
-    .line 336
+    .line 339
     return-void
 .end method

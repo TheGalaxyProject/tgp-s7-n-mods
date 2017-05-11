@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/widget/ListPopupWindowCompat;
+.class public final Landroid/support/v4/widget/ListPopupWindowCompat;
 .super Ljava/lang/Object;
 .source "ListPopupWindowCompat.java"
 

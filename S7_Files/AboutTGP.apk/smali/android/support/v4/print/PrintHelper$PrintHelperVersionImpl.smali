@@ -24,10 +24,10 @@
 .method public abstract getScaleMode()I
 .end method
 
-.method public abstract printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+.method public abstract printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
 .end method
 
-.method public abstract printBitmap(Ljava/lang/String;Landroid/net/Uri;)V
+.method public abstract printBitmap(Ljava/lang/String;Landroid/net/Uri;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
