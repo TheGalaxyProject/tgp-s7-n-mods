@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Einkastilling</string>
+    <string name="personalpage_on">Kveikt á einkastillingu.</string>
+    <string name="personalpage_on_available">Persónulegt efni tiltækt.</string>
+    <string name="personalpage_off_not_available">Ekki er hægt að velja persónulegt efni. Ekkert efni sem verið er að færa yfir í einkastillingu verður fært.</string>
+    <string name="failed_to_unmount">Ekki er hægt að slökkva á einkastillingu. Reyndu aftur.</string>
+    <string name="pattern_help_text">Teiknaðu mynstur einkastillingarinnar.</string>
+    <string name="password_help_text">Sláðu inn lykilorð einkastillingar.</string>
+    <string name="personal_page_disclaimer_by_locktype">Fela persónulegt efni. Til að nota þessa stillingu skaltu velja opnunaraðferð. Slökktu á þessari stillingu að notkun lokinni til að vernda falda efnið.</string>
+    <string name="do_not_show_again">Ekki sýna aftur</string>
+    <string name="message_settings">Still.</string>
+    <string name="incorrect_backup_pin">Rangt auka PIN-númer.</string>
+    <string name="pattern_backuppin">Sláðu inn PIN-númerið sem þú getur notað í stað mynstursins.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Reyndu aftur eftir %d sekúndur.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Reyndu aftur eftir 1 sekúndu.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Reyndu aftur eftir %d mínútur</string>
+    <string name="personalpage_off">Slökkt á einkastillingu.</string>
+    <string name="personalpage_off_move_off">Slökkt á einkastillingu. Efni sem verið er að færa yfir í einkastillingu verður ekki fært.</string>
+    <string name="failed_to_mount">Mistókst að kveikja á einkastillingu. Reyndu aftur.</string>
+    <string name="pattern_help_text_try_again">Þú teiknaðir rangt mynstur. Reyndu aftur.</string>
+    <string name="pin_help_text_try_again">Þú slóst inn rangt PIN-númer. Reyndu aftur.</string>
+    <string name="password_help_text_try_again">Þú slóst inn rangt lykilorð. Reyndu aftur.</string>
+    <string name="pin_help_text">Sláðu inn PIN-númer einkastillingar.</string>
+    <string name="personal_page_switch_off_message">Öllu opnu efni verður lokað. Allar óvistaðar breytingar verða hunsaðar.</string>
+    <string name="private_mode_popup_btn_skip">Sleppa</string>
+    <string name="private_mode_popup_screen_lock_title">Stillingar skjáláss</string>
+    <string name="private_mode_popup_screen_lock_msg">Við mælum með að þú veljir öruggan skjálás og kveikir svo á „Einkastilling“ til að nota einkastillingu á öruggari hátt.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Einkastilling verður virk þegar valið efni er flutt til einkastillingar.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Fyrirvari 
+Hafðu í huga að efni kann að birtast í annarri möppu á tækinu utan einkastillingar þegar það er sjálfkrafa samstillt af forriti þriðja aðila, s.s. Dropbox. Aðgættu stillingar sjálfvirkrar samstillingar (e. auto synchronization) í öðrum forritum þínum áður en þú notar einkastillingu."</string>
+    <string name="private_mode_popup_m2p_success_close">"Flutningi lokið. 
+Hætt í einkastillingu."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Flutningi er ekki lokið. 
+Hætt í einkastillingu."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Annað ferli er í gangi. Reyndu aftur þegar því lýkur.</string>
+    <string name="private_mode_pop_up_title">Slökkva á einkastillingu</string>
+    <string name="private_mode_popup_m2p_msg">Kveikt verður á einkastillingu á meðan valið efni er flutt í Einkamál og slökkt aftur á henni þegar flutningnum er lokið.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Kveikt verður á einkastillingu á meðan valin forrit eru færð í „Einkamál“ og slökkt á henni aftur að flutningi loknum.
+
+Þegar forrit eru færð í „Einkamál“ eru tengd forrit og græjur einnig færðar og flýtileiðum þeirra eytt. Þegar slökkt er á einkastillingu færðu ekki sendar tilkynningar frá forritum í „Einkamál“."</string>
+    <string name="private_mode_popup_m2p_title">Kveikja á einkastillingu</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Fingrafarastillingunum þínum hefur verið breytt. Teiknaðu mynstur tvöfaldrar staðfestingar til að kveikja á „Einkastillingu“.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Fingrafarastillingunum þínum hefur verið breytt. Sláðu inn PIN-númer tvöfaldrar staðfestingar til að kveikja á „Einkastillingu“.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Fingrafarastillingunum þínum hefur verið breytt. Sláðu inn lykilorð tvöfaldrar staðfestingar til að kveikja á „Einkastillingu“.</string>
+    <string name="private_mode_bakcupkey_bt_text">Nota tvöfalda staðfest.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Mynstur</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Aðgangsorð</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Nota %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Varalykilorð</string>
+    <string name="private_mode_migration_body_text">Veldu mynstur, PIN-númer eða lykilorð sem þú vilt nota sem aukaleið ásamt fingraförum til að opna einkastillingu.</string>
+    <string name="private_mode_migration_next_button">Næsta</string>
+    <string name="private_mode_pattern_backup_pin_desc">Vara-PIN</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Modo Privado</string>
+    <string name="personalpage_on">Modo Privado activado.</string>
+    <string name="personalpage_on_available">Contenido privado disponible.</string>
+    <string name="personalpage_off_not_available">Contenido privado no disponible. No se moverá el contenido que se está moviendo actualmente a Privado.</string>
+    <string name="failed_to_unmount">No se puede desactivar el modo Privado. Inténtelo de nuevo.</string>
+    <string name="pattern_help_text">Dibuje su patrón para el modo Privado.</string>
+    <string name="password_help_text">Introduzca la contraseña del modo Privado.</string>
+    <string name="personal_page_disclaimer_by_locktype">Ocultar contenido personal. Para utilizar este modo, seleccione un método de desbloqueo. Desactive este modo después de su uso para proteger el contenido oculto.</string>
+    <string name="do_not_show_again">No volver a mostrar</string>
+    <string name="message_settings">Ajustes</string>
+    <string name="incorrect_backup_pin">PIN alternativo incorrecto</string>
+    <string name="pattern_backuppin">Introduzca el PIN que se utiliza como alternativa al patrón</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Vuelva a intentarlo en %d segundos</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Inténtelo de nuevo en 1 segundo.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Intentar de nuevo en %d minutos</string>
+    <string name="personalpage_off">Modo Privado desactivado.</string>
+    <string name="personalpage_off_move_off">Modo Privado desactivado. No se moverá el contenido que se está moviendo actualmente a Privado.</string>
+    <string name="failed_to_mount">Error al activar el modo Privado. Vuelva a intentarlo.</string>
+    <string name="pattern_help_text_try_again">El patrón dibujado es incorrecto. Inténtelo de nuevo.</string>
+    <string name="pin_help_text_try_again">Ha introducido un PIN incorrecto. Vuelva a intentarlo.</string>
+    <string name="password_help_text_try_again">Ha introducido una contraseña incorrecta. Vuelva a intentarlo.</string>
+    <string name="pin_help_text">Introduzca el PIN para el modo Privado.</string>
+    <string name="personal_page_switch_off_message">Se cerrará todo el contenido que esté abierto. Los cambios que no haya guardado se descartarán.</string>
+    <string name="private_mode_popup_btn_skip">Omitir</string>
+    <string name="private_mode_popup_screen_lock_title">Ajustes bloqueo pantalla</string>
+    <string name="private_mode_popup_screen_lock_msg">Para mejorar la seguridad al utilizar el modo Privado, le recomendamos que cambie el tipo de bloqueo de pantalla a un método seguro y, a continuación, active el modo Privado.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">El Modo privado se activará al transferir el contenido seleccionado.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Exención de responsabilidad 
+Tenga en cuenta que puede que el contenido esté en una carpeta distinta de su dispositivo si se sincroniza automáticamente con una aplicación de terceros, por ejemplo Dropbox. Compruebe los ajustes de sincronización automática del resto de aplicaciones antes de utilizar el modo Privado."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transferencia completa. 
+Saliendo del Modo Privado."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transferencia incompleta. 
+Saliendo del Modo Privado."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Ya hay otro proceso en curso. Inténtelo de nuevo cuando termine.</string>
+    <string name="private_mode_pop_up_title">Desactivar modo Privado</string>
+    <string name="private_mode_popup_m2p_msg">El modo Privado permanecerá activado mientras se esté moviendo el contenido seleccionado a Privado y se desactivará de nuevo cuando se complete la transferencia.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"El modo Privado estará activado mientras se transfieren las aplicaciones seleccionadas a Privado, y se desactivará de nuevo cuando la transferencia se complete.
+
+Al mover aplicaciones a Privado, también se moverán las aplicaciones vinculadas y los widgets relacionados, y se eliminarán los accesos directos. Mientras el modo Privado esté desactivado, no recibirá notificaciones de las aplicaciones que se han transferido a Privado."</string>
+    <string name="private_mode_popup_m2p_title">Activar modo Privado</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Se han cambiado los ajustes de su huella digital. Dibuje su patrón de Doble verificación para activar el modo Privado.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Se han cambiado los ajustes de su huella digital. Introduzca el PIN de Doble verificación para activar el modo Privado.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Se han cambiado los ajustes de su huella digital. Introduzca la contraseña de Doble verificación para activar el modo Privado.</string>
+    <string name="private_mode_bakcupkey_bt_text">Usar doble verificación</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">Número secreto</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Patrón</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Contraseña</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Usar %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Contraseña alternativa</string>
+    <string name="private_mode_migration_body_text">Establezca un patrón, PIN o contraseña para usar como alternativa a sus huellas digitales para acceder al modo Privado.</string>
+    <string name="private_mode_migration_next_button">Siguiente</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN alternativo</string>
+</resources>

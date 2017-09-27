@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Απόρρητη λειτουργία</string>
+    <string name="personalpage_on">Η Απόρρητη λειτουργία ενεργοποιήθηκε.</string>
+    <string name="personalpage_on_available">Υπάρχει διαθέσιμο απόρρητο περιεχόμενο.</string>
+    <string name="personalpage_off_not_available">Δεν υπάρχει διαθέσιμο απόρρητο περιεχόμενο. Το περιεχόμενο που μεταφέρεται τώρα στο φάκελο «Απόρρητο» δεν θα μετακινηθεί.</string>
+    <string name="failed_to_unmount">Δεν είναι δυνατή η απενεργοποίηση της Απόρρητης λειτουργίας. Δοκιμάστε ξανά.</string>
+    <string name="pattern_help_text">Σχεδιάστε το μοτίβο για την Απόρρητη λειτουργία.</string>
+    <string name="password_help_text">Εισαγάγετε τον κωδικό πρόσβασης για την Απόρρητη λειτουργία.</string>
+    <string name="personal_page_disclaimer_by_locktype">Απόκρυψη προσωπικού περιεχομένου. Για τη χρήση αυτής της λειτουργίας, επιλέξτε μια μέθοδο ξεκλειδώματος. Απενεργοποιήστε αυτήν τη λειτουργία μετά τη χρήση της, για να προστατεύσετε το περιεχόμενο απόκρυψης.</string>
+    <string name="do_not_show_again">Να μην εμφαν. ξανά αυτό το μήνυμα</string>
+    <string name="message_settings">Ρυθμίσ.</string>
+    <string name="incorrect_backup_pin">Εσφαλμένος εφεδρικός PIN.</string>
+    <string name="pattern_backuppin">Εισαγάγετε το PIN που χρησιμοποιείται εναλλακτικά του μοτίβου σας.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Προσπαθήστε ξανά σε %d δευτερόλεπτα.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Δοκιμάστε ξανά σε 1 δευτερόλεπτο.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Δοκιμάστε ξανά σε %d λεπτά</string>
+    <string name="personalpage_off">Η Απόρρητη λειτουργία απενεργοποιήθηκε.</string>
+    <string name="personalpage_off_move_off">Η Απόρρητη λειτουργία απενεργοποιήθηκε. Το περιεχόμενο που μεταφέρεται τώρα στο φάκελο «Απόρρητο» δεν θα μετακινηθεί.</string>
+    <string name="failed_to_mount">Αποτυχία ενεργοποίησης Απόρρητης λειτουργίας. Δοκιμάστε ξανά.</string>
+    <string name="pattern_help_text_try_again">Σχηματίσατε εσφαλμένο μοτίβο. Δοκιμάστε ξανά.</string>
+    <string name="pin_help_text_try_again">Έχετε εισαγάγει λανθασμένο PIN. Δοκιμάστε ξανά.</string>
+    <string name="password_help_text_try_again">Έχετε εισαγάγει εσφαλμένο κωδικό πρόσβασης. Δοκιμάστε ξανά</string>
+    <string name="pin_help_text">Εισαγάγετε το PIN σας για την Απόρρητη λειτουργία.</string>
+    <string name="personal_page_switch_off_message">Το περιεχόμενο που είναι ανοιχτό θα κλείσει. Όλες οι αλλαγές που δεν έχουν αποθηκευτεί θα απορριφθούν.</string>
+    <string name="private_mode_popup_btn_skip">Παράβλεψη</string>
+    <string name="private_mode_popup_screen_lock_title">Ρυθμ. κλειδώματος οθόνης</string>
+    <string name="private_mode_popup_screen_lock_msg">Για τη βελτίωση της ασφάλειας κατά τη χρήση της Απόρρητης λειτουργίας, συνιστάται να αλλάξετε τον τύπο κλειδώματος οθόνης σε ασφαλή μέθοδο και, στη συνέχεια, ενεργοποιήστε την Απόρρητη λειτουργία.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Η Απόρρητη Λειτουργία θα ενεργοποιηθεί κατά τη μεταφορά του επιλεγμένου περιεχομένου.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Αποποίηση ευθυνών 
+Λάβετε υπόψη πως το περιεχόμενο ενδέχεται να εμφανίζεται σε ξεχωριστό φάκελο στη συσκευή σας όταν συγχρονίζεται αυτόματα από εφαρμογή τρίτου μέρους, όπως το Dropbox. Πριν χρησιμοποιήσετε την Απόρρητη Λειτουργία, ελέγξτε τις ρυθμίσεις αυτόματου συγχρονισμού των άλλων εφαρμογών σας."</string>
+    <string name="private_mode_popup_m2p_success_close">"Η μεταφορά ολοκληρώθηκε. 
+Έξοδος από την Απόρρητη Λειτουργία."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Η μεταφορά δεν έχει ολοκληρωθεί. 
+Έξοδος από την Απόρρητη Λειτουργία."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Μια άλλη διαδικασία βρίσκεται σε εξέλιξη. Δοκιμάστε ξανά αφού ολοκληρωθεί.</string>
+    <string name="private_mode_pop_up_title">Απενεργοποίηση Απόρρητης λειτουργίας</string>
+    <string name="private_mode_popup_m2p_msg">Η απόρρητη λειτουργία θα ενεργοποιηθεί κατά τη μετακίνηση του επιλεγμένου περιεχομένου στο φάκελο «Απόρρητο» και θα απενεργοποιηθεί ξανά όταν ολοκληρωθεί η μετακίνηση.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Η απόρρητη λειτουργία θα ενεργοποιηθεί κατά τη διάρκεια της μεταφοράς των επιλεγμένων εφαρμογών στο φάκελο «Απόρρητο» και θα απενεργοποιηθεί ξανά μόλις ολοκληρωθεί η μεταφορά.
+
+Με τη μετακίνηση εφαρμογών στο φάκελο «Απόρρητο», θα μετακινηθούν επίσης οι συνδεδεμένες εφαρμογές και τα σχετικά widgets και θα διαγραφούν οι συντομεύσεις τους. Όσο είναι απενεργοποιημένη η απόρρητη λειτουργία, δεν θα λαμβάνετε ειδοποιήσεις από τις εφαρμογές που μεταφέρατε στη θέση «Απόρρητο»."</string>
+    <string name="private_mode_popup_m2p_title">Ενεργοποίηση λειτουργίας απορρήτου</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Οι ρυθμίσεις δαχτυλικών αποτυπωμάτων άλλαξαν. Σχεδιάστε το μοτίβο διπλής επαλήθευσης για να ενεργοποιήσετε την Απόρρητη λειτουργία.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Οι ρυθμίσεις δαχτυλικών αποτυπωμάτων άλλαξαν. Καταχωρίστε το PIN διπλής επαλήθευσης για να ενεργοποιήσετε την Απόρρητη λειτουργία.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Οι ρυθμίσεις δαχτυλικών αποτυπωμάτων άλλαξαν. Καταχωρίστε τον κωδικό πρόσβασης διπλής επαλήθευσης για να ενεργοποιήσετε την Απόρρητη λειτουργία.</string>
+    <string name="private_mode_bakcupkey_bt_text">Χρήση διπλής επαλήθευσης</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Μοτίβο</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Κωδικός πρόσβασης</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Χρήση %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Εφεδρικός κωδ. πρόσβασης</string>
+    <string name="private_mode_migration_body_text">Ορίστε ένα μοτίβο, ένα PIN ή έναν κωδικό πρόσβασης για να το χρησιμοποιείτε ως εναλλακτική μέθοδο για τα δαχτυλικά αποτυπώματα κατά την πρόσβαση στην Απόρρητη λειτουργία.</string>
+    <string name="private_mode_migration_next_button">Επόμενο</string>
+    <string name="private_mode_pattern_backup_pin_desc">Εφεδρικό PIN</string>
+</resources>

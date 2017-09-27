@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">私密模式</string>
+    <string name="personalpage_on">已启用【私密模式】</string>
+    <string name="personalpage_on_available">私人内容可用</string>
+    <string name="personalpage_off_not_available">私人内容不可用。将不会移动当前正在移动到私密文件夹的任何内容。</string>
+    <string name="failed_to_unmount">无法禁用【私密模式】，请重试。</string>
+    <string name="pattern_help_text">画出私密模式的图案。</string>
+    <string name="password_help_text">请输入您的【私密模式】密码</string>
+    <string name="personal_page_disclaimer_by_locktype">隐藏个人内容。若要使用该模式，请选择解锁方法。使用后禁用此模式以保护隐藏的内容。</string>
+    <string name="do_not_show_again">不再提示</string>
+    <string name="message_settings">设定</string>
+    <string name="incorrect_backup_pin">备份数字密码不正确。</string>
+    <string name="pattern_backuppin">输入用于替代图案的数字密码。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">请在 %d 秒后重试。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">请在 1 秒后重试。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">请在 %d 分钟后重试</string>
+    <string name="personalpage_off">已禁用【私密模式】</string>
+    <string name="personalpage_off_move_off">已禁用【私密模式】。将不会移动当前正在移动到【私密文件夹】的任何内容。</string>
+    <string name="failed_to_mount">启用【私密模式】失败，请重试。</string>
+    <string name="pattern_help_text_try_again">您已绘制不正确的图案。请重试。</string>
+    <string name="pin_help_text_try_again">您输入了错误的数字密码，请重试</string>
+    <string name="password_help_text_try_again">您输入的密码不正确。请重试</string>
+    <string name="pin_help_text">请输入【私密模式】的数字密码。</string>
+    <string name="personal_page_switch_off_message">任何打开的内容均会被关闭。将放弃尚未保存的所有更改。</string>
+    <string name="private_mode_popup_btn_skip">跳过</string>
+    <string name="private_mode_popup_screen_lock_title">屏幕锁设置</string>
+    <string name="private_mode_popup_screen_lock_msg">若要在使用【私密模式】时增强安全性，建议您将屏幕锁定类型更改为安全的方法，然后启用【私密模式】。</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">传输选定内容时，将会激活“私密模式”。</string>
+    <string name="private_mode_popup_m2p_disclaimer">"免责声明 
+请注意，当内容被第三方应用程序自动同步后，相关内容可能会出现在您设备的单独文件夹中。 使用“私密模式”之前，请先检查其他应用程序的自动同步设置。"</string>
+    <string name="private_mode_popup_m2p_success_close">"传输完成。 
+正在退出【私密模式】。"</string>
+    <string name="private_mode_popup_m2p_failed_close">"传输未完成。 
+正在退出【私密模式】。"</string>
+    <string name="personalpage_on_vzw">已开启【私密模式】</string>
+    <string name="personalpage_off_vzw">已关闭【私密模式】</string>
+    <string name="private_mode_toast_ism2p">另一进程已经在进行中。请在其结束后重试。</string>
+    <string name="private_mode_pop_up_title">禁用私密模式</string>
+    <string name="private_mode_popup_m2p_msg">当选中内容移动至【私密文件夹】时，【私密模式】将启用，并将在传输完成后再次禁用。</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"当选中应用程序移至【私密文件夹】时，【私密模式】将启用，并将在传输完成后再次禁用。
+
+将应用程序移至【私密文件夹】也将移动它们链接的应用程序和相关小组件，并删除它们的快捷方式。当【私密模式】禁用时，您将无法从已移至【私密文件夹】的应用程序中接收通知。"</string>
+    <string name="private_mode_popup_m2p_title">启用私密模式</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">已更改您的指纹设置。请绘制双重验证图案以启用【私密模式】。</string>
+    <string name="private_mode_bakcupkey_subtext_pin">您的指纹设置已更改。请输入数字密码进行双重验证来启用【私密模式】。</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">您的指纹设置已更改。请输入双重验证密码来启用【私密模式】。</string>
+    <string name="private_mode_bakcupkey_bt_text">使用双重验证</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">数字密码</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">图案</string>
+    <string name="private_mode_bakcupkey_bt_password_text">混合密码</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">使用%s</string>
+    <string name="private_mode_bakcuppwd_bt_text">备用密码</string>
+    <string name="private_mode_migration_body_text">设置图案、数字密码或混合密码代替您的指纹来访问私密模式。</string>
+    <string name="private_mode_migration_next_button">下一步</string>
+    <string name="private_mode_pattern_backup_pin_desc">备份数字密码</string>
+</resources>

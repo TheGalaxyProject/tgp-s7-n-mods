@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Приватен режим</string>
+    <string name="personalpage_on">Вклучен е Приватниот режим.</string>
+    <string name="personalpage_on_available">Достапни се приватни содржини.</string>
+    <string name="personalpage_off_not_available">Приватните содржини не се достапни. Содржините што сега се преместуваат во Приватно нема да се преместат.</string>
+    <string name="failed_to_unmount">Не може да се исклучи Приватниот режим. Обидете се повторно.</string>
+    <string name="pattern_help_text">Нацртајте ја шарата за Приватниот режим.</string>
+    <string name="password_help_text">Внесете ја лозинката за Приватниот режим.</string>
+    <string name="personal_page_disclaimer_by_locktype">Скриј лични содржини. За да го користите овој режим, изберете начин за отклучување. Исклучете го режимов по употреба за да се заштитат скриените содржини.</string>
+    <string name="do_not_show_again">Не прикажувај веќе</string>
+    <string name="message_settings">Опции</string>
+    <string name="incorrect_backup_pin">Неточен резервен PIN.</string>
+    <string name="pattern_backuppin">Внесете го PIN-от што се користи како алтернатива за шарата.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Обидете се повторно за %d секунди.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Обидете се повторно за 1 секунда.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Обидете се повторно за %d минути</string>
+    <string name="personalpage_off">Приватниот режим е исклучен.</string>
+    <string name="personalpage_off_move_off">Приватниот режим е исклучен. Содржините што сега се преместуваат во Приватно нема да се преместат.</string>
+    <string name="failed_to_mount">Неуспешно вклучување Приватен режим. Обидете се повторно.</string>
+    <string name="pattern_help_text_try_again">Нацртавте неточна шара. Обидете се повторно.</string>
+    <string name="pin_help_text_try_again">Внесовте неточен PIN. Обидете се повторно.</string>
+    <string name="password_help_text_try_again">Внесовте неточна лозинка. Обидете се повторно</string>
+    <string name="pin_help_text">Внесете го PIN-от за Приватниот режим.</string>
+    <string name="personal_page_switch_off_message">Сите отворени содржини ќе се затворат. Промените што не сте ги сочувале ќе се отфрлат.</string>
+    <string name="private_mode_popup_btn_skip">Прескок.</string>
+    <string name="private_mode_popup_screen_lock_title">Поставувања за закл.на екранот</string>
+    <string name="private_mode_popup_screen_lock_msg">За да ја подобрите безбедноста додека користите Приватен режим, порепорачуваме да го смените начинот за заклучување на екранот во безбеден метод, а потоа вклучете Приватен режим.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Функцијата Приватен режим ќе се активира по префрлување на избраните содржини.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Одрекување на одговорност 
+Ве молиме имајте предвид дека содржините може да се појават во посебен фолдер во вашиот уред кога ќе извршите автоматска синхронизација со апликација од трети страни, како што е Dropbox. Проверете ги поставките за автоматска синхронизација останатите ваши апликации пред да започнете да користите Приватен режим."</string>
+    <string name="private_mode_popup_m2p_success_close">"Префрлувањето е завршено. 
+Исклучување на Приватен режим."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Префрлувањето не е завршено. 
+Исклучување на Приватен режим."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Во тек е друг процес. Обидете се повторно откако ќе заврши.</string>
+    <string name="private_mode_pop_up_title">Исклучи приватен режим</string>
+    <string name="private_mode_popup_m2p_msg">Приватниот режим ќе се вклучи додека избраните содржини се преместуваат во Приватно и повторно ќе се исклучи кога ќе заврши преносот.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Приватниот режим ќе се вклучи додека се преместуваат избраните апликации во Приватно, а ќе се исклучи штом заврши преносот.
+
+Преместувањето апликации во Приватно ќе ги премести и нивните поврзани апликации и сродни виџети, а ќе ги избрише нивните кратенки. Додека е исклучен Приватниот режим, нема да примате известувања од апликациите што сте ги преместиле во Приватно."</string>
+    <string name="private_mode_popup_m2p_title">Вклучи приватен режим</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Вашите поставувања за отпечаток од прст се променети. Нацртајте ја шарата за Двојна потврда за да овозможите Приватен режим.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Вашите поставувања за отпечаток од прст се променети. Внесете го PIN-от за Двојна потврда за да овозможите Приватен режим.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Вашите поставувања за отпечаток од прст се променети. Внесете ја лозинката за Двојна потврда за да овозможите Приватен режим.</string>
+    <string name="private_mode_bakcupkey_bt_text">Користете двојна потврда</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Модел</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Лозинка</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Користи %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Резервна лозинка</string>
+    <string name="private_mode_migration_body_text">Одредете шара, PIN или лозинка за да ја користите како алтернатива на Вашите отпечатоци од прст за да пристапите до Приватен режим.</string>
+    <string name="private_mode_migration_next_button">Следно</string>
+    <string name="private_mode_pattern_backup_pin_desc">Резервен PIN</string>
+</resources>

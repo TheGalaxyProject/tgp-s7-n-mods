@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:filterTouchesWhenObscured="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="end" android:background="@color/lb_preference_decor_list_background" android:layout_width="@dimen/lb_settings_pane_width" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/prefs_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:id="@id/no_permissions" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_permissions" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

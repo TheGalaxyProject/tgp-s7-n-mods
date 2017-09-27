@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Yksityinen tila</string>
+    <string name="personalpage_on">Yksityinen tila on käytössä.</string>
+    <string name="personalpage_on_available">Yksityistä sisältöä saatavilla.</string>
+    <string name="personalpage_off_not_available">Yksityistä sisältöä ei ole saatavilla. Yksityiset-kansioon juuri siirrettävää sisältöä ei siirretä.</string>
+    <string name="failed_to_unmount">Yksityistä tilaa ei voi poistaa käytöstä. Yritä uudelleen.</string>
+    <string name="pattern_help_text">Piirrä yksityisen tilan kuvio.</string>
+    <string name="password_help_text">Anna yksityisen tilan salasana.</string>
+    <string name="personal_page_disclaimer_by_locktype">Piilota henkilökohtainen sisältö. Jos haluat käyttää tätä tilaa, valitse lukituksen poistotila. Poista tämä tila käytön jälkeen käytöstä piilotetun sisällön suojaamiseksi.</string>
+    <string name="do_not_show_again">Älä näytä uudelleen</string>
+    <string name="message_settings">Asetukset</string>
+    <string name="incorrect_backup_pin">Virheellinen vara-PIN-koodi</string>
+    <string name="pattern_backuppin">Anna kuvion vaihtoehtona käytettävä PIN-koodi.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Yritä %d sekunnin kuluttua uudelleen.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Yritä 1 sekunnin kuluttua uudelleen.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Yritä %d minuutin kuluttua uudelleen</string>
+    <string name="personalpage_off">Yksityinen tila on poistettu käytöstä.</string>
+    <string name="personalpage_off_move_off">Yksityinen tila on poistettu käytöstä. Yksityiset-kansioon juuri siirrettävää sisältöä ei siirretä.</string>
+    <string name="failed_to_mount">Yksityisen tilan ottaminen käyttöön epäonnistui. Yritä uudelleen.</string>
+    <string name="pattern_help_text_try_again">Olet piirtänyt väärän kuvion. Yritä uudelleen.</string>
+    <string name="pin_help_text_try_again">Olet antanut väärän PIN-koodin. Yritä uudelleen.</string>
+    <string name="password_help_text_try_again">Olet antanut väärän salasanan. Yritä uudelleen.</string>
+    <string name="pin_help_text">Anna yksityisen tilan PIN-koodi.</string>
+    <string name="personal_page_switch_off_message">Kaikki avoinna olevat sisällöt suljetaan. Tallentamattomat muutokset hylätään.</string>
+    <string name="private_mode_popup_btn_skip">Ohita</string>
+    <string name="private_mode_popup_screen_lock_title">Näytön lukitusasetukset</string>
+    <string name="private_mode_popup_screen_lock_msg">Jos haluat parantaa suojausta yksityisen tilan käytön aikana, suosittelemme, että vaihdat näytön lukitustavaksi suojatun menetelmän ja otat sitten yksityisen tilan käyttöön.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Yksityinen tila otetaan käyttöön, kun valittu sisältö siirretään Yksityiseen tilaan.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Vastuuvapauslauseke
+Yksityiseen tilaan siirretty sisältö piilotetaan eikä sitä näytetä, kun poistut Yksityisestä tilasta. 
+Huomaa, että tämä sisältö saattaa näkyä erillisessä, Yksityisen tilan ulkopuolisessa kansiossa laitteessasi, kun laitteen sisältö synkronoidaan automaattisesti kolmannen osapuolen sovelluksella, esimerkiksi Dropboxilla. Tarkista muiden sovellustesi automaattisynkronointiasetukset ennen kuin käytät Yksityistä tilaa."</string>
+    <string name="private_mode_popup_m2p_success_close">"Siirto valmis. 
+Poistutaan Yksityisestä tilasta."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Siirto keskeytyi. 
+Poistutaan Yksityisestä tilasta."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Toinen prosessi on jo käynnissä. Yritä sen suorittamisen jälkeen uudelleen.</string>
+    <string name="private_mode_pop_up_title">Poista yksityinen tila käytöstä</string>
+    <string name="private_mode_popup_m2p_msg">Yksityinen tila otetaan käyttöön, kun valittu sisältö siirretään Yksityiset-kansioon, ja poistetaan käytöstä siirron suorittamisen jälkeen.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Yksityinen tila otetaan käyttöön, kun valitut sovellukset siirretään Yksityiset-kansioon, ja poistetaan käytöstä siirron suorittamisen jälkeen.
+
+Kun siirrät sovelluksia Yksityiset-kansioon, myös niihin liitetyt sovellukset ja pienoisohjelmat siirretään, ja niiden pikavalinnat poistetaan. Kun yksityinen tila on poistettu käytöstä, et saa ilmoituksia Yksityiset-kansioon siirretyistä sovelluksista."</string>
+    <string name="private_mode_popup_m2p_title">Ota yksityinen tila käyttöön</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Sormenjälkiasetukset ovat muuttuneet. Piirrä Kaksoisvahvistus-toiminnon kuvio yksityisen tilan ottamiseksi käyttöön.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Sormenjälkiasetukset ovat muuttuneet. Anna Kaksoisvahvistus-toiminnon PIN-koodi yksityisen tilan ottamiseksi käyttöön.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Sormenjälkiasetukset ovat muuttuneet. Anna Kaksoisvahvistus-toiminnon salasana yksityisen tilan ottamiseksi käyttöön.</string>
+    <string name="private_mode_bakcupkey_bt_text">Käytä kaksoisvahvistusta</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Kuvio</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Salasana</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">KÄYTÄ: %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Varasalasana</string>
+    <string name="private_mode_migration_body_text">Määritä sormenjälkien vaihtoehtona käytettävä kuvio, PIN-koodi tai salasana yksityisen tilan käyttöä varten.</string>
+    <string name="private_mode_migration_next_button">Seuraava</string>
+    <string name="private_mode_pattern_backup_pin_desc">Vara-PIN-koodi</string>
+</resources>

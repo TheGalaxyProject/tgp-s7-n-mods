@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Prywatny tryb</string>
+    <string name="personalpage_on">Prywatny tryb je załōnczōny.</string>
+    <string name="personalpage_on_available">Prywatnŏ zawartość je dostympnŏ.</string>
+    <string name="personalpage_off_not_available">Prywatnŏ zawartość niyma dostympnŏ. Zawartość przeciepowanŏ terŏzki do Prywatnych niy ôstanie przeciepniyntŏ.</string>
+    <string name="failed_to_unmount">Niy idzie wyłōnczyć Prywatnygo trybu. Sprōbuj jeszcze rŏz.</string>
+    <string name="pattern_help_text">Naszkryflej znak dlŏ Trybu Prywatnego.</string>
+    <string name="password_help_text">Przidej hasło ôd Prywatnygo trybu.</string>
+    <string name="personal_page_disclaimer_by_locktype">Schrōń ôsobistŏ zawartoś. Coby użiwać tego trybu, ôbier metoda ôdmykaniŏ. Wyłōncz tyn tryb, jak skōńczysz go użiwać, coby ôchrōniać schrōniōnŏ zawartoś.</string>
+    <string name="do_not_show_again">Niy pokŏzuj jeszcze rŏz</string>
+    <string name="message_settings">Nasztalowaniy</string>
+    <string name="incorrect_backup_pin">Felerny zapasowy kōd PIN</string>
+    <string name="pattern_backuppin">Podej kod PIN stosowany miast symbolu.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Sprōbuj jeszcze rŏz za %d sek.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Sprōbuj zajś za 1 s.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Nabadej jeszcze rŏz za %d min</string>
+    <string name="personalpage_off">Prywatny tryb je wyłōnczōny.</string>
+    <string name="personalpage_off_move_off">Tryb prywatny wyłōnczōny. Zawartość, kerŏ je terŏzki przeciepywanŏ do Prywatnych niy bydzie przeciepniyntŏ.</string>
+    <string name="failed_to_mount">Niy idzie załōnczyć Prywatnygo trybu. Sprōbuj jeszcze rŏz.</string>
+    <string name="pattern_help_text_try_again">Naszkryflŏł żeś felerny symbol. Sprōbuj jeszcze rŏz.</string>
+    <string name="pin_help_text_try_again">Wpisanŏ niyprawy kod PIN. Sprōbuj zajś.</string>
+    <string name="password_help_text_try_again">Podano felerne hasło. Sprōbōj zajś.</string>
+    <string name="pin_help_text">Podej swōj PIN dlŏ Prywatnygo trybu.</string>
+    <string name="personal_page_switch_off_message">Zawra cołko zawartoś. Ôdciepia wszyjske niyzachowane zmiany.</string>
+    <string name="private_mode_popup_btn_skip">Pōmiń</string>
+    <string name="private_mode_popup_screen_lock_title">Sztalowanie szpery ôd ekrōnu</string>
+    <string name="private_mode_popup_screen_lock_msg">Coby poprŏwić bezpieczyństwo bez czas używania trybu prywatnego, doradzōmy zmiana typu blokady ekranu na bezpiecznŏ metoda, a potym załōnczynie trybu prywatnego.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Tryb prywatny bydzie aktywowany wczŏs przesyłaniŏ wybranyj zawartości.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Wyłączenie odpowiedzialności 
+Należy pamiętać, że zawartość może pojawić się w osobnym katalogu urządzenia, kiedy zostanie automatycznie zsynchronizowana przez aplikację strony trzeciej, np. Dropbox. Przed skorzystaniem z Trybu prywatnego sprawdź ustawienia autosynchronizacji pozostałych aplikacji."</string>
+    <string name="private_mode_popup_m2p_success_close">"Posyłanie fertich. 
+Zawiyranie Trybu prywatnego."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Przesyłaniy niy udało się. 
+Zawiyraniy Trybu prywatnego."</string>
+    <string name="personalpage_on_vzw">Tryb prywatny załōnczōny.</string>
+    <string name="personalpage_off_vzw">Tryb prywatny wyłōnczōny.</string>
+    <string name="private_mode_toast_ism2p">Trwŏ już inkszy proces. Sprōbuj jeszcze rŏz jak tyn bydzie fertich.</string>
+    <string name="private_mode_pop_up_title">Wyłōncz Tryb prywatności</string>
+    <string name="private_mode_popup_m2p_msg">Tryb prywatny ôstanie załōnczōny bez czas przeciepowaniŏ ôbranych aplikacyji do Prywatnych i jeszcze rŏz wyłōnczōny po tym jak przeciepywanie bydzie fertich.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Tryb prywatny ôstanie załōnczōny bez czas przeciepowaniŏ ôbranych aplikacyji do Prywatnych i jeszcze rŏz wyłōnczōny po tym jak przeciepywanie bydzie fertich.
+
+Przeciepowanie aplikacyji do Prywatnych sprŏwi tyż przeciepniyńcie zepniyntych z nimi aplikacyji i widgetów a tyż wyciepniyńcie jejich skrōtōw. Kej tryb prywatny bydzie wyłōnczōny, niy bydziesz dostŏwać nowin z aplikacyji przeciepniyntych do Prywatnych."</string>
+    <string name="private_mode_popup_m2p_title">Załōnczynie trybu prywatnego</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Sztalowanie ôdcisku palca je zamiyniōne. Naszkryflej znak tuplowanyj weryfikacji, coby załōnczyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Sztalowanie ôdcisku palca je zamiyniōne. Wkludź kod PIN tuplowanyj weryfikacyji, coby załōnczyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Sztalowanie ôdcisku palca je zamiyniōne. Wkludź hasło tuplowanyj weryfikacyji, coby załōnczyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_bt_text">Używej podwōjnyj weryfik.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Wzōr</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Hasło</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Użyj %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Hasło backupu</string>
+    <string name="private_mode_migration_body_text">Nasztaluj znak, kod PIN abo hasło do używanio za alternatywa do ôdciskōw palcōw coby mieć dostymp do Trybu prywatnego.</string>
+    <string name="private_mode_migration_next_button">Nŏstympny</string>
+    <string name="private_mode_pattern_backup_pin_desc">Zapasowy PIN</string>
+</resources>

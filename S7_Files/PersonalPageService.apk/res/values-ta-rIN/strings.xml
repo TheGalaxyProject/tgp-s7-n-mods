@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">தனிப்பட்ட பயன்முறை</string>
+    <string name="personalpage_on">தனிப்பட்ட முறை செயல்படுத்தப்பட்டது.</string>
+    <string name="personalpage_on_available">தனிப்பட்ட உள்ளடக்கம் கிடைக்கிறது.</string>
+    <string name="personalpage_off_not_available">தனிப்பட்ட உள்ளடக்கம் கிடைக்கவில்லை. தனிப்பட்டவைக்கு தற்போது நகர்த்தப்படுகின்ற எந்தவொரு உள்ளடக்கவும் நகர்த்தப்படாது.</string>
+    <string name="failed_to_unmount">தனிப்பட்ட முறை செயல்நீக்க இயலவில்லை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="pattern_help_text">தனிப்பட்ட முறைக்கான உங்கள் பேட்டர்னை வரைக.</string>
+    <string name="password_help_text">உங்கள் தனிப்பட்ட முறைக்கான கடவுச்சொல்லை உள்ளிடவும்.</string>
+    <string name="personal_page_disclaimer_by_locktype">தனிப்பட்ட உள்ளடக்கத்தை மறைக்கவும். இந்த முறைமையைப் பயன்படுத்தவென ஒரு பூட்டுநீக்க முறையைத் தேர்ந்தெடுக்கவும். மறைக்கப்பட்ட உள்ளடக்கத்தைப் பாதுகாக்கவென இந்த முறைமையை பயன்படுத்திய பிறகு மீண்டும் முடக்கவும்.</string>
+    <string name="do_not_show_again">மீண்டும் காட்ட வேண்டாம்</string>
+    <string name="message_settings">அமைவுகள்</string>
+    <string name="incorrect_backup_pin">தவறான பின்சேமிப்பு PIN.</string>
+    <string name="pattern_backuppin">உங்கள் பேட்டர்னுக்கு மாற்றாக பயன்படுத்தப்படும் PIN உள்ளிடவும்.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d வினாடிகளில் மீண்டும் முயலுக.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 வினாடியில் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d நிமிடங்களில் மீண்டும் முயலவும்</string>
+    <string name="personalpage_off">தனிப்பட்ட முறை செயல்நீக்கபட்டது.</string>
+    <string name="personalpage_off_move_off">தனிப்பட்ட முறை செயல்நீக்கப்பட்டது. தனிப்பட்டவைக்கு தற்போது நகர்த்தப்படுகின்ற எந்தவொரு உள்ளடக்கமும் நகர்த்தப்படாது.</string>
+    <string name="failed_to_mount">தனிப்பட்ட முறையைச் செயல்படுத்துவது தோல்வியுற்றது. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="pattern_help_text_try_again">தவறான வடிவத்தை வரைந்துள்ளீர்கள். மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="pin_help_text_try_again">தவறான PIN உள்ளிட்டுள்ளீர்கள். மீண்டும் முயலுக.</string>
+    <string name="password_help_text_try_again">தவறான கடவுச்சொல் உள்ளிட்டுள்ளீர்கள். மீண்டும் முயலுக.</string>
+    <string name="pin_help_text">தனிப்பட்ட முறைமைக்கு உங்கள் PIN உள்ளிடுக.</string>
+    <string name="personal_page_switch_off_message">திறந்துள்ள உள்ளடக்கம் எதுவும் மூடப்படும். நீங்கள் சேமிக்காத ஏதேனும் மாற்றங்கள் தவிர்க்கப்படும்.</string>
+    <string name="private_mode_popup_btn_skip">தவிர்</string>
+    <string name="private_mode_popup_screen_lock_title">திரை பூட்டு அமைவுகள்</string>
+    <string name="private_mode_popup_screen_lock_msg">தனிப்பயன் முறையைப் பயன்படுத்துகையில் பாதுகாப்பை அதிகரிப்பதற்கென உங்கள் திரைப் பூட்டு வகையை பாதுகாப்பான முறைக்கு மாற்றி பிறகு தனிப்பயன் முறையை செயல்படுத்துமாறு உங்களுக்குப் பரிந்துரைக்கிறோம்.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">தேர்ந்தெடுக்கப்பட்ட உள்ளடக்கத்தை இடமாற்றும் போது தனிப்பட்ட பயன்முறை செயல்படுத்தப்படும்.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"கைதுறப்பு 
+ட்ராப்பாக்ஸ் போன்ற ஒரு மூன்றாம் தரப்பு பயன்பாட்டால் உள்ளடக்கம் தானாகவே ஒத்திசைக்கப்படும் போது அது உங்கள் சாதனத்திலுள்ள தனியான கோப்புறையில் தோன்றாமல் போகலாம் என்பதைத் தெரிந்து கொள்ளவும். தனிப்பட்ட பயன்முறையைப் பயன்படுத்தும் முன்னர் உங்கள் பிற பயன்பாடுகளின் தானியக்க ஒத்திசைவு அமைவுகளைச் சரிபார்க்கவும்."</string>
+    <string name="private_mode_popup_m2p_success_close">"இடமாற்றம் நிறைவடைந்தது. 
+தனிப்பட்ட பயன்முறையிலிருந்து வெளியேறுதல்."</string>
+    <string name="private_mode_popup_m2p_failed_close">"இடமாற்றம் நிறைவடையவில்லை. 
+தனிப்பட்ட முறையிலிருந்து வெளியேறுதல்."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">வேறொரு செயல் ஏற்கனவே செயலிலுள்ளாது. இது முடிந்த பின்னர் மீண்டும் முயலவும்.</string>
+    <string name="private_mode_pop_up_title">தனிப்பயன் முறை செயல்நீக்குக</string>
+    <string name="private_mode_popup_m2p_msg">தேர்வுசெய்த உள்ளடக்கம் தனிப்பட்டது என்பதற்கு நகர்த்தப்படும்போது தனிப்பட்ட முறை செயல்படுத்தப்படும், இடமாற்றாம் முடிந்ததும் மீண்டும் செயல்நீக்கப்படும்.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"தனிப்பயன் முறையானது, தேர்வுசெய்யப்பட்ட பயன்பாடுகள் தனிப்பட்டவை என்பதற்கு நகர்த்தப்படுகையில் செயல்படுத்தப்படும் மற்றும் இடமாற்றம் முடிந்ததும் மீண்டும் செயல்நீக்கப்படும்.
+
+பயன்பாடுகளை தனிப்பட்டவை என்பதற்கு நகர்த்துவதானது அவற்றுடன் தொடர்பான பயன்பாடுகளையும் சம்மந்தப்பட்ட விட்ஜெட்களையும் கூட நகர்த்தும் மற்றும் அவற்றின் குறுக்குவழிகளை நீக்கும். தனிப்பயன் முறை செயல்நீக்கப்படும்போது தனிப்பட்டவை என்பதற்கு நீங்கள் நகர்த்துகிற பயன்பாடுகளிலிருந்து அறிவிப்புகளைப் பெறமாட்டீர்கள்."</string>
+    <string name="private_mode_popup_m2p_title">தனிப்பயன் முறை செயல்படுத்துக</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">உங்கள் கைரேகைப் பதிவு அமைவுகள் மாற்றப்பட்டுள்ளன. தனிப்பட்ட முறையை செயல்படுத்த உங்கள் சரிபார்ப்பு பேட்டர்னை வரையவும்.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">உங்கள் கைரேகைப் பதிவு அமைவுகள் மாற்றப்பட்டுள்ளன. தனிப்பட்ட முறையைச் செயல்படுத்த உங்கள் இரட்டைச் சரிபார்ப்பு PIN உள்ளிடவும்.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">உங்கள் கைரேகைப் பதிவு அமைவுகள் மாற்றப்பட்டுள்ளன. தனிப்பட்ட முறையைச் செயல்படுத்த உங்கள் இரட்டைச் சரிபார்ப்பு கடவுச்சொல்லை உள்ளிடவும்.</string>
+    <string name="private_mode_bakcupkey_bt_text">இர. சரிபார். பயன்படுத்துக</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">பேட்டர்ன்</string>
+    <string name="private_mode_bakcupkey_bt_password_text">கடவுச்சொல்</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s பயன்படுத்தவும்</string>
+    <string name="private_mode_bakcuppwd_bt_text">பின்சேமிப்புக் கடவுச்சொல்</string>
+    <string name="private_mode_migration_body_text">தனிப்பட்ட முறையை அணுக கைரேகைப் பதிவுக்கு மாற்றுவழி பயன்படுத்த பேட்டர்ன், PIN அல்லது கடவுச்சொல்லை அமைக்கவும்.</string>
+    <string name="private_mode_migration_next_button">அடுத்து</string>
+    <string name="private_mode_pattern_backup_pin_desc">பின்சேமிப்பு PIN</string>
+</resources>

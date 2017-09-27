@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">პერსონალური რეჟიმი</string>
+    <string name="personalpage_on">პერსონალური რეჟიმი გააქტიურებულია.</string>
+    <string name="personalpage_on_available">პერსონალური მასალა მისაწვდომია.</string>
+    <string name="personalpage_off_not_available">პერსონალური მასალა მიუწვდომელია. ნებისმიერი მასალა, რომელიც ამჟამად გადატანილია პერსონალურში, არ გადავა.</string>
+    <string name="failed_to_unmount">პერსონალური რეჟიმის გამორთვა შეუძლებელია. კიდევ მოსინჯეთ.</string>
+    <string name="pattern_help_text">მოხაზეთ პერსონალური რეჟიმის ნიმუში.</string>
+    <string name="password_help_text">ჩაწერეთ თქვენი პერსონალური რეჟიმის პაროლი.</string>
+    <string name="personal_page_disclaimer_by_locktype">დაიმალოს პერსონალური მასალა. ამ რეჟიმის გამოსაყენებლად, აირჩიეთ განბლოკვის მეთოდი. გამოყენების შემდეგ გამორთეთ ეს რეჟიმი, დამალული მასალის დაცვის მიზნით.</string>
+    <string name="do_not_show_again">აღარ მაჩვენო</string>
+    <string name="message_settings">პარამეტ.</string>
+    <string name="incorrect_backup_pin">სარეზერვო PIN არასწორია.</string>
+    <string name="pattern_backuppin">შეიყვანეთ PIN, რომელსაც იყენებთ ნიმუშის ალტერნატიულ ვარიანტად.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">კიდევ ცადეთ %d წამში.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">ისევ ცადეთ 1 წამში.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">ისევ სცადეთ %d წუთში</string>
+    <string name="personalpage_off">პერსონალური რეჟიმი გამორთულია.</string>
+    <string name="personalpage_off_move_off">პერსონალური რეჟიმი გამორთულია. ნებისმიერი მასალა, რომელიც ამჟამად გადატანილია პერსონალურში, არ გადავა.</string>
+    <string name="failed_to_mount">პერსონალური რეჟიმი ვერ გააქტიურდა. კიდევ მოსინჯეთ.</string>
+    <string name="pattern_help_text_try_again">თქვენ არასწორად მოხაზეთ ნიმუში. კიდევ მოსინჯეთ.</string>
+    <string name="pin_help_text_try_again">თქვენ არასწორად შეიყვანეთ PIN. კიდევ მოსინჯეთ</string>
+    <string name="password_help_text_try_again">თქვენ არასწორად შეიყვანეთ პაროლი. კიდევ მოსინჯეთ</string>
+    <string name="pin_help_text">შეიყვანეთ თქვენი პერსონალური რეჟიმის PIN.</string>
+    <string name="personal_page_switch_off_message">ნებისმიერი გახსნილი რამ დაიხურება. ყველა შეუნახავი ცვლილება დაიკარგება.</string>
+    <string name="private_mode_popup_btn_skip">გამოტოვე</string>
+    <string name="private_mode_popup_screen_lock_title">ეკრანის დაბლოკვის პარამ.</string>
+    <string name="private_mode_popup_screen_lock_msg">პერსონალურ რეჟიმში უსაფრთხოების გასაზრდელად, გირჩევთ, ეკრანის დაბლოკვის ტიპი შეცვალოთ დაცული მეთოდით და შემდეგ გაააქტიუროთ პერსონალური რეჟიმი.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">პერსონალურ რეჟიმი გააქტიურდება, როდესაც არჩეული კონტენტის გადაცემა დასრულდება</string>
+    <string name="private_mode_popup_m2p_disclaimer">"პასუხისმგებლობის უარყოფა
+გთხოვთ, გაითვალისწინოთ, რომ კონტენტი შეიძლება გამოჩნდეს ცალკე საქაღალდეში თქვენს მოწყობილობაზე, როდესაც მოხდება მისი ავტომატური სინქრონიზაცია მესამე მხარის აპლიკაციის, მაგალითად, Dropbox-ის მიერ. პერსონალური რეჟიმის გამოყენებამდე შეამოწმეთ თქვენი სხვა აპლიკაციების ავტომატური სინქრონიზაციის პარამეტრები."</string>
+    <string name="private_mode_popup_m2p_success_close">"გადაცემა დასრულებულია.
+პერსონალურ რეჟიმიდან გამოსვლა"</string>
+    <string name="private_mode_popup_m2p_failed_close">"გადაცემა დასრულებულია
+პერსონალურ რეჟიმიდან გამოსვლა
+"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">მიმდინარეობს სხვა პროცესი. ისევ სცადეთ მისი დასრულების შემდეგ.</string>
+    <string name="private_mode_pop_up_title">პერსონალური რეჟიმის გამორთვა</string>
+    <string name="private_mode_popup_m2p_msg">პერსონალური რეჟიმი გააქტიურდება, როდესაც შერჩეული მასალა გადავა პერსონალურში და ისევ გამოირთვება, როდესაც გადატანა დასრულდება.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"პერსონალური რეჟიმი გააქტიურდება, როდესაც შერჩეული აპლიკაციები გადავა პერსონალურში და ისევ გამოირთვება, როდესაც გადატანა დასრულდება.
+
+თუ აპლიკაციებს გადაიტანთ პერსონალურ რეჟიმში, ასევე გადავა მათზე მიბმული აპლიკაციები და სათანადო ვიჯეტები და წაიშლება მათი ღილაკები. სანამ გამორთულია პერსონალური რეჟიმი, არ მიიღებთ შეტყობინებებს პერსონალურ რეჟიმში გადატანილი აპლიკაციებიდან."</string>
+    <string name="private_mode_popup_m2p_title">პერსონალური რეჟიმის ჩართვა</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">თითის ანაბეჭდის პარამეტრები შეიცვალა. პერსონალური რეჟიმის ჩასართავად, მოხაზეთ ორმაგი დამოწმება ნიმუში.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">თითის ანაბეჭდის პარამეტრები შეიცვალა. პერსონალური რეჟიმის ჩასართავად, შეიყვანეთ ორმაგი დამოწმების PIN.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">თითის ანაბეჭდის პარამეტრები შეიცვალა. პერსონალური რეჟიმის ჩასართავად, შეიყვანეთ ორმაგი დამოწმების პაროლი.</string>
+    <string name="private_mode_bakcupkey_bt_text">ორმაგი დამოწმება</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">P I N</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ნიმუში</string>
+    <string name="private_mode_bakcupkey_bt_password_text">პაროლი</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">გამოიყენეთ %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">სარეზერვო პაროლი</string>
+    <string name="private_mode_migration_body_text">დააყენეთ ნიმუში, PIN, ან პაროლი, რომელსაც გამოიყენებთ თითის ანაბეჭდის ალტერნატიულ ვარიანტად, „პერსონალურ რეჟიმზე“ წვდომისთვის.</string>
+    <string name="private_mode_migration_next_button">შემდეგი</string>
+    <string name="private_mode_pattern_backup_pin_desc">სარეზერვო PIN</string>
+</resources>

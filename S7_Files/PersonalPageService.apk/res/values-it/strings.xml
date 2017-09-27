@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Modalità privata</string>
+    <string name="personalpage_on">Modalità privata attivata.</string>
+    <string name="personalpage_on_available">Contenuti privati disponibili.</string>
+    <string name="personalpage_off_not_available">I contenuti privati non sono disponibili. I contenuti in fase di trasferimento in Privato non verranno spostati.</string>
+    <string name="failed_to_unmount">Impossibile disattivare la Modalità privata. Riprovate.</string>
+    <string name="pattern_help_text">Tracciate il segno della Modalità privata.</string>
+    <string name="password_help_text">Inserite la vostra password della Modalità privata.</string>
+    <string name="personal_page_disclaimer_by_locktype">Nascondete i contenuti personali. Per utilizzare questa modalità, selezionate un metodo di sblocco. Disabilitate questa modalità dopo aver protetto i vostri contenuti.</string>
+    <string name="do_not_show_again">Non mostrare più</string>
+    <string name="message_settings">Impostaz.</string>
+    <string name="incorrect_backup_pin">PIN di backup errato.</string>
+    <string name="pattern_backuppin">Inserite il PIN utilizzato come alternativa al vostro segno.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Riprovare tra %d secondi.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Riprovate tra 1 secondo.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Riprovate tra %d minuti</string>
+    <string name="personalpage_off">Modalità privata disattivata.</string>
+    <string name="personalpage_off_move_off">La Modalità privata è disattivata. I contenuti in fase di trasferimento in Privato non verranno spostati.</string>
+    <string name="failed_to_mount">Impossibile attivare la Modalità privata. Riprovate.</string>
+    <string name="pattern_help_text_try_again">Il segno disegnato non è corretto. Riprovare.</string>
+    <string name="pin_help_text_try_again">Il PIN inserito è errato. Riprovate.</string>
+    <string name="password_help_text_try_again">La password inserita non è corretta. Riprovate.</string>
+    <string name="pin_help_text">Inserite il codice PIN della Modalità privata.</string>
+    <string name="personal_page_switch_off_message">Tutti i contenuti aperti verranno chiusi. Qualsiasi modifica non salvata verrà annullata.</string>
+    <string name="private_mode_popup_btn_skip">Ignora</string>
+    <string name="private_mode_popup_screen_lock_title">Imp. blocco schermo</string>
+    <string name="private_mode_popup_screen_lock_msg">"Per aumentare la protezione durante l'utilizzo della Modalità privata, si consiglia di modificare il tipo di blocco schermo su un metodo protetto, quindi attivate la Modalità privata."</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">La Modalità privata verrà attivata quando i contenuti selezionati verranno trasferiti in essa.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Limitazione di responsabilità 
+I contenuti possono essere visualizzati in cartelle separate sul dispositivo in uso quando quest'ultimo viene automaticamente sincronizzato tramite un'applicazione di terzi, ad esempio Dropbox. Verificare le impostazioni di sincronizzazione automatica delle altre applicazioni in uso prima di utilizzare la Modalità Privata."</string>
+    <string name="private_mode_popup_m2p_success_close">"Trasferimento completato. 
+Chiusura della Modalità privata."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Trasferimento non completato 
+Chiusura della Modalità privata.
+"</string>
+    <string name="personalpage_on_vzw">Modalità privata abilitata.</string>
+    <string name="personalpage_off_vzw">Modalità privata disabilitata.</string>
+    <string name="private_mode_toast_ism2p">Un altro processo è già in corso. Riprovate dopo il relativo completamento.</string>
+    <string name="private_mode_pop_up_title">Disattiva Modalità privata</string>
+    <string name="private_mode_popup_m2p_msg">Durante lo spostamento del contenuto selezionato in Privato, verrà attivata la Modalità privata. Una volta completato il trasferimento, verrà nuovamente disattivata.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Durante lo spostamento in Privato delle applicazioni selezionate, verrà attivata la Modalità privata. Una volta completato il trasferimento, verrà nuovamente disattivata.
+
+Lo spostamento di applicazioni in Privato comporta anche lo spostamento delle relative applicazioni collegate e dei widget correlati, nonché l'eliminazione dei relativi collegamenti. Quando la Modalità privata è disattivata, non potete ricevere notifiche dalle applicazioni spostate in Privato."</string>
+    <string name="private_mode_popup_m2p_title">Attiva Modalità privata</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">"Le impostazioni dell'impronta digitale sono state modificate. Tracciate il segno di Verifica doppia per attivare la Modalità privata."</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"Le impostazioni dell'impronta digitale sono state modificate. Inserite il PIN di Verifica doppia per attivare la Modalità privata."</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">"Le impostazioni dell'impronta digitale sono state modificate. Inserite la password di Verifica doppia per attivare la Modalità privata."</string>
+    <string name="private_mode_bakcupkey_bt_text">Usa verifica doppia</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Segno</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Password</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Utilizza %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Password di backup</string>
+    <string name="private_mode_migration_body_text">Impostate un segno, un PIN o una password da utilizzare come alternativa alle impronte digitali per accedere alla Modalità privata.</string>
+    <string name="private_mode_migration_next_button">Avanti</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN di backup</string>
+</resources>

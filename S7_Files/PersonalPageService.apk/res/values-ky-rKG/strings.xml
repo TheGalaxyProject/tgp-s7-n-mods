@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Жекелик режим</string>
+    <string name="personalpage_on">Жеке режим иштетилди.</string>
+    <string name="personalpage_on_available">Жеке мазмун байкалат.</string>
+    <string name="personalpage_off_not_available">Жеке мазмун байкалбайт. Учурда Жекеге жылдырылган каалаган мазмун жылдырылбайт.</string>
+    <string name="failed_to_unmount">Жеке режимди иштен чыгаруу мүмкүн эмес. Дагы аракет кылыңыз.</string>
+    <string name="pattern_help_text">Cүрөтүңүздү Жекелик режимге тартыңыз.</string>
+    <string name="password_help_text">Жеке режимиңиздин сырсөзүн киргизиңиз.</string>
+    <string name="personal_page_disclaimer_by_locktype">Жеке мазмунду жашыруу. Бул режимди колдонууга, кулпуну ачуу амалын тандаңыз. Жашыруун мазмунду коргоодо колдонгондон кийин, бул режимди иштен чыгаруу.</string>
+    <string name="do_not_show_again">Кайра көрсөтпөө</string>
+    <string name="message_settings">Орнотуулар</string>
+    <string name="incorrect_backup_pin">Туура эмес камдык сакталган PINи</string>
+    <string name="pattern_backuppin">Колдонулган PINди үлгүңүздүн ордуна атаандаш катары киргизиңиз.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d секундадан кийин кайра аракет кылыңыз</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 секунд ичинде дагы аракет кылыңыз.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d мүнөттөн кийин дагы аракеттениңиз</string>
+    <string name="personalpage_off">Жеке режим иштен чыгарылды.</string>
+    <string name="personalpage_off_move_off">Жеке режим иштен чыгарылды. Жекеге учурда жылдырылган каалаган мазмун жылдырылбайт.</string>
+    <string name="failed_to_mount">Жеке режимди иштетүү кыйрады. Дагы аракет кылыңыз.</string>
+    <string name="pattern_help_text_try_again">Сиз туура эмес чиймени тарттыңыз. Дагы аракет кылыңыз.</string>
+    <string name="pin_help_text_try_again">Сиз туура эмес PIN киргиздиңиз. Дагы аракет кылыңыз.</string>
+    <string name="password_help_text_try_again">Сиз туура эмес сырсөз киргиздиңиз. Дагы аракет кылыңыз.</string>
+    <string name="pin_help_text">Жеке режим үчүн PIN кодуңузду киргизиңиз.</string>
+    <string name="personal_page_switch_off_message">Каалаган ачык мазмун жабылат. Сактала элек өзгөртүүлөр четтетилет.</string>
+    <string name="private_mode_popup_btn_skip">Аттоо</string>
+    <string name="private_mode_popup_screen_lock_title">Экран кулпу орнотуулары</string>
+    <string name="private_mode_popup_screen_lock_msg">Жеке режимин пайдаланып жатканда коопсуздукту жакшыртуу үчүн, экраныңызды кулпулоо түрүн коопсуз ыкмага өзгөртүп, андан соң Жеке режимин иштетүүнү сунуштайбыз.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Тандалган мазмун өткөрүлгөндө Жеке Мод жандырылат.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Өткөрүү бүттү. 
+Жекелик Режимди жабуу"</string>
+    <string name="private_mode_popup_m2p_failed_close">"Өткөрүү бүткөн жок. 
+Жекелик Режимди жабуу"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Башка жараян эмитен илгерилөөдө. Ал бүткөндө, дагы аракет кылыңыз.</string>
+    <string name="private_mode_pop_up_title">Жеке режимди иштен чыгаруу</string>
+    <string name="private_mode_popup_m2p_msg">Тандалган мазмун Жекеге жылдырылган учурда, Жеке режими иштетилет жана өткөрүү аяктаганда, кайра иштен чыгарылат.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Жекелик режими, тандалган колдонмолор Жекеликке жылдырылганда, иштетилет жана өткөрүү аяктагандан кийин кайра иштен чыгарылат.
+
+Колдонмолорду Жекеликке жылдыруу аларга байланышкан колдонмолорун жана тиешелүү виджеттерди да жылдырат, жана алардын тез чакырмаларын өчүрөт. Жекелик режими иштетилген учурда, Жекеликке жылдырылган колдонмолордон эскертүүлөрдү албайсыз."</string>
+    <string name="private_mode_popup_m2p_title">Жекелик режимин иштетүү</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Бармак изи орнотууларыңыз өзгөртүлгөн. Жекелик режимин иштетүү үчүн, Эки жолу ырастоо сүрөтүңүздү тартыңыз.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Бармак изи орнотууларыңыз өзгөртүлгөн. Жекелик режимин иштетүү үчүн, Эки жолу ырастоо ПИН кодуңузду киргизиңиз.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Бармак изи орнотууларыңыз өзгөртүлгөн. Жекелик режимин иштетүү үчүн, Эки жолу ырастоо сырсөзүңүздү киргизиңиз.</string>
+    <string name="private_mode_bakcupkey_bt_text">Эки ырастоону колдонуу</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Үлгү</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Сырсөз</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s колдонуу</string>
+    <string name="private_mode_bakcuppwd_bt_text">Камдык сактоо сырсөзү</string>
+    <string name="private_mode_migration_body_text">Жекелик режимине кошулуу үчүн, бармак изин аныктоо менен чогуу колдонууга сүрөт, ПИН код, же сырсөз орнотуңуз.</string>
+    <string name="private_mode_migration_next_button">Кийинки</string>
+    <string name="private_mode_pattern_backup_pin_desc">Кошумча PIN-кодду киргизүү</string>
+</resources>

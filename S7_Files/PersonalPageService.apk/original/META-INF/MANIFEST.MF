@@ -1,0 +1,108 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout-sw600dp-land-v13/private_mode_pin.xml
+SHA-256-Digest: SWEDPD9o2PO0OCSstdy/+GtzqJU8ghbcxiR5ardm1n4=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_private_mode.pio
+SHA-256-Digest: qZeiPwcSiUbyEC+vA/UOHSxQQe2SWym6jcpJVllGKY0=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: eF+NoszwNc0gH8aic/XXf4VMgj/V2BrXLcPICx2vxd4=
+
+Name: res/drawable-sw800dp-hdpi-v13/stat_sys_private_mode.pio
+SHA-256-Digest: WETWzKfMxwdiDpKBSrts8HUcw5p8uS98Ub+92AUSRWs=
+
+Name: res/layout/private_mode_pattern.xml
+SHA-256-Digest: f1wAlh0dO82jKLfvhdFMmkIoErsJrbZxh3CtmbwhGII=
+
+Name: res/drawable/stat_sys_private_mode.spr
+SHA-256-Digest: A09YDWigUUS/kVLD9/TEg/I5sR+YQ5zzpERlGtavorw=
+
+Name: res/layout-land/private_mode_typingverify.xml
+SHA-256-Digest: cXgNaEToT0t770HK6OVaJsDR/rKFS1pkdWFzJlNv7No=
+
+Name: res/layout-land-v21/private_mode_pin.xml
+SHA-256-Digest: HnMPugaBARRI14QADOMX33799dfo75svFyh8fDKKtyE=
+
+Name: res/layout-land/private_mode_pin.xml
+SHA-256-Digest: UVx1SiM027w4gcuBWv6DFpDJxplg1vViLhPlsMfb9qk=
+
+Name: SEC-INF/buildConfirm.crt
+SHA-256-Digest: KXPtZBP9ZJT4aUs4ggqLtOJUTC3FoNcQEqzF2uC25xc=
+
+Name: res/drawable/private_mode_textfield_selector.xml
+SHA-256-Digest: E6q1sFZmBjJOOqAGGpCwGFXFcCK1EO+1anj8D2v4WcU=
+
+Name: res/layout-sw600dp-v13/private_mode_pattern.xml
+SHA-256-Digest: JKxX9PkRUVTi+dDvQP0/9uw6cyS4b8idt4xnsAzaQOs=
+
+Name: res/layout-land-v21/private_mode_pattern.xml
+SHA-256-Digest: BCt95oqTH+kSirrqBsGEdHUiwN79VMND2AJu4+ST6Z4=
+
+Name: res/drawable/private_textfield_square.xml
+SHA-256-Digest: KZwfcrNyciWTOyMw3mrD1ZQ1v5Wg4p5cZLxpPbZ87+M=
+
+Name: res/layout-land-v21/private_mode_typingverify.xml
+SHA-256-Digest: inTBMXB5yx6J83yUSEa0HpWQdjP7D3ototEhjQDU2H8=
+
+Name: res/layout/private_mode_pin.xml
+SHA-256-Digest: NFJI032LmBDcFl5DSHUbJr7fgu4PbOT7ZF03CYgVkAk=
+
+Name: res/layout-land/private_mode_pattern.xml
+SHA-256-Digest: KdCX1U3q+CH+gqW0vDlAWNYHhirWWXtafAucCoeLmio=
+
+Name: res/drawable-sw411dp-xxhdpi-v13/stat_sys_private_mode.spr
+SHA-256-Digest: A09YDWigUUS/kVLD9/TEg/I5sR+YQ5zzpERlGtavorw=
+
+Name: res/drawable-xxxhdpi-v4/stat_sys_private_mode.spr
+SHA-256-Digest: A09YDWigUUS/kVLD9/TEg/I5sR+YQ5zzpERlGtavorw=
+
+Name: res/layout-v21/private_mode_pattern.xml
+SHA-256-Digest: GRaLJTgkHxjLCsPtEe9Ci95OZbj9Q1t4mwUOs5GKqu0=
+
+Name: res/drawable/private_mode_edit_text_cursor.xml
+SHA-256-Digest: naWJ1rutrQhKYf/ZMYI4AsqTONZMA2UTnqw01I5tyKk=
+
+Name: res/layout-v21/private_mode_pin.xml
+SHA-256-Digest: bxu02YoUHY7skiftVhjtzavP9na+qPGMetmbVo45O70=
+
+Name: SEC-INF/buildinfo.xml
+SHA-256-Digest: 1rcYy82fxQBtsb2p9UzE5IlmwGClqCNrVgHmjr05tTM=
+
+Name: res/layout-sw600dp-v13/private_mode_pin.xml
+SHA-256-Digest: ajbcSoxCsUavNuq/BGUj8BnBXBaf5EglJYsHL3WlLVc=
+
+Name: res/drawable-sw600dp-xhdpi-v13/stat_sys_private_mode.spr
+SHA-256-Digest: ZZz1gOLDQ7Pmh47ht6ve1DzETQA3ctykscnJox6SFTs=
+
+Name: res/drawable-xxxhdpi-v4/private_mode_unlock_ic_pwd.pio
+SHA-256-Digest: c1E7paqzQ1awiWV563FEsmC3jr39/0Gm/BfSsYVtH+w=
+
+Name: res/drawable-xxxhdpi-v4/ic_setting_grid_private_mode.qmg
+SHA-256-Digest: 6PadAtCC+paPDfft0fKBs/CIN78RBPCDmYobV6UawYM=
+
+Name: res/layout-sw600dp-v13/private_mode_typingverify.xml
+SHA-256-Digest: 9r0T3kRUkuSMuPwtgDlBPGXCjQHibdqA31bn1UrgiCg=
+
+Name: res/layout-v21/private_mode_typingverify.xml
+SHA-256-Digest: GMFIiQ/8Gvqez0kMnZvR8BQ8ZoCPsYyjScWJjT82ANs=
+
+Name: res/layout-sw600dp-v21/private_mode_pattern.xml
+SHA-256-Digest: hR2iBjHbqf7bide9mD4GIf73Tr0hJtm5SZJIqHM4mTQ=
+
+Name: resources.arsc
+SHA-256-Digest: ELt3puASTdijgM+JkWxeNqbaabVpcxEEOI+g2mxeAcw=
+
+Name: res/drawable-xxxhdpi-v4/tw_textfield_default_mtrl_alpha.9.qmg
+SHA-256-Digest: PRihBSwnrRtHZkVoMjrQHBYQWt3XNt4e9Hfz4tEUh3M=
+
+Name: res/layout-sw600dp-land-v13/private_mode_typingverify.xml
+SHA-256-Digest: YSBy4eHLgeEGMypPlR/ie87MnK3CO2TpM1ALouFBGyY=
+
+Name: res/drawable-xxxhdpi-v4/tw_textfield_activated_mtrl_alpha.9.qmg
+SHA-256-Digest: HQTy78DHa4mWiKP6R2cKu0B9/w0CXNv8rGBw53GtqSk=
+
+Name: res/layout/private_mode_typingverify.xml
+SHA-256-Digest: XSrBZYcSb0iF9Gv7G5YB23WrmclMqBpvfJrixz3r+9M=
+

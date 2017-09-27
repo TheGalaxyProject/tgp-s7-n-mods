@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Прыватны рэжым</string>
+    <string name="personalpage_on">Прыватны рэжым уключаны.</string>
+    <string name="personalpage_on_available">Прыватнае змесціва даступна.</string>
+    <string name="personalpage_off_not_available">Прыватнае змесціва недаступна. Любое змесціва, якое зараз перамяшчаецца ў папку «Прыватнае», не будзе перамешчана.</string>
+    <string name="failed_to_unmount">Немагчыма адключыць прыватны рэжым. Паўтарыце спробу.</string>
+    <string name="pattern_help_text">Нарысуйце ўзор для прыватнага рэжыму.</string>
+    <string name="password_help_text">Увядзіце пароль прыватнага рэжыму.</string>
+    <string name="personal_page_disclaimer_by_locktype">Схаваць асабістае змесціва. Каб скарыстацца гэтым рэжымам, выберыце спосаб разблакіроўкі. Адключыце гэты рэжым пасля выкарыстання для абароны схаванага змесціва.</string>
+    <string name="do_not_show_again">Больш не паказваць.</string>
+    <string name="message_settings">Налады</string>
+    <string name="incorrect_backup_pin">Памылковы рэзервовы PIN-код.</string>
+    <string name="pattern_backuppin">Увядзіце PIN-код, які выкарыстоўваецца ў якасці альтэрнатывы ўзору.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Паўтарыце спробу праз %d сек.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Паспрабуйце яшчэ раз праз 1 секунду.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Паўтарыце спробу праз %d хвілін(-ы)</string>
+    <string name="personalpage_off">Прыватны рэжым адключаны.</string>
+    <string name="personalpage_off_move_off">Прыватны рэжым адключаны. Любое змесціва, якое зараз перамяшчаецца ў папку «Прыватнае», не будзе перамешчана.</string>
+    <string name="failed_to_mount">Збой уключэння прыватнага рэжыму. Паўтарыце спробу.</string>
+    <string name="pattern_help_text_try_again">Вы нарысавалі няправільны ўзор. Паўтарыце спробу.</string>
+    <string name="pin_help_text_try_again">Вы ўвялі няправільны PIN-код. Паўтарыце спробу.</string>
+    <string name="password_help_text_try_again">Вы ўвялі няправільны пароль. Паўтарыце спробу.</string>
+    <string name="pin_help_text">Увядзіце PIN-код для Прыватнага рэжыму.</string>
+    <string name="personal_page_switch_off_message">Усё адкрытае змесціва будзе закрыта. Усе незахаваныя змяненні будуць скасаваны.</string>
+    <string name="private_mode_popup_btn_skip">Прапусц.</string>
+    <string name="private_mode_popup_screen_lock_title">Налады блакіроўкі экрана</string>
+    <string name="private_mode_popup_screen_lock_msg">Каб павялічыць бяспеку падчас выкарыстання прыватнага рэжыму, мы рэкамендуем вам змяніць тып блакіроўкі экрана на бяспечны, а затым уключыць прыватны рэжым.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Прыватны рэжым будзе ўключаны, калі выбранае змесціва будзе перададзена.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Перадача завершана. 
+Закрыванне прыватнага рэжыму."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Перадача не завершана. 
+Закрыванне прыватнага рэжыму."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Іншы працэс ужо выконваецца. Паўтарыце спробу пасля заканчэння.</string>
+    <string name="private_mode_pop_up_title">Адключыць прыватны рэжым</string>
+    <string name="private_mode_popup_m2p_msg">Прыватны рэжым будзе ўключаны, калі выбранае змесціва будзе перамешчана ў папку «Прыватнае», і будзе адключаны зноў, пасля таго як перадача будзе завершана.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Прыватны рэжым будзе ўключаны, калі выбраныя праграмы будуць перамешчаны ў папку «Прыватнае», і будзе адключаны зноў, пасля таго як перадача будзе завершана.
+
+Перамяшчэнне праграм у Прыватнае таксама прывядзе да перамяшчэння звязаных праграм і адпаведных віджэтаў і да выдалення іх ярлыкоў. Калі Прыватны рэжым выключаны, вы не будзеце атрымліваць паведамленні ад праграм, якія знаходзяцца ў Прыватным."</string>
+    <string name="private_mode_popup_m2p_title">Уключыць прыватны рэжым</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Вашы налады адбіткаў пальцаў былі зменены. Для ўключэння прыватнага рэжыму намалюйце ўзор двайной праверкі.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Вашы налады адбіткаў пальцаў былі зменены. Для ўключэння прыватнага рэжыму ўвядзіце PIN-код двайной праверкі.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Вашы налады адбіткаў пальцаў былі зменены. Для ўключэння прыватнага рэжыму ўвядзіце пароль двайной праверкі.</string>
+    <string name="private_mode_bakcupkey_bt_text">Вык. двайное спраўджанне</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN-код</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Узор</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Пароль</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Ужываць %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Пароль рэзерв.капіравання</string>
+    <string name="private_mode_migration_body_text">Выберыце ўзор, PIN-код або пароль, якія можна будзе выкарыстоўваць у якасці альтэрнатывы адбіткам пальцаў для доступу да прыватнага рэжыму.</string>
+    <string name="private_mode_migration_next_button">Далей</string>
+    <string name="private_mode_pattern_backup_pin_desc">Рэзервовы PIN-код</string>
+</resources>

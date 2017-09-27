@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Özel mod</string>
+    <string name="personalpage_on">Özel mod etkinleştirildi.</string>
+    <string name="personalpage_on_available">Özel içerik mevcut.</string>
+    <string name="personalpage_off_not_available">"Özel içerik mevcut değil. Şu anda Özel'e taşınan hiçbir içerik taşınmayacak."</string>
+    <string name="failed_to_unmount">Özel mod devre dışı bırakılamıyor. Tekrar deneyin.</string>
+    <string name="pattern_help_text">Özel mod için deseninizi çizin.</string>
+    <string name="password_help_text">Özel mod şifrenizi girin.</string>
+    <string name="personal_page_disclaimer_by_locktype">Kişisel içeriği gizleyin. Bu modu kullanmak için bir kilit açma yöntemi seçin. Gizli içeriği korumak için bu modu, kullandıktan sonra devre dışı bırakın.</string>
+    <string name="do_not_show_again">Tekrar gösterme</string>
+    <string name="message_settings">Ayarlar</string>
+    <string name="incorrect_backup_pin">"Yedekleme PIN'i yanlış."</string>
+    <string name="pattern_backuppin">"Modelinize alternatif olarak kullanılan PIN'i girin."</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d saniye içinde yeniden dene.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 saniye icinde tekrar deneyin.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d dakika sonra tekrar deneyin</string>
+    <string name="personalpage_off">Özel mod devre dışı.</string>
+    <string name="personalpage_off_move_off">"Özel mod devre dışı. Şu anda Özel'e taşınan hiçbir içerik taşınmayacak."</string>
+    <string name="failed_to_mount">Özel mod etkinleştirilemiyor. Tekrar deneyin.</string>
+    <string name="pattern_help_text_try_again">Yanlış bir desen çizdiniz. Tekrar deneyin.</string>
+    <string name="pin_help_text_try_again">Yanlış bir PIN girdiniz. Tekrar deneyin.</string>
+    <string name="password_help_text_try_again">Yanlış bir şifre girdiniz. Tekrar deneyin.</string>
+    <string name="pin_help_text">"Özel mod için PIN'inizi girin."</string>
+    <string name="personal_page_switch_off_message">Tüm açık içerikler kapatılacak. Kaydetmediğiniz tüm değişiklikler silinecek.</string>
+    <string name="private_mode_popup_btn_skip">Geç</string>
+    <string name="private_mode_popup_screen_lock_title">Ekran kilidi ayarları</string>
+    <string name="private_mode_popup_screen_lock_msg">Özel modu kullanırken güvenliği geliştirmek için ekran kilidi türünüzü güvenli bir yöntemle değiştirmenizi, ardından Özel modu etkinleştirmenizi öneririz.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Özel Mod, seçili içerik aktarıldığında etkinleştirilir.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Sorumluluk Reddi 
+Lütfen içeriğin, Dropbox gibi bir üçüncü taraf uygulaması ile otomatik olarak eşleştirildiğinde cihazınızda farklı bir klasörde görünebileceğini unutmayın. Özel Mod'u kullanmadan önce diğer uygulamalarınızın otomatik eşleştirme ayarlarını kontrol edin."</string>
+    <string name="private_mode_popup_m2p_success_close">"Aktarım tamamlandı. 
+Özel Mod'dan çıkılıyor."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Aktarım tamamlanamadı. 
+Özel Mod'dan çıkılıyor."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Şu anda başka bir işlem gerçekleştiriliyor. Bu işlem bittikten sonra tekrar deneyin.</string>
+    <string name="private_mode_pop_up_title">Özel modu devre dışı bırak</string>
+    <string name="private_mode_popup_m2p_msg">"Seçilen içerik Özel'e taşınırken Özel mod etkinleştirilir, aktarım tamamlandığında ise tekrar devre dışı bırakılır."</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Özel mod, seçilen uygulamalar Özel'e taşınırken etkinleştirilir ve aktarım tamamlandığında tekrar devre dışı kalır.
+
+Uygulamaların Özel'e taşınması, bağlı uygulamalarını ve ilişkili widget'larını da taşır ve kısayollarını siler. Özel mod devre dışıyken Özel'e taşıdığınız uygulamalardan bildirim almazsınız."</string>
+    <string name="private_mode_popup_m2p_title">Özel modu etkinleştir</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Parmak izi ayarlarınız değiştirildi. Özel modu etkinleştirmek için Çift doğrulama deseninizi çizin.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"Parmak izi ayarlarınız değiştirildi. Özel modu etkinleştirmek için Çift doğrulama PIN'inizi girin."</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Parmak izi ayarlarınız değiştirildi. Özel modu etkinleştirmek için Çift doğrulama şifrenizi girin.</string>
+    <string name="private_mode_bakcupkey_bt_text">Çift doğrulama kullan</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Desen</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Şifre</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s öğesini kullan</string>
+    <string name="private_mode_bakcuppwd_bt_text">Yedek şifre</string>
+    <string name="private_mode_migration_body_text">Gizli moda erişmek için parmak izlerinize alternatif olarak kullanmak üzere bir desen, PIN veya şifre belirleyin.</string>
+    <string name="private_mode_migration_next_button">Sonraki</string>
+    <string name="private_mode_pattern_backup_pin_desc">Yedek PIN</string>
+</resources>

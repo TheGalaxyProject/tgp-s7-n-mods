@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ବ୍ୟକ୍ତିଗତ ମୋଡ୍</string>
+    <string name="personalpage_on">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ ହୋଇଛି।</string>
+    <string name="personalpage_on_available">ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ଉପଲବ୍ଧ।</string>
+    <string name="personalpage_off_not_available">ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ଉପଲବ୍ଧ ନାହିଁ। ସମ୍ପ୍ରତି ବ୍ୟକ୍ତିଗତକୁ ଘୁଞ୍ଚା ହୋଇଥିବା କୌଣସି ବିଷୟବସ୍ତୁ ଘୁଞ୍ଚା ଯାଇପାରିବ ନାହିଁ।</string>
+    <string name="failed_to_unmount">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଅକ୍ଷମ କରିବାକୁ ଅସମର୍ଥ। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="pattern_help_text">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ପାଇଁ ଆପଣଙ୍କ ଶୈଳୀ ଅଙ୍କନ କରନ୍ତୁ।</string>
+    <string name="password_help_text">ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ପାସୱାର୍ଡ୍ ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="personal_page_disclaimer_by_locktype">ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ଲୁକ୍କାୟିତ କରନ୍ତୁ। ଏହି ମୋଡ୍ ବ୍ୟବହାର କରିବାକୁ, ଏକ ଅନଲକ୍ ପଦ୍ଧତି ଚୟନ କରନ୍ତୁ। ଲୁକ୍କାୟିତ ବିଷୟବସ୍ତୁ ସୁରକ୍ଷା କରିବାକୁ ବ୍ୟବହାର ପରେ ଏହି ମୋଡ୍ ଅକ୍ଷମ କରନ୍ତୁ।</string>
+    <string name="do_not_show_again">ପୁନଃ ଦେଖାନ୍ତୁ ନାହିଁ।</string>
+    <string name="message_settings">ସେଟିଂସ୍</string>
+    <string name="incorrect_backup_pin">ଭୁଲ୍ ବ୍ୟାକଅପ୍ PIN।</string>
+    <string name="pattern_backuppin">ଆପଣଙ୍କ ଶୈଳୀର ବୈକଳ୍ପିକ ଭାବେ ବ୍ୟବହୃତ PIN ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d ସେକେଣ୍ଡରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 ସେକେଣ୍ଡରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d ମିନିଟରେ ପୁନଃଚେଷ୍ଟା</string>
+    <string name="personalpage_off">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଅକ୍ଷମ ହୋଇଛି।</string>
+    <string name="personalpage_off_move_off">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଅକ୍ଷମ ହୋଇଛି। ସମ୍ପ୍ରତି ବ୍ୟକ୍ତିଗତକୁ ଘୁଞ୍ଚା ହୋଇଥିବା ଏପରି କୌଣସି ବିଷୟବସ୍ତୁ ଘୁଞ୍ଚା ଯାଇପାରିବ ନାହିଁ।</string>
+    <string name="failed_to_mount">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ ବିଫଳ ହୋଇଛି। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="pattern_help_text_try_again">ଆପଣ ଏକ ଭୁଲ୍ ଶୈଳୀ ଅଙ୍କନ କରିଛନ୍ତି। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="pin_help_text_try_again">ଆପଣ ଏକ ଭୁଲ୍ PIN ପ୍ରବେଶ କରିଛନ୍ତି। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="password_help_text_try_again">ଆପଣ ଏକ ଭୁଲ୍ ପାସୱାର୍ଡ୍ ପ୍ରବେଶ କରିଛନ୍ତି। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="pin_help_text">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ପାଇଁ ଆପଣଙ୍କ PIN ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="personal_page_switch_off_message">ଯେକୌଣସି ମୁକ୍ତ ବିଷୟବସ୍ତୁ ବନ୍ଦ ହେବ। ସଞ୍ଚୟ ହୋଇନଥିବା ଯେକୌଣସି ପରିବର୍ତ୍ତନଗୁଡିକ ଯାହା ଆପଣ ସଞ୍ଚୟ କରିନାହାଁନ୍ତି ତାହା ପ୍ରତ୍ୟାଖ୍ୟାନ ହେବ।</string>
+    <string name="private_mode_popup_btn_skip">ସ୍କିପ୍</string>
+    <string name="private_mode_popup_screen_lock_title">ସ୍କ୍ରିନ୍ ଲକ୍ ସେଟିଂସ୍</string>
+    <string name="private_mode_popup_screen_lock_msg">ବ୍ୟାକ୍ତିଗତ ମୋଡ୍‍ ବ୍ୟବହାର କରିବା ସମୟରେ ସୁରକ୍ଷା ବଢେଇବା ପାଇଁ ଆମେ ଆପଣଙ୍କୁ ଆପଣଙ୍କର ସ୍କ୍ରିନ୍‌ ଲକର ପ୍ରକାରଟି ଗୋଟିଏ ସୁରକ୍ଷିତ ପଦ୍ଧତି ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ତାପରେ ବ୍ୟାକ୍ତିଗତ ମୋଡ୍‍ ସକ୍ଷମ କରିବାର ପରାମର୍ଶ ଦିଏ।</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Closing Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">ଅନ୍ୟ ପ୍ରକ୍ରିୟା ପୂର୍ବରୁ ପ୍ରଗତିରେ ଅଛି। ଏହା ସମାପ୍ତ କରିବା ପରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="private_mode_pop_up_title">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଅକ୍ଷମ କରନ୍ତୁ</string>
+    <string name="private_mode_popup_m2p_msg">ଚୟନିତ ବିଷୟବସ୍ତୁ ବ୍ୟକ୍ତିଗତକୁ ନିଆଯିବା ବେଳେ ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ ହେବ, ଏବଂ ଥରେ ସ୍ଥାନାନ୍ତର ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ପୁନଃ ଅକ୍ଷମ ହେବ।</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ଚୟନିତ ଆପ୍ଲିକେସନଗୁଡିକ ବ୍ୟକ୍ତିଗତକୁ ନିଆଯିବା ବେଳେ ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ ହେବ ଏବଂ ଥରେ ସ୍ଥାନାନ୍ତର ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ପୁନଃଅକ୍ଷମ ହେବ।
+
+ବ୍ୟକ୍ତିଗତରେ ଆପ୍ଲିକେସନଗୁଡିକ ଘୁଞ୍ଚାଇବା ଦ୍ଵାରା ସେଗୁଡିକ ସହ ଲିଙ୍କ୍ ହୋଇଥିବା ଆପ୍ଲିକେସନଗୁଡିକ ଏବଂ ସମ୍ବନ୍ଧୀୟ ୱିଜେଟଗୁଡିକ ମଧ୍ୟ ଘୁଞ୍ଚିବ ଏବଂ ସେଗୁଡିକର ସର୍ଟକଟଗୁଡିକ ବିଲୋପ କରିବ। ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଅକ୍ଷମ ଥିବା ବେଳେ, ଆପଣ ବ୍ୟକ୍ତିଗତକୁ ଘୁଞ୍ଚାଇଥିବା ଆପ୍ଲିକେସନଗୁଡିକରୁ ବିଜ୍ଞପ୍ତି ପ୍ରାପ୍ତ କରିବେ ନାହିଁ।"</string>
+    <string name="private_mode_popup_m2p_title">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ କରନ୍ତୁ</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ଆପଣଙ୍କ ଟିପଚିହ୍ନ ସେଟିଂସ୍ ପରିବର୍ତ୍ତନ ହୋଇଛି। ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କ ଦୁଇଥର ଯାଞ୍ଚକରଣ ଶୈଳୀ ଅଙ୍କନ କରନ୍ତୁ।</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ଆପଣଙ୍କ ଟିପଚିହ୍ନ ସେଟିଂସ୍ ପରିବର୍ତ୍ତନ ହୋଇଛି। ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କ ଦୁଇଥର ଯାଞ୍ଚକରଣ PIN ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ଆପଣଙ୍କ ଟିପଚିହ୍ନ ସେଟିଂସ୍ ପରିବର୍ତ୍ତନ ହୋଇଛି। ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କ ଦୁଇଥର ଯାଞ୍ଚକରଣ ପାସୱାର୍ଡ୍ ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="private_mode_bakcupkey_bt_text">ଦୁଇଥର ଯାଞ୍ଚକରଣ ବ୍ୟବହାର</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ଶୈଳୀ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">ପାସୱାର୍ଡ୍</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="private_mode_bakcuppwd_bt_text">ବ୍ୟାକଅପ୍ ପାସୱାର୍ଡ୍</string>
+    <string name="private_mode_migration_body_text">ବ୍ୟକ୍ତିଗତ ମୋଡ୍ ଆକସେସ୍ କରିବାକୁ ଆପଣଙ୍କ ଟିପଚିହ୍ନଗୁଡିକର ଏକ ବୈକଳ୍ପିକ ଭାବେ ଏକ ଶୈଳୀ PIN, କିମ୍ୱା ପାସୱାର୍ଡ୍ ବ୍ୟବହାର କରନ୍ତୁ।</string>
+    <string name="private_mode_migration_next_button">ପରବର୍ତ୍ତୀ</string>
+    <string name="private_mode_pattern_backup_pin_desc">ବ୍ୟାକଅପ୍ PIN</string>
+</resources>

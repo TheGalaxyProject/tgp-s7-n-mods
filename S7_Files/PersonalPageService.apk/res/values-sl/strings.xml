@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Zasebni način</string>
+    <string name="personalpage_on">Zasebni način je omogočen.</string>
+    <string name="personalpage_on_available">Na voljo je zasebna vsebina.</string>
+    <string name="personalpage_off_not_available">Zasebna vsebina ni na voljo. Vsebina, ki jo trenutno premikate v zasebni način, ne bo premaknjena.</string>
+    <string name="failed_to_unmount">Zasebnega načina ni uspelo onemogočiti. Poskusite znova.</string>
+    <string name="pattern_help_text">Narišite vzorec za zasebni način.</string>
+    <string name="password_help_text">Vnesite geslo za zasebni način.</string>
+    <string name="personal_page_disclaimer_by_locktype">Skrijte osebno vsebino. Za uporabo tega načina morate izbrati način odklepanja. Po uporabi ta način onemogočite, da zaščitite skrito vsebino.</string>
+    <string name="do_not_show_again">Ne pokaži znova</string>
+    <string name="message_settings">Nastav.</string>
+    <string name="incorrect_backup_pin">Napačna nadomestna koda PIN.</string>
+    <string name="pattern_backuppin">Vnesite kodo PIN, ki jo uporabljate namesto vzorca.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Poskusite znova čez %d sekund.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Poskusite znova čez 1 s.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Poskusite znova čez %d min</string>
+    <string name="personalpage_off">Zasebni način je onemogočen.</string>
+    <string name="personalpage_off_move_off">Zasebni način je onemogočen. Vsebina, ki jo trenutno premikate v zasebni način, ne bo premaknjena.</string>
+    <string name="failed_to_mount">Zasebnega načina ni uspelo omogočiti. Poskusite znova.</string>
+    <string name="pattern_help_text_try_again">Narisali ste napačen vzorec. Poskusite znova.</string>
+    <string name="pin_help_text_try_again">Vnesli ste napačno kodo PIN. Poskusite znova.</string>
+    <string name="password_help_text_try_again">Vnesli ste napačno geslo. Poskusite znova</string>
+    <string name="pin_help_text">Vnesite kodo PIN za zasebni način.</string>
+    <string name="personal_page_switch_off_message">Vsa odprta vsebina se bo zaprla. Vse spremembe, ki jih niste shranili, bodo zavržene.</string>
+    <string name="private_mode_popup_btn_skip">Preskoči</string>
+    <string name="private_mode_popup_screen_lock_title">Nastavitve zakl. zaslona</string>
+    <string name="private_mode_popup_screen_lock_msg">Če želite izboljšati varnost med uporabo zasebnega načina, vam priporočamo, da vrsto zaklepanja zaslona spremenite v varni način, nato pa omogočite zasebni način.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Zasebni način se aktivira ob prenosu izbrane vsebine.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Izjava o zavrnitvi odgovornosti 
+Vsebina se lahko prikaže v ločeni mapi v napravi, če jo samodejno sinhronizira aplikacija tretje osebe, na primer Dropbox. Pred uporabo Zasebnega načina preverite nastavitve samodejne sinhronizacije drugih aplikacij."</string>
+    <string name="private_mode_popup_m2p_success_close">"Prenos dokončan. 
+Izhod iz Zasebnega načina."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Prenos ni dokončan. 
+Izhod iz Zasebnega načina."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Trenutno že poteka drug proces. Poskusite znova, ko bo ta proces končan.</string>
+    <string name="private_mode_pop_up_title">Onemogočite zasebni način</string>
+    <string name="private_mode_popup_m2p_msg">Med premikanjem izbrane vsebine v zasebni način bo zasebni način omogočen, nato pa bo znova onemogočen, ko bo prenos končan.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Zasebni način se bo med premikanjem izbranih aplikacij omogočil, po koncu prenosa pa se bo znova onemogočil.
+
+S premikanjem aplikacij v zasebni način boste premaknili tudi povezane aplikacije in pripomočke ter izbrisali njihove bližnjice. Ko bo zasebni način onemogočen, ne boste prejemali obvestil iz aplikacij, ki ste jih premaknili v zasebni način."</string>
+    <string name="private_mode_popup_m2p_title">Omogočite zasebni način</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Nastavitve prstnih odtisov so spremenjene. Narišite vzorec za funkcijo Dvojna potrditev, da omogočite zasebni način.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Nastavitve prstnih odtisov so spremenjene. Vnesite kodo PIN za funkcijo Dvojna potrditev, da omogočite zasebni način.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Nastavitve prstnih odtisov so spremenjene. Vnesite geslo za funkcijo Dvojna potrditev, da omogočite zasebni način.</string>
+    <string name="private_mode_bakcupkey_bt_text">Uporabi dvojno potrditev</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Vzorec</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Geslo</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Uporabite %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Nadomestno geslo</string>
+    <string name="private_mode_migration_body_text">Nastavite vzorec, kodo PIN ali geslo, ki ga boste uporabili za dostopanje do zasebnega načina namesto prepoznavanja prstnih odtisov.</string>
+    <string name="private_mode_migration_next_button">Naprej</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN za varnostno kopiranje</string>
+</resources>

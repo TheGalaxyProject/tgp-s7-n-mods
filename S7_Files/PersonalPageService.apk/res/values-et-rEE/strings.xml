@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privaatsusrežiim</string>
+    <string name="personalpage_on">Privaatsusrežiim on aktiveeritud.</string>
+    <string name="personalpage_on_available">Privaatne sisu on saadaval.</string>
+    <string name="personalpage_off_not_available">Privaatne sisu pole saadaval. Ühtegi sisu, mida teisaldatakse praegu kausta Privaatne, ei teisaldata.</string>
+    <string name="failed_to_unmount">Privaatsusrežiimi ei saa desaktiveerida. Proovige uuesti.</string>
+    <string name="pattern_help_text">Joonistage muster oma privaatsusrežiimi jaoks.</string>
+    <string name="password_help_text">Sisestage oma privaatsusrežiimi parool.</string>
+    <string name="personal_page_disclaimer_by_locktype">Saate peita isiklikku sisu. Selle režiimi kasutamiseks valige avamismeetod. Peidetud sisu kaitsmiseks desaktiveerige see režiim pärast kasutamist.</string>
+    <string name="do_not_show_again">Ära enam kuva</string>
+    <string name="message_settings">Seaded</string>
+    <string name="incorrect_backup_pin">Vale tagavara PIN-kood.</string>
+    <string name="pattern_backuppin">Sisestage PIN-kood, mis on kasutusel alternatiivse viisina teie mustrile.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Proovige %d sekundi parast uuesti.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Proovige 1 sekundi parast uuesti.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Proovige uuesti %d min pärast</string>
+    <string name="personalpage_off">Privaatsusrežiim on desaktiveeritud.</string>
+    <string name="personalpage_off_move_off">Privaatsusrežiim on desaktiveeritud. Ühtegi sisu, mida teisaldatakse praegu kausta Privaatne, ei teisaldata.</string>
+    <string name="failed_to_mount">Privaatsusrežiimi aktiveerimine nurjus. Proovige uuesti.</string>
+    <string name="pattern_help_text_try_again">Olete joonistanud vale mustri. Proovige uuesti.</string>
+    <string name="pin_help_text_try_again">Olete sisestanud vale PIN-koodi. Proovige uuesti.</string>
+    <string name="password_help_text_try_again">Olete sisestanud vale parooli. Proovige uuesti</string>
+    <string name="pin_help_text">Sisestage oma privaatsusrežiimi PIN-kood.</string>
+    <string name="personal_page_switch_off_message">Kogu hetkel avatud sisu suletakse. Kõikidest salvestamata muudatustest loobutakse.</string>
+    <string name="private_mode_popup_btn_skip">Jäta vah.</string>
+    <string name="private_mode_popup_screen_lock_title">Ekraaniluku seaded</string>
+    <string name="private_mode_popup_screen_lock_msg">Privaatsusrežiimis turvalisuse suurendamiseks soovitame muuta ekraaniluku tüübiks turvalise meetodi ning seejärel aktiveerida privaatsusrežiimi.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privaatsusrežiim aktiveeritakse valitud sisu edastamise ajal.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Vastutuse välistamine 
+Pöörame tähelepanu sellele, et sisu kolmanda isiku rakenduse (näiteks Dropbox) poolt automaatsel sünkroniseerimisel võidakse sisu kuvada teie seadmes eraldi kaustas. Enne privaatsusrežiimi kasutamist kontrollige teiste rakenduste automaatse sünkroniseerimise seadeid."</string>
+    <string name="private_mode_popup_m2p_success_close">"Edastamine lõppenud. 
+Privaatsusrežiimist väljumine."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Edastamine pooleli. 
+Privaatsusrežiimist väljumine."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Teine protsess on juba pooleli. Proovige uuesti, kui see lõppeb.</string>
+    <string name="private_mode_pop_up_title">Desaktiveeri privaatsusrežiim</string>
+    <string name="private_mode_popup_m2p_msg">Privaatsusrežiim aktiveeritakse, kui valitud sisu on teisaldatud kausta Privaatne, ja desaktiveeritakse uuesti, kui edastamine on lõpule viidud.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privaatsusrežiim aktiveeritakse, kui valitud rakendused teisaldatakse kausta Privaatne, ja desaktiveeritakse uuesti, kui edastamine on lõpule viidud.
+
+Rakenduste teisaldamisel kausta Privaatne teisaldatakse ka nende lingitud rakendused ja seotud vidinad ning kustutatakse nende otseteed. Kui privaatsusrežiim on desaktiveeritud, ei saa te vastu võtta teavitusi rakenduste kohta, mis te olete teisaldanud kausta Privaatne."</string>
+    <string name="private_mode_popup_m2p_title">Aktiveerige privaatsusrežiim</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Teie sõrmejälje seadeid muudeti. Joonistage oma topeltkinnitamise muster, et aktiveerida privaatsusrežiim.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Teie sõrmejälje seadeid muudeti. Sisestage oma topeltkinnitamise PIN-kood, et aktiveerida privaatsusrežiim.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Teie sõrmejälje seadeid muudeti. Sisestage oma topeltkinnitamise parool, et aktiveerida privaatsusrežiim.</string>
+    <string name="private_mode_bakcupkey_bt_text">Kasuta topeltkinnitamist</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Muster</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Parool</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Kasuta üksust %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Varunda parool</string>
+    <string name="private_mode_migration_body_text">Määrake muster, PIN-kood või parool, mida kasutada sõrmejälgede asemel, et pääseda juurde privaatsusrežiimile.</string>
+    <string name="private_mode_migration_next_button">Järgmine</string>
+    <string name="private_mode_pattern_backup_pin_desc">Varu-PIN-kood</string>
+</resources>

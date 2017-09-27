@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ໂໝດສ່ວນຕົວ</string>
+    <string name="personalpage_on">ໂໝດສ່ວນຕົວເປີດໃຊ້ງານ.</string>
+    <string name="personalpage_on_available">ມີເນື້ອໃນສ່ວນບຸກຄົນໃຫ້.</string>
+    <string name="personalpage_off_not_available">ບໍ່ມີເນື້ອໃນສ່ວນບຸກຄົນໃຫ້. ເນື້ອ​ໃນ​ໃດ​ໜຶ່ງ​ທີ່​ກຳ​ລັງ​ຖືກ​ຍ້າຍ​ໄປ​ໃສ່​ສ່ວນ​ບຸກ​ຄົນ​ໃນ​ປະ​ຈຸ​ບັນ​ຈະ​ບໍ່​ຖືກ​ຍ້າຍ.</string>
+    <string name="failed_to_unmount">ບໍ່ສາມາດປິດໃຊ້ງານໂໝດສ່ວນຕົວໄດ້. ລອງໃໝ່ອີກ.</string>
+    <string name="pattern_help_text">ແຕ້ມ​ຮູບ​ແບບ​ຂອງ​ທ່ານ​ສຳ​ລັບ​ໂໝດ​ສ່ວນ​ຕົວ.</string>
+    <string name="password_help_text">ປ້ອນລະຫັດໂໝດສ່ວນຕົວຂອງທ່ານ.</string>
+    <string name="personal_page_disclaimer_by_locktype">ເຊື່ອງເນື້ອໃນສ່ວນຕົວ. ເພື່ອໃຊ້ໂໝດນີ້, ເລືອກວິທີປົດລັອກ. ປິດໃຊ້ງານໂໝດນີ້ ຫຼັງຈາກໃຊ້ປົກປ້ອງເນື້ອໃນເຊື່ອງໄວ້ແລ້ວ.</string>
+    <string name="do_not_show_again">ບໍ່ຕ້ອງສະແດງອີກ</string>
+    <string name="message_settings">ການຕັ້ງຄ່າຕ່າງໆ</string>
+    <string name="incorrect_backup_pin">PIN ແບັກອັບບໍ່ຖືກຕ້ອງ.</string>
+    <string name="pattern_backuppin">ປ້ອນ PIN ທີ່ໄດ້ໃຊ້ເປັນທາງເລືອກໃສ່ຮູບແບບຂອງທ່ານ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">ລອງໃໝ່ອີກໃນ %d ວິນາທີ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">ລອງໃໝ່ອີກໃນ 1 ວິນາທີ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">ລອງໃໝ່ອີກໃນ %d ນາທີ</string>
+    <string name="personalpage_off">ໂໝດສ່ວນບຸກຄົນປິດໃຊ້ງານແລ້ວ.</string>
+    <string name="personalpage_off_move_off">ໂໝດສ່ວນບຸກຄົນປິດໃຊ້ງານແລ້ວ. ເນື້ອ​ໃນ​ໃດ​ໜຶ່ງ​ທີ່​​ປະ​ຈຸ​ບັນ​ຖືກ​ຍ້າຍ​ໄປ​ໃສ່​ສ່ວນ​ຕົວ​ຈະ​ບໍ່​ຖືກ​ຍ້າຍ.</string>
+    <string name="failed_to_mount">ບໍ່ສາມາດເປີດໃຊ້ງານໂໝດສ່ວນບຸກຄົນໄດ້. ລອງໃໝ່ອີກ.</string>
+    <string name="pattern_help_text_try_again">ທ່ານແຕ້ມຮູບແບບປົດລັອກບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ.</string>
+    <string name="pin_help_text_try_again">ທ່ານໃສ່ PIN ບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ.</string>
+    <string name="password_help_text_try_again">ທ່ານໃສ່ລະຫັດບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ</string>
+    <string name="pin_help_text">ປ້ອນ PIN ຂອງທ່ານສໍາລັບໂໝດສ່ວນບຸກຄົນ.</string>
+    <string name="personal_page_switch_off_message">ເນື້ອໃນທີ່ເປີດຢູ່ຈະຖືກປິດ. ທຸກອັນທີ່ທ່ານໄດ້ບັນທຶກໄວ້ຈະຖືກໂລະຖິ້ມ.</string>
+    <string name="private_mode_popup_btn_skip">ຂ້າມ</string>
+    <string name="private_mode_popup_screen_lock_title">ການຕັ້ງຄ່າລັອກໜ້າຈໍ</string>
+    <string name="private_mode_popup_screen_lock_msg">ເພື່ອເປີດໃຊ້ງານຄວາມປອດໄພໃນຂະນະທີ່ໃຊ້ໂໝດສ່ວນບຸກຄົນຢູ່, ພວກເຮົາແນະນໍາໃຫ້ທ່ານປ່ຽນປະເພດລັອກໜ້າຈໍຂອງທ່ານເປັນໂໝດປອດໄພ, ຈາກນັ້ນເປີດໃຊ້ງານໂໝດສ່ວນບຸກຄົນ.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Closing Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">ການປະມວນຜົນອື່ນດໍາເນີນການຢູ່ແລ້ວ. ລອງໃໝ່ອີກຫຼັງຈາກມັນສໍາເລັດ.</string>
+    <string name="private_mode_pop_up_title">ປິດໃຊ້ໂໝດສ່ວນຕົວ</string>
+    <string name="private_mode_popup_m2p_msg">ໂໝດສ່ວນຕົວຈະເປີດໃຊ້ງານ ໃນຂະນະທີ່ເນື້ອໃນເລືອກໄວ້ຖືກຍ້າຍໄປຫາສ່ວນບຸກຄົນແລ້ວ, ແລະປິດໃຊ້ງານອີກ ເມື່ອການໂອນສໍາເລັດ.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ໂໝດສ່ວນຕົວຈະເປີດໃຊ້ງານ ໃນຂະນະທີ່ແອພພລິເຄຊັນເລືອກໄວ້ຖືກຍ້າຍໄປຫາສ່ວນບຸກຄົນ, ແລະປິດໃຊ້ງານອີກ ເມື່ອການໂອນສໍາເລັດ.
+
+ການຍ້າຍແອພພລິເຄຊັນໄປໃສ່ສ່ວນບຸກຄົນຈະຍ້າຍແອພພລິເຄຊັນທີ່ລິ້ງແລ້ວ ແລະວິດເຈັດທີ່ກ່ຽວຂ້ອງ, ແລະລຶບທາງລັດຂອງມັນນໍາອີກ. ໃນຂະນະທີ່ໂໝດສ່ວນຕົວປິດໃຊ້ງານ, ທ່ານຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນຈາກແອພພລິເຄຊັນທີ່ທ່ານຍ້າຍໄປໃສ່ສ່ວນບຸກຄົນ."</string>
+    <string name="private_mode_popup_m2p_title">ເປີດໃຊ້ງານໂໝດສ່ວນຕົວ</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ການຕັ້ງຄ່າລາຍນິ້ວມືຂອງທ່ານຖືກປ່ຽນແປງແລ້ວ. ແຕ້ມຮູບແບບການກວດສອບສອງຄັ້ງຂອງທ່ານເພື່ອເປີດໃຊ້ງານໂໝດສ່ວນຕົວ.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ການຕັ້ງຄ່າລາຍນິ້ວມືຂອງທ່ານຖືກປ່ຽນແປງແລ້ວ. ປ້ອນ PIN ການກວດສອບສອງຄັ້ງຂອງທ່ານເຂົ້າເພື່ອເປີດໃຊ້ງານໂໝດສ່ວນຕົວ.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ການຕັ້ງຄ່າລາຍນິ້ວມືຂອງທ່ານຖືກປ່ຽນແປງແລ້ວ. ປ້ອນລະຫັດຜ່ານການກວດສອບສອງຄັ້ງຂອງທ່ານເຂົ້າເພື່ອເປີດໃຊ້ງານໂໝດສ່ວນຕົວ.</string>
+    <string name="private_mode_bakcupkey_bt_text">ໃຊ້ການແຈ້ງເຕືອນສອງຄັ້ງ</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ຮູບແບບ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">ລະຫັດຜ່ານ</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">ໃຊ້ %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">ລະຫັດແບັກອັບ</string>
+    <string name="private_mode_migration_body_text">ຕັ້ງຮູບແບບ, PIN, ຫຼືລະຫັດຜ່ານເພື່ອໃຊ້ເປັນທາງເລືອກໜຶ່ງນອກຈາກລາຍນິ້ວມືຂອງທ່ານເພື່ອເຂົ້າໃຊ້ໂໝດສ່ວນຕົວ.</string>
+    <string name="private_mode_migration_next_button">ຕໍ່ໄປ</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN ການສໍາຮອງ</string>
+</resources>

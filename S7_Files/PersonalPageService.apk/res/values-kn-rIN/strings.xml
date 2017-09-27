@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ಖಾಸಗಿ ಮೋಡ್</string>
+    <string name="personalpage_on">ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="personalpage_on_available">ಖಾಸಗಿ ವಿಷಯ ಲಭ್ಯವಿದೆ.</string>
+    <string name="personalpage_off_not_available">ಖಾಸಗಿ ವಿಷಯ ಲಭ್ಯವಿಲ್ಲ. ಪ್ರಸ್ತುತ ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸಲಾಗುತ್ತಿರುವ ಯಾವುದೇ ವಿಷಯವನ್ನು ಸರಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="failed_to_unmount">ಖಾಸಗಿ ಮೋಡ್ ನಿಶಕ್ತಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="pattern_help_text">ಖಾಸಗಿ ಮೋಡ್‌ಗಾಗಿ ನಿಮ್ಮ ಮಾದರಿಯನ್ನು ಚಿತ್ರಿಸಿ.</string>
+    <string name="password_help_text">ನಿಮ್ಮ ಖಾಸಗಿ ಮೋಡ್ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</string>
+    <string name="personal_page_disclaimer_by_locktype">ವೈಯಕ್ತಿಕ ಒಳಾಂಶ ಮರೆಮಾಡಿ. ಈ ಮೋಡ್ ಬಳಸಲು, ಅನ್‌ಲಾಕ್ ವಿಧ ಆಯ್ಕೆಮಾಡಿ. ಮರೆಯಾಗಿರುವ ಒಳಾಂಶವನ್ನು ರಕ್ಷಿಸಲು ಬಳಕೆಯ ನಂತರ ಈ ಮೋಡ್ ನಿಶಕ್ತಗೊಳಿಸಿ.</string>
+    <string name="do_not_show_again">ಮತ್ತೆ ತೋರಿಸಬೇಡಿ.</string>
+    <string name="message_settings">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="incorrect_backup_pin">ತಪ್ಪಾದ ಬ್ಯಾಕಪ್ PIN.</string>
+    <string name="pattern_backuppin">ನಿಮ್ಮ ನಮೂನೆಗೆ ಪರ್ಯಾಯವಾಗಿ ಬಳಸಿದ PIN ಅನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 ಸೆಕೆಂಡ್‌ನಲ್ಲಿ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d ನಿಮಿಷಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="personalpage_off">ಖಾಸಗಿ ಮೋಡ್ ನಿಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="personalpage_off_move_off">ಖಾಸಗಿ ಮೋಡ್ ನಿಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ. ಪ್ರಸ್ತುತ ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸಲಾಗುತ್ತಿರುವ ಯಾವುದೇ ವಿಷಯವನ್ನು ಸರಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="failed_to_mount">ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="pattern_help_text_try_again">ನೀವು ಒಂದು ತಪ್ಪಾದ ವಿಧಾನವನ್ನು ಚಿತ್ರಿಸಿದ್ದೀರಿ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="pin_help_text_try_again">ನೀವು ತಪ್ಪಾದ PIN ಅನ್ನು ನಮೂದಿಸಿದ್ದೀರಿ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="password_help_text_try_again">ನೀವು ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್‌ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿದ್ದೀರಿ. ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="pin_help_text">ನಿಮ್ಮ PIN ಅನ್ನು ಖಾಸಗಿ ಮೋಡ್‌ಗಾಗಿ ನಮೂದಿಸಿ.</string>
+    <string name="personal_page_switch_off_message">ಯಾವುದೇ ತೆರೆದ ಒಳಾಂಶವನ್ನು ಮುಚ್ಚಲಾಗುವುದು. ಉಳಿಸದೇ ಇರುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಲಾಗುವುದು.</string>
+    <string name="private_mode_popup_btn_skip">ಸ್ಕಿಪ್</string>
+    <string name="private_mode_popup_screen_lock_title">ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="private_mode_popup_screen_lock_msg">ಖಾಸಗಿ ಮೋಡ್ ಬಳಸುತ್ತಿರುವಾಗ ಭದ್ರತೆಯನ್ನು ವರ್ಧಿಸಲು, ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಪ್ರಕಾರವನ್ನು ಒಂದು ಸುರಕ್ಷಿತ ವಿಧಾನಕ್ಕೆ ಬದಲಿಸಬೇಕು, ನಂತರ ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಬೇಕೆಂದು ನಾವು ನಿಮಗೆ ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">ಆಯ್ಕೆಮಾಡಿದ ವಿಷಯವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಿದಾಗ ಖಾಸಗಿ ಮೋಡ್ ಸಕ್ರಿಯವಾಗುವುದು.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"ಹಕ್ಕು ನಿರಾಕರಣೆ 
+ಡ್ರಾಪ್‌ಬಾಕ್ಸ್‌ನಂತೆ, ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಅನ್ವಹಿಸುವಿಕೆಯಿಂದ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಿಂಕ್ರೊನೈಜ್‌ಗೊಳಿಸಿದಾಗ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ವಿಷಯವು ಪ್ರತ್ಯೇಕ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಕಾಣಿಸಬಹುದೆಂದುಬುದನ್ನು ದಯವಿಟ್ಟು ಅರಿತುಕೊಂಡಿರಿ. ಪ್ರೈವೇಟ್ ಮೋಡ್ ಬಳಸುವುದಕ್ಕೂ ಮೊದಲು ನಿಮ್ಮ ಇತರ ಅನ್ವಹಿಸುವಿಕೆಗಳ ಸ್ವಯಂ ಸಿಂಕ್ರೊನೈಜೇಶನ್ ಸಂಯೋಜನೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ."</string>
+    <string name="private_mode_popup_m2p_success_close">"ವರ್ಗಾವಣೆ ಪೂರ್ಣವಾಗಿದೆ. 
+ಖಾಸಗಿ ಮೋಡ್ ನಿರ್ಗಮಿಸುವಿಕೆ."</string>
+    <string name="private_mode_popup_m2p_failed_close">"ವರ್ಗಾವಣೆ ಅಪೂರ್ಣವಾಗಿದೆ. 
+ಖಾಸಗಿ ಮೋಡ್ ನಿರ್ಗಮಿಸುವಿಕೆ."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">ಮತ್ತೊಂದು ಪ್ರಕ್ರಿಯೆ ಈಗಾಗಲೇ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ಅದು ಮುಕ್ತಾಯಗೊಂಡ ಬಳಿಕ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="private_mode_pop_up_title">ಪ್ರೈವೇಟ್ ಮೋಡ್ ನಿಶಕ್ತಗೊಳಿಸಿ</string>
+    <string name="private_mode_popup_m2p_msg">ಆಯ್ಕೆಮಾಡಿದ ವಿಷಯವನ್ನು ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸಿದಾಗ “ಖಾಸಗಿ ಮೋಡ್” ಶಕ್ತಗೊಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ವರ್ಗಾವಣೆ ಪೂರ್ಣಗೊಂಡ ಬಳಿ, ಅದನ್ನು ಮತ್ತೆ ನಿಶಕ್ತಗೊಳಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ಆಯ್ಕೆಮಾಡಿದ ಅನ್ವಯಿಸುವಿಕೆಗಳನ್ನು ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸಿದಾಗ “ಖಾಸಗಿ ಮೋಡ್” ಶಕ್ತಗೊಳ್ಳುತ್ತದೆ ಮತ್ತು ವರ್ಗಾವಣೆ ಪೂರ್ಣಗೊಂಡ ಬಳಿಕ ಮತ್ತೆ ನಿಶಕ್ತಗೊಳ್ಳುತ್ತದೆ.
+
+ಅನ್ವಯಿಸುವಿಕೆಗಳನ್ನು ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸುವುದರಿಂದ, ಅವುಗಳಿಗೆ ಲಿಂಕ್ ಆಗಿರುವ ಅನ್ವಯಿಸುವಿಕೆಗಳು ಮತ್ತು ಸಂಬಂಧಿತ ವಿಜೆಟ್‌ಗಳನ್ನೂ ವರ್ಗಾಯಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅವುಗಳ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ. “ಖಾಸಗಿ ಮೋಡ್” ನಿಶಕ್ತಗೊಂಡಿರುವಾಗ, ನೀವು ಖಾಸಗಿಗೆ ವರ್ಗಾಯಿಸಿದ ಅನ್ವಯಿಸುವಿಕೆಗಳಿಂದ ಪ್ರಕಟಣೆಗಳನ್ನು ನೀವು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."</string>
+    <string name="private_mode_popup_m2p_title">ಪ್ರೈವೇಟ್ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಿ</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ. ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಲು ನಿಮ್ಮ ದೃಢೀಕರಣ ಮಾದರಿಯನ್ನು ಎರಡುಬಾರಿ ಚಿತ್ರಿಸಿ.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ. ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಲು ನಿಮ್ಮ ಎರಡುಬಾರಿ ದೃಢೀಕರಣ PIN ನಮೂದಿಸಿ.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ. ಖಾಸಗಿ ಮೋಡ್ ಶಕ್ತಗೊಳಿಸಲು ನಿಮ್ಮ ಎರಡುಬಾರಿ ದೃಢೀಕರಣ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</string>
+    <string name="private_mode_bakcupkey_bt_text">ಎರಡುಬಾರಿಯ ಪರಿಶೀಲನೆ ಬಳಸಿ</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ಮಾದರಿ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ಬಳಸಿ</string>
+    <string name="private_mode_bakcuppwd_bt_text">ಬ್ಯಾಕಪ್ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="private_mode_migration_body_text">ಖಾಸಗಿ ಮೋಡ್ ಪ್ರವೇಶಿಸಲು ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ಗಳಿಗೆ ಪರ್ಯಾಯ ಬಳಕೆಗಾಗಿ ನಮೂನೆ, PIN ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಸಿ.</string>
+    <string name="private_mode_migration_next_button">ಮುಂದಿನದ್ದು</string>
+    <string name="private_mode_pattern_backup_pin_desc">ಬ್ಯಾಕ್‌ಅಪ್ PIN</string>
+</resources>

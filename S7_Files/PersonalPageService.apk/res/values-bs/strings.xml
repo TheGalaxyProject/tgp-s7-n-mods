@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privatni režim</string>
+    <string name="personalpage_on">Privatni režim je omogućen.</string>
+    <string name="personalpage_on_available">Privatni sadržaj je dostupan.</string>
+    <string name="personalpage_off_not_available">Privatni sadržaj nije dostupan. Sadržaj koji se trenutno premješta u fasciklu Privatno neće biti premješten.</string>
+    <string name="failed_to_unmount">Nije moguće onemogućiti Privatni režim. Pokušajte ponovno.</string>
+    <string name="pattern_help_text">Nacrtajte obrazac za Privatni režim.</string>
+    <string name="password_help_text">Unesite lozinku za Privatni režim.</string>
+    <string name="personal_page_disclaimer_by_locktype">Sakrijte lični sadržaj. Da biste koristili ovaj režim, izaberite način otključavanja. Onemogućite ovaj režim nakon njegovog korištenja za zaštitu sakrivenog sadržaja.</string>
+    <string name="do_not_show_again">Ne prikazuj ponovno</string>
+    <string name="incorrect_backup_pin">Neispravan rezervni PIN kod.</string>
+    <string name="pattern_backuppin">Unesite PIN koji je korišten kao alternativa za vaš obrazac.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Probajte ponovno za %d sekundi.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Pokušajte ponovno nakon jedne sekunde.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Pokušajte ponovno za %d minuta</string>
+    <string name="personalpage_off">Privatno režim nije omogućen.</string>
+    <string name="personalpage_off_move_off">Privatni režim je onemogućen. Sadržaj koji se trenutno premješta u Privatnu fasciklu neće biti premješten.</string>
+    <string name="failed_to_mount">Neuspješno omogućavanje Privatnog režima. Pokušajte ponovno.</string>
+    <string name="pattern_help_text_try_again">Nacrtali ste netačan oblik. Pokušajte ponovno.</string>
+    <string name="pin_help_text_try_again">Unijeli ste netačan PIN kod. Pokušajte ponovno.</string>
+    <string name="password_help_text_try_again">Unijeli ste netačnu lozinku. Pokušajte ponovno.</string>
+    <string name="pin_help_text">Unesite PIN kod za Privatni režim.</string>
+    <string name="personal_page_switch_off_message">Svaki otvoreni sadržaj će biti zatvoren. Sve izmjene koje ste napravili će biti odbačene.</string>
+    <string name="private_mode_popup_btn_skip">Preskoči</string>
+    <string name="private_mode_popup_screen_lock_title">Postav. zaključ. ekrana</string>
+    <string name="private_mode_popup_screen_lock_msg">Da biste poboljšali zaštitu tokom korištenja Privatnog režima, preporučuje se da promijenite vrstu zaključavanja ekrana na siguran način, zatim i da omogućite Privatni režim.</string>
+    <string name="private_mode_popup_m2p_success_close">Prebacivanje je dovršeno. Zatvaram Privatni režim.</string>
+    <string name="private_mode_popup_m2p_failed_close">"Prenos nije dovršen.
+Zatvaram Privatni režim."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Drugi proces je već u toku. Pokušajte ponovno kada se završi.</string>
+    <string name="private_mode_pop_up_title">Onemogući Privatni režim</string>
+    <string name="private_mode_popup_m2p_msg">Tokom premještanja izabranog sadržaja u fasciklu Privatno, bit će omogućen Privatni režim, zatim nakon završetka prenosa bit će ponovno onemogućen.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privatno režim će biti omogućen tokom premještanja izabranih aplikacija u fasciklu Privatno, zatim nakon završetka prenosa bit će ponovno onemogućen.
+
+Premještanjem aplikacija u fasciklu Privatno premjestit će se i njihove povezane aplikacije i odgovarajući vidžeti, a izbrisat će se i njihove prečice. Kada je onemogućen Privatni režim, nećete primati obavještenja sa aplikacija koje ste premjestili u fasciklu Privatno."</string>
+    <string name="private_mode_popup_m2p_title">Omogući Privatni režim</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Postavke za vaš otisak prsta su promijenjene. Nacrtajte obrazac za Dvostruku potvrdu za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Postavke otiska prsta su promijenjene. Unesite PIN kod za Dvostruku potvrdu za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Postavke otiska prsta su promijenjene. Unesite lozinku za Dvostruku potvrdu za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_bt_text">Koristi dvost. potvrdu</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN kod</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Obrazac</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Lozinka</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Koristi %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Alternativna lozinka</string>
+    <string name="private_mode_migration_body_text">Postavite obrazac, PIN kod ili lozinku koju ćete koristiti kao alternativu za svoje otiske prstiju da biste pristupili Privatnom režimu.</string>
+    <string name="private_mode_migration_next_button">Sljedeće</string>
+    <string name="private_mode_pattern_backup_pin_desc">Rezervni PIN kod</string>
+</resources>

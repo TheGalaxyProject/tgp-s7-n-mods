@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ذاتی موڈ</string>
+    <string name="personalpage_on">ذاتی موڈ اہل ہو گئی۔</string>
+    <string name="personalpage_on_available">ذاتی اجزا دستیاب ہیں۔</string>
+    <string name="personalpage_off_not_available">ذاتی اجزا دستیاب نہیں ہیں۔ ابھی ذاتی میں منتقل کیا جارہا کوئی مواد منتقل نہیں کیا جائے گا۔</string>
+    <string name="failed_to_unmount">ذاتی موڈ نااہل کرنے سے قاصر ہے۔ دوبارہ کوشش کریں۔</string>
+    <string name="pattern_help_text">ذاتی موڈ کے لئے اپنا نمونہ بنائیں۔</string>
+    <string name="password_help_text">اپنے ذاتی موڈ کا پاس ورڈ درج کریں۔</string>
+    <string name="personal_page_disclaimer_by_locktype">ذاتی مواد چھپائیں۔ اس وضع کا استعمال کرنے کیلئے، غیر مقفل کرنے کا ایک طریقہ منتخب کریں۔ مخفی مواد کی حفاظت کرنے کیلئے اس وضع کو استعمال کرنے کے بعد نااہل کر دیں۔</string>
+    <string name="do_not_show_again">دوبارہ نہ دکھائیں</string>
+    <string name="message_settings">سیٹنگز</string>
+    <string name="incorrect_backup_pin">غلط بیک اپ پن۔</string>
+    <string name="pattern_backuppin">اپنے خاکے کے متبادل کے طور پر استعمال ہونے والا پن داخل کریں</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d سیکنڈ میں دوبارہ کوشش کریں</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 سیکنڈ میں دوبارہ کوشش کریں</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d منٹ میں دوبارہ کوشش کریں</string>
+    <string name="personalpage_off">ذاتی طرز نااہل ہو گئی۔</string>
+    <string name="personalpage_off_move_off">ذاتی موڈ نااہل ہو گیا۔ ابھی ذاتی میں منتقل کیا جارہا ہے کوئی مواد منتقل نہیں کیا جائے گا۔</string>
+    <string name="failed_to_mount">ذاتی طرز فعال کرنے میں ناکام ہو گیا۔ دوبارہ کوشش کریں۔</string>
+    <string name="pattern_help_text_try_again">آپ نے غلط ترتیب کھینچی ہے۔ دوبارہ کوشش کریں۔</string>
+    <string name="pin_help_text_try_again">آپ نے ایک غلط پن درج کیا ہے۔ دوبارہ کوشش کریں۔</string>
+    <string name="password_help_text_try_again">آپ نے ایک غلط پاس ورڈ درج کر دیا ہے۔ دوبارہ کوشش کریں۔</string>
+    <string name="pin_help_text">ذاتی موڈ کیلئے اپنا PIN درج کریں۔</string>
+    <string name="personal_page_switch_off_message">کوئی بھی کھلا ہوا مواد بند ہو جائے گا۔ ایسی کوئی تبدیلیاں مسترد ہوجائیں گی جنہیں آپ نے محفوظ نہیں کیا ہے۔</string>
+    <string name="private_mode_popup_btn_skip">چھوڑنا</string>
+    <string name="private_mode_popup_screen_lock_title">اسکرین لاک سیٹنگز</string>
+    <string name="private_mode_popup_screen_lock_msg">ذاتی موڈ کا استعمال کرتے وقت سلامتی بڑھانے کے لیے، ہم سفارش کرتے ہیں کہ آپ اپنی اسکرین کے قفل کی قسم کو ایک محفوظ طریقے میں بدلیں، پھر ذاتی موڈ اہل کریں۔</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">‏Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"اعلان دستبرداری 
+براہ کرم اس بات سے آگاہ رہیں کہ مشمولات ایسی صورت میں آپ کے آلے کے علیحدہ فولڈر میں ظاہر ہوسکتے ہیں جب کسی تیسرے فریق ایپلیکیشن، جیسے کہ Dropbox کے ذریعہ خودکار طور پر اس کی ہم وقت سازی کی جاتی ہے۔ ذاتی موڈ استعمال کرنے سے قبل اپنے دیگر ایپلیکیشنز کی خودکار ہم وقت سازی کی سیٹنگز چیک کریں۔"</string>
+    <string name="private_mode_popup_m2p_success_close">منتقلی مکمل۔ ذاتی موڈ بند کر رہا ہے۔</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">دوسری عمل کاری پہلے سے جاری ہے۔ اس کے ختم ہونے کے بعد دوبارہ کوشش کریں۔</string>
+    <string name="private_mode_pop_up_title">ذاتی موڈ نااہل کریں</string>
+    <string name="private_mode_popup_m2p_msg">منتخب [مواد] کو ذاتی میں منتقل کرنے پر ذاتی موڈ اہل ہوجائے گا، اور منتقلی مکمل ہونے کے بعد ایک بار پھر نااہل ہو جائے گا۔</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"منتخب کردہ ایپلی کیشنز کو پرائیویٹ میں منتقل کرتے وقت [ذاتی موڈ] کو اہل کر دیا جائے گا اور منتقل مکمل ہونے کے بعد دوبارہ نا اہل کر دیا جائے گا۔
+
+ایپلی کیشنز کو ذاتی میں منتقل کرنے سے ان کے لنک کردہ ایپلی کیشنز اور متعلقہ ویجیٹس بھی منتقل ہو جائیں گے اور ان کے شارٹ کٹس حذف ہو جائیں گے۔ ذاتی موڈ نا اہل ہونے پر، آپ کو ان ایپلی کیشنز سے نوٹیفکیشن موصول نہیں ہوں گے جنہیں آپ نے ذاتی میں منتقل کر دیا ہے۔"</string>
+    <string name="private_mode_popup_m2p_title">ذاتی موڈ اہل بنائیں</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">آپ کی نشان انگلی کی سیٹنگز بدل گئی ہیں۔ ذاتی موڈ اہل کرنے کے لیے اپنا دوہری تصدیق کا نمونہ بنائیں۔</string>
+    <string name="private_mode_bakcupkey_subtext_pin">آپ کی نشان انگلی کی سیٹنگز بدل گئی ہیں۔ ذاتی موڈ اہل کرنے کے لیے دوہری تصدیق کا پِن داخل کریں۔</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">آپ کی نشان انگلی کی سیٹنگز بدل گئی ہیں۔ ذاتی موڈ اہل کرنے کے لیے دوہری تصدیق کا پاس ورڈ داخل کریں۔</string>
+    <string name="private_mode_bakcupkey_bt_text">دوہری تصدیق استعمال کریں</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">پن</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">نمونہ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">پاس ورڈ</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s استعمال کریں</string>
+    <string name="private_mode_bakcuppwd_bt_text">بیک اپ پاس ورڈ</string>
+    <string name="private_mode_migration_body_text">نمونہ، پِن، یا پاس ورڈ اپنے فنگرپرنٹ میں ذاتی موڈ تک رسائی کے لیے ایک متبادل کے طورپر استعمال کرنے کے لیے سیٹ کریں۔</string>
+    <string name="private_mode_migration_next_button">اگلا</string>
+    <string name="private_mode_pattern_backup_pin_desc">بیک اپ پن</string>
+</resources>

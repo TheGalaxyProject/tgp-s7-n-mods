@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Реҷаи махфӣ</string>
+    <string name="personalpage_on">Реҷаи махфӣ фаъол карда шуд.</string>
+    <string name="personalpage_on_available">Муҳтавои махфӣ дастрас аст.</string>
+    <string name="personalpage_off_not_available">Муҳтавои махфӣ дастрас нест. Ягон муҳтавое, ки ҳол ба Махфӣ интиқол дода мешавад, интиқол дода намешавад.</string>
+    <string name="failed_to_unmount">Ғайрифаъол кардани Реҷаи махфӣ ғайриимкон аст. Кӯшишро такрор кунед.</string>
+    <string name="pattern_help_text">Расми худро барои реҷаи Махфӣ кашед.</string>
+    <string name="password_help_text">Рамзи пароли Реҷаи махфиро дохил кунед.</string>
+    <string name="personal_page_disclaimer_by_locktype">Мӯҳтавои шахсии худро пинҳон кунед. Барои истифодаи ин реҷа, тарзи озодкуние интихоб кунед. Барои муҳофизат кардани мӯҳтавои пинҳонӣ, ин реҷаро баъди истифода ғайриифаъол кунед.</string>
+    <string name="do_not_show_again">Дигар нишон надиҳед</string>
+    <string name="message_settings">Танзимот</string>
+    <string name="incorrect_backup_pin">PIN­и эҳтиётӣ нодуруст аст.</string>
+    <string name="pattern_backuppin">Рамзи PIN-ро, ки ҳамчун ҳамарзиши нақши озодкунӣ истифода бурда мешавад, дохил кунед.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Баъди %d сония такрор кунед.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Пас аз 1 сония аз нав кӯшиш кунед.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Пас аз %d дақиқа аз нав кӯшиш кунед</string>
+    <string name="personalpage_off">Реҷаи Махфӣ ғайрифаъол шуд.</string>
+    <string name="personalpage_off_move_off">Реҷаи Махфӣ ғайрифаъол шуд. Ягон муҳтавое, ки ҳол ба Махфӣ интиқол дода мешавад, интиқол дода намешавад.</string>
+    <string name="failed_to_mount">Фаъолсозии реҷаи Махфӣ иҷро нашуд. Аз нав кӯшиш кунед.</string>
+    <string name="pattern_help_text_try_again">Шумо нақши нодуруст кашидед. Кӯшишро такрор кунед.</string>
+    <string name="pin_help_text_try_again">Шумо PIN-и нодурустеро ворид кардед. Аз нав кӯшиш кунед.</string>
+    <string name="password_help_text_try_again">Шумо пароли нодурустро ворид кардед. Аз нав кӯшиш кунед.</string>
+    <string name="pin_help_text">PIN-и худро барои реҷаи Махфӣ ворид кунед.</string>
+    <string name="personal_page_switch_off_message">Ҳамаи муҳтавои кушода пӯшида мешавад. Ҳамаи тағйироте, ки шумо захира накардед бекор карда мешавад.</string>
+    <string name="private_mode_popup_btn_skip">Партофта гузаштан</string>
+    <string name="private_mode_popup_screen_lock_title">Танзимоти банди экран</string>
+    <string name="private_mode_popup_screen_lock_msg">Барои беҳтар кардани амният ҳангоми истифодаи реҷаи Махфӣ, мо тавсия медиҳем, ки навъи банди экрани худро бо ягон усули амн иваз кунед ва пас реҷаи Махфиро фаъол созед.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Реҷаи Махфӣ ҳангоми интиқол ёфтани муҳтавои интихобшуда фаъол мешавад.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">Интиқол анҷом ёфт. Пӯшидани Реҷаи Махфӣ.</string>
+    <string name="private_mode_popup_m2p_failed_close">Интиқол нотамом аст. Пӯшидани Реҷаи Махфӣ.</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Раванди дигаре идома дорад. Пас аз анҷом ёфтани он аз нав кӯшиш кунед.</string>
+    <string name="private_mode_pop_up_title">Ғайрифаъол кардани реҷаи Махфӣ</string>
+    <string name="private_mode_popup_m2p_msg">Вақте ки муҳтавои интихобшуда ба Махфӣ интиқол меёбад, реҷаи Махфӣ фаъол мешавад ва вақте ки интиқол анҷом меёбад, аз нав ғайрифаъол мешавад.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Вақте ки барномаҳои интихобшуда ба реҷаи шахсӣ интиқол дода мешаванд, реҷаи шахсӣ фаъол карда мешавад, ва аз нав ғайрифаъол карда мешавад, вақте ки интиқол ба анҷом мерасад.
+
+Амали интиқолдиҳии барномаҳо ба реҷаи шахсӣ, инчунин барномаҳои марбут ва виҷетҳои мансубро интиқол медиҳад ва миёнбурҳои онро нест мекунад. Ҳангоми ғайрифаъол будани реҷаи Махфӣ, шумо аз барномаҳои ба Махфӣ интиқолёфтаатон огоҳиҳо намегиред."</string>
+    <string name="private_mode_popup_m2p_title">Реҷаи Махфиро фаъол кунед</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Танзимоти изи ангуштони шумо тағйир дода шуд. Барои фаъол кардани реҷаи Махфӣ, расми Санҷиши дуқадамаро бикашед.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Танзимоти изи ангуштони шумо тағйир дода шуд. Барои фаъол кардани реҷаи Махфӣ, PIN-и Санҷиши дуқадамаро дохил кунед.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Танзимоти изи ангуштони шумо тағйир дода шуд. Барои фаъол кардани реҷаи Махфӣ, пароли Санҷиши дуқадамаро дохил кунед.</string>
+    <string name="private_mode_bakcupkey_bt_text">Санҷ. дуқадама истиф. б-н</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Нақш</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Парол</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Истифода бурдани %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Пароли эҳтиётӣ</string>
+    <string name="private_mode_migration_body_text">Расм, PIN ё пароле танзим карда, онро ҳамчун алтернативаи изи ангушт барои дастрас кардани реҷаи Махфӣ истифода баред.</string>
+    <string name="private_mode_migration_next_button">Навбатӣ</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN­и эҳтиётӣ</string>
+</resources>

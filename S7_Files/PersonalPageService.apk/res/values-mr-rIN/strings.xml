@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">गोपनीय मोड</string>
+    <string name="personalpage_on">खाजगी मोड सक्षम केला.</string>
+    <string name="personalpage_on_available">खाजगी सामग्री उपलब्ध आहे.</string>
+    <string name="personalpage_off_not_available">खाजगी सामग्री उपलब्ध नाही. खाजगीवर सध्‍या हलवलेली कोणतीही सामग्री हलवता येणार नाही.</string>
+    <string name="failed_to_unmount">खाजगी मोड अक्षम करण्यात अक्षम. पुन्‍हा प्रयत्‍न करा.</string>
+    <string name="pattern_help_text">गोपनीय मोडसाठी आपला पॅटर्न ड्रॉ करा.</string>
+    <string name="password_help_text">आपला खाजगी मोड पासवर्ड प्रविष्ट करा.</string>
+    <string name="personal_page_disclaimer_by_locktype">वैयक्तिक सामग्री लपवा. हा मोड वापरण्यासाठी, अनलॉक पद्धत निवडा. हा मोड लपवलेली सामग्री संरक्षित करण्या साठी वापरल्या नंतर अक्षम करा.</string>
+    <string name="do_not_show_again">पुन्हा दाखवू नका</string>
+    <string name="message_settings">सेटिंग्स</string>
+    <string name="incorrect_backup_pin">अयोग्य बॅकअप PIN.</string>
+    <string name="pattern_backuppin">वापरलेला PIN आपल्या रचनेला पर्यायी म्हणून वापरा.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">कृपया %d सेकंदांत पुन्हा प्रयत्न करा.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 सेकंदात पुन्हा प्रयत्न करा.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d मिनिटांमध्‍ये पुन्‍हा प्रयत्‍न करा</string>
+    <string name="personalpage_off">खाजगी मोड अक्षम केला.</string>
+    <string name="personalpage_off_move_off">गोपनीय मोड अक्षम केला. खाजगीवर सध्‍या हलवलेली जात असलेली कोणतीही सामग्री हलवता येणार नाही.</string>
+    <string name="failed_to_mount">खाजगी मोड सक्षम करण्‍यामध्‍ये अयशस्वी. पुन्‍हा प्रयत्‍न करा.</string>
+    <string name="pattern_help_text_try_again">आपण चुकीचा पॅटर्न रेखाटला आहे. पुन्‍हा प्रयत्‍न करा.</string>
+    <string name="pin_help_text_try_again">आपण चुकीचा PIN प्रविष्‍ट केला आहे. पुन्‍हा प्रयत्‍न करा.</string>
+    <string name="password_help_text_try_again">आपण चुकीचा पासवर्ड प्रविष्‍ट केला आहे. पुन्‍हा प्रयत्‍न करा.</string>
+    <string name="pin_help_text">खाजगी मोडसाठी आपला PIN प्रविष्‍ट करा.</string>
+    <string name="personal_page_switch_off_message">कोणतीही खुली सामग्री बंद केली जाईल. कोणतेही बदल जे आपण जतन केलेले नाहीत ते रद्द केले जातील.</string>
+    <string name="private_mode_popup_btn_skip">वगळा</string>
+    <string name="private_mode_popup_screen_lock_title">स्क्रीन लॉक सेटिंग्स</string>
+    <string name="private_mode_popup_screen_lock_msg">खाजगी मोड वापरत असताना सुरक्षा वाढवण्यासाठी, आम्ही आपल्याला आपला स्क्रीन लॉक प्रकार सुरक्षा पद्धतीवर बदलण्याची शिफारस करतो, नंतर खाजगी मोड सक्षम करा.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">निवडलेली सामग्री स्थानांतरित झाल्यावर गोपनीय मोड सक्रिय केला जाईल.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"अस्वीकार 
+कृपया लक्षात ठेवा की आपल्या उपकरणामधील सामग्री वेगळ्या फोल्डरमध्ये दिसू शकते जेव्हा ती ड्रॉपबॉक्ससारख्‍या तृतीय-पक्ष अनुप्रयोगाद्वारे स्वयंचलितपणे सिंक्रोनाइझ केली असेल. गोपनीय मोड वापरण्यापूर्वी आपल्या इतर अनुप्रयोगांच्या स्वयं-सिंक्रोनाइझेशन सेटिंग्स तपासा."</string>
+    <string name="private_mode_popup_m2p_success_close">"स्थानांतरण पूर्ण. 
+गोपनीय मोडमधून बाहेर पडणे."</string>
+    <string name="private_mode_popup_m2p_failed_close">"स्थानांतरण अपूर्ण. 
+गोपनीय मोडमधून बाहेर पडणे."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">इतर प्रक्रिया आधीपासूनच प्रक्रियारत आहेत. ती समाप्त झाल्यावर पुन्हा प्रयत्न करा.</string>
+    <string name="private_mode_pop_up_title">खाजगी मोड अक्षम करा</string>
+    <string name="private_mode_popup_m2p_msg">निवडलेली सामग्री खाजगीवर हलवल्‍यावर आणि स्‍थानांतरण पूर्ण होताच पुन्‍हा अक्षम केल्‍यावर खाजगी मोड मोड सक्षम करण्‍यात येईल.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"निवडलेले अनुप्रयोग खाजगीवर हलवल्‍यावर आणि पुन्‍हा स्‍थानांतरण पूर्ण होणे अक्षम केल्‍यावर खाजगी मोड सक्षम करण्‍यात येईल.
+
+खाजगीवर अनुप्रयोग हलवल्‍याने त्‍यांचे लिंक केलेले अनुप्रयोग आणि संबंधित विजेट्स देखील हलवेल आणि त्‍यांचे शॉर्टकट्स हटवेल. खाजगी मोड अक्षम असताना, आपण खाजगीवर हलवलेल्‍या अनुप्रयोगांमधून आपल्‍याला अधिसूचना प्राप्‍त होणार नाहीत."</string>
+    <string name="private_mode_popup_m2p_title">खाजगी मोड सक्षम करा</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">आपल्या फिंगरप्रिंट सेटिंग्स बदललेली आहे. गोपनीय मोड सक्षम करण्यासाठी आपले दुहेरी अधिसूचना पॅटर्न ड्रॉ करा.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">आपल्या फिंगरप्रिंट सेटिंग्स बदललेली आहे. गोपनीय मोड सक्षम करण्यासाठी आपले दुहेरी अधिसूचना PIN प्रविष्ट करा.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">आपल्या फिंगरप्रिंट सेटिंग्स बदललेली आहे. गोपनीय मोड सक्षम करण्यासाठी आपले दुहेरी अधिसूचना पासवर्ड प्रविष्ट करा.</string>
+    <string name="private_mode_bakcupkey_bt_text">दुहेरी अधिसूचना वापरा</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">पॅटर्न</string>
+    <string name="private_mode_bakcupkey_bt_password_text">पासवर्ड</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s वापरा</string>
+    <string name="private_mode_bakcuppwd_bt_text">बॅकअप पासवर्ड</string>
+    <string name="private_mode_migration_body_text">खाजगी मोड ऍक्सेस करण्यासाठी आपल्या फिंगरप्रिंट्सला पर्यायी म्‍हणून वापरण्यासाठी पॅटर्न, PIN किंवा पासवर्ड सेट करा.</string>
+    <string name="private_mode_migration_next_button">नंतरचा</string>
+    <string name="private_mode_pattern_backup_pin_desc">बॅकअप PIN</string>
+</resources>

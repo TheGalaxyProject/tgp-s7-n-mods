@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#4d000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/pattern_layout" android:background="#fffafafa" android:layout_width="480.0dip" android:layout_height="wrap_content" android:paddingStart="36.0dip" android:paddingEnd="36.0dip" android:elevation="12.0dip">
+        <RelativeLayout android:gravity="center" android:id="@id/pattern_inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_alignParentTop="true">
+            <RelativeLayout android:gravity="center" android:id="@id/pattern_inner_layout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+                <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/patternTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="355.0dip" android:text="@string/pattern_help_text" android:layout_centerVertical="true" android:fontFamily="sec-roboto-light" />
+                <ImageButton android:id="@id/patternimageButtonPW" android:background="@drawable/private_mode_unlock_ic_pwd" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:contentDescription="@string/private_mode_pattern_backup_pin_desc" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/patternTitleText" />
+            </RelativeLayout>
+            <TextView android:textSize="17.0sp" android:textColor="#ff545454" android:gravity="start" android:id="@id/backupkeySubText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:minHeight="60.0dip" android:text="@string/private_mode_bakcupkey_subtext_pattern" android:layout_below="@id/pattern_inner_layout2" android:lineSpacingExtra="4.0dip" android:fontFamily="sec-roboto-light" />
+        </RelativeLayout>
+        <com.android.internal.widget.LockPatternView android:id="@id/secretPattern" android:focusable="true" android:layout_width="350.0dip" android:layout_height="410.0dip" android:layout_marginTop="28.0dip" android:layout_marginBottom="64.0dip" android:layout_below="@id/pattern_inner_layout" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

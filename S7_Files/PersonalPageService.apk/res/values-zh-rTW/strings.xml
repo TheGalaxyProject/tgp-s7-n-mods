@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">隱私模式</string>
+    <string name="personalpage_on">[隱私模式] 已啟用。</string>
+    <string name="personalpage_on_available">隱私內容可用。</string>
+    <string name="personalpage_off_not_available">無法取得隱私內容。將不會移動任何正在移至隱私資料夾的內容。</string>
+    <string name="failed_to_unmount">無法停用 [隱私模式]。請重試。</string>
+    <string name="pattern_help_text">畫出隱私模式的圖案。</string>
+    <string name="password_help_text">輸入您的 [隱私模式] 密碼。</string>
+    <string name="personal_page_disclaimer_by_locktype">隱藏個人內容。若要使用此模式，請選擇一個解鎖方式。使用後請停用此模式以保護隱藏的內容。</string>
+    <string name="do_not_show_again">不再顯示。</string>
+    <string name="message_settings">設定</string>
+    <string name="incorrect_backup_pin">備份 PIN 碼錯誤。</string>
+    <string name="pattern_backuppin">輸入作為替代圖案的 PIN 碼。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">請在 %d 秒後再試一次。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">請在1秒後重試。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">請於 %d 分鐘後重試</string>
+    <string name="personalpage_off">[隱私模式] 已停用。</string>
+    <string name="personalpage_off_move_off">[私密模式] 已停用。將不會移動任何目前移至 [私密資料夾] 的內容。</string>
+    <string name="failed_to_mount">無法啟用 [隱私模式]。請重試。</string>
+    <string name="pattern_help_text_try_again">您繪製了錯誤的圖案。請重試。</string>
+    <string name="pin_help_text_try_again">您輸入了錯誤的 PIN 碼。請重試。</string>
+    <string name="password_help_text_try_again">您輸入的密碼不正確。請重試</string>
+    <string name="pin_help_text">輸入 [隱私模式] PIN 碼。</string>
+    <string name="personal_page_switch_off_message">將關閉目前開啟的任何內容。尚未儲存的任何變更皆將被捨棄。</string>
+    <string name="private_mode_popup_btn_skip">略過</string>
+    <string name="private_mode_popup_screen_lock_title">螢幕鎖定設定</string>
+    <string name="private_mode_popup_screen_lock_msg">若要在使用 [隱私模式] 時加強安全性，我們建議您將螢幕鎖定類型變更為安全的方式，接著再啟用 [隱私模式]。</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">「隱私模式」將會在系統傳輸所選內容時啟動。</string>
+    <string name="private_mode_popup_m2p_disclaimer">"免責聲明 
+請注意，當內容透過第三方應用程式 自動同步時，該內容可能會出現在裝置的另一個資料夾中。 請在使用「隱私模式」前，檢查您其他應用程式的自動同步設定。"</string>
+    <string name="private_mode_popup_m2p_success_close">"傳輸完成。
+退出 [隱私模式]。"</string>
+    <string name="private_mode_popup_m2p_failed_close">"傳輸未完成。
+退出 [隱私模式]。"</string>
+    <string name="personalpage_on_vzw">[隱私模式] 已開啟。</string>
+    <string name="personalpage_off_vzw">[隱私模式] 已關閉。</string>
+    <string name="private_mode_toast_ism2p">其他程序正在處理中。請於完成後重試。</string>
+    <string name="private_mode_pop_up_title">停用隱私模式</string>
+    <string name="private_mode_popup_m2p_msg">[隱私模式] 將在選擇的內容移動到 [私密資料夾] 時啟用，並在傳輸完成時再次停用。</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"[隱私模式] 將在選擇的應用程式移至 [私密資料夾] 時啟用，且於傳輸完成時再次停用。
+
+將應用程式移至 [私密資料夾] 也將移動其連結的應用程式與相關 widget，並刪除其捷徑。[隱私模式] 停用時，將不會從已移至 [私密資料夾] 的應用程式接收通知。"</string>
+    <string name="private_mode_popup_m2p_title">啟用隱私模式</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">您的指紋設定已變更。請繪製您的雙重驗證圖形來啟用 [隱私模式]。</string>
+    <string name="private_mode_bakcupkey_subtext_pin">您的指紋設定已變更。請輸入您的 [雙重驗證數字密碼] 來啟用 [私人模式]。</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">您的指紋設定已變更。請輸入您的 [雙重驗證密碼] 來啟用 [私人模式]。</string>
+    <string name="private_mode_bakcupkey_bt_text">使用雙重驗證</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">圖形</string>
+    <string name="private_mode_bakcupkey_bt_password_text">密碼</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">使用%s</string>
+    <string name="private_mode_bakcuppwd_bt_text">備份密碼</string>
+    <string name="private_mode_migration_body_text">設定圖形、PIN 碼或密碼以作為指紋的替代方式，藉此進入隱私模式。</string>
+    <string name="private_mode_migration_next_button">下一步</string>
+    <string name="private_mode_pattern_backup_pin_desc">備份 PIN 碼</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privater Modus</string>
+    <string name="personalpage_on">Privater Modus aktiviert.</string>
+    <string name="personalpage_on_available">Privater Inhalt verfügbar.</string>
+    <string name="personalpage_off_not_available">Kein privater Inhalt verfügbar. Jeder aktuell in Privat verschobener Inhalt wird nicht verschoben.</string>
+    <string name="failed_to_unmount">Privater Modus kann nicht deaktiviert werden. Erneut versuchen.</string>
+    <string name="pattern_help_text">Zeichnen Sie das Muster für den privaten Modus.</string>
+    <string name="password_help_text">Geben Ihr Passwort für den privaten Modus ein.</string>
+    <string name="personal_page_disclaimer_by_locktype">Blenden Sie persönliche Inhalte aus. Um diesen Modus zu verwenden, wählen Sie eine Entsperrmethode aus. Deaktivieren Sie diesen Modus nach der Verwendung, um versteckte Inhalte zu schützen.</string>
+    <string name="do_not_show_again">Nicht erneut anzeigen</string>
+    <string name="message_settings">Einstell.</string>
+    <string name="incorrect_backup_pin">Falsche Sicherungs-PIN</string>
+    <string name="pattern_backuppin">Geben Sie die als Alternative zum Muster verwendete PIN ein.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Versuchen Sie es in %d Sekunden erneut</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Versuchen Sie es in 1 Sekunde erneut</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Versuchen Sie es in %d Minuten erneut.</string>
+    <string name="personalpage_off">Privater Modus deaktiviert.</string>
+    <string name="personalpage_off_move_off">Privater Modus deaktiviert. Jeder aktuell in Privat verschobener Inhalt wird nicht verschoben.</string>
+    <string name="failed_to_mount">Privater Modus nicht aktiviert. Erneut versuchen.</string>
+    <string name="pattern_help_text_try_again">Sie haben ein ungültiges Muster gezeichnet. Versuchen Sie es erneut.</string>
+    <string name="pin_help_text_try_again">Sie haben eine falsche PIN eingegeben. Versuchen Sie es erneut.</string>
+    <string name="password_help_text_try_again">Sie haben ein ungültiges Passwort eingegeben. Versuchen Sie es erneut.</string>
+    <string name="pin_help_text">PIN für den privaten Modus eingeben.</string>
+    <string name="personal_page_switch_off_message">Geöffnete Inhalte werden geschlossen. Nicht gespeicherte Änderungen gehen verloren.</string>
+    <string name="private_mode_popup_btn_skip">Überspringen</string>
+    <string name="private_mode_popup_screen_lock_title">Sperrbildschirm-Einstellungen</string>
+    <string name="private_mode_popup_screen_lock_msg">Um die Sicherheit bei der Verwendung des privaten Modus zu verbessern, empfehlen wir Ihnen die Sperrmethode für den Bildschirm zu einer sicheren Methode zu ändern und den privaten Modus zu aktivieren.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Der private Modus wird aktiviert, wenn die ausgewählten Inhalte übertragen werden.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Hinweis
+Bitte beachten Sie, dass die Inhalte möglicherweise in einem getrennten Ordner auf dem Gerät angezeigt werden, wenn es mit einer Anwendung eines dritten Anbieters, wie z.B. Dropbox synchronisiert wird. Überprüfen Sie die Einstellungen zur automatischen Synchronisierung Ihrer anderen Anwendungen, bevor Sie den privaten Modus verwenden."</string>
+    <string name="private_mode_popup_m2p_success_close">"Übertragung abgeschlossen. 
+Privater Modus wird beendet."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Übertragung nicht abgeschlossen. 
+Privater Modus wird beendet."</string>
+    <string name="personalpage_on_vzw">Privater Modus aktiviert.</string>
+    <string name="personalpage_off_vzw">Privater Modus deaktiviert.</string>
+    <string name="private_mode_toast_ism2p">Ein anderer Vorgang wird gerade ausgeführt. Nach Beendigung erneut versuchen.</string>
+    <string name="private_mode_pop_up_title">Deaktivieren des privaten Modus</string>
+    <string name="private_mode_popup_m2p_msg">Der private Modus wird aktiviert, während der ausgewählte Inhalt nach Privat verschoben wird, und wieder deaktiviert, sobald die Übertragung beendet ist.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Der Private Modus wird aktiviert, während die ausgewählten Anwendungen zu Privat verschoben werden, und wieder deaktiviert, sobald die Übertragung beendet ist.
+
+Die ausgewählten Anwendungen werden zusammen mit den verknüpften Anwendungen und zugehörigen Widgets zu Privat verschoben und die Shortcuts werden gelöscht. Solange der Private Modus deaktiviert ist, erhalten Sie keine Benachrichtigungen von den zu Privat verschobenen Anwendungen."</string>
+    <string name="private_mode_popup_m2p_title">Aktivierung des Privaten Modus</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Ihre Fingerabdruckeinstellungen wurden geändert. Zeichnen Sie Ihr „Doppelte Überprüfung“-Muster, um den privaten Modus zu aktivieren.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Ihre Fingerabdruckeinstellungen wurden geändert. Geben Sie Ihre „Doppelte Überprüfung“-PIN ein, um den privaten Modus zu aktivieren.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Ihre Fingerabdruckeinstellungen wurden geändert. Geben Sie Ihr „Doppelte Überprüfung“-Passwort ein, um den privaten Modus zu aktivieren.</string>
+    <string name="private_mode_bakcupkey_bt_text">Doppelte Überprüfung verw.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Muster</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Passwort</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s verwenden</string>
+    <string name="private_mode_bakcuppwd_bt_text">Sicherungspasswort</string>
+    <string name="private_mode_migration_body_text">Muster, PIN oder Passwort als Alternative zu Ihren Fingerabdrücken für den Zugriff auf den privaten Modus festlegen.</string>
+    <string name="private_mode_migration_next_button">Weiter</string>
+    <string name="private_mode_pattern_backup_pin_desc">Sicherungs-PIN</string>
+</resources>

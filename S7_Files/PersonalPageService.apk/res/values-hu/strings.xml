@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privát mód</string>
+    <string name="personalpage_on">Privát üzemmód bekapcsolva.</string>
+    <string name="personalpage_on_available">Elérhetők a privát tartalmak.</string>
+    <string name="personalpage_off_not_available">Nem érhetők el a privát tartalmak. Így nem helyezi át azokat a tartalmakat, amelyeknek éppen zajlott a Privátba helyezése.</string>
+    <string name="failed_to_unmount">Nem lehet kikapcsolni a privát üzemmódot. Próbálja újra.</string>
+    <string name="pattern_help_text">Rajzolja le a Privát üzemmód mintáját.</string>
+    <string name="password_help_text">Adja meg a privát üzemmód jelszavát.</string>
+    <string name="personal_page_disclaimer_by_locktype">Elrejti a személyes tartalmat. Az üzemmód használatához válasszon egy feloldási módszert. Az elrejtett tartalom védelme érdekében használat után kapcsolja ki ezt az üzemmódot.</string>
+    <string name="do_not_show_again">Ne jelenjen meg többé</string>
+    <string name="message_settings">Beállítások</string>
+    <string name="incorrect_backup_pin">Helytelen tartalék PIN</string>
+    <string name="pattern_backuppin">Adja meg a minta alternatívájaként használt PIN-t.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Próbálja újra %d másodperc múlva.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Próbálja meg 1 másodperc múlva.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Próbálja meg %d perc múlva</string>
+    <string name="personalpage_off">Privát üzemmód letiltva.</string>
+    <string name="personalpage_off_move_off">Kikapcsolta a Privát üzemmódot. Így nem helyezi át azokat a tartalmakat, amelyeknek éppen zajlott a Privátba helyezése.</string>
+    <string name="failed_to_mount">Nem sikerült bekapcsolni a privát üzemmódot. Próbálja újra.</string>
+    <string name="pattern_help_text_try_again">Helytelenül rajzolta le a feloldómintát. Próbálja újra.</string>
+    <string name="pin_help_text_try_again">Helytelen PIN-t adott meg. Próbálja újra.</string>
+    <string name="password_help_text_try_again">Helytelen jelszót adott meg. Próbálja újra</string>
+    <string name="pin_help_text">Adja meg a privát üzemmód PIN-jét.</string>
+    <string name="personal_page_switch_off_message">Minden megnyitott tartalom bezáródik. A nem mentett módosítások elvesznek.</string>
+    <string name="private_mode_popup_btn_skip">Átugrik</string>
+    <string name="private_mode_popup_screen_lock_title">Képernyőzár beállításai</string>
+    <string name="private_mode_popup_screen_lock_msg">A privát üzemmód használata során a biztonság növeléséhez javasoljuk, hogy módosítsa a képernyőzár típusát biztonságos módszerre, majd engedélyezze a privát üzemmódot.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">A Privát mód a kiválasztott tartalom másolásakor lép működésbe.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Jogi nyilatkozat 
+Felhívjuk figyelmét, hogy amennyiben egy külsős alkalmazás (pl. Dropbox) automatikusan szinkronizálja a tartalmat, úgy a tartalom megjelenhet egy külön mappában. A Privát mód használata előtt tekintse meg a többi alkalmazás automatikus szinkronizációs beállításait."</string>
+    <string name="private_mode_popup_m2p_success_close">"Másolás kész. 
+Kilépés a Privát módból."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Másolás sikertelen. 
+Kilépés a Privát módból."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Már zajlik egy másik folyamat. A befejeződése után próbálkozzon újra.</string>
+    <string name="private_mode_pop_up_title">Privát üzemmód kikapcsolása</string>
+    <string name="private_mode_popup_m2p_msg">A kijelölt tartalom Privátba helyezésekor a Privát üzemmód bekapcsol, majd az átvitel végén kikapcsol.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"A kiválasztott alkalmazások Privátba helyezésének idejére bekapcsol a Privát üzemmód, majd az átvitel végén ismét kikapcsol.
+
+Ha a Privátba helyez egy alkalmazást, egyúttal annak kapcsolódó alkalmazásait és widgetjeit is áthelyezi, valamint törli mindezek parancsikonjait. Amíg a Privát üzemmód ki van kapcsolva, nem kap értesítéseket a Privátba helyezett alkalmazásoktól."</string>
+    <string name="private_mode_popup_m2p_title">Privát üzemmód engedélyezése</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Módosultak az ujjlenyomat-beállítások. A Privát üzemmód bekapcsolásához rajzolja le a Kettős hitelesítés mintáját.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Módosultak az ujjlenyomat-beállítások. A Privát üzemmód bekapcsolásához adja meg a Kettős hitelesítés PIN-jét.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Módosultak az ujjlenyomat-beállítások. A Privát üzemmód bekapcsolásához adja meg a Kettős hitelesítés jelszavát.</string>
+    <string name="private_mode_bakcupkey_bt_text">Kettős hitelesítés haszn.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Mintázat</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Jelszó</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">A(z) %s használata</string>
+    <string name="private_mode_bakcuppwd_bt_text">Tartalék jelszó</string>
+    <string name="private_mode_migration_body_text">Állítson be mintát, PIN-t vagy jelszót az ujjlenyomat-felismerés alternatívájaként a Privát üzemmódhoz való hozzáféréséhez.</string>
+    <string name="private_mode_migration_next_button">Következő</string>
+    <string name="private_mode_pattern_backup_pin_desc">Tartalék PIN</string>
+</resources>

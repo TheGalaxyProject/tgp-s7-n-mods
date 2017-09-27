@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Գաղտնի կապի ռեժիմ</string>
+    <string name="personalpage_on">Գաղտնի կապի ռեժիմն ընձեռված է:</string>
+    <string name="personalpage_on_available">Գաղտնի բովանդակությունը մատչելի է:</string>
+    <string name="personalpage_off_not_available">Գաղտնի բովանդակությունը մատչելի չէ: Ցանկացած բովանդակություն, որը ներկայումս տեղափոխվում է դեպի Գաղտնի, չի տեղափոխվի:</string>
+    <string name="failed_to_unmount">Անհնար է կասեցնել Գաղտնի կապի ռեժիմը: Նորից փորձեք:</string>
+    <string name="pattern_help_text">Գծեք Ձեր նախշը Գաղտնի կապի ռեժիմի համար:</string>
+    <string name="password_help_text">Մուտքագրեք Ձեր Գաղտնի կապի ռեժիմի գաղտնաբառը:</string>
+    <string name="personal_page_disclaimer_by_locktype">Թաքցնել անձնական բովանդակությունը: Այս ռեժիմն օգտագործելու համար ընտրեք արգելաբացման եղանակ: Օգտագործելուց հետո կասեցրեք այս ռեժիմը՝ թաքցված բովանդակությունը պաշտպանելու համար:</string>
+    <string name="do_not_show_again">Ցույց չտալ այլևս</string>
+    <string name="message_settings">Կայանքնր</string>
+    <string name="incorrect_backup_pin">Կրկնօրինակման սխալ PIN:</string>
+    <string name="pattern_backuppin">Մուտքագրեք PIN-ը, որն օգտագործվում է որպես Ձեր նախշի այլընտրանք:</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Փորձե՛ք կրկին՝ %d վայրկյանից:</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Նորից փորձեք 1 վայրկյանից:</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Նորից փորձեք %d րոպեից</string>
+    <string name="personalpage_off">Գաղտնի կապի ռեժիմը կասեցված է:</string>
+    <string name="personalpage_off_move_off">Գաղտնի կապի ռեժիմը կասեցված է: Ցանկացած բովանդակություն, որը ներկայումս տեղափոխվում է դեպի Գաղտնի, չի տեղափոխվի:</string>
+    <string name="failed_to_mount">Չհաջողվեց ընձեռել Գաղտնի կապի ռեժիմը: Նորից փորձեք:</string>
+    <string name="pattern_help_text_try_again">Դուք սխալ նախշ եք գծել: Նորից փորձեք:</string>
+    <string name="pin_help_text_try_again">Դուք սխալ PIN եք մուտքագրել: Նորից փորձեք</string>
+    <string name="password_help_text_try_again">Դուք սխալ գաղտնաբառ եք մուտքագրել: Նորից փորձեք</string>
+    <string name="pin_help_text">Մուտքագրեք Ձեր Գաղտնի կապի ռեժիմի PIN-ը:</string>
+    <string name="personal_page_switch_off_message">Ցանկացած բաց բովանդակություն կփակվի: Բոլոր չպահպանված փոփոխությունները դեն կնետվեն:</string>
+    <string name="private_mode_popup_btn_skip">Բաց թղնլ</string>
+    <string name="private_mode_popup_screen_lock_title">Էկրնի կպնմն կրգվորումնրը</string>
+    <string name="private_mode_popup_screen_lock_msg">Գաղտնի ռեժիմի ժամանակ անվտանգությունը կատարելագործելու համար խորհուրդ ենք տալիս փոխել կողպէկրանի տեսակը ապահով եղանակի, հետո միացնել Գաղտնի կապի ռեժիմը:</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Գաղտնի ռեժիմն ակտիվանում է, երբ դրա ներքո են փոխանցվում ընտրված տվյալները:</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Դիսկլամացիա
+Խնդրում ենք նկատի ունենալ, որ տվյալները կարող են հայտնվել Ձեր սարքի առանձին պանակի մեջ, երբ ձեր սարքը ինքնաբերաբար համապատասխանեցվում է որևիցե այլ կիրառելի ծրագրերի, օրինակ` Dropbox-ի հետ: Ստուգեք այլ կիրառելի ծրագրերի ինքնուրույն համապատասխանեցման կարգավորումները նախքան Գաղտնի ռեժիմն օգտագործելը:"</string>
+    <string name="private_mode_popup_m2p_success_close">"Փոխանցումն ավարտվեց 
+Ելք Գաղտնի ռեժիմից:"</string>
+    <string name="private_mode_popup_m2p_failed_close">"Փոխանցումն անավարտ է 
+Ելք Գաղտնի ռեժիմից:"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Մեկ այլ գործընթաց է արդեն ընթանում: Նորից փորձեք, երբ այն ավարտվի:</string>
+    <string name="private_mode_pop_up_title">Կասեցնել Գաղտնի կապի ռեժիմը</string>
+    <string name="private_mode_popup_m2p_msg">Գաղտնի ռեժիմը կմիացվի՝ դեպի Գաղտնի ընտրված բովանդակությունը տեղափոխելիս, և կրկին կանջատվի փոխանումն ավարտելուն պես:</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Գաղտնի ռեժիմը կմիացվի` ընտրված ծրագրերը Գաղտնի տեղափոխվելու ընթացքում, և կանջատվի` տեղափոխումն ավարտվելուն պես:
+
+Ծրագրերը Գաղտնի տեղափոխելու դեպքում կտեղափոխվեն նաև կապված ծրագրերը և առնչվող հարմարանքները, և կջնջի դրանց դյուրանցումները: Գաղտնի ռեժիմի անջատած ժամանակ դուք չեք ստանա Գաղտնի տեղափոխված ծրագրերից:"</string>
+    <string name="private_mode_popup_m2p_title">Միացնել Գաղտնի ռեժիմը</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Ձեր մատնահետքի դրվածքները փոխվել են: Գծեք Կրկնակի ստուգման նախշը՝ Գաղտնի կապի ռեժիմն ընձեռելու համար:</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Ձեր մատնահետքի դրվածքները փոխվել են: Մուտքագրեք Կրկնակի ստուգման PIN-ը՝ Գաղտնի կապի ռեժիմն ընձեռելու համար:</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Ձեր մատնահետքի դրվածքները փոխվել են: Մուտքագրեք Կրկնակի ստուգման գաղտնաբառը՝ Գաղտնի կապի ռեժիմն ընձեռելու համար:</string>
+    <string name="private_mode_bakcupkey_bt_text">Օգտագործել կրկն. ստուգում</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Թրթռում</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Գաղտնաբառ</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Օգտագործել %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Պահեստային գաղտնաբառ</string>
+    <string name="private_mode_migration_body_text">Դրեք նախշ, PIN կամ գաղտնաբառ, որպեսզի օգտագործեք որպես մատնահետքերի այլընտրանք՝ Գաղտնի կապի ռեժիմ մուտք գործելու համար:</string>
+    <string name="private_mode_migration_next_button">հաջորդ</string>
+    <string name="private_mode_pattern_backup_pin_desc">Պահեստային PIN</string>
+</resources>

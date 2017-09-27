@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privéstand</string>
+    <string name="personalpage_on">Privéstand ingeschakeld.</string>
+    <string name="personalpage_on_available">Privé-inhoud beschikbaar.</string>
+    <string name="personalpage_off_not_available">Privé-inhoud niet beschikbaar. Inhoud die momenteel wordt verplaatst naar Privé, wordt niet verplaatst.</string>
+    <string name="failed_to_unmount">Kan Privéstand niet uitschakelen. Probeer het opnieuw.</string>
+    <string name="pattern_help_text">Teken uw patroon voor Privéstand.</string>
+    <string name="password_help_text">Geef het wachtwoord voor de Privéstand op.</string>
+    <string name="personal_page_disclaimer_by_locktype">Verberg persoonlijke inhoud. Selecteer een ontgrendelmethode om deze stand te gebruiken. Schakel deze stand na gebruik uit om de verborgen inhoud te beschermen.</string>
+    <string name="do_not_show_again">Niet meer tonen</string>
+    <string name="message_settings">Instellingen</string>
+    <string name="incorrect_backup_pin">Onjuiste reservepincode.</string>
+    <string name="pattern_backuppin">Voer de pincode in die u gebruikt als alternatief voor uw patroon.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Probeer opnieuw over %d seconden.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Probeer opnieuw over 1 seconde.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Probeer opnieuw over %d minuten</string>
+    <string name="personalpage_off">Privéstand uitgeschakeld.</string>
+    <string name="personalpage_off_move_off">Privéstand uitgeschakeld. Inhoud die momenteel wordt verplaatst naar Privé, wordt niet verplaatst.</string>
+    <string name="failed_to_mount">Kan Privéstand niet inschakelen. Probeer het opnieuw.</string>
+    <string name="pattern_help_text_try_again">U hebt een onjuist ontgrendelpatroon getekend. Probeer het opnieuw.</string>
+    <string name="pin_help_text_try_again">U hebt een onjuiste pincode ingevoerd. Probeer het opnieuw.</string>
+    <string name="password_help_text_try_again">U hebt een onjuist wachtwoord ingevoerd. Probeer het opnieuw.</string>
+    <string name="pin_help_text">Geef uw pincode voor de Privéstand op.</string>
+    <string name="personal_page_switch_off_message">Geopende inhoud wordt gesloten. Wijzigingen die u niet hebt opgeslagen, worden verwijderd.</string>
+    <string name="private_mode_popup_btn_skip">Overslaan</string>
+    <string name="private_mode_popup_screen_lock_title">Instellingen schermvergr</string>
+    <string name="private_mode_popup_screen_lock_msg">Voor een betere beveiliging tijdens het gebruik van Privéstand, stelt u uw schermvergrendelingstype in op een veilige methode en schakelt u Privéstand in.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privéstand wordt geactiveerd wanneer de geselecteerde inhoud wordt overgedragen.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer 
+Opmerking: inhoud kan in een aparte map op uw apparaat worden weergegeven wanneer deze automatisch wordt gesynchroniseerd door een toepassing van derden, zoals Dropbox. Controleer de automatische synchronisatie-instellingen van uw andere toepassingen voordat u Privéstand gebruikt."</string>
+    <string name="private_mode_popup_m2p_success_close">"Overdracht voltooid. 
+Privéstand wordt afgesloten."</string>
+    <string name="private_mode_popup_m2p_failed_close">Overdracht niet voltooid. Privéstand wordt afgesloten.</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Er is al een ander proces bezig. Probeer het opnieuw nadat het is afgelopen.</string>
+    <string name="private_mode_pop_up_title">Privéstand uitschakelen</string>
+    <string name="private_mode_popup_m2p_msg">Privéstand wordt ingeschakeld terwijl de geselecteerde inhoud naar Privé wordt verplaatst en weer uitgeschakeld wanneer de overdracht is voltooid.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privéstand wordt ingeschakeld terwijl de geselecteerde applicaties worden verplaatst naar Privé en wordt weer uitgeschakeld wanneer de overdracht is voltooid.
+
+Als u applicaties naar Privé verplaatst, worden de gekoppelde applicaties en samenhangende widgets ook verplaatst en worden de sneltoetsen ervan verwijderd. Als Privéstand is uitgeschakeld, ontvangt u geen meldingen van de applicaties die u naar Privé hebt verplaatst."</string>
+    <string name="private_mode_popup_m2p_title">Privéstand inschakelen</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Uw vingerafdrukinstellingen zijn gewijzigd. Teken uw Dubbele verificatiepatroon om Privéstand in te schakelen.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Uw vingerafdrukinstellingen zijn gewijzigd. Voer uw pincode voor Dubbele verificatie in om Privéstand in te schakelen.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Uw vingerafdrukinstellingen zijn gewijzigd. Voer uw wachtwoord voor Dubbele verificatie in om Privéstand in te schakelen.</string>
+    <string name="private_mode_bakcupkey_bt_text">Dubbele verificatie gebr.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">Geef PIN-code in</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Patroon</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Wachtwoord</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s gebruiken</string>
+    <string name="private_mode_bakcuppwd_bt_text">Back-upwachtwoord</string>
+    <string name="private_mode_migration_body_text">Stel een patroon, pincode of wachtwoord in om te gebruiken als alternatief voor uw vingerafdrukken bij toegang tot Privéstand.</string>
+    <string name="private_mode_migration_next_button">Volgende</string>
+    <string name="private_mode_pattern_backup_pin_desc">Reservepincode</string>
+</resources>

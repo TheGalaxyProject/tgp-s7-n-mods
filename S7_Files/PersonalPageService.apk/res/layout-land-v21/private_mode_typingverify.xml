@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="#4d000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/typingverify_layout" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="340.0dip" android:elevation="5.0dip">
+        <RelativeLayout android:gravity="center" android:id="@id/verify_inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="170.0dip" android:layout_alignParentTop="true" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_toStartOf="@id/typingverifyEditText">
+            <TextView android:textSize="17.0dip" android:textColor="#ff252525" android:gravity="center" android:id="@id/typingverifyTitleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:text="@string/password_help_text" android:fontFamily="sec-roboto-light" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff6b6f72" android:gravity="center" android:id="@id/backupkeySubText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/private_mode_bakcupkey_subtext_pwd" android:layout_below="@id/typingverifyTitleText" android:fontFamily="sec-roboto-light" />
+        </RelativeLayout>
+        <EditText android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/typingverifyEditText" android:background="@drawable/private_textfield_square" android:focusable="true" android:longClickable="false" android:layout_width="300.0dip" android:layout_height="47.0dip" android:layout_marginTop="61.0dip" android:ems="10" android:singleLine="true" android:maxLength="16" android:layout_alignTop="@id/verify_inner_layout" android:inputType="textPassword" android:privateImeOptions="disableLanguageChangeKey=true" android:imeOptions="actionDone|flagForceAscii|flagNoExtractUi" android:textCursorDrawable="@drawable/private_mode_edit_text_cursor" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

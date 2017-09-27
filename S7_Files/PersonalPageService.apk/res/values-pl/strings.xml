@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Tryb prywatny</string>
+    <string name="personalpage_on">Tryb Prywatny włączony.</string>
+    <string name="personalpage_on_available">Dostępna jest zawartość prywatna.</string>
+    <string name="personalpage_off_not_available">Zawartość prywatna nie jest dostępna. Zawartość przenoszona obecnie do Prywatnych nie zostanie przeniesiona.</string>
+    <string name="failed_to_unmount">Nie można wyłączyć trybu Prywatnego. Spróbuj ponownie.</string>
+    <string name="pattern_help_text">Narysuj symbol dla trybu Prywatnego.</string>
+    <string name="password_help_text">Wprowadź hasło trybu Prywatnego.</string>
+    <string name="personal_page_disclaimer_by_locktype">Ukryj zawartość osobistą. Aby korzystać z tego trybu, wybierz metodę odblokowania. Wyłącz ten tryb po zakończeniu korzystania z niego w celu ochrony ukrytej zawartości.</string>
+    <string name="do_not_show_again">Nie pokazuj ponownie</string>
+    <string name="message_settings">Ustawienia</string>
+    <string name="incorrect_backup_pin">Nieprawidłowy zapasowy kod PIN.</string>
+    <string name="pattern_backuppin">Wprowadź kod PIN stosowany zamiast symbolu.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Spróbuj ponownie za %d sek.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Ponów próbę za 1 s.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Spróbuj ponownie za %d min</string>
+    <string name="personalpage_off">Wyłączono tryb prywatny.</string>
+    <string name="personalpage_off_move_off">Tryb prywatny wyłączony. Zawartość przenoszona obecnie do Prywatnych nie zostanie przeniesiona.</string>
+    <string name="failed_to_mount">Nie można włączyć trybu prywatnego. Spróbuj ponownie.</string>
+    <string name="pattern_help_text_try_again">Narysowano nieprawidłowy symbol. Spróbuj ponownie.</string>
+    <string name="pin_help_text_try_again">Wprowadzono nieprawidłowy kod PIN. Spróbuj ponownie.</string>
+    <string name="password_help_text_try_again">Wprowadzono nieprawidłowe hasło. Spróbuj ponownie</string>
+    <string name="pin_help_text">Wprowadź kod PIN dla trybu prywatnego.</string>
+    <string name="personal_page_switch_off_message">Cała otwarta zawartość zostanie zamknięta. Wszystkie niezapisane zmiany zostaną odrzucone.</string>
+    <string name="private_mode_popup_btn_skip">Pomiń</string>
+    <string name="private_mode_popup_screen_lock_title">Ust. blokowania ekranu</string>
+    <string name="private_mode_popup_screen_lock_msg">Aby poprawić bezpieczeństwo podczas korzystania z trybu prywatnego, zalecamy zmianę typu blokady ekranu na bezpieczną metodę, a następnie włączenie trybu prywatnego.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Tryb prywatny zostaje aktywowany podczas przesyłania wybranej zawartości.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Wyłączenie odpowiedzialności 
+Należy pamiętać, że zawartość może pojawić się w osobnym katalogu urządzenia, kiedy zostanie automatycznie zsynchronizowana przez aplikację strony trzeciej, np. Dropbox. Przed skorzystaniem z Trybu prywatnego sprawdź ustawienia autosynchronizacji pozostałych aplikacji."</string>
+    <string name="private_mode_popup_m2p_success_close">"Przesyłanie zakończone. 
+Zamykanie Trybu prywatnego."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Przesyłanie nie powiodło się. 
+Zamykanie Trybu prywatnego."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Trwa już inny proces. Spróbuj ponownie po jego zakończeniu.</string>
+    <string name="private_mode_pop_up_title">Wyłącz Tryb prywatności</string>
+    <string name="private_mode_popup_m2p_msg">Tryb prywatny zostanie włączony, gdy wybrana zawartość będzie przenoszona do Prywatnych, a wyłączony ponownie po ukończeniu przesyłania.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Tryb prywatny zostanie włączony podczas przenoszenia wybranych aplikacji do Prywatnych i ponownie wyłączony po ukończeniu przesyłania.
+
+Przeniesienie aplikacji do Prywatnych spowoduje także przeniesienie połączonych z nimi aplikacji i powiązanych z nimi widgetów oraz usunięcie ich skrótów. Gdy tryb prywatny będzie wyłączony, nie będziesz otrzymywać powiadomień z aplikacji przeniesionych do Prywatnych."</string>
+    <string name="private_mode_popup_m2p_title">Włączenie trybu prywatnego</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Ustawienia odcisku palca zostały zmienione. Narysuj symbol podwójnej weryfikacji, aby włączyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Ustawienia odcisku palca zostały zmienione. Wprowadź kod PIN podwójnej weryfikacji, aby włączyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Ustawienia odcisku palca zostały zmienione. Wprowadź hasło podwójnej weryfikacji, aby włączyć tryb prywatny.</string>
+    <string name="private_mode_bakcupkey_bt_text">Używaj podwójnej weryfik.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Wzór</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Hasło</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Korzystanie z wtyczki %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Hasło zapasowe</string>
+    <string name="private_mode_migration_body_text">Ustaw symbol, kod PIN lub hasło do używania jako alternatywy do odcisków palców w celu dostępu do Trybu prywatnego.</string>
+    <string name="private_mode_migration_next_button">Następny</string>
+    <string name="private_mode_pattern_backup_pin_desc">Zapasowy PIN</string>
+</resources>

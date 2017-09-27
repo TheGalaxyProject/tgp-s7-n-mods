@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privat tilstand</string>
+    <string name="personalpage_on">Tilstanden Privat aktiveret.</string>
+    <string name="personalpage_on_available">Privat indhold er tilgængeligt.</string>
+    <string name="personalpage_off_not_available">Privat indhold er ikke tilgængeligt. Indhold, der er ved at blive flyttet til Privat, vil ikke blive flyttet.</string>
+    <string name="failed_to_unmount">Kunne ikke deaktivere tilstanden Privat. Prøv igen.</string>
+    <string name="pattern_help_text">Tegn dit mønster for Privat tilstand.</string>
+    <string name="password_help_text">Indtast din adgangskode for tilstanden Privat.</string>
+    <string name="personal_page_disclaimer_by_locktype">Skjul personligt indhold. For at bruge denne tilstand skal du vælge en oplåsningsmetode. Deaktivér denne tilstand efter brug for at beskytte skjult indhold.</string>
+    <string name="do_not_show_again">Vis ikke igen</string>
+    <string name="message_settings">Indstil.</string>
+    <string name="incorrect_backup_pin">Forkert backup-PIN-kode.</string>
+    <string name="pattern_backuppin">Indtast den PIN-kode, der bruges som alternativ til dit mønster.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Forsøg igen om %d sekunder.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Prøv igen om 1 sekund.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Prøv igen om %d minutter</string>
+    <string name="personalpage_off">Tilstanden Privat deaktiveret.</string>
+    <string name="personalpage_off_move_off">Privat tilstand deaktiveret. Indhold, der er ved at blive flyttet til Privat, bliver ikke flyttet.</string>
+    <string name="failed_to_mount">Kunne ikke aktivere tilstanden Privat. Prøv igen.</string>
+    <string name="pattern_help_text_try_again">Du har tegnet et forkert mønster. Prøv igen.</string>
+    <string name="pin_help_text_try_again">Du har indtastet en forkert PIN-kode. Prøv igen.</string>
+    <string name="password_help_text_try_again">Du har indtastet en forkert adgangskode. Prøv igen.</string>
+    <string name="pin_help_text">Indtast din PIN-kode for tilstanden Privat.</string>
+    <string name="personal_page_switch_off_message">Alt åbent indhold vil blive lukket. Eventuelle ændringer, som du ikke har gemt, kasseres.</string>
+    <string name="private_mode_popup_btn_skip">Spring over</string>
+    <string name="private_mode_popup_screen_lock_title">Indst. for skærmlås</string>
+    <string name="private_mode_popup_screen_lock_msg">Vi anbefaler, at du ændrer din skærmlåsningstype til en sikker metode, og derefter aktiverer Privat tilstand, for at forbedre sikkerheden under brug af Privat tilstand.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privattilstand aktiveres, når det valgte indhold er overført til Privattilstand.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Ansvarsfraskrivelse 
+Vær opmærksom på, at indholdet kan vises i en separat, ikke beskyttet mappe på din enhed, når den er automatisk synkroniseret med et tredjepartsprogram, f.eks. Dropbox. Kontroller indstillingerne for automatisk synkronisering i dine andre programmer, inden du bruger Privattilstand."</string>
+    <string name="private_mode_popup_m2p_success_close">"Overførsel fuldført. 
+Afslutter Privat tilstand."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Overførsel blev ikke gennemført. 
+Afslutter Privat tilstand."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">En anden proces er allerede i gang. Prøv igen, når den er afsluttet.</string>
+    <string name="private_mode_pop_up_title">Deaktiver Privat tilstand</string>
+    <string name="private_mode_popup_m2p_msg">Privat tilstand vil blive aktiveret, mens det valgte indhold bliver flyttet til Privat og deaktiveret igen, når overførslen er blevet gennemført.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privat tilstand vil blive aktiveret, mens de valgte applikationer bliver flyttet til Privat og deaktiveret igen, når overførslen er blevet udført.
+
+Flytning af applikationer til Privat vil også flytte deres tilknyttede applikationer og relaterede widgets samt slette deres genveje. Når Privat tilstand er deaktiveret, vil du ikke modtage meddelelser fra de applikationer, du har flyttet til Privat."</string>
+    <string name="private_mode_popup_m2p_title">Aktiver Privat tilstand</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Dine indstillinger for fingeraftryk er ændret. Tegn dit mønster for Dobbelt bekræftelse for at aktivere Privat tilstand.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Dine indstillinger for fingeraftryk er ændret. Indtast din PIN-kode for Dobbelt bekræftelse for at aktivere Privat tilstand.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Dine indstillinger for fingeraftryk er ændret. Indtast din adgangskode for Dobbelt bekræftelse for at aktivere Privat tilstand.</string>
+    <string name="private_mode_bakcupkey_bt_text">Brug dobbelt bekræftelse</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN-kode</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Mønster</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Adgangskode</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Brug %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Alternativ adgangskode</string>
+    <string name="private_mode_migration_body_text">Angiv et mønster, en PIN-kode eller en adgangskode, som kan bruges som alternativ til dine fingeraftryk, for at få adgang til Privat tilstand.</string>
+    <string name="private_mode_migration_next_button">Næste</string>
+    <string name="private_mode_pattern_backup_pin_desc">Backup-PIN-kode</string>
+</resources>

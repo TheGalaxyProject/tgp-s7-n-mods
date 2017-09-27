@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grant_permissions_app_icon_size">20.0dip</dimen>
+    <dimen name="grant_permissions_app_icon_margin_top">6.0dip</dimen>
+    <dimen name="action_dialog_z">16.0dip</dimen>
+    <dimen name="grant_permissions_app_breadcrumb_margin_top">6.0dip</dimen>
+    <dimen name="grant_permissions_title_margin_top">6.0dip</dimen>
+    <dimen name="grant_permissions_message_side_padding">32.0dip</dimen>
+    <dimen name="conf_diag_floating_height">16.0dip</dimen>
+    <dimen name="conf_diag_button_container_top_margin">6.0dip</dimen>
+    <dimen name="conf_diag_button_container_height">72.0dip</dimen>
+    <dimen name="conf_diag_2button_margin_side">16.0dip</dimen>
+    <dimen name="conf_diag_2button_margin_top">9.0dip</dimen>
+    <dimen name="conf_diag_3button_padding_side">32.0dip</dimen>
+    <dimen name="conf_diag_3button_padding_bottom">22.0dip</dimen>
+    <dimen name="conf_diag_content_padding_top">6.0dip</dimen>
+    <dimen name="conf_diag_min_space_above_message">0.0dip</dimen>
+    <item type="dimen" name="default_settings_circle_radius_percent">39.999996%</item>
+    <item type="dimen" name="selected_settings_circle_radius_percent">50.0%</item>
+    <dimen name="round_content_padding_left">40.0dip</dimen>
+    <dimen name="round_content_padding_right">24.0dip</dimen>
+    <dimen name="content_padding_left">12.0dip</dimen>
+    <dimen name="settings_wearable_list_view_vertical_padding_round">14.0dip</dimen>
+    <dimen name="setting_header_extra_line_height">16.0dip</dimen>
+    <dimen name="setting_long_header_text_size">20.0dip</dimen>
+    <dimen name="settings_header_base_height">50.0dip</dimen>
+    <dimen name="settings_header_top_margin">14.0dip</dimen>
+    <dimen name="settings_header_top_margin_circular">18.0dip</dimen>
+    <dimen name="settings_header_top_margin_multiline">6.0dip</dimen>
+    <dimen name="settings_header_top_margin_circular_multiline">16.0dip</dimen>
+    <dimen name="setting_short_header_text_size">24.0dip</dimen>
+    <dimen name="settings_text_margin_left">10.0dip</dimen>
+</resources>

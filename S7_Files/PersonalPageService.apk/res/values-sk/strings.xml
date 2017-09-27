@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Súkromný režim</string>
+    <string name="personalpage_on">Súkromný režim je zapnutý.</string>
+    <string name="personalpage_on_available">K dispozícii je súkromný obsah.</string>
+    <string name="personalpage_off_not_available">Súkromný obsah nie je k dispozícii. Žiadny obsah momentálne premiestňovaný do priečinka Súkromné sa nepremiestni.</string>
+    <string name="failed_to_unmount">Súkromný režim nemožno vypnúť. Skúste to znova.</string>
+    <string name="pattern_help_text">Nakreslite vzor pre súkromný režim.</string>
+    <string name="password_help_text">Zadajte heslo pre súkromný režim.</string>
+    <string name="personal_page_disclaimer_by_locktype">Skryť osobný obsah. Ak chcete použiť tento režim, vyberte spôsob odomknutia. Tento režim po použití vypnite, aby sa ochránil skrytý obsah.</string>
+    <string name="do_not_show_again">Už nezobrazovať</string>
+    <string name="message_settings">Nastav.</string>
+    <string name="incorrect_backup_pin">Nesprávny záložný kód PIN.</string>
+    <string name="pattern_backuppin">Zadajte kód PIN používaný namiesto vášho vzoru.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Skúste to znova v priebehu %d sekúnd.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Skúste to znova za 1 sekundu.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Skúste to znova v priebehu %d minút</string>
+    <string name="personalpage_off">Súkromný režim je vypnutý.</string>
+    <string name="personalpage_off_move_off">Súkromný režim je vypnutý. Žiadny obsah momentálne premiestňovaný do priečinka Súkromné sa nepremiestni.</string>
+    <string name="failed_to_mount">Nepodarilo sa zapnúť súkromný režim. Skúste to znova.</string>
+    <string name="pattern_help_text_try_again">Nakreslili ste nesprávny vzor. Skúste to znova.</string>
+    <string name="pin_help_text_try_again">Zadali ste nesprávny kód PIN. Skúste to znova.</string>
+    <string name="password_help_text_try_again">Zadali ste nesprávne heslo. Skúste to znova</string>
+    <string name="pin_help_text">Zadajte kód PIN pre súkromný režim.</string>
+    <string name="personal_page_switch_off_message">Všetok otvorený obsah sa zavrie. Všetky zmeny, ktoré ste neuložili, sa zahodia.</string>
+    <string name="private_mode_popup_btn_skip">Preskočiť</string>
+    <string name="private_mode_popup_screen_lock_title">Nastav. zamk. obrazovky</string>
+    <string name="private_mode_popup_screen_lock_msg">Z dôvodu zlepšenia zabezpečenia počas používania súkromného režimu odporúčame nastaviť bezpečný typ zámku obrazovky a potom zapnúť súkromný režim.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Súkromný režim sa aktivuje po prenose zvoleného obsahu.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Zrieknutie sa zodpovednosti 
+Upozorňujeme, že obsah sa môže v prípade automatickej synchronizácie aplikáciou u tretej strany (napríklad služba Dropbox) zobraziť v inej zložke vo vašom zariadení. Pred použitím Súkromného režimu skontrolujte nastavenie automatickej synchronizácie vašich ďalších aplikácií."</string>
+    <string name="private_mode_popup_m2p_success_close">"Prenos dokončený. 
+Výstup zo súkromného režimu."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Prenos neukončený. 
+Výstup zo súkromného režimu."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Už prebieha iný proces. Skúste to znova po jeho dokončení.</string>
+    <string name="private_mode_pop_up_title">Vypnúť súkromný režim</string>
+    <string name="private_mode_popup_m2p_msg">Počas premiestňovania vybratého obsahu do priečinka Súkromné bude zapnutý súkromný režim a po dokončení prenosu sa vypne.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Počas premiestňovania vybratých aplikácií do priečinka Súkromné bude zapnutý súkromný režim a po dokončení prenosu sa vypne.
+
+Premiestnením aplikácií do priečinka Súkromné sa premiestnia aj ich prepojené aplikácie a súvisiace miniaplikácie a odstránia sa príslušné odkazy. Keď bude vypnutý súkromný režim, nebudete prijímať oznámenia z aplikácií premiestnených do priečinka Súkromné."</string>
+    <string name="private_mode_popup_m2p_title">Zapnúť súkromný režim</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Nastavenia odtlačkov prstov sa zmenili. Funkciu Súkromný režim môžete zapnúť nakreslením vzoru funkcie Dvojité overenie.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Nastavenia odtlačkov prstov sa zmenili. Funkciu Súkromný režim môžete zapnúť zadaním kódu PIN funkcie Dvojité overenie.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Nastavenia odtlačkov prstov sa zmenili. Funkciu Súkromný režim môžete zapnúť zadaním hesla funkcie Dvojité overenie.</string>
+    <string name="private_mode_bakcupkey_bt_text">Použiť dvojité overovanie</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Vzor</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Heslo</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Použiť %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Záložné heslo</string>
+    <string name="private_mode_migration_body_text">Nastavte vzor, kód PIN alebo heslo, ktoré chcete použiť ako alternatívu k odtlačkom prstov na prístup k funkcii Súkromný režim.</string>
+    <string name="private_mode_migration_next_button">Ďalej</string>
+    <string name="private_mode_pattern_backup_pin_desc">Záložný PIN</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">"ব্যক্তিগত ম'ড"</string>
+    <string name="personalpage_on">"ব্যক্তিগত ম'ড সক্ষম কৰা হৈছে৷"</string>
+    <string name="personalpage_on_available">গোপনীয় সমল উপলব্ধ৷</string>
+    <string name="personalpage_off_not_available">"গোপনীয় সমল উপলব্ধ নহয়৷ গোপনীয়লৈ শেহতীয়াভাৱে লৈ যোৱা যিকোনো সমল লৈ যোৱা নহ'ব৷"</string>
+    <string name="failed_to_unmount">"ব্যক্তিগত ম'ড অক্ষম কৰিবলৈ অক্ষম৷ পুনৰাই চেষ্টা কৰক৷"</string>
+    <string name="pattern_help_text">"গোপনীয় ম'ডৰ বাবে আপোনাৰ আৰ্হি আঁকক৷"</string>
+    <string name="password_help_text">"আপোনাৰ ব্যক্তিগত ম'ড পাছৱৰ্ড প্ৰৱিষ্ট কৰক৷"</string>
+    <string name="personal_page_disclaimer_by_locktype">"ব্যক্তিগত সমল লুকুৱাওক৷ এই ম'ড ব্যৱহাৰ কৰিবৰ বাবে, এটা আনল'ক পদ্ধতি চয়ন কৰক৷ লুকাই থকা সমলক সুৰক্ষিত কৰিবৰ বাবে ব্যৱহাৰ কৰাৰ পিছত এই ম'ডটো অক্ষম কৰক৷"</string>
+    <string name="do_not_show_again">পুনৰাই নেদেখুৱাব</string>
+    <string name="message_settings">ছেটিংছ</string>
+    <string name="incorrect_backup_pin">অশুদ্ধ বেকআপ PIN৷</string>
+    <string name="pattern_backuppin">আপোনাৰ আৰ্হিৰ বাবে বিকল্পিক ৰূপত ব্যৱহাৰ কৰা PIN প্ৰৱিষ্ট কৰক৷</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d ছেকেণ্ডত পুনৰ চেষ্টা কৰক৷</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 ছেকেণ্ডত পুনৰ চেষ্টা কৰক৷</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d মি. পিছত পুনঃচেষ্টা কৰক</string>
+    <string name="personalpage_off">"ব্যক্তিগত ম'ড অক্ষম কৰা হৈছে৷"</string>
+    <string name="personalpage_off_move_off">"ব্যক্তিগত ম'ড অক্ষম হৈছে৷ ব্যক্তিগতলৈ সাম্প্ৰতিকভাৱে লৈ গৈ থকা যিকোনো সমল লৈ যোৱা নহ'ব৷"</string>
+    <string name="failed_to_mount">"ব্যক্তিগত ম'ড সক্ষম কৰাত বিফল৷ পুনৰাই চেষ্টা কৰক৷"</string>
+    <string name="pattern_help_text_try_again">আপুনি এটা অশুদ্ধ আৰ্হি অংকন কৰিছে৷ পুনৰাই চেষ্টা কৰক৷</string>
+    <string name="pin_help_text_try_again">আপুনি এটা অশুদ্ধ পৰিশোধ PIN প্ৰৱিষ্ট কৰিছে৷ পুনৰ চেষ্টা কৰক৷</string>
+    <string name="password_help_text_try_again">আপুনি এটা অশুদ্ধ পাছৱর্ড প্রৱিষ্ট কৰিছে। পুনৰ চেষ্টা কৰক।</string>
+    <string name="pin_help_text">"ব্যক্তিগত ম'ডৰ বাবে আপোনাৰ PIN প্ৰৱিষ্ট কৰক৷"</string>
+    <string name="personal_page_switch_off_message">"যিকোনো খোলা সমল বন্ধ কৰা হ'ব৷ আপুনি সংৰক্ষণ নকৰা যিকোনো সাল-সলনি পৰিত্যাগ কৰা হ'ব৷"</string>
+    <string name="private_mode_popup_btn_skip">বাদ দিয়ক</string>
+    <string name="private_mode_popup_screen_lock_title">স্ক্ৰীণ লক ছেটিংছ</string>
+    <string name="private_mode_popup_screen_lock_msg">"গোপনীয় ম'ড ব্যৱহাৰ কৰোতে নিৰাপত্তা উন্নত কৰিবলৈ, আমি আপোনাৰ স্ক্ৰীণ লক প্ৰকাৰক এটা সুৰক্ষিত পদ্ধতিলৈ পৰিৱৰ্তন কৰি, তাৰপিছত গোপনীয় ম'ড সক্ষম কৰাটো অনুমোদন কৰো৷"</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">"চয়নিত সমল স্থানান্তৰিত হোৱাৰ সময়ত ব্যক্তিগত ম'ড সক্ৰিয় হ'ব৷"</string>
+    <string name="private_mode_popup_m2p_disclaimer">"অস্বীকাৰ পত্ৰ 
+অনুগ্ৰহ কৰি সতৰ্ক হওক যে সমল ড্ৰপবক্সৰ দৰে কোনো তৃতীয় পক্ষৰ এপ্লিকেশ্বনৰ দ্বাৰা স্বয়ংক্ৰিয়ভাৱে চিংক্ৰনাইজ হোৱাৰ সময়ত ই আপোনাৰ ডিভাইচত এটা পৃথক ফ'ল্ডাৰত প্ৰদৰ্শন হ'ব পাৰে৷ ব্যক্তিগত ম'ড ব্যৱহাৰ কৰাৰ আগতে আপোনাৰ অন্য এপ্লিকেশ্বনসমূহৰ স্বয়ং চিংক্ৰনাইজেশ্বন ছেটিংছ পৰীক্ষা কৰক৷"</string>
+    <string name="private_mode_popup_m2p_success_close">"স্থানান্তৰ সম্পূৰ্ণ৷ 
+ব্যক্তিগত ম'ড প্ৰস্থান কৰি আছে৷"</string>
+    <string name="private_mode_popup_m2p_failed_close">"স্থানান্তৰ অসম্পূৰ্ণ৷ 
+ব্যক্তিগত ম'ড প্ৰস্থান কৰি আছে৷"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">অন্য এটা প্ৰক্ৰিয়া ইতিমধ্যে চলি আছে৷ ইয়াক সম্পূ্ৰ্ণ কৰাৰ পিছত পুনৰ চেষ্টা কৰক৷</string>
+    <string name="private_mode_pop_up_title">"ব্যক্তিগত ম'ড অক্ষম কৰক"</string>
+    <string name="private_mode_popup_m2p_msg">"চয়নিত সমলক ব্যক্তিগতলৈ লৈ যাওতে ব্যক্তিগত ম'ড সক্ষম কৰা হ'ব আৰু স্থানান্তৰ সম্পূৰ্ণ হ'লে পুনৰাই অক্ষম কৰা হ'ব৷"</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"চয়নিত এপ্লিকেশ্বনসমূহ ব্যক্তিগতলৈ লৈ গ'লে ব্যক্তিগত ম'ড সক্ষম কৰা হ'ব আৰু স্থানান্তৰ সম্পূৰ্ণ হ'লে পুনৰাই অক্ষম কৰা হ'ব৷
+
+এপ্লিকেশ্বনসমূহ ব্যক্তিগতলৈ লৈ যোৱাৰ ফলত ইয়াৰ সৈতে লিংক হৈ থকা এপ্লিকেশ্বনসমূহ আৰু সম্পৰ্কিত ৱিজেটসমূহো লৈ যোৱা হ'ব আৰু সেইবিলাকৰ চৰ্টকাটসমূহ বিলোপ কৰা হ'ব৷ ব্যক্তিগত ম'ড অক্ষম কৰিলে, আপুনি ব্যক্তিগতলৈ লৈ যোৱা এপ্লিকেশ্বনসমূহৰ পৰা অধিসূচনাসমূহ প্ৰাপ্ত নকৰিব৷"</string>
+    <string name="private_mode_popup_m2p_title">"ব্যক্তিগত ম'ড সক্ষম কৰক"</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">"আপোনাৰ আঙুলিৰ ছাপৰ ছেটিংছ পৰিৱৰ্তন কৰা হৈছে৷ গোপনীয় ম'ড সক্ষম কৰিবলৈ আপোনাৰ দ্বৈত সত্যাপন আৰ্হি আঁকক৷"</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"আপোনাৰ আঙুলিৰ ছাপৰ ছেটিংছ পৰিৱৰ্তন কৰা হৈছে৷ গোপনীয় ম'ড সক্ষম কৰিবলৈ আপোনাৰ দ্বৈত সত্যাপন PIN প্ৰৱেশ কৰক৷"</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">"আপোনাৰ আঙুলিৰ ছাপৰ ছেটিংছ পৰিৱৰ্তন কৰা হৈছে৷ গোপনীয় ম'ড সক্ষম কৰিবলৈ আপোনাৰ দ্বৈত সত্যাপন পাছৱৰ্ড প্ৰৱেশ কৰক৷"</string>
+    <string name="private_mode_bakcupkey_bt_text">দুবাৰ সত্যাপন ব্যৱহাৰ কৰক</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">আৰ্হি</string>
+    <string name="private_mode_bakcupkey_bt_password_text">পাছৱৰ্ড</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ব্যৱহাৰ কৰক</string>
+    <string name="private_mode_bakcuppwd_bt_text">বেকআপ পাছৱৰ্ড</string>
+    <string name="private_mode_migration_body_text">"প্ৰৱেশ গোপনীয় ম'ড প্ৰৱেশ কৰিবলৈ আপোনাৰ আঙুলিৰ ছাপৰ এটা বৈকল্পিক ৰূপে ব্যৱহাৰ কৰিবলৈ এটা আৰ্হি, PIN বা পাছৱৰ্ড ছেট কৰক।"</string>
+    <string name="private_mode_migration_next_button">পৰৱৰ্তী</string>
+    <string name="private_mode_pattern_backup_pin_desc">বেকআপ PIN</string>
+</resources>

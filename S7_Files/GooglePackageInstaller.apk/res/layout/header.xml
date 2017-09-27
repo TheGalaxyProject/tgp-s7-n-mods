@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="end" android:id="@id/icon" android:layout_width="@dimen/header_subsettings_margin_start" android:layout_height="40.0dip" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimaryInverse" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:textAlignment="viewStart" android:layout_marginStart="@dimen/header_subsettings_margin_start" />
+    <ImageView android:id="@id/info" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_info_outline" android:scaleType="center" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/header_subsettings_margin_end" android:layout_alignParentEnd="true" style="?android:attr/borderlessButtonStyle" />
+</RelativeLayout>

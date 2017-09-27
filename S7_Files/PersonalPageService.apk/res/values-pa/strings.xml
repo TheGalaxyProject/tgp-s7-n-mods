@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ਨਿੱਜੀ ਮੋਡ</string>
+    <string name="personalpage_on">ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਹੋਇਆ।</string>
+    <string name="personalpage_on_available">ਨਿੱਜੀ ਸਮੱਗਰੀ ਉਪਲਬਧ ਹੈ।</string>
+    <string name="personalpage_off_not_available">ਨਿੱਜੀ ਸਮੱਗਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਮੌਜੂਦਾ ਸਮੇਂ ਨਿੱਜੀ ਵਿੱਚ ਮੂਵ ਕੀਤੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਨੂੰ ਮੂਵ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ।</string>
+    <string name="failed_to_unmount">ਨਿੱਜੀ ਮੋਡ ਅਸਮਰੱਥ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="pattern_help_text">ਨਿੱਜੀ ਮੋਡ ਲਈ ਆਪਣੀ ਸ਼ੈਲੀ ਡ੍ਰਾਅ ਕਰੋ।</string>
+    <string name="password_help_text">ਆਪਣਾ ਨਿੱਜੀ ਮੋਡ ਪਾਸਵਰਡ ਦਾਖ਼ਲ ਕਰੋ।</string>
+    <string name="personal_page_disclaimer_by_locktype">ਵਿਅਕਤੀਗਤ ਸਮੱਗਰੀ ਲੁਕਾਉ। ਇਸ ਮੋਡ ਦਾ ਉਪਯੋਗ ਕਰਨ ਦੇ ਲਈ, ਇੱਕ ਅਨਲੌਕ ਵਿਧੀ ਚੁਣੋ। ਲੁਕੀ ਹੋਈ ਸਮੱਗਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦੇ ਲਈ ਉਪਯੋਗ ਦੇ ਬਾਅਦ ਇਸ ਮੋਡ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ।</string>
+    <string name="do_not_show_again">ਦੁਬਾਰਾ ਨਾ ਦਿਖਾਉ।</string>
+    <string name="message_settings">ਸੈੱਟਿੰਗਸ</string>
+    <string name="incorrect_backup_pin">ਗਲਤ ਬੈਕਅਪ PIN।</string>
+    <string name="pattern_backuppin">ਤੁਹਾਡੀ ਸ਼ੈਲੀ ਦੇ ਵਿਕਲਪਿਕ ਰੂਪ ਵਿੱਚ ਉਪਯੋਗ ਕੀਤੇ ਜਾਣ ਲਈ ਇੱਕ PIN ਦਾਖ਼ਲ ਕਰੋ।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d ਸਕਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 ਸਕਿੰਟ ਵਿੱਚ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="personalpage_off">ਨਿੱਜੀ ਮੋਡ ਅਸਮਰੱਥ।</string>
+    <string name="personalpage_off_move_off">ਨਿੱਜੀ ਮੋਡ ਅਸਮਰੱਥ। ਵਰਤਮਾਨ ਵਿੱਚ ਨਿੱਜੀ ਤੇ ਮੂਵ ਕੀਤੀ ਜਾ ਰਹੀ ਕੋਈ ਸਮੱਗਰੀ ਮੂਵ ਨਹੀਂ ਕੀਤੀ ਜਾਵੇਗੀ।</string>
+    <string name="failed_to_mount">ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="pattern_help_text_try_again">ਤੁਸੀਂ ਇੱਕ ਗਲਤ ਸ਼ੈਲੀ ਬਣਾਈ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="pin_help_text_try_again">ਤੁਸੀਂ ਇੱਕ ਗਲਤ PIN ਦਾਖ਼ਲ ਕੀਤਾ ਹੈ। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="password_help_text_try_again">ਤੁਸੀਂ ਗਲਤ ਪਾਸਵਰਡ ਦਾਖ਼ਲ ਕੀਤਾ ਹੈ। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="pin_help_text">ਨਿੱਜੀ ਮੋਡ ਦੇ ਲਈ ਆਪਣਾ PIN ਦਾਖ਼ਲ ਕਰੋ।</string>
+    <string name="personal_page_switch_off_message">ਕੋਈ ਵੀ ਖੁੱਲ੍ਹੀ ਹੋਈ ਸਮੱਗਰੀ ਬੰਦ ਹੋ ਜਾਵੇਗੀ। ਕੋਈ ਬਦਲਾਵ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਹੈ ਖਾਰਿਜ ਹੋ ਜਾਣਗੇ।</string>
+    <string name="private_mode_popup_btn_skip">ਛੱਡੋ</string>
+    <string name="private_mode_popup_screen_lock_title">ਸਕ੍ਰੀਨ ਲੌਕ ਸੈੱਟਿੰਗਸ</string>
+    <string name="private_mode_popup_screen_lock_msg">ਨਿੱਜੀ ਮੋਡ ਦਾ ਉਪਯੋਗ ਕਰਨ ਦੇ ਦੌਰਾਨ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਉਣ ਲਈ, ਅਸੀਂ ਸਿਫਾਰਿਸ਼ ਕਰਦੇ ਹਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਸਕ੍ਰੀਨ ਲੌਕ ਪ੍ਰਕਾਰ ਨੂੰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਵਿਧੀ ਵਿੱਚ ਬਦਲੋ, ਫਿਰ ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰੋ।</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">ਚੁਣੀ ਗਈ ਸਮੱਗਰੀ ਦੇ ਟ੍ਰਾਂਸਫਰ ਕੀਤੇ ਜਾਣ ਤੇ ਪ੍ਰਾਈਵੇਟ ਮੋਡ ਕਿਰਿਆਸ਼ੀਲ ਹੋਵੇਗਾ।</string>
+    <string name="private_mode_popup_m2p_disclaimer">"ਅਸਵੀਕਰਨ 
+ਕਿਰਪਾ ਕਰਕੇ ਇਸਦਾ ਧਿਆਨ ਰੱਖੋ ਕਿ ਸਮੱਗਰੀ ਦੇ ਸਵੈਚਲਿਤ ਰੂਪ ਤੋਂ ਕਿਸੇ ਤੀਜੇ ਧਿਰ ਅਨੁਪ੍ਰਯੋਗਾਂ, ਜਿਵੇਂ ਕਿ ਡ੍ਰੌਪਬਾੱਕਸ ਦੁਆਰਾ ਸਿੰਕ੍ਰੋਨਾਈਜ਼ ਹੋਣ ਤੇ ਉਹ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਵਿੱਚ ਕਿਸੇ ਵੱਖ ਫੋਲਡਰ ਵਿੱਚ ਦਿਖਾਈ ਦੇ ਸਕਦੀ ਹੈ। ਨਿੱਜੀ ਮੋਡ ਦਾ ਉਪਯੋਗ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ ਹੋਰ ਅਨੁਪ੍ਰਯੋਗਾਂ ਦੀਆਂ ਸਵੈ-ਸਿੰਕ੍ਰੋਨਾਈਜੇਸ਼ਨ ਸੈੱਟਿੰਗਸ ਦੀ ਜਾਂਚ ਕਰੋ।"</string>
+    <string name="private_mode_popup_m2p_success_close">"ਟ੍ਰਾਂਸਫਰ ਸੰਪੂਰਨ। 
+ਪ੍ਰਾਈਵੇਟ ਮੋਡ ਤੋਂ ਨਿਕਾਸ ਕਰਨਾ।"</string>
+    <string name="private_mode_popup_m2p_failed_close">"ਟ੍ਰਾਂਸਫਰ ਅਪੂਰਨ। 
+ਪ੍ਰਾਈਵੇਟ ਮੋਡ ਤੋਂ ਨਿਕਾਸ ਕਰਨਾ।"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">ਇੱਕ ਹੋਰ ਪ੍ਰਕਿਰਿਆ ਪਹਿਲਾਂ ਹੀ ਪ੍ਰਗਤੀ ਵਿੱਚ ਹੈ। ਇਸਦੇ ਪੂਰੇ ਹੋਣ ਤੋਂ ਬਾਅਦ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="private_mode_pop_up_title">ਨਿੱਜੀ ਮੋਡ ਅਸਮਰੱਥ ਕਰੋ</string>
+    <string name="private_mode_popup_m2p_msg">ਚੁਣੀ ਹੋਈ ਸਮੱਗਰੀ ਨੂੰ ਨਿੱਜੀ ਵਿਚ ਮੂਵ ਕਰਦੇ ਸਮੇਂ ਨਿੱਜੀ ਮੋਡ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਟ੍ਰਾਂਸਫ਼ਰ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ ਦੁਬਾਰਾ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ਚੁਣੇ ਹੋਏ ਅਨੁਪ੍ਰਯੋਗਾਂ ਨੂੰ ਨਿੱਜੀ ਵਿੱਚ ਮੂਵ ਕਰਦੇ ਸਮੇਂ ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਹੋ ਜਾਵੇਗਾ, ਅਤੇ ਟ੍ਰਾਂਸਫਰ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ ਦੁਬਾਰਾ ਅਸਮਰੱਥ ਹੋ ਜਾਵੇਗਾ।
+
+ਅਨੁਪ੍ਰਯੋਗਾਂ ਨੂੰ ਨਿੱਜੀ ਵਿੱਚ ਮੂਵ ਕਰਨ ਨਾਲ ਉਹਨਾਂ ਨਾਲ ਲਿੰਕ ਕੀਤੇ ਗਏ ਅਨੁਪ੍ਰਯੋਗ ਅਤੇ ਸੰਬੰਧਿਤ ਵਿੱਜੇਟਸ ਵੀ ਮੂਵ ਹੋ ਜਾਣਗੇ, ਅਤੇ ਉਹਨਾਂ ਦੇ ਸ਼ੌਰਟਕੱਟਸ ਮਿਟ ਜਾਣਗੇ। ਨਿੱਜੀ ਮੋਡ ਅਸਮਰੱਥ ਹੋਣ ਤੇ, ਤੁਹਾਨੂੰ ਉਹਨਾਂ ਅਨੁਪ੍ਰਯੋਗਾਂ ਤੋਂ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਣਗੀਆਂ ਜਿਹਨਾਂ ਨੂੰ ਤੁਸੀਂ ਨਿੱਜੀ ਵਿੱਚ ਮੂਵ ਕੀਤਾ ਸੀ।"</string>
+    <string name="private_mode_popup_m2p_title">ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰੋ</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ਤੁਹਾਡੀਆਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈੱਟਿੰਗਸ ਬਦਲ ਗਈਆਂ ਹਨ। ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰਨ ਲਈ ਆਪਣੀ ਡਬਲ ਤਸਦੀਕ ਸ਼ੈਲੀ ਡ੍ਰਾਅ ਕਰੋ।</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ਤੁਹਾਡੀਆਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈੱਟਿੰਗਸ ਬਦਲ ਗਈਆਂ ਹਨ। ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰਨ ਲਈ ਆਪਣਾ ਡਬਲ ਤਸਦੀਕ PIN ਦਾਖ਼ਲ ਕਰੋ।</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ਤੁਹਾਡੀਆਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈੱਟਿੰਗਸ ਬਦਲ ਗਈਆਂ ਹਨ। ਨਿੱਜੀ ਮੋਡ ਸਮਰੱਥ ਕਰਨ ਲਈ ਆਪਣਾ ਡਬਲ ਤਸਦੀਕ ਪਾਸਵਰਡ ਦਾਖ਼ਲ ਕਰੋ।</string>
+    <string name="private_mode_bakcupkey_bt_text">ਦੋ ਵਾਰ ਤਸਦੀਕ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ਸ਼ੈਲੀ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">ਪਾਸਵਰਡ</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ਵਰਤੋ</string>
+    <string name="private_mode_bakcuppwd_bt_text">ਬੈਕਅਪ ਪਾਸਵਰਡ</string>
+    <string name="private_mode_migration_body_text">ਨਿੱਜੀ ਮੋਡ ਨੂੰ ਐਕਸੈੱਸ ਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟਸ ਦੇ ਵਿਕਲਪ ਦੇ ਤੌਰ ਤੇ ਉਪਯੋਗ ਕਰਨ ਲਈ ਇੱਕ PIN, ਸ਼ੈਲੀ, ਜਾਂ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ।</string>
+    <string name="private_mode_migration_next_button">ਅੱਗੇ</string>
+    <string name="private_mode_pattern_backup_pin_desc">ਬੈਕਅਪ PIN</string>
+</resources>

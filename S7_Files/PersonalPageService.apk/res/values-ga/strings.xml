@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Mód príobháideach</string>
+    <string name="personalpage_on">Mód príobháideach cumasaithe.</string>
+    <string name="personalpage_on_available">Inneachar príobháideach ar fáil.</string>
+    <string name="personalpage_off_not_available">Níl inneachar príobháideach ar fáil. Ní bhogfar aon inneachar atá á bhogadh chuig Príobháideach faoi láthair.</string>
+    <string name="failed_to_unmount">Ní féidir Mód príobháideach a dhíchumasú. Triail arís.</string>
+    <string name="pattern_help_text">Tarraing do phatrún don Mhód príobháideach.</string>
+    <string name="password_help_text">Iontráil do phasfhocal don Mhód príobháideach.</string>
+    <string name="personal_page_disclaimer_by_locktype">Folaigh inneachar pearsanta. Leis an mód seo a úsáid, roghnaigh modh díghlasála. Díchumasaigh an mód seo tar éis é a úsáid leis an inneachar folaithe a chosaint.</string>
+    <string name="do_not_show_again">Ná taispeáin arís</string>
+    <string name="message_settings">Socruithe</string>
+    <string name="incorrect_backup_pin">PIN cúltaca mícheart.</string>
+    <string name="pattern_backuppin">Iontráil an PIN a úsáideadh mar mhalairt ar do phatrún</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Triail arís i gceann %d soicind</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Triail arís i gceann 1 soicind</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Triail arís i gceann %d nóiméad</string>
+    <string name="personalpage_off">Mód príobháideach díchumasaithe.</string>
+    <string name="personalpage_off_move_off">Mód príobháideach díchumasaithe. Ní bhogfar aon inneachar atá á bhogadh chuig Príobháideach faoi láthair.</string>
+    <string name="failed_to_mount">Theip ar chumasú Mód príobháideach. Triail arís.</string>
+    <string name="pattern_help_text_try_again">Tharraing tú patrún mícheart. Triail arís.</string>
+    <string name="pin_help_text_try_again">"D'iontráil tú PIN mícheart. Triail arís."</string>
+    <string name="password_help_text_try_again">"D'iontráil tú pasfhocal mícheart. Triail arís."</string>
+    <string name="pin_help_text">Iontráil do PIN don Mhód príobháideach.</string>
+    <string name="personal_page_switch_off_message">Dúnfar aon inneachar atá ar oscailt. Cuileálfar aon athrú nár shábháil tú.</string>
+    <string name="private_mode_popup_btn_skip">Scipeáil</string>
+    <string name="private_mode_popup_screen_lock_title">Socruithe glasála scáil.</string>
+    <string name="private_mode_popup_screen_lock_msg">Le slándáil a fheabhsú agus Mód príobháideach á úsáid, molaimid duit do chineál glais scáileáin a athrú go modh slán, ansin cumasaigh Mód príobháideach.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Gníomhachtófar Mód príobháideach nuair a aistrítear an t-inneachar roghnaithe.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Séanadh 
+Cuirtear in iúl duit go bhféadfadh inneachar a aistríonn feidhmchlár tríú páirtí, m.sh. Dropbox, go huathoibríoch a bheith le feiceáil i bhfillteán ar leith i do ghléas. Seiceáil socruithe uathshioncronaithe do chuid feidhmchlár eile sula n-úsáideann tú Mód príobháideach."</string>
+    <string name="private_mode_popup_m2p_success_close">"Aistriú críochnaithe. 
+Ag fágáil Mód príobháideach."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Aistriú neamhchríochnaithe. 
+Ag fágáil Mód príobháideach."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Tá próiseas eile ar bun cheana. Triail arís é tar éis dó críochnú.</string>
+    <string name="private_mode_pop_up_title">Díchumasaigh Mód príobháideach</string>
+    <string name="private_mode_popup_m2p_msg">Cumasófar an Mód príobháideach agus an t-inneachar roghnaithe á bhogadh chuig Príobháideach, agus díchumasófar arís é tar éis an t-aistriú a chur i gcrích.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Beidh an Mód príobháideach cumasaithe fad is a bheidh na feidhmchláir roghnaithe á mbogadh chuig Príobháideach, agus díchumasófar arís é tar éis an aistrithe.
+
+Má bhogtar feidhmchláir chuig Príobháideach, bogfar a bhfeidhmchláir cheangailte agus giuirléidí lena mbaineann agus scriosfar aicearraí chucu freisin. Fad is a bheidh an Mód príobháideach díchumasaithe, ní bhfaighidh tú fógraí ó na feidhmchláir a bhog tú chuig Príobháideach."</string>
+    <string name="private_mode_popup_m2p_title">Cumasaigh Mód príobháideach</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Athraíodh do shocruithe méarloirg. Tarraing do Phatrún fíoraithe dhúbailte le Mód príobháideach a chumasú.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Athraíodh do shocruithe méarloirg. Iontráil do PIN fíoraithe dhúbailte le Mód príobháideach a chumasú.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Athraíodh do shocruithe méarloirg. Iontráil do Phasfhocal fíoraithe dhúbailte le Mód príobháideach a chumasú.</string>
+    <string name="private_mode_bakcupkey_bt_text">Úsáid fíorú dúbailte</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Patrún</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Pasfhocal</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Úsáid %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Pasfhocal cúltaca</string>
+    <string name="private_mode_migration_body_text">Socraigh patrún, PIN, nó pasfhocal le húsáid mar mhalairt ar do mhéarloirg le Mód príobháideach a rochtain.</string>
+    <string name="private_mode_migration_next_button">Ar aghaidh</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN cúltaca</string>
+</resources>

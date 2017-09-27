@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: PersonalPageService.apk
+compressionType: false
+doNotCompress:
+- arsc
+- qmg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '140904001'
+  versionName: '1.0'

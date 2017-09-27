@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">プライベート​モード</string>
+    <string name="personalpage_on">プライベートモードが有効になりました。</string>
+    <string name="personalpage_on_available">プライベートコンテンツを利用できます。</string>
+    <string name="personalpage_off_not_available">プライベートコンテンツは利用できません。現在プライベートに移動中のコンテンツは移動されません。</string>
+    <string name="failed_to_unmount">プライベートモードを無効にすることができません。再度実行してください。</string>
+    <string name="pattern_help_text">プライベートモードのパターンを入力してください。</string>
+    <string name="password_help_text">プライベートモードのパスワードを入力してください。</string>
+    <string name="personal_page_disclaimer_by_locktype">パーソナルコンテンツを非表示にします。このモードを使用するには、ロック解除方法を選択してください。パーソナルコンテンツを非表示にするには、このモードを無効にしてください。</string>
+    <string name="do_not_show_again">今後表示しない</string>
+    <string name="message_settings">設定</string>
+    <string name="incorrect_backup_pin">バックアップPINが正しくありません。</string>
+    <string name="pattern_backuppin">パターンの代わりに使用するPINを入力してください。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d秒後にやり直してください。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1秒後にやり直してください。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d分後にやり直してください</string>
+    <string name="personalpage_off">プライベートモードが無効になりました。</string>
+    <string name="personalpage_off_move_off">プライベートモードが無効になりました。現在プライベートに移動中のコンテンツは移動されません。</string>
+    <string name="failed_to_mount">プライベートモードを有効にできませんでした。再度実行してください。</string>
+    <string name="pattern_help_text_try_again">正しくないパターンが入力されました。再度実行してください。</string>
+    <string name="pin_help_text_try_again">正しくないPINが入力されました。再度実行してください。</string>
+    <string name="password_help_text_try_again">正しくないパスワードが入力されました。再度入力してください。</string>
+    <string name="pin_help_text">プライベートモード用のPINを入力してください。</string>
+    <string name="personal_page_switch_off_message">現在開いているコンテンツを終了します。保存していない変更内容は破棄されます。</string>
+    <string name="private_mode_popup_btn_skip">スキップ</string>
+    <string name="private_mode_popup_screen_lock_title">画面ロック設定</string>
+    <string name="private_mode_popup_screen_lock_msg">プライベートモード使用中のセキュリティを強化するために、画面ロックの種類を安全な方法に変更してから、プライベートモードを有効にすることをおすすめします。</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">プライベートモードは選択したコンテンツが転送される際に有効になります。</string>
+    <string name="private_mode_popup_m2p_disclaimer">"免責条項 
+Dropbox のようなサード パーティー製アプリケーションによってコンテンツが自動同期されると、コンテンツがデバイスで別フォルダーに表示される場合があります。 プライベートモード使用前に、他のアプリケーションの自動同期設定を確認してください。"</string>
+    <string name="private_mode_popup_m2p_success_close">"転送が完了しました。 
+プライベートモードを終了しています。"</string>
+    <string name="private_mode_popup_m2p_failed_close">"転送が完了していません。 
+プライベートモードを終了しています。"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">他の処理が既に進行中です。進行中の処理が終了してから再度お試しください。</string>
+    <string name="private_mode_pop_up_title">プライベートモードを無効にする</string>
+    <string name="private_mode_popup_m2p_msg">選択したコンテンツを[プライベート]に移動している間は、一時的にプライベートモードが有効になり、転送が完了すると再度無効になります。</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"選択したアプリケーションを[プライベート]に移動している間は、一時的にプライベートモードが有効になり、転送が完了すると再度無効になります。
+
+アプリケーションを[プライベート]に移動すると、移動したアプリケーションにリンクするアプリケーションおよび関連するウィジェットも移動されます。ただし、ショートカットは削除されます。プライベートモードを無効にしているときは、[プライベート]に移動したアプリケーションの通知は表示されません。"</string>
+    <string name="private_mode_popup_m2p_title">プライベートモードを有効にする</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">指紋の設定に変更がありました。プライベートモードを有効にするには、2段階認証のパターンを入力してください。</string>
+    <string name="private_mode_bakcupkey_subtext_pin">指紋の設定に変更がありました。プライベートモードを有効にするには、2段階認証のPINを入力してください。</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">指紋の設定に変更がありました。プライベートモードを有効にするには、2段階認証のパスワードを入力してください。</string>
+    <string name="private_mode_bakcupkey_bt_text">2段階認証を使用</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">パターン</string>
+    <string name="private_mode_bakcupkey_bt_password_text">パスワード</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%sを使用</string>
+    <string name="private_mode_bakcuppwd_bt_text">バックアップパスワード</string>
+    <string name="private_mode_migration_body_text">プライベートモードにアクセスするには、指紋の代わりに使用するパターン、PIN、またはパスワードを設定してください。</string>
+    <string name="private_mode_migration_next_button">次へ</string>
+    <string name="private_mode_pattern_backup_pin_desc">バックアップPIN</string>
+</resources>

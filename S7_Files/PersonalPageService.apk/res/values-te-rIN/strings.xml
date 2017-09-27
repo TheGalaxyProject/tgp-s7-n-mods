@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ప్రైవేట్ మోడ్</string>
+    <string name="personalpage_on">ప్రైవేట్ మోడ్ ప్రారంభించబడింది.</string>
+    <string name="personalpage_on_available">ప్రైవేట్ కంటెంట్ అందుబాటులో ఉంది.</string>
+    <string name="personalpage_off_not_available">ప్రైవేట్ కంటెంట్ అందుబాటులో లేదు. ప్రస్తుతం ప్రైవేట్‌కు తరలించబడుతున్న ఏదైనా కంటెంట్ తరలించబడదు.</string>
+    <string name="failed_to_unmount">ప్రైవేట్ మోడ్‌ని నిలిపివేయడం సాధ్యం కాదు. మళ్లీ ప్రయత్నించండి.</string>
+    <string name="pattern_help_text">వ్యక్తిగత మోడ్ కోసం మీ నమూనాను గీయండి.</string>
+    <string name="password_help_text">మీ ప్రైవేట్ మోడ్ పాస్‌వర్డ్‌ని నమోదు చేయండి.</string>
+    <string name="personal_page_disclaimer_by_locktype">వ్యక్తిగత కంటెంట్‌ని దాచండి. ఈ మోడ్‌ని ఉపయోగించడానికి, అన్‌లాక్ నమూనాని ఎంచుకోండి. దాచిన కంటెంట్‌ని రక్షించడానికి ఈ మోడ్‌ని ఉపయోగించిన తర్వాత నిలిపివేయండి.</string>
+    <string name="do_not_show_again">మళ్లీ చూపవద్దు.</string>
+    <string name="message_settings">సెట్టింగులు</string>
+    <string name="incorrect_backup_pin">తప్పు బ్యాకప్ PIN.</string>
+    <string name="pattern_backuppin">మీ నమూనాకి ప్రత్యామ్నాయంగా ఉపయోగించిన PINని నమోదు చేయండి.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d సెకన్ల తర్వాత మళ్ళీ ప్రయత్నించండి.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 సెకనులో మళ్లీ ప్రయత్నించండి.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి</string>
+    <string name="personalpage_off">వ్యక్తిగత విధానం నిలిపివేయబడింది.</string>
+    <string name="personalpage_off_move_off">ప్రైవేట్ మోడ్ నిలిపివేయబడింది. ప్రస్తుతానికి ప్రైవేట్‌కు తరలించబడుతున్న ఏదైనా కంటెంట్ తరలించబడదు.</string>
+    <string name="failed_to_mount">వ్యక్తిగత విధానాన్ని ప్రారంభించడం విఫలమైంది. మళ్లీ ప్రయత్నించండి.</string>
+    <string name="pattern_help_text_try_again">మీరు చెల్లని నమూనాని గీసారు. మళ్లీ ప్రయత్నించండి.</string>
+    <string name="pin_help_text_try_again">మీరు చెల్లని PIN నమోదు చేశారు. మళ్లీ ప్రయత్నించండి.</string>
+    <string name="password_help_text_try_again">మీరు తప్పైన పాస్‌వర్డ్‌ని నమోదు చేసారు. మళ్లీ ప్రయత్నించండి.</string>
+    <string name="pin_help_text">వ్యక్తిగత విధానానికి మీ PIN నమోదు చేయండి.</string>
+    <string name="personal_page_switch_off_message">తెరిచివున్న ఏదైనా కంటెంట్ మూసివేయబడుతుంది. మీరు సేవ్ చేయని మార్పులు ఏవైనా ఉంటే అవి విస్మరించబడతాయి.</string>
+    <string name="private_mode_popup_btn_skip">స్కిప్</string>
+    <string name="private_mode_popup_screen_lock_title">స్క్రీన్ లాక్ సెట్టింగులు</string>
+    <string name="private_mode_popup_screen_lock_msg">ప్రైవేట్ మోడ్‌ను ఉపయోగిస్తున్నప్పుడు భద్రతను మెరుగుపరచడానికి, మేము మీ స్క్రీన్ లాక్ రకాన్ని సురక్షిత విధానానికి మార్చి, ఆపై ప్రైవేట్ మోడ్‌ని ప్రారంభించమని మీకు సిఫార్సు చేస్తున్నాము.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">ఎంచుకున్న కంటెంట్ బదిలీ చేయబడినప్పుడు ప్రైవేట్ మోడ్ సక్రియం చేయబడుతుంది.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"నిరాకరణ 
+దయచేసి డ్రాప్‌బాక్స్ వంటి మూడవ-పక్షం అప్లికేషన్ ద్వారా కంటెంట్ స్వయంచాలకంగా సమకాలీకరించబడినప్పుడు మీ పరికరంలోని వేరొక ఫోల్డర్‌లో ఇది కనిపించవచ్చని గుర్తుంచుకోండి. ప్రైవేట్ మోడ్‌ని ఉపయోగించడానికి ముందు మీ ఇతర అప్లికేషన్‌ల యొక్క స్వీయ సమకాలీకరణ సెట్టింగ్‌లను తనిఖీ చేయండి."</string>
+    <string name="private_mode_popup_m2p_success_close">"బదిలీ పూర్తయింది. 
+ప్రైవేట్ మోడ్ నుండి నిష్క్రమించారు."</string>
+    <string name="private_mode_popup_m2p_failed_close">"బదిలీ అసంపూర్తిగా ఉంది. 
+ప్రైవేట్ మోడ్ నుండి నిష్క్రమించారు."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">మరొక ప్రాసెస్ ఇప్పటికే ప్రోగ్రెస్‌లో ఉంది. ఇది పూర్తయిన తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="private_mode_pop_up_title">ప్రైవేట్ మోడ్‌ను నిలిపివేయి</string>
+    <string name="private_mode_popup_m2p_msg">ప్రైవేట్‌కు ఎంచుకున్న కంటెంట్ తరలించబడినప్పుడు ప్రైవేట్ మోడ్ ప్రారంభించబడుతుంది మరియు బదిలీ చేయడం పూర్తయిన తర్వాత మళ్లీ నిలిపివేయబడుతుంది.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ఎంచుకోబడిన అప్లికేషన్‌లు ప్రైవేట్‌కు తరలించబడుతున్నప్పుడు ప్రైవేట్ మోడ్ ప్రారంభమవుతుంది మరియు బదిలీ పూర్తయిన తర్వాత నిలిపివేయబడుతుంది.
+
+అప్లికేషన్‌లను ప్రైవేట్‌కు తరలిస్తే, వాటితో లింక్ చేయబడిన అప్లికేషన్‌లు మరియు సంబంధిత విడ్జెట్‌లు కూడా తరలించబడతాయి మరియు వాటి సత్వరమార్గాలు తొలగించబడతాయి. ప్రైవేట్ మోడ్ నిలిపివేయబడినప్పుడు, మీరు ప్రైవేట్‌కు తరలించిన అప్లికేషన్‌ల నుండి నోటిఫికేషన్‌లను స్వీకరించరు."</string>
+    <string name="private_mode_popup_m2p_title">ప్రైవేట్ మోడ్‌ను ప్రారంభించండి</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">మీ వేలిముద్ర సెట్టింగ్‌లు మార్చబడ్డాయి. ప్రైవేట్ మోడ్‌ని ప్రారంభించడానికి రెండుసార్ల ధృవీకరణ నమూనాని డ్రా చేయండి.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">మీ వేలిముద్ర సెట్టింగ్‌లు మార్చబడ్డాయి. ప్రైవేట్ మోడ్‌ని ప్రారంభించడానికి రెండుసార్ల ధృవీకరణ PINని నమోదు చేయండి.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">మీ వేలిముద్ర సెట్టింగ్‌లు మార్చబడ్డాయి. ప్రైవేట్ మోడ్‌ని ప్రారంభించడానికి రెండుసార్ల ధృవీకరణ పాస్‌వర్డ్‌ని నమోదు చేయండి.</string>
+    <string name="private_mode_bakcupkey_bt_text">రెండంచెల ధృవీకరణను ఉపయోగించండి</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">నమూనా</string>
+    <string name="private_mode_bakcupkey_bt_password_text">పాస్వర్డ్</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ఉపయోగించండి</string>
+    <string name="private_mode_bakcuppwd_bt_text">బ్యాకప్ పాస్‌వర్డ్</string>
+    <string name="private_mode_migration_body_text">మీ ప్రైవేట్ మోడ్‌ని ప్రాప్యత చేయడానికి మీ వేలిముద్రలకు ప్రత్యామ్నాయంగా ఉపయోగించడానికి నమూనా, PIN లేదా పాస్‌వర్డ్‌ని సెట్ చేయండి.</string>
+    <string name="private_mode_migration_next_button">తదుపరి</string>
+    <string name="private_mode_pattern_backup_pin_desc">బ్యాకప్ PIN</string>
+</resources>

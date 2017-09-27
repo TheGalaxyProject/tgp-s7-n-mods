@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/app_snippet" layout="@layout/app_details" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/center_view" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/center_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_android_92" android:contentDescription="@null" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="250.0dip" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/center_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/installing" />
+    </LinearLayout>
+    <ScrollView android:id="@id/explanation_view" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/explanation_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons_panel" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:maxLines="2" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/launch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launch" android:maxLines="2" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

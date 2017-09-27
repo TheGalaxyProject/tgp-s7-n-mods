@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">프라이빗 모드</string>
+    <string name="personalpage_on">프라이빗 모드를 실행하였습니다.</string>
+    <string name="personalpage_on_available">프라이빗 컨텐츠가 표시됩니다.</string>
+    <string name="personalpage_off_not_available">프라이빗 컨텐츠를 숨깁니다. [프라이빗]으로 이동 중이던 컨텐츠는 이동되지 않습니다.</string>
+    <string name="failed_to_unmount">프라이빗 모드를 해제할 수 없습니다. 다시 시도하세요.</string>
+    <string name="pattern_help_text">프라이빗 모드 패턴을 그리세요.</string>
+    <string name="password_help_text">프라이빗 모드 비밀번호를 입력하세요.</string>
+    <string name="personal_page_disclaimer_by_locktype">개인 컨텐츠를 숨깁니다. 이 모드를 사용하려면 잠금해제 방식을 선택하세요. 숨긴 컨텐츠를 보호하려면 사용 후 이 모드를 해제하세요.</string>
+    <string name="do_not_show_again">다시 보지 않기</string>
+    <string name="message_settings">설정</string>
+    <string name="incorrect_backup_pin">보조키가 바르지 않습니다.</string>
+    <string name="pattern_backuppin">패턴을 대체하여 사용하는 PIN을 입력하세요.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d초 후에 다시 시도하세요.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1초 후에 다시 시도하세요.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d분 후에 다시 시도하세요</string>
+    <string name="personalpage_off">프라이빗 모드를 해제하였습니다.</string>
+    <string name="personalpage_off_move_off">프라이빗 모드를 해제하였습니다. [프라이빗]으로 이동 중이던 컨텐츠는 이동되지 않습니다.</string>
+    <string name="failed_to_mount">프라이빗 모드를 실행하지 못하였습니다. 다시 시도하세요.</string>
+    <string name="pattern_help_text_try_again">패턴을 잘못 그렸습니다. 다시 시도하세요.</string>
+    <string name="pin_help_text_try_again">입력한 PIN이 바르지 않습니다. 다시 시도하세요.</string>
+    <string name="password_help_text_try_again">입력한 비밀번호가 바르지 않습니다. 다시 시도하세요.</string>
+    <string name="pin_help_text">프라이빗 모드 PIN을 입력하세요.</string>
+    <string name="personal_page_switch_off_message">열려 있는 컨텐츠를 모두 종료합니다. 저장하지 않은 변경사항은 모두 취소됩니다.</string>
+    <string name="private_mode_popup_btn_skip">건너뛰기</string>
+    <string name="private_mode_popup_screen_lock_title">화면 잠금 설정</string>
+    <string name="private_mode_popup_screen_lock_msg">프라이빗 모드 사용 중에 보안을 강화하려면, 화면 잠금 방식을 보안 잠금으로 변경한 후 프라이빗 모드를 실행하세요.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">선택한 컨텐츠가 전송되면 [프라이빗 모드]를 실행합니다.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"전송을 완료하였습니다.
+프라이빗 모드를 해제하세요."</string>
+    <string name="private_mode_popup_m2p_failed_close">"전송이 완료되지 않았습니다.
+[프라이빗 모드]를 해제하세요."</string>
+    <string name="personalpage_on_vzw">프라이빗 모드를 실행하였습니다.</string>
+    <string name="personalpage_off_vzw">프라이빗 모드를 해제하였습니다.</string>
+    <string name="private_mode_toast_ism2p">다른 프로세스가 이미 진행 중입니다. 완료되면 다시 시도하세요.</string>
+    <string name="private_mode_pop_up_title">프라이빗 모드 해제</string>
+    <string name="private_mode_popup_m2p_msg">선택한 컨텐츠를 [프라이빗]으로 이동하는 동안 프라이빗 모드가 실행되고, 전송이 완료되면 다시 해제됩니다.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"선택한 앱을 [프라이빗]으로 이동하면 프라이빗 모드가 실행되고 전송이 완료되면 다시 해제됩니다.
+
+앱을 [프라이빗]으로 이동하면 연결된 앱 및 관련 위젯도 이동되고 바로가기가 삭제됩니다. 프라이빗 모드가 해제된 상태에서는 [프라이빗]에 이동된 앱에서 온 알림을 받지 않습니다."</string>
+    <string name="private_mode_popup_m2p_title">프라이빗 모드 실행</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">지문 설정이 변경된 상태입니다. 프라이빗 모드를 실행하려면 추가 인증 방식 패턴을 그리세요.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">지문 설정이 변경된 상태입니다. 프라이빗 모드를 실행하려면 추가 인증 방식 PIN을 입력하세요.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">지문 설정이 변경된 상태입니다. 프라이빗 모드를 실행하려면 추가 인증 방식 비밀번호를 입력하세요.</string>
+    <string name="private_mode_bakcupkey_bt_text">추가 인증 방식 사용</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">패턴</string>
+    <string name="private_mode_bakcupkey_bt_password_text">비밀번호</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s 사용</string>
+    <string name="private_mode_bakcuppwd_bt_text">백업 비밀번호</string>
+    <string name="private_mode_migration_body_text">프라이빗 모드에 접근할 때 지문 대신 사용할 패턴, PIN, 비밀번호를 설정하세요.</string>
+    <string name="private_mode_migration_next_button">다음</string>
+    <string name="private_mode_pattern_backup_pin_desc">백업 PIN</string>
+</resources>

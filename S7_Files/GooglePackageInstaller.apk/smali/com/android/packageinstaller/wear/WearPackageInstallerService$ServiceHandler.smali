@@ -1,0 +1,84 @@
+.class final Lcom/android/packageinstaller/wear/WearPackageInstallerService$ServiceHandler;
+.super Landroid/os/Handler;
+.source "WearPackageInstallerService.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x12
+    name = "ServiceHandler"
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/packageinstaller/wear/WearPackageInstallerService;Landroid/os/Looper;)V
+    .locals 0
+    .param p1, "this$0"    # Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+    .param p2, "looper"    # Landroid/os/Looper;
+
+    .prologue
+    .line 112
+    iput-object p1, p0, Lcom/android/packageinstaller/wear/WearPackageInstallerService$ServiceHandler;->this$0:Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+
+    .line 113
+    invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    .line 112
+    return-void
+.end method
+
+
+# virtual methods
+.method public handleMessage(Landroid/os/Message;)V
+    .locals 2
+    .param p1, "msg"    # Landroid/os/Message;
+
+    .prologue
+    .line 117
+    iget v0, p1, Landroid/os/Message;->what:I
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 116
+    :goto_0
+    return-void
+
+    .line 119
+    :pswitch_0
+    iget-object v0, p0, Lcom/android/packageinstaller/wear/WearPackageInstallerService$ServiceHandler;->this$0:Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+
+    invoke-virtual {p1}, Landroid/os/Message;->getData()Landroid/os/Bundle;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/android/packageinstaller/wear/WearPackageInstallerService;->-wrap1(Lcom/android/packageinstaller/wear/WearPackageInstallerService;Landroid/os/Bundle;)V
+
+    goto :goto_0
+
+    .line 122
+    :pswitch_1
+    iget-object v0, p0, Lcom/android/packageinstaller/wear/WearPackageInstallerService$ServiceHandler;->this$0:Lcom/android/packageinstaller/wear/WearPackageInstallerService;
+
+    invoke-virtual {p1}, Landroid/os/Message;->getData()Landroid/os/Bundle;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/android/packageinstaller/wear/WearPackageInstallerService;->-wrap2(Lcom/android/packageinstaller/wear/WearPackageInstallerService;Landroid/os/Bundle;)V
+
+    goto :goto_0
+
+    .line 117
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
+.end method

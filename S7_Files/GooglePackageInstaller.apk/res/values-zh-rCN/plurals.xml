@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="additional_permissions_more">
+        <item quantity="other">另外 %1$d 项</item>
+        <item quantity="one">另外 %1$d 项</item>
+    </plurals>
+</resources>

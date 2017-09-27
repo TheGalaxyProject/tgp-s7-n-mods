@@ -1,0 +1,131 @@
+.class Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;
+.super Ljava/lang/Object;
+.source "SemHorizontalAbsListView.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/widget/SemHorizontalAbsListView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2
+    name = "SemSmoothScrollByMove"
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Landroid/widget/SemHorizontalAbsListView;
+
+
+# direct methods
+.method private constructor <init>(Landroid/widget/SemHorizontalAbsListView;)V
+    .locals 0
+    .param p1, "this$0"    # Landroid/widget/SemHorizontalAbsListView;
+
+    .prologue
+    .line 7386
+    iput-object p1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Landroid/widget/SemHorizontalAbsListView;Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;)V
+    .locals 0
+    .param p1, "this$0"    # Landroid/widget/SemHorizontalAbsListView;
+
+    .prologue
+    invoke-direct {p0, p1}, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;-><init>(Landroid/widget/SemHorizontalAbsListView;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .prologue
+    .line 7388
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-static {v1}, Landroid/widget/SemHorizontalAbsListView;->-get10(Landroid/widget/SemHorizontalAbsListView;)Landroid/widget/SemHorizontalAbsListView$FlingRunnable;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/widget/SemHorizontalAbsListView$FlingRunnable;->-get0(Landroid/widget/SemHorizontalAbsListView$FlingRunnable;)Landroid/widget/OverScroller;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/widget/OverScroller;->isFinished()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    .line 7389
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-static {v1}, Landroid/widget/SemHorizontalAbsListView;->-get32(Landroid/widget/SemHorizontalAbsListView;)Ljava/util/LinkedList;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-static {v1}, Landroid/widget/SemHorizontalAbsListView;->-get32(Landroid/widget/SemHorizontalAbsListView;)Ljava/util/LinkedList;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 7390
+    :cond_0
+    return-void
+
+    .line 7392
+    :cond_1
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-static {v1}, Landroid/widget/SemHorizontalAbsListView;->-get32(Landroid/widget/SemHorizontalAbsListView;)Ljava/util/LinkedList;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/util/LinkedList;->poll()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    .line 7393
+    .local v0, "remain":I
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v0, v2}, Landroid/widget/SemHorizontalAbsListView;->smoothScrollBy(II)V
+
+    .line 7396
+    .end local v0    # "remain":I
+    :cond_2
+    iget-object v1, p0, Landroid/widget/SemHorizontalAbsListView$SemSmoothScrollByMove;->this$0:Landroid/widget/SemHorizontalAbsListView;
+
+    invoke-virtual {v1, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
+    .line 7387
+    return-void
+.end method
