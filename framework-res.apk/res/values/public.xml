@@ -6678,6 +6678,7 @@
     <public type="string" name="lacking_filenode_internal_storage_view_text" id="0x01040a95" />
     <public type="string" name="config_tspstate_threshold" id="0x01040a96" />
     <public type="string" name="wfcSpnFormat" id="0x010408fc" />
+    <public type="string" name="tw_ic_do_rebootrecovery" id="0x01040a98" />
     <public type="dimen" name="app_icon_size" id="0x01050000" />
     <public type="dimen" name="thumbnail_height" id="0x01050001" />
     <public type="dimen" name="thumbnail_width" id="0x01050002" />
@@ -11162,6 +11163,7 @@
     <public type="drawable" name="tw_textfield_default_mtrl_alpha" id="0x01080ad3" />
     <public type="drawable" name="wb_hover_button" id="0x01080afd" />
     <public type="drawable" name="wb_tap_button" id="0x01080afe" />
+    <public type="drawable" name="tw_ic_do_rebootrecovery" id="0x01080b0f" />
     <public type="layout" name="activity_list_item" id="0x01090000" />
     <public type="layout" name="expandable_list_content" id="0x01090001" />
     <public type="layout" name="preference_category" id="0x01090002" />

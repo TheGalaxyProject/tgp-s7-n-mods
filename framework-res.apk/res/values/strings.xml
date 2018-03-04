@@ -2754,4 +2754,5 @@ USB functions may be restricted while Maximum power saving mode enabled."</strin
     <string name="lacking_filenode_internal_storage_view_title">File system limit</string>
     <string name="lacking_filenode_internal_storage_view_text">Too many files have been created on your phone. Apps may stop working correctly and your phone may no longer start up. Back up any important data and factory reset your phone.</string>
     <string name="config_tspstate_threshold">10,32,768,10,60</string>
+    <string name="tw_ic_do_rebootrecovery">Recovery</string>
 </resources>

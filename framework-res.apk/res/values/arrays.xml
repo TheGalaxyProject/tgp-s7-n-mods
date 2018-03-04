@@ -794,6 +794,7 @@
         <item>lockdown</item>
         <item>bugreport</item>
         <item>users</item>
+        <item>rebootrecovery</item>
         <item>emergencymode</item>
         <item>subscreen</item>
     </string-array>
