@@ -16868,6 +16868,7 @@
     <public type="id" name="vpn_create" id="0x7f110894" />
     <public type="id" name="wifi_wps" id="0x7f110895" />
     <public type="id" name="about_tgp" id="0x7f110899" />
+    <public type="id" name="dev_settings" id="0x7f11089a" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_x" id="0x7f120000" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_y" id="0x7f120001" />
     <public type="plurals" name="lock_timeout_hours" id="0x7f130000" />
