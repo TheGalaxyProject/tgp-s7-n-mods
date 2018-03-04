@@ -5,11 +5,15 @@
     <FrameLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="6.0dip" />
     <LinearLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/status_bar_padding_start" android:paddingEnd="@dimen/status_bar_padding_end">
-        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-        <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
-            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/knoxCustomStatusBarText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" />
-            <include layout="@layout/system_icons" />
-            <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="@dimen/status_bar_clock_starting_padding" android:paddingEnd="@dimen/status_bar_clock_end_padding" />
-        </com.android.keyguard.AlphaOptimizedLinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:ellipsize="none" android:gravity="center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/knoxCustomStatusBarText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:includeFontPadding="false" />
+                <include layout="@layout/system_icons" />
+                <com.android.systemui.statusbar.policy.Clock android:textSize="0.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </com.android.systemui.statusbar.phone.PhoneStatusBarView>
