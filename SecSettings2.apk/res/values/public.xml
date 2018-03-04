@@ -1840,6 +1840,7 @@
     <public type="drawable" name="tw_spinner_mtrl_am_alpha" id="0x7f0204fe" />
     <public type="drawable" name="wipe_fingerprint" id="0x7f020559" />
     <public type="drawable" name="wipe_water" id="0x7f02055a" />
+    <public type="drawable" name="tgp_logo" id="0x7f020563" />
     <public type="mipmap" name="ic_launcher_settings" id="0x7f030000" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001" />
@@ -2747,6 +2748,7 @@
     <public type="layout" name="preference_wifi_ap_allowed_list" id="0x7f04021d" />
     <public type="layout" name="settings_top_level" id="0x7f04027d" />
     <public type="layout" name="wifi_settings_for_setup_wizard_xl" id="0x7f040366" />
+    <public type="layout" name="tgp_logo" id="0x7f04038a" />
     <public type="anim" name="abc_fade_in" id="0x7f050000" />
     <public type="anim" name="abc_fade_out" id="0x7f050001" />
     <public type="anim" name="abc_grow_fade_in_from_bottom" id="0x7f050002" />
@@ -16865,6 +16867,7 @@
     <public type="id" name="action_done" id="0x7f110893" />
     <public type="id" name="vpn_create" id="0x7f110894" />
     <public type="id" name="wifi_wps" id="0x7f110895" />
+    <public type="id" name="about_tgp" id="0x7f110899" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_x" id="0x7f120000" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_y" id="0x7f120001" />
     <public type="plurals" name="lock_timeout_hours" id="0x7f130000" />
