@@ -1850,8 +1850,8 @@ Please note that in order to enable your emergency calls (e.g., such as 112 call
     <string name="config_default_color_code">black</string>
     <string name="abbrev_wday_month_day_no_year">EEEEMMMMd</string>
     <string name="abbrev_wday_month_day_no_year_alarm">EEEMMMd</string>
-    <string name="clock_12hr_format">hm</string>
-    <string name="clock_24hr_format">Hm</string>
+    <string name="clock_12hr_format">h</string>
+    <string name="clock_24hr_format">H</string>
     <string name="status_view_wday_day_month_no_year">E, d MMMM</string>
     <string name="keyguard_clock_page_date_format">EEEMMMMd</string>
     <string name="keyguard_ampm_view_12hour_format">aa</string>
@@ -1884,8 +1884,9 @@ Please note that in order to enable your emergency calls (e.g., such as 112 call
     <string name="keyguard_sim_locked_message">SIM card locked</string>
     <string name="keyguard_sim_puk_locked_message">SIM card locked with PUK</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
-    <string name="keyguard_widget_12_hours_format">hmm</string>
-    <string name="keyguard_widget_24_hours_format">kkmm</string>
+    <string name="keyguard_widget_12_hours_format">h</string>
+    <string name="keyguard_widget_24_hours_format">kk</string>
+    <string name="keyguard_widget_minutes_format">mm</string>
     <string name="keyguard_accessibility_pattern_unlock">Pattern unlock.</string>
     <string name="keyguard_accessibility_pin_unlock">Pin unlock.</string>
     <string name="keyguard_accessibility_password_unlock">Password unlock.</string>

@@ -7161,6 +7161,7 @@
     <public type="string" name="screenshot_failed_to_save_unknown_text" id="0x7f0f06b9" />
     <public type="string" name="screenshot_failed_to_save_text" id="0x7f0f06ba" />
     <public type="string" name="screenshot_failed_to_capture_text" id="0x7f0f06bb" />
+    <public type="string" name="keyguard_widget_minutes_format" id="0x7f0f0887" />
     <public type="style" name="DividerButtonIcon" id="0x7f100000" />
     <public type="style" name="DockedDividerFocusedFrame" id="0x7f100001" />
     <public type="style" name="SnapViewButtonBackground" id="0x7f100002" />
