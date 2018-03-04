@@ -477,6 +477,8 @@
 
 .field private telephonyManager:Landroid/telephony/TelephonyManager;
 
+.field private mRebootRecovery:Lcom/android/server/policy/GlobalActions$SinglePressAction;
+
 
 # direct methods
 .method static synthetic -get0(Lcom/android/server/policy/GlobalActions;)Landroid/net/ConnectivityManager;
@@ -2355,6 +2357,14 @@
     invoke-direct {p0, p2, v8}, Lcom/android/server/policy/GlobalActions;->onClickForLandscapeConfirmDialog(Landroid/view/View;Z)V
 
     goto :goto_0
+.end method
+
+.method static synthetic access$500(Lcom/android/server/policy/GlobalActions;)Landroid/content/Context;
+    .locals 1
+
+    iget-object v0, p0, Lcom/android/server/policy/GlobalActions;->mContext:Landroid/content/Context;
+
+    return-object v0
 .end method
 
 .method private addCustomDialogItems(Landroid/graphics/drawable/BitmapDrawable;Ljava/lang/String;Landroid/content/Intent;ILjava/util/ArrayList;)Z
@@ -4459,6 +4469,52 @@
     move-object/from16 v0, p0
 
     iput-object v5, v0, Lcom/android/server/policy/GlobalActions;->mRestart:Lcom/android/server/policy/GlobalActions$SinglePressAction;
+    
+    new-instance v4, Lcom/android/server/policy/GlobalActions$47;
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/server/policy/GlobalActions;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const-string v1, "tw_ic_do_rebootrecovery" 
+
+    const-string v2, "drawable" 
+
+    const-string v3, "android"
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v5 
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/server/policy/GlobalActions;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const-string v1, "tw_ic_do_rebootrecovery"
+
+    const-string v2, "string"
+
+    const-string v3, "android"
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v6
+
+    move-object/from16 v0, p0
+
+    invoke-direct {v4, v0, v5, v6}, Lcom/android/server/policy/GlobalActions$47;-><init>(Lcom/android/server/policy/GlobalActions;II)V
+
+    move-object/from16 v0, p0
+
+    iput-object v4, v0, Lcom/android/server/policy/GlobalActions;->mRebootRecovery:Lcom/android/server/policy/GlobalActions$SinglePressAction; 
 
     invoke-static {}, Lcom/samsung/android/feature/SemCscFeature;->getInstance()Lcom/samsung/android/feature/SemCscFeature;
 
@@ -4638,6 +4694,22 @@
     iget-object v5, v0, Lcom/android/server/policy/GlobalActions;->mItems:Ljava/util/ArrayList;
 
     const/16 v6, 0x100
+
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/android/server/policy/GlobalActions;->mRebootRecovery:Lcom/android/server/policy/GlobalActions$SinglePressAction;
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/server/policy/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    const/4 v7, 0x1
+
+    move-object/from16 v0, p0
+
+    invoke-direct {v0, v6, v4, v5, v7}, Lcom/android/server/policy/GlobalActions;->addDialogItemsIfEnabled(ILcom/android/server/policy/GlobalActions$Action;Ljava/util/ArrayList;Z)Z 
+
+    const/16 v6, 0x200
 
     const/4 v7, 0x1
 
@@ -4999,6 +5071,27 @@
     goto/16 :goto_7
 
     :cond_15
+    const-string/jumbo v4, "rebootrecovery"
+
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_asc1
+
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/android/server/policy/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/server/policy/GlobalActions;->mRebootRecovery:Lcom/android/server/policy/GlobalActions$SinglePressAction;
+
+    invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto/16 :goto_7 
+
+    :cond_asc1
     const-string/jumbo v4, "silent"
 
     invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
