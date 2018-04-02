@@ -28,7 +28,7 @@
 
 .field private static final ACTION_SCREEN_RECORDER_ON:Ljava/lang/String; = "com.sec.app.screenrecorder.on"
 
-.field private static final CAPTURE_SCREEN:I = 0x0
+.field private static final CAPTURE_SCREEN:I = 0x1
 
 .field private static final CAPTURE_TILE_MODE:Ljava/lang/String; = "capture_tile_mode"
 
