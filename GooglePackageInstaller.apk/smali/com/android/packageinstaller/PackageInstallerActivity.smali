@@ -593,7 +593,7 @@
 .method private isUnknownSourcesEnabled()Z
     .locals 3
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     invoke-virtual {p0}, Lcom/android/packageinstaller/PackageInstallerActivity;->getContentResolver()Landroid/content/ContentResolver;
 
