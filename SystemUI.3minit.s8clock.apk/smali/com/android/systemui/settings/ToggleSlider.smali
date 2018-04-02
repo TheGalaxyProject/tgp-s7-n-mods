@@ -448,6 +448,8 @@
 
 .method private showStrainWarningPopup()V
     .locals 4
+    
+    goto :goto_td
 
     iget-object v1, p0, Lcom/android/systemui/settings/ToggleSlider;->mContext:Landroid/content/Context;
 
@@ -541,6 +543,7 @@
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
 
+    :goto_td
     return-void
 .end method
 
