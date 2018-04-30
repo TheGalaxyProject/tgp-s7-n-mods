@@ -157,21 +157,21 @@
         }
     .end annotation
 
-    iget v2, p0, Landroid/support/v4/util/ArrayMap;->mSize:I
+    iget v1, p0, Landroid/support/v4/util/ArrayMap;->mSize:I
 
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
-    move-result v3
+    move-result v2
 
-    add-int/2addr v2, v3
+    add-int/2addr v1, v2
 
-    invoke-virtual {p0, v2}, Landroid/support/v4/util/ArrayMap;->ensureCapacity(I)V
+    invoke-virtual {p0, v1}, Landroid/support/v4/util/ArrayMap;->ensureCapacity(I)V
 
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
-    move-result-object v2
+    move-result-object v1
 
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 

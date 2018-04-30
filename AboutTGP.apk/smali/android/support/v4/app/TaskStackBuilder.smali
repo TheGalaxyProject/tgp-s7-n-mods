@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/app/TaskStackBuilder;
+.class public final Landroid/support/v4/app/TaskStackBuilder;
 .super Ljava/lang/Object;
 .source "TaskStackBuilder.java"
 
@@ -106,6 +106,8 @@
 
 .method public static from(Landroid/content/Context;)Landroid/support/v4/app/TaskStackBuilder;
     .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     invoke-static {p0}, Landroid/support/v4/app/TaskStackBuilder;->create(Landroid/content/Context;)Landroid/support/v4/app/TaskStackBuilder;
 
@@ -304,6 +306,8 @@
 
 .method public getIntent(I)Landroid/content/Intent;
     .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     invoke-virtual {p0, p1}, Landroid/support/v4/app/TaskStackBuilder;->editIntentAt(I)Landroid/content/Intent;
 
@@ -482,6 +486,9 @@
             "Landroid/content/Intent;",
             ">;"
         }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
     iget-object v0, p0, Landroid/support/v4/app/TaskStackBuilder;->mIntents:Ljava/util/ArrayList;

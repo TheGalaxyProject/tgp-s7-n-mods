@@ -2,10 +2,6 @@
 .super Ljava/lang/Object;
 .source "TransportMediatorJellybeanMR2.java"
 
-# interfaces
-.implements Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;
-.implements Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;
-
 
 # instance fields
 .field mAudioFocusChangeListener:Landroid/media/AudioManager$OnAudioFocusChangeListener;
@@ -18,6 +14,8 @@
 
 .field mFocused:Z
 
+.field final mGetPlaybackPositionListener:Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;
+
 .field final mIntent:Landroid/content/Intent;
 
 .field final mMediaButtonReceiver:Landroid/content/BroadcastReceiver;
@@ -25,6 +23,8 @@
 .field mPendingIntent:Landroid/app/PendingIntent;
 
 .field mPlayState:I
+
+.field final mPlaybackPositionUpdateListener:Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;
 
 .field final mReceiverAction:Ljava/lang/String;
 
@@ -70,6 +70,18 @@
     invoke-direct {v0, p0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2$4;-><init>(Landroid/support/v4/media/TransportMediatorJellybeanMR2;)V
 
     iput-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mAudioFocusChangeListener:Landroid/media/AudioManager$OnAudioFocusChangeListener;
+
+    new-instance v0, Landroid/support/v4/media/TransportMediatorJellybeanMR2$5;
+
+    invoke-direct {v0, p0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2$5;-><init>(Landroid/support/v4/media/TransportMediatorJellybeanMR2;)V
+
+    iput-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mGetPlaybackPositionListener:Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;
+
+    new-instance v0, Landroid/support/v4/media/TransportMediatorJellybeanMR2$6;
+
+    invoke-direct {v0, p0}, Landroid/support/v4/media/TransportMediatorJellybeanMR2$6;-><init>(Landroid/support/v4/media/TransportMediatorJellybeanMR2;)V
+
+    iput-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mPlaybackPositionUpdateListener:Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;
 
     const/4 v0, 0x0
 
@@ -289,28 +301,6 @@
     return-void
 .end method
 
-.method public onGetPlaybackPosition()J
-    .locals 2
-
-    iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mTransportCallback:Landroid/support/v4/media/TransportMediatorCallback;
-
-    invoke-interface {v0}, Landroid/support/v4/media/TransportMediatorCallback;->getPlaybackPosition()J
-
-    move-result-wide v0
-
-    return-wide v0
-.end method
-
-.method public onPlaybackPositionUpdate(J)V
-    .locals 1
-
-    iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mTransportCallback:Landroid/support/v4/media/TransportMediatorCallback;
-
-    invoke-interface {v0, p1, p2}, Landroid/support/v4/media/TransportMediatorCallback;->playbackPositionUpdate(J)V
-
-    return-void
-.end method
-
 .method public pausePlaying()V
     .locals 3
 
@@ -335,7 +325,7 @@
 .end method
 
 .method public refreshState(ZJI)V
-    .locals 3
+    .locals 4
 
     iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mRemoteControl:Landroid/media/RemoteControlClient;
 
@@ -482,11 +472,15 @@
 
     iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mRemoteControl:Landroid/media/RemoteControlClient;
 
-    invoke-virtual {v0, p0}, Landroid/media/RemoteControlClient;->setOnGetPlaybackPositionListener(Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;)V
+    iget-object v1, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mGetPlaybackPositionListener:Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;
+
+    invoke-virtual {v0, v1}, Landroid/media/RemoteControlClient;->setOnGetPlaybackPositionListener(Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;)V
 
     iget-object v0, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mRemoteControl:Landroid/media/RemoteControlClient;
 
-    invoke-virtual {v0, p0}, Landroid/media/RemoteControlClient;->setPlaybackPositionUpdateListener(Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;)V
+    iget-object v1, p0, Landroid/support/v4/media/TransportMediatorJellybeanMR2;->mPlaybackPositionUpdateListener:Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;
+
+    invoke-virtual {v0, v1}, Landroid/media/RemoteControlClient;->setPlaybackPositionUpdateListener(Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;)V
 
     return-void
 .end method

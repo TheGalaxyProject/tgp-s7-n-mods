@@ -275,6 +275,8 @@
 
 .method public getTabIndicatorColor()I
     .locals 1
+    .annotation build Landroid/support/annotation/ColorInt;
+    .end annotation
 
     iget v0, p0, Landroid/support/v4/view/PagerTabStrip;->mIndicatorColor:I
 
@@ -554,6 +556,10 @@
 
 .method public setBackgroundColor(I)V
     .locals 1
+    .param p1    # I
+        .annotation build Landroid/support/annotation/ColorInt;
+        .end annotation
+    .end param
 
     invoke-super {p0, p1}, Landroid/support/v4/view/PagerTitleStrip;->setBackgroundColor(I)V
 
@@ -608,6 +614,10 @@
 
 .method public setBackgroundResource(I)V
     .locals 1
+    .param p1    # I
+        .annotation build Landroid/support/annotation/DrawableRes;
+        .end annotation
+    .end param
 
     invoke-super {p0, p1}, Landroid/support/v4/view/PagerTitleStrip;->setBackgroundResource(I)V
 
@@ -662,6 +672,10 @@
 
 .method public setTabIndicatorColor(I)V
     .locals 2
+    .param p1    # I
+        .annotation build Landroid/support/annotation/ColorInt;
+        .end annotation
+    .end param
 
     iput p1, p0, Landroid/support/v4/view/PagerTabStrip;->mIndicatorColor:I
 
@@ -678,16 +692,16 @@
 
 .method public setTabIndicatorColorResource(I)V
     .locals 1
+    .param p1    # I
+        .annotation build Landroid/support/annotation/ColorRes;
+        .end annotation
+    .end param
 
     invoke-virtual {p0}, Landroid/support/v4/view/PagerTabStrip;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getColor(I)I
+    invoke-static {v0, p1}, Landroid/support/v4/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
     move-result v0
 

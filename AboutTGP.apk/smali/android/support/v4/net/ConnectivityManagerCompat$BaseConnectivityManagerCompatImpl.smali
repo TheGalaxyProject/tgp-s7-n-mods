@@ -28,6 +28,14 @@
 
 
 # virtual methods
+.method public getRestrictBackgroundStatus(Landroid/net/ConnectivityManager;)I
+    .locals 1
+
+    const/4 v0, 0x3
+
+    return v0
+.end method
+
 .method public isActiveNetworkMetered(Landroid/net/ConnectivityManager;)Z
     .locals 3
 
@@ -61,5 +69,10 @@
     .packed-switch 0x0
         :pswitch_0
         :pswitch_1
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
     .end packed-switch
 .end method

@@ -86,7 +86,7 @@
 
     move-result v5
 
-    invoke-static {v5}, Landroid/support/v4/text/TextDirectionHeuristicsCompat;->access$200(I)I
+    invoke-static {v5}, Landroid/support/v4/text/TextDirectionHeuristicsCompat;->isRtlText(I)I
 
     move-result v5
 

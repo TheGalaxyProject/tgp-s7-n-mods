@@ -86,24 +86,24 @@
     :goto_0
     if-gt v1, v0, :cond_1
 
-    add-int v5, v1, v0
+    add-int v3, v1, v0
 
-    ushr-int/lit8 v2, v5, 0x1
+    ushr-int/lit8 v2, v3, 0x1
 
-    aget-wide v3, p0, v2
+    aget-wide v4, p0, v2
 
-    cmp-long v5, v3, p2
+    cmp-long v3, v4, p2
 
-    if-gez v5, :cond_0
+    if-gez v3, :cond_0
 
     add-int/lit8 v1, v2, 0x1
 
     goto :goto_0
 
     :cond_0
-    cmp-long v5, v3, p2
+    cmp-long v3, v4, p2
 
-    if-lez v5, :cond_2
+    if-lez v3, :cond_2
 
     add-int/lit8 v0, v2, -0x1
 

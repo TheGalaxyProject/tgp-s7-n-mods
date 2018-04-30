@@ -39,7 +39,7 @@
 
     iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix$2;->this$0:Lcom/amnix/supportme/supportme_activity_main_amnix;
 
-    invoke-static {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->access$1(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
+    invoke-static {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->access$100(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
 
     return-void
 .end method

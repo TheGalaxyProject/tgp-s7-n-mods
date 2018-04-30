@@ -10,7 +10,9 @@
 
 
 # instance fields
-.field private mObservable:Landroid/database/DataSetObservable;
+.field private final mObservable:Landroid/database/DataSetObservable;
+
+.field private mViewPagerObserver:Landroid/database/DataSetObserver;
 
 
 # direct methods
@@ -32,6 +34,8 @@
 # virtual methods
 .method public destroyItem(Landroid/view/View;ILjava/lang/Object;)V
     .locals 2
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -52,6 +56,8 @@
 
 .method public finishUpdate(Landroid/view/View;)V
     .locals 0
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     return-void
 .end method
@@ -93,6 +99,8 @@
 
 .method public instantiateItem(Landroid/view/View;I)Ljava/lang/Object;
     .locals 2
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -119,11 +127,37 @@
 .method public notifyDataSetChanged()V
     .locals 1
 
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v0, p0, Landroid/support/v4/view/PagerAdapter;->mViewPagerObserver:Landroid/database/DataSetObserver;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Landroid/support/v4/view/PagerAdapter;->mViewPagerObserver:Landroid/database/DataSetObserver;
+
+    invoke-virtual {v0}, Landroid/database/DataSetObserver;->onChanged()V
+
+    :cond_0
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
     iget-object v0, p0, Landroid/support/v4/view/PagerAdapter;->mObservable:Landroid/database/DataSetObservable;
 
     invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V
 
     return-void
+
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v0
 .end method
 
 .method public registerDataSetObserver(Landroid/database/DataSetObserver;)V
@@ -152,6 +186,8 @@
 
 .method public setPrimaryItem(Landroid/view/View;ILjava/lang/Object;)V
     .locals 0
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     return-void
 .end method
@@ -164,8 +200,32 @@
     return-void
 .end method
 
+.method setViewPagerObserver(Landroid/database/DataSetObserver;)V
+    .locals 1
+
+    monitor-enter p0
+
+    :try_start_0
+    iput-object p1, p0, Landroid/support/v4/view/PagerAdapter;->mViewPagerObserver:Landroid/database/DataSetObserver;
+
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method
+
 .method public startUpdate(Landroid/view/View;)V
     .locals 0
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     return-void
 .end method

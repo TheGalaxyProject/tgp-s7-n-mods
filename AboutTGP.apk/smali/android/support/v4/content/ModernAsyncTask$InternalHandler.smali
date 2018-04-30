@@ -15,18 +15,14 @@
 
 
 # direct methods
-.method private constructor <init>()V
-    .locals 0
+.method public constructor <init>()V
+    .locals 1
 
-    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
-    return-void
-.end method
+    move-result-object v0
 
-.method synthetic constructor <init>(Landroid/support/v4/content/ModernAsyncTask$1;)V
-    .locals 0
-
-    invoke-direct {p0}, Landroid/support/v4/content/ModernAsyncTask$InternalHandler;-><init>()V
+    invoke-direct {p0, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     return-void
 .end method
@@ -56,7 +52,7 @@
 
     aget-object v2, v2, v3
 
-    invoke-static {v1, v2}, Landroid/support/v4/content/ModernAsyncTask;->access$500(Landroid/support/v4/content/ModernAsyncTask;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Landroid/support/v4/content/ModernAsyncTask;->finish(Ljava/lang/Object;)V
 
     goto :goto_0
 

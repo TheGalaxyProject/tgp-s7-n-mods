@@ -78,13 +78,13 @@
     return v0
 .end method
 
-.method public printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+.method public printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
     .locals 0
 
     return-void
 .end method
 
-.method public printBitmap(Ljava/lang/String;Landroid/net/Uri;)V
+.method public printBitmap(Ljava/lang/String;Landroid/net/Uri;Landroid/support/v4/print/PrintHelper$OnPrintFinishCallback;)V
     .locals 0
 
     return-void

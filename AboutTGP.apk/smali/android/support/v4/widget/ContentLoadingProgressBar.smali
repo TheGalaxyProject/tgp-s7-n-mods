@@ -14,13 +14,13 @@
 
 .field private final mDelayedShow:Ljava/lang/Runnable;
 
-.field private mDismissed:Z
+.field mDismissed:Z
 
-.field private mPostedHide:Z
+.field mPostedHide:Z
 
-.field private mPostedShow:Z
+.field mPostedShow:Z
 
-.field private mStartTime:J
+.field mStartTime:J
 
 
 # direct methods
@@ -66,38 +66,6 @@
     return-void
 .end method
 
-.method static synthetic access$002(Landroid/support/v4/widget/ContentLoadingProgressBar;Z)Z
-    .locals 0
-
-    iput-boolean p1, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mPostedHide:Z
-
-    return p1
-.end method
-
-.method static synthetic access$102(Landroid/support/v4/widget/ContentLoadingProgressBar;J)J
-    .locals 0
-
-    iput-wide p1, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mStartTime:J
-
-    return-wide p1
-.end method
-
-.method static synthetic access$202(Landroid/support/v4/widget/ContentLoadingProgressBar;Z)Z
-    .locals 0
-
-    iput-boolean p1, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mPostedShow:Z
-
-    return p1
-.end method
-
-.method static synthetic access$300(Landroid/support/v4/widget/ContentLoadingProgressBar;)Z
-    .locals 1
-
-    iget-boolean v0, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mDismissed:Z
-
-    return v0
-.end method
-
 .method private removeCallbacks()V
     .locals 1
 
@@ -115,9 +83,9 @@
 
 # virtual methods
 .method public hide()V
-    .locals 9
+    .locals 10
 
-    const-wide/16 v7, 0x1f4
+    const-wide/16 v8, 0x1f4
 
     const/4 v6, 0x1
 
@@ -135,7 +103,7 @@
 
     sub-long v0, v2, v4
 
-    cmp-long v2, v0, v7
+    cmp-long v2, v0, v8
 
     if-gez v2, :cond_0
 
@@ -163,9 +131,9 @@
 
     iget-object v2, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mDelayedHide:Ljava/lang/Runnable;
 
-    sub-long v3, v7, v0
+    sub-long v4, v8, v0
 
-    invoke-virtual {p0, v2, v3, v4}, Landroid/support/v4/widget/ContentLoadingProgressBar;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p0, v2, v4, v5}, Landroid/support/v4/widget/ContentLoadingProgressBar;->postDelayed(Ljava/lang/Runnable;J)Z
 
     iput-boolean v6, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mPostedHide:Z
 
@@ -193,7 +161,7 @@
 .end method
 
 .method public show()V
-    .locals 3
+    .locals 4
 
     const-wide/16 v0, -0x1
 
@@ -213,9 +181,9 @@
 
     iget-object v0, p0, Landroid/support/v4/widget/ContentLoadingProgressBar;->mDelayedShow:Ljava/lang/Runnable;
 
-    const-wide/16 v1, 0x1f4
+    const-wide/16 v2, 0x1f4
 
-    invoke-virtual {p0, v0, v1, v2}, Landroid/support/v4/widget/ContentLoadingProgressBar;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p0, v0, v2, v3}, Landroid/support/v4/widget/ContentLoadingProgressBar;->postDelayed(Ljava/lang/Runnable;J)Z
 
     const/4 v0, 0x1
 

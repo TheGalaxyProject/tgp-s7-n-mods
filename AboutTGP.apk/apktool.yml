@@ -8,15 +8,16 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '8'
-  targetSdkVersion: '19'
+  minSdkVersion: '13'
+  targetSdkVersion: '25'
 sharedLibrary: false
+sparseResources: true
 unknownFiles: {}
 usesFramework:
   ids:
   - 1
   tag: null
-version: 2.3.1
+version: 2.3.2
 versionInfo:
   versionCode: '1'
   versionName: '1.0'

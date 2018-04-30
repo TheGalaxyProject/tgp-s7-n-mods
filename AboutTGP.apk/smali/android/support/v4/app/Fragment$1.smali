@@ -1,9 +1,6 @@
 .class Landroid/support/v4/app/Fragment$1;
-.super Ljava/lang/Object;
+.super Landroid/support/v4/app/FragmentContainer;
 .source "Fragment.java"
-
-# interfaces
-.implements Landroid/support/v4/app/FragmentContainer;
 
 
 # annotations
@@ -27,15 +24,17 @@
 
     iput-object p1, p0, Landroid/support/v4/app/Fragment$1;->this$0:Landroid/support/v4/app/Fragment;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Landroid/support/v4/app/FragmentContainer;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public findViewById(I)Landroid/view/View;
+.method public onFindViewById(I)Landroid/view/View;
     .locals 2
+    .annotation build Landroid/support/annotation/Nullable;
+    .end annotation
 
     iget-object v0, p0, Landroid/support/v4/app/Fragment$1;->this$0:Landroid/support/v4/app/Fragment;
 
@@ -61,4 +60,24 @@
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public onHasView()Z
+    .locals 1
+
+    iget-object v0, p0, Landroid/support/v4/app/Fragment$1;->this$0:Landroid/support/v4/app/Fragment;
+
+    iget-object v0, v0, Landroid/support/v4/app/Fragment;->mView:Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method

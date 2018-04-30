@@ -74,6 +74,14 @@
     return v0
 .end method
 
+.method public onPull(Ljava/lang/Object;FF)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 .method public onRelease(Ljava/lang/Object;)Z
     .locals 1
 

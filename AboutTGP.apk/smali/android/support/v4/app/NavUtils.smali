@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/app/NavUtils;
+.class public final Landroid/support/v4/app/NavUtils;
 .super Ljava/lang/Object;
 .source "NavUtils.java"
 
@@ -188,6 +188,8 @@
 
 .method public static getParentActivityName(Landroid/app/Activity;)Ljava/lang/String;
     .locals 2
+    .annotation build Landroid/support/annotation/Nullable;
+    .end annotation
 
     :try_start_0
     invoke-virtual {p0}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
@@ -214,6 +216,9 @@
 
 .method public static getParentActivityName(Landroid/content/Context;Landroid/content/ComponentName;)Ljava/lang/String;
     .locals 4
+    .annotation build Landroid/support/annotation/Nullable;
+    .end annotation
+
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/content/pm/PackageManager$NameNotFoundException;

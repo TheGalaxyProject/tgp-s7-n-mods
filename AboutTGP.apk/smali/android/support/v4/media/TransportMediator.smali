@@ -126,7 +126,7 @@
 
     iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mView:Landroid/view/View;
 
-    invoke-static {v0}, Landroid/support/v4/view/KeyEventCompat;->getKeyDispatcherState(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
 
     move-result-object v0
 
@@ -279,28 +279,26 @@
 .end method
 
 .method private reportPlayingChanged()V
-    .locals 5
+    .locals 4
 
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->getListeners()[Landroid/support/v4/media/TransportStateListener;
 
-    move-result-object v4
+    move-result-object v1
 
-    if-eqz v4, :cond_0
+    if-eqz v1, :cond_0
 
-    move-object v0, v4
+    array-length v3, v1
 
-    array-length v2, v0
-
-    const/4 v1, 0x0
+    const/4 v2, 0x0
 
     :goto_0
-    if-ge v1, v2, :cond_0
+    if-ge v2, v3, :cond_0
 
-    aget-object v3, v0, v1
+    aget-object v0, v1, v2
 
-    invoke-virtual {v3, p0}, Landroid/support/v4/media/TransportStateListener;->onPlayingChanged(Landroid/support/v4/media/TransportController;)V
+    invoke-virtual {v0, p0}, Landroid/support/v4/media/TransportStateListener;->onPlayingChanged(Landroid/support/v4/media/TransportController;)V
 
-    add-int/lit8 v1, v1, 0x1
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
@@ -309,28 +307,26 @@
 .end method
 
 .method private reportTransportControlsChanged()V
-    .locals 5
+    .locals 4
 
     invoke-direct {p0}, Landroid/support/v4/media/TransportMediator;->getListeners()[Landroid/support/v4/media/TransportStateListener;
 
-    move-result-object v4
+    move-result-object v1
 
-    if-eqz v4, :cond_0
+    if-eqz v1, :cond_0
 
-    move-object v0, v4
+    array-length v3, v1
 
-    array-length v2, v0
-
-    const/4 v1, 0x0
+    const/4 v2, 0x0
 
     :goto_0
-    if-ge v1, v2, :cond_0
+    if-ge v2, v3, :cond_0
 
-    aget-object v3, v0, v1
+    aget-object v0, v1, v2
 
-    invoke-virtual {v3, p0}, Landroid/support/v4/media/TransportStateListener;->onTransportControlsChanged(Landroid/support/v4/media/TransportController;)V
+    invoke-virtual {v0, p0}, Landroid/support/v4/media/TransportStateListener;->onTransportControlsChanged(Landroid/support/v4/media/TransportController;)V
 
-    add-int/lit8 v1, v1, 0x1
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
@@ -353,11 +349,13 @@
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 2
 
-    iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mKeyEventCallback:Landroid/view/KeyEvent$Callback;
+    iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mKeyEventCallback:Landroid/view/KeyEvent$Callback;
 
-    iget-object v1, p0, Landroid/support/v4/media/TransportMediator;->mDispatcherState:Ljava/lang/Object;
+    iget-object v0, p0, Landroid/support/v4/media/TransportMediator;->mDispatcherState:Ljava/lang/Object;
 
-    invoke-static {p1, v0, v1, p0}, Landroid/support/v4/view/KeyEventCompat;->dispatch(Landroid/view/KeyEvent;Landroid/view/KeyEvent$Callback;Ljava/lang/Object;Ljava/lang/Object;)Z
+    check-cast v0, Landroid/view/KeyEvent$DispatcherState;
+
+    invoke-virtual {p1, v1, v0, p0}, Landroid/view/KeyEvent;->dispatch(Landroid/view/KeyEvent$Callback;Landroid/view/KeyEvent$DispatcherState;Ljava/lang/Object;)Z
 
     move-result v0
 

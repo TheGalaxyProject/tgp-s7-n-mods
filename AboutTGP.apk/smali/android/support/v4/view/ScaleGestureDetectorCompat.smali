@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/view/ScaleGestureDetectorCompat;
+.class public final Landroid/support/v4/view/ScaleGestureDetectorCompat;
 .super Ljava/lang/Object;
 .source "ScaleGestureDetectorCompat.java"
 
@@ -6,7 +6,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroid/support/v4/view/ScaleGestureDetectorCompat$1;,
         Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorCompatKitKatImpl;,
         Landroid/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl;,
         Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorImpl;
@@ -20,9 +19,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 3
-
-    const/4 v2, 0x0
+    .locals 2
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -32,7 +29,7 @@
 
     new-instance v1, Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorCompatKitKatImpl;
 
-    invoke-direct {v1, v2}, Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorCompatKitKatImpl;-><init>(Landroid/support/v4/view/ScaleGestureDetectorCompat$1;)V
+    invoke-direct {v1}, Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorCompatKitKatImpl;-><init>()V
 
     sput-object v1, Landroid/support/v4/view/ScaleGestureDetectorCompat;->IMPL:Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorImpl;
 
@@ -42,7 +39,7 @@
     :cond_0
     new-instance v1, Landroid/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl;
 
-    invoke-direct {v1, v2}, Landroid/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl;-><init>(Landroid/support/v4/view/ScaleGestureDetectorCompat$1;)V
+    invoke-direct {v1}, Landroid/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl;-><init>()V
 
     sput-object v1, Landroid/support/v4/view/ScaleGestureDetectorCompat;->IMPL:Landroid/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorImpl;
 

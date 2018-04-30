@@ -96,25 +96,7 @@
 
 
 # virtual methods
-.method public dispatch(Landroid/view/KeyEvent;Landroid/view/KeyEvent$Callback;Ljava/lang/Object;Ljava/lang/Object;)Z
-    .locals 1
-
-    invoke-virtual {p1, p2}, Landroid/view/KeyEvent;->dispatch(Landroid/view/KeyEvent$Callback;)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public getKeyDispatcherState(Landroid/view/View;)Ljava/lang/Object;
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return-object v0
-.end method
-
-.method public isTracking(Landroid/view/KeyEvent;)Z
+.method public isCtrlPressed(Landroid/view/KeyEvent;)Z
     .locals 1
 
     const/4 v0, 0x0
@@ -204,10 +186,4 @@
     and-int/lit16 v0, p1, 0xf7
 
     return v0
-.end method
-
-.method public startTracking(Landroid/view/KeyEvent;)V
-    .locals 0
-
-    return-void
 .end method

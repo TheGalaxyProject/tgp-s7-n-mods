@@ -21,6 +21,36 @@
     return-void
 .end method
 
+.method public static checkIfLegalArg(Landroid/view/View;)V
+    .locals 2
+
+    if-nez p0, :cond_0
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "searchView must be non-null"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_0
+    instance-of v0, p0, Landroid/widget/SearchView;
+
+    if-nez v0, :cond_1
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "searchView must be an instance ofandroid.widget.SearchView"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    return-void
+.end method
+
 .method public static getQuery(Landroid/view/View;)Ljava/lang/CharSequence;
     .locals 1
 
@@ -119,7 +149,7 @@
     return-void
 .end method
 
-.method public static setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public static setOnCloseListener(Landroid/view/View;Ljava/lang/Object;)V
     .locals 0
 
     check-cast p0, Landroid/widget/SearchView;
@@ -131,7 +161,7 @@
     return-void
 .end method
 
-.method public static setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public static setOnQueryTextListener(Landroid/view/View;Ljava/lang/Object;)V
     .locals 0
 
     check-cast p0, Landroid/widget/SearchView;

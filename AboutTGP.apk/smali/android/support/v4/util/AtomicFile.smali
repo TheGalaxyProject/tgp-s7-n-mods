@@ -385,7 +385,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Ljava/io/File;->mkdir()Z
+    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
     move-result v4
 

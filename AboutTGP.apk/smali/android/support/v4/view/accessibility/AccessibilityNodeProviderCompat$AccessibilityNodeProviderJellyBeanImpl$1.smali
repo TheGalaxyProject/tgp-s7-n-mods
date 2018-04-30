@@ -82,6 +82,14 @@
 
     move-result-object v0
 
+    if-nez v0, :cond_1
+
+    const/4 v4, 0x0
+
+    :cond_0
+    return-object v4
+
+    :cond_1
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
@@ -110,9 +118,6 @@
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
-
-    :cond_0
-    return-object v4
 .end method
 
 .method public performAction(IILandroid/os/Bundle;)Z

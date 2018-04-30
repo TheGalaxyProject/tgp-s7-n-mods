@@ -63,14 +63,12 @@
 
     iget-object v1, p0, Landroid/support/v4/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;
 
-    invoke-static {v0, v1}, Landroid/support/v4/widget/SlidingPaneLayout;->access$900(Landroid/support/v4/widget/SlidingPaneLayout;Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Landroid/support/v4/widget/SlidingPaneLayout;->invalidateChildRegion(Landroid/view/View;)V
 
     :cond_0
     iget-object v0, p0, Landroid/support/v4/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroid/support/v4/widget/SlidingPaneLayout;
 
-    invoke-static {v0}, Landroid/support/v4/widget/SlidingPaneLayout;->access$1000(Landroid/support/v4/widget/SlidingPaneLayout;)Ljava/util/ArrayList;
-
-    move-result-object v0
+    iget-object v0, v0, Landroid/support/v4/widget/SlidingPaneLayout;->mPostedRunnables:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 

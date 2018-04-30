@@ -592,6 +592,44 @@
     throw v1
 .end method
 
+.method public resize(I)V
+    .locals 2
+
+    if-gtz p1, :cond_0
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "maxSize <= 0"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_0
+    monitor-enter p0
+
+    :try_start_0
+    iput p1, p0, Landroid/support/v4/util/LruCache;->maxSize:I
+
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    invoke-virtual {p0, p1}, Landroid/support/v4/util/LruCache;->trimToSize(I)V
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v0
+.end method
+
 .method public final declared-synchronized size()I
     .locals 1
 

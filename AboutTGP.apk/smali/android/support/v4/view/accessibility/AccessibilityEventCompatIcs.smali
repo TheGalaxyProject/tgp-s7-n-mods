@@ -41,3 +41,11 @@
 
     return v0
 .end method
+
+.method public static setScrollable(Landroid/view/accessibility/AccessibilityEvent;Z)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setScrollable(Z)V
+
+    return-void
+.end method

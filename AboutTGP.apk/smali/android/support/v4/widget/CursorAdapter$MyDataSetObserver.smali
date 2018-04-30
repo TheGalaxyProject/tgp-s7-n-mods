@@ -19,20 +19,12 @@
 
 
 # direct methods
-.method private constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
+.method constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
     .locals 0
 
     iput-object p1, p0, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;
 
     invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(Landroid/support/v4/widget/CursorAdapter;Landroid/support/v4/widget/CursorAdapter$1;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Landroid/support/v4/widget/CursorAdapter$MyDataSetObserver;-><init>(Landroid/support/v4/widget/CursorAdapter;)V
 
     return-void
 .end method

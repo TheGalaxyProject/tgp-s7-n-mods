@@ -27,10 +27,10 @@
 .method public abstract isSubmitButtonEnabled(Landroid/view/View;)Z
 .end method
 
-.method public abstract newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)Ljava/lang/Object;
+.method public abstract newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)Ljava/lang/Object;
 .end method
 
-.method public abstract newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;)Ljava/lang/Object;
+.method public abstract newOnQueryTextListener(Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)Ljava/lang/Object;
 .end method
 
 .method public abstract newSearchView(Landroid/content/Context;)Landroid/view/View;
@@ -48,10 +48,10 @@
 .method public abstract setMaxWidth(Landroid/view/View;I)V
 .end method
 
-.method public abstract setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public abstract setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
 .end method
 
-.method public abstract setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
+.method public abstract setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
 .end method
 
 .method public abstract setQuery(Landroid/view/View;Ljava/lang/CharSequence;Z)V

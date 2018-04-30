@@ -6,6 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/content/Loader$OnLoadCanceledListener;,
         Landroid/support/v4/content/Loader$OnLoadCompleteListener;,
         Landroid/support/v4/content/Loader$ForceLoadContentObserver;
     }
@@ -34,6 +35,15 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroid/support/v4/content/Loader$OnLoadCompleteListener",
+            "<TD;>;"
+        }
+    .end annotation
+.end field
+
+.field mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/support/v4/content/Loader$OnLoadCanceledListener",
             "<TD;>;"
         }
     .end annotation
@@ -89,6 +99,16 @@
     return-void
 .end method
 
+.method public cancelLoad()Z
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/support/v4/content/Loader;->onCancelLoad()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public commitContentChanged()V
     .locals 1
 
@@ -125,6 +145,21 @@
     move-result-object v1
 
     return-object v1
+.end method
+
+.method public deliverCancellation()V
+    .locals 1
+
+    iget-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    invoke-interface {v0, p0}, Landroid/support/v4/content/Loader$OnLoadCanceledListener;->onLoadCanceled(Landroid/support/v4/content/Loader;)V
+
+    :cond_0
+    return-void
 .end method
 
 .method public deliverResult(Ljava/lang/Object;)V
@@ -293,6 +328,14 @@
     return-void
 .end method
 
+.method protected onCancelLoad()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 .method public onContentChanged()V
     .locals 1
 
@@ -367,6 +410,34 @@
     return-void
 .end method
 
+.method public registerOnLoadCanceledListener(Landroid/support/v4/content/Loader$OnLoadCanceledListener;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/support/v4/content/Loader$OnLoadCanceledListener",
+            "<TD;>;)V"
+        }
+    .end annotation
+
+    iget-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "There is already a listener registered"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_0
+    iput-object p1, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    return-void
+.end method
+
 .method public reset()V
     .locals 2
 
@@ -396,9 +467,7 @@
 
     if-eqz v0, :cond_0
 
-    const/4 v0, 0x1
-
-    iput-boolean v0, p0, Landroid/support/v4/content/Loader;->mContentChanged:Z
+    invoke-virtual {p0}, Landroid/support/v4/content/Loader;->onContentChanged()V
 
     :cond_0
     return-void
@@ -521,6 +590,49 @@
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/support/v4/content/Loader;->mListener:Landroid/support/v4/content/Loader$OnLoadCompleteListener;
+
+    return-void
+.end method
+
+.method public unregisterOnLoadCanceledListener(Landroid/support/v4/content/Loader$OnLoadCanceledListener;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/support/v4/content/Loader$OnLoadCanceledListener",
+            "<TD;>;)V"
+        }
+    .end annotation
+
+    iget-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "No listener register"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_0
+    iget-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
+
+    if-eq v0, p1, :cond_1
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "Attempting to unregister the wrong listener"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Landroid/support/v4/content/Loader;->mOnLoadCanceledListener:Landroid/support/v4/content/Loader$OnLoadCanceledListener;
 
     return-void
 .end method

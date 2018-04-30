@@ -29,7 +29,7 @@
 
 .field private final length:I
 
-.field private final text:Ljava/lang/String;
+.field private final text:Ljava/lang/CharSequence;
 
 
 # direct methods
@@ -63,16 +63,16 @@
     return-void
 .end method
 
-.method constructor <init>(Ljava/lang/String;Z)V
+.method constructor <init>(Ljava/lang/CharSequence;Z)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iput-object p1, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iput-boolean p2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->isHtml:Z
 
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
 
@@ -115,7 +115,7 @@
 
     if-lez v1, :cond_2
 
-    iget-object v1, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v1, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -123,7 +123,7 @@
 
     iput v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v1, v2}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v1, v2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v1
 
@@ -165,7 +165,7 @@
 
     if-ge v0, v1, :cond_1
 
-    iget-object v0, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v0, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v1, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -173,7 +173,7 @@
 
     iput v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v0, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v0
 
@@ -201,7 +201,7 @@
 
     if-lez v2, :cond_2
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -209,7 +209,7 @@
 
     iput v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -261,7 +261,7 @@
 
     if-lez v2, :cond_0
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -269,7 +269,7 @@
 
     iput v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -292,7 +292,7 @@
 
     if-ge v2, v3, :cond_3
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -300,7 +300,7 @@
 
     iput v4, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -340,7 +340,7 @@
 
     if-ge v2, v3, :cond_0
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -348,7 +348,7 @@
 
     iput v4, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -375,13 +375,13 @@
 .method dirTypeBackward()B
     .locals 4
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
     add-int/lit8 v3, v3, -0x1
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -395,7 +395,7 @@
 
     if-eqz v2, :cond_1
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
@@ -467,11 +467,11 @@
 .method dirTypeForward()B
     .locals 4
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 
-    invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-interface {v2, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
@@ -485,7 +485,7 @@
 
     if-eqz v2, :cond_1
 
-    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/String;
+    iget-object v2, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->text:Ljava/lang/CharSequence;
 
     iget v3, p0, Landroid/support/v4/text/BidiFormatter$DirectionalityEstimator;->charIndex:I
 

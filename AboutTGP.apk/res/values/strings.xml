@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Support Me!</string>
-    <string name="about">About!</string>
-    <string name="wordfromdev">Some Words from Developer</string>
-    <string name="Greeting">"Hello! I Hope you likes my work!
+    <string name="Button1">Donate to The Galaxy Project</string>
+    <string name="Button2">View Donation URL</string>
+    <item type="string" name="APKTOOL_DUMMY_2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3">false</item>
+    <string name="Greeting">"Base FW: Samsung 7.0 G935FXXU2DRD1
 
-But folks, Its take lots of time, bunch of hardwork and plenty of money to do all this stuff
-So If you like my work and respect it then make a small Donation*,
-It will Apreceate me for my work and Encourage me to work further.
-Thank You.
+TGP Version: 1.24.0
 
-Regards
--(DEVELOPER NAME)"</string>
-    <string name="Button1">I love your work(Support me)</string>
-    <string name="Button2">I am unable to Support You(But I like)</string>
-    <string name="Button3">No! Thank You(Its just average!)</string>
-    <string name="Button4">View Donation URL</string>
-    <string name="doubttext">"*If You feel unsafe here or not able to donate through mobile, then you can also donate from PC too!
-Follow this:-
-1.Just click on \"View Donation URL\" button.
-2.Open same link in browser.
-3.A Paypal page will open, fill amount and donate."</string>
-    <string name="xda_Paypal_ID">4729939</string>
+- Updated Base Firmware to XXU2DRD1
+- Updated F / FD Bootloaders
+- Updated TGPKernel to 5.16.2
+- Updated Magisk to 16.4
+- Updated Apps
+
+
+   "</string>
+    <string name="about">About</string>
+    <string name="app_name">About TGP</string>
+    <string name="doubttext">" "</string>
+    <string name="wordfromdev">About The Galaxy Project</string>
+    <string name="xda_Paypal_ID">4280397</string>
 </resources>

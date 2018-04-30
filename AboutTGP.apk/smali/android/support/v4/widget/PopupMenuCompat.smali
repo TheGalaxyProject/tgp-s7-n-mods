@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/widget/PopupMenuCompat;
+.class public final Landroid/support/v4/widget/PopupMenuCompat;
 .super Ljava/lang/Object;
 .source "PopupMenuCompat.java"
 

@@ -35,11 +35,23 @@
 
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 1
+    .locals 3
 
     iget-object v0, p0, Lcom/amnix/supportme/supportme_activity_main_amnix$3;->this$0:Lcom/amnix/supportme/supportme_activity_main_amnix;
 
-    invoke-static {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->access$2(Lcom/amnix/supportme/supportme_activity_main_amnix;)V
+    invoke-virtual {v0}, Lcom/amnix/supportme/supportme_activity_main_amnix;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const-string v1, "Coming Soon"
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     return-void
 .end method

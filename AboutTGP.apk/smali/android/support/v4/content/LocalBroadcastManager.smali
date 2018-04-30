@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/content/LocalBroadcastManager;
+.class public final Landroid/support/v4/content/LocalBroadcastManager;
 .super Ljava/lang/Object;
 .source "LocalBroadcastManager.java"
 

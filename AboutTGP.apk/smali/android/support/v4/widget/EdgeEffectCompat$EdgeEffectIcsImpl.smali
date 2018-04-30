@@ -86,6 +86,16 @@
     return v0
 .end method
 
+.method public onPull(Ljava/lang/Object;FF)Z
+    .locals 1
+
+    invoke-static {p1, p2}, Landroid/support/v4/widget/EdgeEffectCompatIcs;->onPull(Ljava/lang/Object;F)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public onRelease(Ljava/lang/Object;)Z
     .locals 1
 

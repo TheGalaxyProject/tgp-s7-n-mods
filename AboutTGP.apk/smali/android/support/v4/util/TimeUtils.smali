@@ -1,6 +1,14 @@
-.class public Landroid/support/v4/util/TimeUtils;
+.class public final Landroid/support/v4/util/TimeUtils;
 .super Ljava/lang/Object;
 .source "TimeUtils.java"
+
+
+# annotations
+.annotation build Landroid/support/annotation/RestrictTo;
+    value = {
+        .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+    }
+.end annotation
 
 
 # static fields
@@ -36,7 +44,7 @@
     return-void
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -96,7 +104,7 @@
 .end method
 
 .method public static formatDuration(JJLjava/io/PrintWriter;)V
-    .locals 3
+    .locals 4
 
     const-wide/16 v0, 0x0
 
@@ -122,7 +130,7 @@
 .end method
 
 .method public static formatDuration(JLjava/io/PrintWriter;)V
-    .locals 1
+    .locals 2
 
     const/4 v0, 0x0
 
@@ -132,7 +140,7 @@
 .end method
 
 .method public static formatDuration(JLjava/io/PrintWriter;I)V
-    .locals 5
+    .locals 6
 
     sget-object v2, Landroid/support/v4/util/TimeUtils;->sFormatSync:Ljava/lang/Object;
 

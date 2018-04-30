@@ -38,6 +38,8 @@
 .method public setImeOptions(Landroid/view/View;I)V
     .locals 0
 
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatIcsImpl;->checkIfLegalArg(Landroid/view/View;)V
+
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatIcs;->setImeOptions(Landroid/view/View;I)V
 
     return-void
@@ -45,6 +47,8 @@
 
 .method public setInputType(Landroid/view/View;I)V
     .locals 0
+
+    invoke-virtual {p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatIcsImpl;->checkIfLegalArg(Landroid/view/View;)V
 
     invoke-static {p1, p2}, Landroid/support/v4/widget/SearchViewCompatIcs;->setInputType(Landroid/view/View;I)V
 

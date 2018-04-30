@@ -85,24 +85,24 @@
         }
     .end annotation
 
-    iget-object v3, p0, Landroid/support/v4/util/MapCollections$EntrySet;->this$0:Landroid/support/v4/util/MapCollections;
+    iget-object v2, p0, Landroid/support/v4/util/MapCollections$EntrySet;->this$0:Landroid/support/v4/util/MapCollections;
 
-    invoke-virtual {v3}, Landroid/support/v4/util/MapCollections;->colGetSize()I
+    invoke-virtual {v2}, Landroid/support/v4/util/MapCollections;->colGetSize()I
 
-    move-result v2
+    move-result v1
 
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
-    move-result-object v1
+    move-result-object v2
 
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -123,21 +123,21 @@
     goto :goto_0
 
     :cond_0
-    iget-object v3, p0, Landroid/support/v4/util/MapCollections$EntrySet;->this$0:Landroid/support/v4/util/MapCollections;
+    iget-object v2, p0, Landroid/support/v4/util/MapCollections$EntrySet;->this$0:Landroid/support/v4/util/MapCollections;
 
-    invoke-virtual {v3}, Landroid/support/v4/util/MapCollections;->colGetSize()I
+    invoke-virtual {v2}, Landroid/support/v4/util/MapCollections;->colGetSize()I
 
-    move-result v3
+    move-result v2
 
-    if-eq v2, v3, :cond_1
+    if-eq v1, v2, :cond_1
 
-    const/4 v3, 0x1
+    const/4 v2, 0x1
 
     :goto_1
-    return v3
+    return v2
 
     :cond_1
-    const/4 v3, 0x0
+    const/4 v2, 0x0
 
     goto :goto_1
 .end method

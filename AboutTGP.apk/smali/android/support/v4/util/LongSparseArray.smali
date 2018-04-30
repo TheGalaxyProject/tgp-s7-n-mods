@@ -440,7 +440,7 @@
 .end method
 
 .method public indexOfKey(J)I
-    .locals 2
+    .locals 3
 
     iget-boolean v0, p0, Landroid/support/v4/util/LongSparseArray;->mGarbage:Z
 
@@ -520,7 +520,7 @@
 .end method
 
 .method public put(JLjava/lang/Object;)V
-    .locals 8
+    .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(JTE;)V"
@@ -687,7 +687,7 @@
 .end method
 
 .method public remove(J)V
-    .locals 0
+    .locals 1
 
     invoke-virtual {p0, p1, p2}, Landroid/support/v4/util/LongSparseArray;->delete(J)V
 

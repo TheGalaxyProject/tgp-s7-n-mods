@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/content/IntentCompat;
+.class public final Landroid/support/v4/content/IntentCompat;
 .super Ljava/lang/Object;
 .source "IntentCompat.java"
 
@@ -18,6 +18,8 @@
 .field public static final ACTION_EXTERNAL_APPLICATIONS_AVAILABLE:Ljava/lang/String; = "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"
 
 .field public static final ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE:Ljava/lang/String; = "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"
+
+.field public static final CATEGORY_LEANBACK_LAUNCHER:Ljava/lang/String; = "android.intent.category.LEANBACK_LAUNCHER"
 
 .field public static final EXTRA_CHANGED_PACKAGE_LIST:Ljava/lang/String; = "android.intent.extra.changed_package_list"
 

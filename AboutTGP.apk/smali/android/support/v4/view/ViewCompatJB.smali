@@ -22,10 +22,40 @@
     return-object v0
 .end method
 
+.method public static getFitsSystemWindows(Landroid/view/View;)Z
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/view/View;->getFitsSystemWindows()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getImportantForAccessibility(Landroid/view/View;)I
     .locals 1
 
     invoke-virtual {p0}, Landroid/view/View;->getImportantForAccessibility()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getMinimumHeight(Landroid/view/View;)I
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/view/View;->getMinimumHeight()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getMinimumWidth(Landroid/view/View;)I
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/view/View;->getMinimumWidth()I
 
     move-result v0
 
@@ -40,6 +70,16 @@
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public static hasOverlappingRendering(Landroid/view/View;)Z
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/view/View;->hasOverlappingRendering()Z
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static hasTransientState(Landroid/view/View;)Z
@@ -90,6 +130,22 @@
     .locals 0
 
     invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;->postOnAnimationDelayed(Ljava/lang/Runnable;J)V
+
+    return-void
+.end method
+
+.method public static requestApplyInsets(Landroid/view/View;)V
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/view/View;->requestFitSystemWindows()V
+
+    return-void
+.end method
+
+.method public static setBackground(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method

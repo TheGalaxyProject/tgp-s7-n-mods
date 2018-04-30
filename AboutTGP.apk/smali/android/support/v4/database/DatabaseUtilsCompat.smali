@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/database/DatabaseUtilsCompat;
+.class public final Landroid/support/v4/database/DatabaseUtilsCompat;
 .super Ljava/lang/Object;
 .source "DatabaseUtilsCompat.java"
 

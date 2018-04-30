@@ -1,33 +1,39 @@
 Manifest-Version: 1.0
-Created-By: 1.0 (Android)
+Created-By: 1.0 (Android SignApk)
 
-Name: res/drawable-xhdpi/ic_launcher.png
-SHA1-Digest: 1f8J0kmCF55coOBoWm8ksEzIQNc=
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: WNYHyyHf8XrYxM7tGzImoaFT3gA=
+
+Name: res/drawable-hdpi-v4/tgp_logo.png
+SHA1-Digest: MPFJN6OtKBOy8EefmPka4WblCOk=
 
 Name: AndroidManifest.xml
-SHA1-Digest: XThk+xgS/zcUbnNoSpvKhevTp9U=
+SHA1-Digest: bhheuNcK+Cl2EIkwTsnU+od0fY4=
 
-Name: res/drawable-mdpi/ic_launcher.png
-SHA1-Digest: htjUOPmvcg2PuM02A52LLgik4F0=
-
-Name: res/drawable-hdpi/ic_launcher.png
-SHA1-Digest: EZpYY7yStVmB9Zad4RgcR5toxqg=
-
-Name: res/layout/support_activity.xml
-SHA1-Digest: fzG4zuW4KuT4lAlSimW00jkMVbM=
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: 6SuIlT8m5sYkbLkAAslROzNuGgU=
 
 Name: resources.arsc
-SHA1-Digest: vx387GI9cqGITdvlqW5zZDKXOjE=
+SHA1-Digest: EbMYFC+5+iBp0SGNjTYApNb84xc=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: Bkyi5xqpfk1gHVcw+ANmzcw0Rq4=
 
 Name: res/menu/amnixmenu.xml
-SHA1-Digest: t7j5cUgv53r3GuiEgPdSavdZPZY=
+SHA1-Digest: 4AoWFkH75Pe4FMzZXF4kFhN8TZM=
 
 Name: classes.dex
-SHA1-Digest: 9vREf+tW1nzIEKpE/w8KOXd5Dcg=
+SHA1-Digest: ZPz3x+SVtXFuAn8Kc+t8KHiCjS8=
 
-Name: res/drawable-xxhdpi/ic_launcher.png
-SHA1-Digest: sKqA2/vz9J9Hn8FGGcGJeWA5If4=
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: NjaAGEs4Fr+0aOt7onAl3zrqKTA=
 
-Name: res/drawable-hdpi/paypal_icon.jpg
+Name: res/drawable-hdpi-v4/paypal_icon.jpg
 SHA1-Digest: BIGSrc1lqKJqlefJh9Ddwog0Noo=
+
+Name: res/layout-v17/support_activity.xml
+SHA1-Digest: GWfglX2xFu/YGue/C8LKEBbJ3i4=
+
+Name: res/layout/support_activity.xml
+SHA1-Digest: 9fq5Eza9qSk1mB9Snl4gCxDcwKE=
 

@@ -31,15 +31,34 @@
 
 # virtual methods
 .method public abstract add(ILandroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract add(ILandroid/support/v4/app/Fragment;Ljava/lang/String;)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Landroid/support/annotation/Nullable;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract add(Landroid/support/v4/app/Fragment;Ljava/lang/String;)Landroid/support/v4/app/FragmentTransaction;
 .end method
 
+.method public abstract addSharedElement(Landroid/view/View;Ljava/lang/String;)Landroid/support/v4/app/FragmentTransaction;
+.end method
+
 .method public abstract addToBackStack(Ljava/lang/String;)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # Ljava/lang/String;
+        .annotation build Landroid/support/annotation/Nullable;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract attach(Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;
@@ -49,6 +68,12 @@
 .end method
 
 .method public abstract commitAllowingStateLoss()I
+.end method
+
+.method public abstract commitNow()V
+.end method
+
+.method public abstract commitNowAllowingStateLoss()V
 .end method
 
 .method public abstract detach(Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;
@@ -70,33 +95,81 @@
 .end method
 
 .method public abstract replace(ILandroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract replace(ILandroid/support/v4/app/Fragment;Ljava/lang/String;)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Landroid/support/annotation/Nullable;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract setBreadCrumbShortTitle(I)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/StringRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract setBreadCrumbShortTitle(Ljava/lang/CharSequence;)Landroid/support/v4/app/FragmentTransaction;
 .end method
 
 .method public abstract setBreadCrumbTitle(I)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/StringRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract setBreadCrumbTitle(Ljava/lang/CharSequence;)Landroid/support/v4/app/FragmentTransaction;
 .end method
 
 .method public abstract setCustomAnimations(II)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
+    .param p2    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract setCustomAnimations(IIII)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
+    .param p2    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
+    .param p3    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
+    .param p4    # I
+        .annotation build Landroid/support/annotation/AnimRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract setTransition(I)Landroid/support/v4/app/FragmentTransaction;
 .end method
 
 .method public abstract setTransitionStyle(I)Landroid/support/v4/app/FragmentTransaction;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/StyleRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract show(Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;

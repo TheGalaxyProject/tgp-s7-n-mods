@@ -12,6 +12,16 @@
     return-void
 .end method
 
+.method public static isCtrlPressed(Landroid/view/KeyEvent;)Z
+    .locals 1
+
+    invoke-virtual {p0}, Landroid/view/KeyEvent;->isCtrlPressed()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static metaStateHasModifiers(II)Z
     .locals 1
 

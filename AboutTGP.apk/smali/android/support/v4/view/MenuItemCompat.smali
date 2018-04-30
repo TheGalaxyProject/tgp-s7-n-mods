@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/view/MenuItemCompat;
+.class public final Landroid/support/v4/view/MenuItemCompat;
 .super Ljava/lang/Object;
 .source "MenuItemCompat.java"
 
@@ -73,7 +73,7 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

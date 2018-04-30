@@ -2,6 +2,9 @@
 .super Ljava/lang/Object;
 .source "SearchViewCompat.java"
 
+# interfaces
+.implements Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;
+
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
@@ -13,26 +16,15 @@
     name = "OnCloseListenerCompat"
 .end annotation
 
-
-# instance fields
-.field final mListener:Ljava/lang/Object;
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
 
 
 # direct methods
 .method public constructor <init>()V
-    .locals 1
+    .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    invoke-static {}, Landroid/support/v4/widget/SearchViewCompat;->access$000()Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
-
-    move-result-object v0
-
-    invoke-interface {v0, p0}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;->newOnCloseListener(Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    iput-object v0, p0, Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;->mListener:Ljava/lang/Object;
 
     return-void
 .end method

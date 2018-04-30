@@ -25,6 +25,16 @@
 
 
 # virtual methods
+.method public getDisplay(Landroid/view/View;)Landroid/view/Display;
+    .locals 1
+
+    invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getDisplay(Landroid/view/View;)Landroid/view/Display;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
 .method public getLabelFor(Landroid/view/View;)I
     .locals 1
 
@@ -39,6 +49,46 @@
     .locals 1
 
     invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getLayoutDirection(Landroid/view/View;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getPaddingEnd(Landroid/view/View;)I
+    .locals 1
+
+    invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getPaddingEnd(Landroid/view/View;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getPaddingStart(Landroid/view/View;)I
+    .locals 1
+
+    invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getPaddingStart(Landroid/view/View;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getWindowSystemUiVisibility(Landroid/view/View;)I
+    .locals 1
+
+    invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getWindowSystemUiVisibility(Landroid/view/View;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isPaddingRelative(Landroid/view/View;)Z
+    .locals 1
+
+    invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->isPaddingRelative(Landroid/view/View;)Z
 
     move-result v0
 
@@ -65,6 +115,14 @@
     .locals 0
 
     invoke-static {p1, p2}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->setLayoutDirection(Landroid/view/View;I)V
+
+    return-void
+.end method
+
+.method public setPaddingRelative(Landroid/view/View;IIII)V
+    .locals 0
+
+    invoke-static {p1, p2, p3, p4, p5}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->setPaddingRelative(Landroid/view/View;IIII)V
 
     return-void
 .end method

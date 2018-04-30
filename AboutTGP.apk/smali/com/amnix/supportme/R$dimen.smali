@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static final Textsize:I = 0x7f040000
+.field public static final Textsize:I = 0x7f050000
 
 
 # direct methods

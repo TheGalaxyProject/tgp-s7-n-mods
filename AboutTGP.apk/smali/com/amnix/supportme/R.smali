@@ -6,14 +6,14 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/amnix/supportme/R$attr;,
-        Lcom/amnix/supportme/R$dimen;,
-        Lcom/amnix/supportme/R$drawable;,
-        Lcom/amnix/supportme/R$id;,
-        Lcom/amnix/supportme/R$layout;,
-        Lcom/amnix/supportme/R$menu;,
+        Lcom/amnix/supportme/R$style;,
         Lcom/amnix/supportme/R$string;,
-        Lcom/amnix/supportme/R$style;
+        Lcom/amnix/supportme/R$menu;,
+        Lcom/amnix/supportme/R$layout;,
+        Lcom/amnix/supportme/R$id;,
+        Lcom/amnix/supportme/R$drawable;,
+        Lcom/amnix/supportme/R$dimen;,
+        Lcom/amnix/supportme/R$attr;
     }
 .end annotation
 

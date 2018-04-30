@@ -34,6 +34,30 @@
     return-void
 .end method
 
+.method public getAction(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public getContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public getMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 .method public getRecord(Landroid/view/accessibility/AccessibilityEvent;I)Ljava/lang/Object;
     .locals 1
 
@@ -48,4 +72,22 @@
     const/4 v0, 0x0
 
     return v0
+.end method
+
+.method public setAction(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 0
+
+    return-void
 .end method

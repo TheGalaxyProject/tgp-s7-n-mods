@@ -298,7 +298,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/ListFragment;->mProgressContainer:Landroid/view/View;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -310,7 +310,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/ListFragment;->mListContainer:Landroid/view/View;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -347,7 +347,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/ListFragment;->mProgressContainer:Landroid/view/View;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -359,7 +359,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/ListFragment;->mListContainer:Landroid/view/View;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -449,7 +449,7 @@
 
     const/4 v9, -0x1
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -505,11 +505,7 @@
 
     new-instance v6, Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v7
-
-    invoke-direct {v6, v7}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v6, v0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
     const v7, 0xff0001
 
@@ -525,11 +521,7 @@
 
     new-instance v2, Landroid/widget/ListView;
 
-    invoke-virtual {p0}, Landroid/support/v4/app/ListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v7
-
-    invoke-direct {v2, v7}, Landroid/widget/ListView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, v0}, Landroid/widget/ListView;-><init>(Landroid/content/Context;)V
 
     const v7, 0x102000a
 

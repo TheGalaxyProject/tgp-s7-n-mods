@@ -115,7 +115,19 @@
     return-void
 .end method
 
+.method public tagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .locals 0
+
+    return-void
+.end method
+
 .method public tagSocket(Ljava/net/Socket;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public untagDatagramSocket(Ljava/net/DatagramSocket;)V
     .locals 0
 
     return-void

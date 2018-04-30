@@ -18,6 +18,12 @@
 .method public abstract getLayoutMode(Landroid/view/ViewGroup;)I
 .end method
 
+.method public abstract getNestedScrollAxes(Landroid/view/ViewGroup;)I
+.end method
+
+.method public abstract isTransitionGroup(Landroid/view/ViewGroup;)Z
+.end method
+
 .method public abstract onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
 .end method
 
@@ -25,4 +31,7 @@
 .end method
 
 .method public abstract setMotionEventSplittingEnabled(Landroid/view/ViewGroup;Z)V
+.end method
+
+.method public abstract setTransitionGroup(Landroid/view/ViewGroup;Z)V
 .end method

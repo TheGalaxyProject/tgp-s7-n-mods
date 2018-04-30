@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/app/ShareCompat;
+.class public final Landroid/support/v4/app/ShareCompat;
 .super Ljava/lang/Object;
 .source "ShareCompat.java"
 
@@ -21,7 +21,7 @@
 
 .field public static final EXTRA_CALLING_PACKAGE:Ljava/lang/String; = "android.support.v4.app.EXTRA_CALLING_PACKAGE"
 
-.field private static IMPL:Landroid/support/v4/app/ShareCompat$ShareCompatImpl;
+.field static IMPL:Landroid/support/v4/app/ShareCompat$ShareCompatImpl;
 
 
 # direct methods
@@ -68,20 +68,12 @@
     goto :goto_0
 .end method
 
-.method public constructor <init>()V
+.method private constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
-.end method
-
-.method static synthetic access$000()Landroid/support/v4/app/ShareCompat$ShareCompatImpl;
-    .locals 1
-
-    sget-object v0, Landroid/support/v4/app/ShareCompat;->IMPL:Landroid/support/v4/app/ShareCompat$ShareCompatImpl;
-
-    return-object v0
 .end method
 
 .method public static configureMenuItem(Landroid/view/Menu;ILandroid/support/v4/app/ShareCompat$IntentBuilder;)V

@@ -28,20 +28,10 @@
 
 
 # virtual methods
-.method public addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
+.method public maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
     .locals 1
 
-    invoke-static {p1}, Landroid/support/v4/text/ICUCompatIcs;->addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public getScript(Ljava/lang/String;)Ljava/lang/String;
-    .locals 1
-
-    invoke-static {p1}, Landroid/support/v4/text/ICUCompatIcs;->getScript(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Landroid/support/v4/text/ICUCompatIcs;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object v0
 

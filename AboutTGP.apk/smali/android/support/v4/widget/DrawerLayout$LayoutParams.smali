@@ -14,14 +14,22 @@
 .end annotation
 
 
+# static fields
+.field private static final FLAG_IS_CLOSING:I = 0x4
+
+.field private static final FLAG_IS_OPENED:I = 0x1
+
+.field private static final FLAG_IS_OPENING:I = 0x2
+
+
 # instance fields
 .field public gravity:I
 
 .field isPeeking:Z
 
-.field knownOpen:Z
-
 .field onScreen:F
+
+.field openState:I
 
 
 # direct methods
@@ -56,9 +64,7 @@
 
     iput v2, p0, Landroid/support/v4/widget/DrawerLayout$LayoutParams;->gravity:I
 
-    invoke-static {}, Landroid/support/v4/widget/DrawerLayout;->access$100()[I
-
-    move-result-object v1
+    sget-object v1, Landroid/support/v4/widget/DrawerLayout;->LAYOUT_ATTRS:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

@@ -48,7 +48,7 @@
 
     iget-object v3, p0, Landroid/support/v4/content/ModernAsyncTask$3;->this$0:Landroid/support/v4/content/ModernAsyncTask;
 
-    invoke-static {v3, v1}, Landroid/support/v4/content/ModernAsyncTask;->access$400(Landroid/support/v4/content/ModernAsyncTask;Ljava/lang/Object;)V
+    invoke-virtual {v3, v1}, Landroid/support/v4/content/ModernAsyncTask;->postResultIfNotInvoked(Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_0 .. :try_end_0} :catch_1
@@ -72,7 +72,7 @@
 
     new-instance v3, Ljava/lang/RuntimeException;
 
-    const-string v4, "An error occured while executing doInBackground()"
+    const-string v4, "An error occurred while executing doInBackground()"
 
     invoke-virtual {v0}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
 
@@ -89,7 +89,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v3, v4}, Landroid/support/v4/content/ModernAsyncTask;->access$400(Landroid/support/v4/content/ModernAsyncTask;Ljava/lang/Object;)V
+    invoke-virtual {v3, v4}, Landroid/support/v4/content/ModernAsyncTask;->postResultIfNotInvoked(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -98,7 +98,7 @@
 
     new-instance v3, Ljava/lang/RuntimeException;
 
-    const-string v4, "An error occured while executing doInBackground()"
+    const-string v4, "An error occurred while executing doInBackground()"
 
     invoke-direct {v3, v4, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 

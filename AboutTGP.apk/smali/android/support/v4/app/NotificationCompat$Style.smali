@@ -39,6 +39,17 @@
 
 
 # virtual methods
+.method public addCompatExtras(Landroid/os/Bundle;)V
+    .locals 0
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
+    return-void
+.end method
+
 .method public build()Landroid/app/Notification;
     .locals 2
 
@@ -56,6 +67,17 @@
 
     :cond_0
     return-object v0
+.end method
+
+.method protected restoreFromCompatExtras(Landroid/os/Bundle;)V
+    .locals 0
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
+    return-void
 .end method
 
 .method public setBuilder(Landroid/support/v4/app/NotificationCompat$Builder;)V

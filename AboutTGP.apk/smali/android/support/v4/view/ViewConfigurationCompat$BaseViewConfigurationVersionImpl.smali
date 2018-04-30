@@ -28,12 +28,10 @@
 
 
 # virtual methods
-.method public getScaledPagingTouchSlop(Landroid/view/ViewConfiguration;)I
+.method public hasPermanentMenuKey(Landroid/view/ViewConfiguration;)Z
     .locals 1
 
-    invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
-
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method

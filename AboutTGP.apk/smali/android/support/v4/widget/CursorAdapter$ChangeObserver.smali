@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
+.method constructor <init>(Landroid/support/v4/widget/CursorAdapter;)V
     .locals 1
 
     iput-object p1, p0, Landroid/support/v4/widget/CursorAdapter$ChangeObserver;->this$0:Landroid/support/v4/widget/CursorAdapter;

@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/widget/SearchViewCompat;
+.class public final Landroid/support/v4/widget/SearchViewCompat;
 .super Ljava/lang/Object;
 .source "SearchViewCompat.java"
 
@@ -6,7 +6,9 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;,
         Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;,
+        Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;,
         Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;,
         Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatIcsImpl;,
         Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl;,
@@ -70,14 +72,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
-.end method
-
-.method static synthetic access$000()Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
-    .locals 1
-
-    sget-object v0, Landroid/support/v4/widget/SearchViewCompat;->IMPL:Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
-
-    return-object v0
 .end method
 
 .method public static getQuery(Landroid/view/View;)Ljava/lang/CharSequence;
@@ -180,26 +174,22 @@
     return-void
 .end method
 
-.method public static setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;)V
-    .locals 2
+.method public static setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
+    .locals 1
 
     sget-object v0, Landroid/support/v4/widget/SearchViewCompat;->IMPL:Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
 
-    iget-object v1, p1, Landroid/support/v4/widget/SearchViewCompat$OnCloseListenerCompat;->mListener:Ljava/lang/Object;
-
-    invoke-interface {v0, p0, v1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;->setOnCloseListener(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;->setOnCloseListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnCloseListener;)V
 
     return-void
 .end method
 
-.method public static setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;)V
-    .locals 2
+.method public static setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
+    .locals 1
 
     sget-object v0, Landroid/support/v4/widget/SearchViewCompat;->IMPL:Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
 
-    iget-object v1, p1, Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat;->mListener:Ljava/lang/Object;
-
-    invoke-interface {v0, p0, v1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;->setOnQueryTextListener(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v0, p0, p1}, Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;->setOnQueryTextListener(Landroid/view/View;Landroid/support/v4/widget/SearchViewCompat$OnQueryTextListener;)V
 
     return-void
 .end method

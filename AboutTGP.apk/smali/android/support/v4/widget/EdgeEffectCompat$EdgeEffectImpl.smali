@@ -33,6 +33,9 @@
 .method public abstract onPull(Ljava/lang/Object;F)Z
 .end method
 
+.method public abstract onPull(Ljava/lang/Object;FF)Z
+.end method
+
 .method public abstract onRelease(Ljava/lang/Object;)Z
 .end method
 

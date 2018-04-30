@@ -70,6 +70,19 @@
     return-void
 .end method
 
+.method public tagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+
+    invoke-static {p1}, Landroid/support/v4/net/TrafficStatsCompatIcs;->tagDatagramSocket(Ljava/net/DatagramSocket;)V
+
+    return-void
+.end method
+
 .method public tagSocket(Ljava/net/Socket;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
@@ -79,6 +92,19 @@
     .end annotation
 
     invoke-static {p1}, Landroid/support/v4/net/TrafficStatsCompatIcs;->tagSocket(Ljava/net/Socket;)V
+
+    return-void
+.end method
+
+.method public untagDatagramSocket(Ljava/net/DatagramSocket;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/SocketException;
+        }
+    .end annotation
+
+    invoke-static {p1}, Landroid/support/v4/net/TrafficStatsCompatIcs;->untagDatagramSocket(Ljava/net/DatagramSocket;)V
 
     return-void
 .end method

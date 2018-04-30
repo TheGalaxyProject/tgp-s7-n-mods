@@ -48,6 +48,10 @@
 .end method
 
 .method public abstract findFragmentById(I)Landroid/support/v4/app/Fragment;
+    .param p1    # I
+        .annotation build Landroid/support/annotation/IdRes;
+        .end annotation
+    .end param
 .end method
 
 .method public abstract findFragmentByTag(Ljava/lang/String;)Landroid/support/v4/app/Fragment;
@@ -63,6 +67,12 @@
 .end method
 
 .method public abstract getFragments()Ljava/util/List;
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -79,6 +89,12 @@
 
 .method public openTransaction()Landroid/support/v4/app/FragmentTransaction;
     .locals 1
+    .annotation build Landroid/support/annotation/RestrictTo;
+        value = {
+            .enum Landroid/support/annotation/RestrictTo$Scope;->GROUP_ID:Landroid/support/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 

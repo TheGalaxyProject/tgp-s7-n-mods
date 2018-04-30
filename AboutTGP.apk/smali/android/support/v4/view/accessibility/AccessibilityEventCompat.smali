@@ -1,4 +1,4 @@
-.class public Landroid/support/v4/view/accessibility/AccessibilityEventCompat;
+.class public final Landroid/support/v4/view/accessibility/AccessibilityEventCompat;
 .super Ljava/lang/Object;
 .source "AccessibilityEventCompat.java"
 
@@ -6,6 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventKitKatImpl;,
+        Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventJellyBeanImpl;,
         Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl;,
         Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventStubImpl;,
         Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
@@ -14,11 +16,21 @@
 
 
 # static fields
+.field public static final CONTENT_CHANGE_TYPE_CONTENT_DESCRIPTION:I = 0x4
+
+.field public static final CONTENT_CHANGE_TYPE_SUBTREE:I = 0x1
+
+.field public static final CONTENT_CHANGE_TYPE_TEXT:I = 0x2
+
+.field public static final CONTENT_CHANGE_TYPE_UNDEFINED:I = 0x0
+
 .field private static final IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
 
 .field public static final TYPES_ALL_MASK:I = -0x1
 
 .field public static final TYPE_ANNOUNCEMENT:I = 0x4000
+
+.field public static final TYPE_ASSIST_READING_CONTEXT:I = 0x1000000
 
 .field public static final TYPE_GESTURE_DETECTION_END:I = 0x80000
 
@@ -36,6 +48,8 @@
 
 .field public static final TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED:I = 0x10000
 
+.field public static final TYPE_VIEW_CONTEXT_CLICKED:I = 0x800000
+
 .field public static final TYPE_VIEW_HOVER_ENTER:I = 0x80
 
 .field public static final TYPE_VIEW_HOVER_EXIT:I = 0x100
@@ -46,6 +60,8 @@
 
 .field public static final TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY:I = 0x20000
 
+.field public static final TYPE_WINDOWS_CHANGED:I = 0x400000
+
 .field public static final TYPE_WINDOW_CONTENT_CHANGED:I = 0x800
 
 
@@ -55,13 +71,13 @@
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v1, 0xe
+    const/16 v1, 0x13
 
     if-lt v0, v1, :cond_0
 
-    new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl;
+    new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventKitKatImpl;
 
-    invoke-direct {v0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl;-><init>()V
+    invoke-direct {v0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventKitKatImpl;-><init>()V
 
     sput-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
 
@@ -69,6 +85,36 @@
     return-void
 
     :cond_0
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x10
+
+    if-lt v0, v1, :cond_1
+
+    new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventJellyBeanImpl;
+
+    invoke-direct {v0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventJellyBeanImpl;-><init>()V
+
+    sput-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    goto :goto_0
+
+    :cond_1
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0xe
+
+    if-lt v0, v1, :cond_2
+
+    new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl;
+
+    invoke-direct {v0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl;-><init>()V
+
+    sput-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    goto :goto_0
+
+    :cond_2
     new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventStubImpl;
 
     invoke-direct {v0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventStubImpl;-><init>()V
@@ -110,6 +156,18 @@
     return-object v0
 .end method
 
+.method public static getContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p0}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->getContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getRecord(Landroid/view/accessibility/AccessibilityEvent;I)Landroid/support/v4/view/accessibility/AccessibilityRecordCompat;
     .locals 2
 
@@ -136,4 +194,60 @@
     move-result v0
 
     return v0
+.end method
+
+.method public static setContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p0, p1}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->setContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAction(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p1}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->getAction(Landroid/view/accessibility/AccessibilityEvent;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;)I
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p1}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->getMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public setAction(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p1, p2}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->setAction(Landroid/view/accessibility/AccessibilityEvent;I)V
+
+    return-void
+.end method
+
+.method public setMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;I)V
+    .locals 1
+
+    sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityEventCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;
+
+    invoke-interface {v0, p1, p2}, Landroid/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl;->setMovementGranularity(Landroid/view/accessibility/AccessibilityEvent;I)V
+
+    return-void
 .end method

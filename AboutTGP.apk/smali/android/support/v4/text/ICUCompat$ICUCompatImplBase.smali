@@ -28,13 +28,7 @@
 
 
 # virtual methods
-.method public addLikelySubtags(Ljava/lang/String;)Ljava/lang/String;
-    .locals 0
-
-    return-object p1
-.end method
-
-.method public getScript(Ljava/lang/String;)Ljava/lang/String;
+.method public maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
     .locals 1
 
     const/4 v0, 0x0
