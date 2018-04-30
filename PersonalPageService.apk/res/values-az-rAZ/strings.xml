@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Şəxsi rejim</string>
+    <string name="personalpage_on">Şəxsi rejim aktivləşdirildi.</string>
+    <string name="personalpage_on_available">Şəxsi məzmun mövcuddur.</string>
+    <string name="personalpage_off_not_available">Şəxsi məzmun mövcud deyil. Hazırda Şəxsiyə köçürülən bütün məzmunlar köçürülməyəcək.</string>
+    <string name="failed_to_unmount">Şəxsi rejimi qeyri-aktiv etmək mümkün olmadı. Yenidən cəhd edin.</string>
+    <string name="pattern_help_text">Şəxsi rejim üçün nümunəni çək.</string>
+    <string name="password_help_text">Şəxsi rejim parolunuzu daxil edin.</string>
+    <string name="personal_page_disclaimer_by_locktype">Fərdi məzmunu gizlət. Bu rejimdən istifadə etmək üçün kiliddən açma metodunu seçin. Gizli rejimi mühafizə etmək üçün bu rejimi istifadə etdikdən sonra qeyri-aktiv edin.</string>
+    <string name="do_not_show_again">Bir daha göstərmə</string>
+    <string name="message_settings">Param-ər</string>
+    <string name="incorrect_backup_pin">Yanlış ehtiyat nüsxə PIN-i.</string>
+    <string name="pattern_backuppin">Nümunənizin alternativi kimi istifadə etdiyiniz PIN-i daxil edin.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d saniyəyə yenidən cəhd edin.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 saniyəyə yenidən cəhd et.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d dəqiqə sonra yenidən cəhd et</string>
+    <string name="personalpage_off">Şəxsi rejim qeyri-aktiv edildi.</string>
+    <string name="personalpage_off_move_off">Şəxsi rejim qeyri-aktiv edildi. Hazırda Şəxsi rejimə köçürülən hər hansı məzmun köçürüləcəkdir.</string>
+    <string name="failed_to_mount">Şəxsi rejimi aktivləşdirmək mümkün olmadı. Yenidən cəhd edin.</string>
+    <string name="pattern_help_text_try_again">Yanlış model çəkdiniz. Bir daha cəhd edin.</string>
+    <string name="pin_help_text_try_again">Siz yalnız PIN daxil etmisiniz. Yenidən cəhd edin</string>
+    <string name="password_help_text_try_again">Siz parolu səhv daxil etmisiniz. Yenidən cəhd edin</string>
+    <string name="pin_help_text">Şəxsi rejim üçün PIN daxil edin.</string>
+    <string name="personal_page_switch_off_message">Hər hansı açıq məzmun bağlanacaq. Yaddaşda saxlamadığınız hər hansı dəyişikliklər silinəcəkdir.</string>
+    <string name="private_mode_popup_btn_skip">Burax</string>
+    <string name="private_mode_popup_screen_lock_title">Ekran kilidi parametrlri</string>
+    <string name="private_mode_popup_screen_lock_msg">Şəxsi rejimdən istifadə edən zaman təhlükəsizliyi yaxşılaşdırmaq üçün biz ekran kilid növünü təhlükəsiz rejimə dəyişməyi, sonra Şəxsi rejimi aktivləşdirməyi tövsiyə edirik.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Seçilən məzmun köçürüldükdə Şəxsi Rejim aktivləşdiriləcəkdir.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"İmtina 
+Zəhmət olmasa, Dropbox kimi üçüncü tərəf proqramı tərəfindən avtomatik sinxronlaşdırıldığı zaman məzmunun cihazınızın ayrıca qovluğunda peyda ola bilməsini nəzərə alın. Şəxsi Rejimdən istifadə etməzdən öncə digər proqramlarınızın avtomatik sinxronlaşdırılan parametrlərini yoxlayın."</string>
+    <string name="private_mode_popup_m2p_success_close">"Köçürmə tamamlandı. 
+Şəxsi Rejimdən çıxış."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Köçürmə tamamlanmadı. 
+Şəxsi Rejimdən çıxış."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Artıq başqa proses gedir. O bitdikdən sonra yenidən cəhd edin.</string>
+    <string name="private_mode_pop_up_title">Şəxsi rejimi qeyri-aktiv et</string>
+    <string name="private_mode_popup_m2p_msg">Seçilən məzmun Şəxsi rejimə köçürüldükdə Şəxsi rejim aktiv ediləcək və ötürmə bitdikdən sonra yenidən söndürüləcək.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Seçilən proqramlar Şəxsiyə köçürülən zaman aktiv ediləcək və köçürmə tamamlanandan sonra qeyri-aktiv ediləcək.
+
+Proqramların Şəxsiyə köçürülməsi eyni zamanda onlara bağlı proqramları və əlaqədar vidjetləri köçürəcək və onların qısayollarını siləcək. Şəxsi rejim sönülü olan zaman siz Şəxsiyə köçürdüyünüz proqramlardan bildirişlər almayacaqsınız."</string>
+    <string name="private_mode_popup_m2p_title">Şəxsi rejimi aktiv et</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Barmaq izinizin parametrləri dəyişdi. Şəxsi rejimi aktivləşdirmək üçün İkili təsdiq modelini çək.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Barmaq izinizin parametrləri dəyişdi. Şəxsi rejimi aktivləşdirmək üçün İkili təsdiq PIN-ni daxil et.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Barmaq izinizin parametrləri dəyişdi. Şəxsi rejimi aktivləşdirmək üçün İkili təsdiq parolunu daxil et.</string>
+    <string name="private_mode_bakcupkey_bt_text">İkili təsd ist et</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">P I N</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Nümunə</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Şifrə</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s-dən istifadə et</string>
+    <string name="private_mode_bakcuppwd_bt_text">Nüsxə parolu</string>
+    <string name="private_mode_migration_body_text">Şəxsi rejimə çıxış üçün barmaq izi əvəzinə istifadə etmək üçün model, PIN və ya parol qurun.</string>
+    <string name="private_mode_migration_next_button">Növbəti</string>
+    <string name="private_mode_pattern_backup_pin_desc">Ehtiyat PIN</string>
+</resources>

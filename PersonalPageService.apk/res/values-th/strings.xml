@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">โหมดส่วนตัว</string>
+    <string name="personalpage_on">เปิดใช้งานโหมดส่วนตัวแล้ว</string>
+    <string name="personalpage_on_available">คอนเทนท์ส่วนตัวพร้อมใช้งาน</string>
+    <string name="personalpage_off_not_available">คอนเทนท์ส่วนตัวไม่พร้อมใช้งาน ทุกคอนเทนท์ที่กำลังถูกย้ายไปยัง ส่วนตัว จะไม่ถูกย้าย</string>
+    <string name="failed_to_unmount">ไม่สามารถปิดใช้งาน โหมดส่วนตัวได้ ลองอีกครั้ง</string>
+    <string name="pattern_help_text">วาดรูปแบบของคุณสำหรับโหมดส่วนตัว</string>
+    <string name="password_help_text">ใส่รหัสผ่าน โหมดส่วนตัวของคุณ</string>
+    <string name="personal_page_disclaimer_by_locktype">ซ่อนคอนเทนท์ส่วนตัว เลือกวิธีปลดล็อคเพื่อใช้โหมดนี้ ปิดโหมดนี้หลังใช้งาน เพื่อป้องกันคอนเทนท์ที่ซ่อนไว้</string>
+    <string name="do_not_show_again">ห้าม​แสดง​อีก</string>
+    <string name="message_settings">การตั้งค่า</string>
+    <string name="incorrect_backup_pin">PIN ​สำรอง​ข้อมูล​ไม่​ถูก​ต้อง</string>
+    <string name="pattern_backuppin">ใส่ PIN ที่จะใช้แทนรูปแบบของคุณ</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">ลองอีกครั้งใน %d วินาที</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">ลองอีกครั้งใน 1 วินาที</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">ลองอีกครั้งใน %d นาที</string>
+    <string name="personalpage_off">ปิดใช้งานโหมดส่วนตัวแล้ว</string>
+    <string name="personalpage_off_move_off">ปิดใช้งานโหมดส่วนตัวแล้ว ทุกคอนเทนท์ที่กำลังถูกย้ายไปยัง ส่วนตัว จะไม่ถูกย้าย</string>
+    <string name="failed_to_mount">การเปิดใช้งานโหมดส่วนตัวล้มเหลว ลองอีกครั้ง</string>
+    <string name="pattern_help_text_try_again">คุณวาดรูปแบบไม่ถูกต้อง ลองอีกครั้ง</string>
+    <string name="pin_help_text_try_again">คุณใส่ PIN ที่ไม่ถูกต้อง ลองอีกครั้ง</string>
+    <string name="password_help_text_try_again">คุณใส่รหัสผ่านที่ไม่ถูกต้อง ลองอีกครั้ง</string>
+    <string name="pin_help_text">ใส่ PIN ของคุณสำหรับโหมดส่วนตัว</string>
+    <string name="personal_page_switch_off_message">ทุกคอนเทนท์ที่เปิดอยู่จะถูกปิด การเปลี่ยนแปลงที่ยังไม่บันทึกไว้ จะถูกละทิ้ง</string>
+    <string name="private_mode_popup_btn_skip">ข้าม</string>
+    <string name="private_mode_popup_screen_lock_title">การ​ตั้ง​ค่า​การ​ล็อก​หน้า​จอ</string>
+    <string name="private_mode_popup_screen_lock_msg">หากต้องการเพิ่มระดับความปลอดภัยในขณะใช้ โหมดส่วนตัว เราแนะนำให้คุณเปลี่ยนชนิดการล็อคหน้าจอเป็นวิธีที่ปลอดภัย แล้วจึงเปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">โหมดส่วนตัว จะถูกเปิดใช้งาน เมื่อมีการถ่ายโอนเนื้อหาที่เลือก</string>
+    <string name="private_mode_popup_m2p_disclaimer">"การปฏิเสธความรับผิด 
+โปรดทราบว่าเนื้อหาอาจปรากฏขึ้นในโฟลเดอร์แยกต่างหากในอุปกรณ์ของคุณ เมื่อมีการซิงโครไนซ์โดยแอพพลิเคชั่นของบริษัทอื่นโดยอัตโนมัติ เช่น Dropbox ตรวจสอบการตั้งค่าการซิงโครไนซ์อัตโนมัติของแอพพลิเคชั่นอื่นๆ ของคุณ ก่อนการใช้ โหมดส่วนตัว"</string>
+    <string name="private_mode_popup_m2p_success_close">"การถ่ายโอนเสร็จสมบูรณ์ 
+กำลังออกจากโหมดส่วนตัว"</string>
+    <string name="private_mode_popup_m2p_failed_close">"การถ่ายโอนไม่สมบูรณ์ 
+กำลังออกจากโหมดส่วนตัว"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">มีกระบวนการอื่นดำเนินการอยู่ ลองอีกครั้งหลังเสร็จสิ้น</string>
+    <string name="private_mode_pop_up_title">ปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_popup_m2p_msg">โหมดส่วนตัวจะถูกเปิดใช้งาน ขณะคอนเทนท์ที่เลือกถูกย้ายไปยัง ส่วนตัว และจะถูกปิดใช้งาน เมื่อการถ่ายโอนเสร็จสมบูรณ์</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"โหมดส่วนตัวจะถูกเปิดใช้งาน ขณะแอพพลิเคชั่นที่เลือกถูกย้ายไปยัง ส่วนตัว และปิดใช้งานอีกครั้งเมื่อถ่ายโอนเสร็จ
+
+การย้ายแอพพลิเคชั่นไปยัง ส่วนตัว จะย้ายแอพพลิเคชั่นที่เชื่อมโยง และวิดเจ็ทที่เกี่ยวข้อง และลบทางลัดด้วย ขณะที่โหมดส่วนตัวถูกปิดใช้งาน คุณจะไม่ได้รับการแจ้งเตือนจากแอพพลิเคชั่นที่คุณย้ายไปยัง ส่วนตัว"</string>
+    <string name="private_mode_popup_m2p_title">เปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">เปลี่ยนการตั้งค่าลายนิ้วมือของคุณแล้ว วาดรูปแบบการตรวจสอบสองชั้นของคุณเพื่อเปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_bakcupkey_subtext_pin">เปลี่ยนการตั้งค่าลายนิ้วมือของคุณแล้ว ใส่ PIN การตรวจสอบสองชั้นของคุณเพื่อเปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">เปลี่ยนการตั้งค่าลายนิ้วมือของคุณแล้ว ใส่ PIN รหัสผ่านการตรวจสอบสองชั้นของคุณเพื่อเปิดใช้งานโหมดส่วนตัว</string>
+    <string name="private_mode_bakcupkey_bt_text">ใช้การตรวจสอบคู่</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">รูป​แบบ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">รหัสผ่าน</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">ใช้ %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">รหัสผ่านแบ็คอัพ</string>
+    <string name="private_mode_migration_body_text">ตั้งค่ารูปแบบ, PIN หรือรหัสผ่าน เพื่อใช้เป็นทางเลือกแทนการใช้ลายนิ้วมือของคุณเพื่อเข้าถึงโหมดส่วนตัว</string>
+    <string name="private_mode_migration_next_button">ถัด​ไป</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN แบ็คอัพ</string>
+</resources>

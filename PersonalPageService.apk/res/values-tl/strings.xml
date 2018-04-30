@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Private mode</string>
+    <string name="personalpage_on">Pinagana Private mode.</string>
+    <string name="personalpage_on_available">Available na pribadong content.</string>
+    <string name="personalpage_off_not_available">Hindi available ang pribadong content. Ang anumang content na kasalukuyang inililipat sa Pribado ay hindi maililipat.</string>
+    <string name="failed_to_unmount">Hindi magawang hindi paganahin ang Private mode. Subukang muli.</string>
+    <string name="pattern_help_text">Iguhit ang iyong pattern para sa Private mode.</string>
+    <string name="password_help_text">Ipasok ang iyong password sa Private mode.</string>
+    <string name="personal_page_disclaimer_by_locktype">Itago ang personal na content. Upang gamitin ang mode na ito, pumili ng paraan ng pag-unlock. Huwag paganahin ang mode na ito pagkatapos gamitin upang protektahan ang nakatagong content.</string>
+    <string name="do_not_show_again">Huwag ipakitang muli</string>
+    <string name="message_settings">Mga Setting</string>
+    <string name="incorrect_backup_pin">Maling backup na PIN.</string>
+    <string name="pattern_backuppin">Ipasok ang PIN na ginagamit bilang alternatibo sa iyong pattern.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Subukang muli sa loob ng %d (na) segundo.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Subukang muli sa loob ng 1 segundo.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Subukang muli sa loob ng %d minuto</string>
+    <string name="personalpage_off">Hindi pinagana ang Private mode.</string>
+    <string name="personalpage_off_move_off">Hindi pinagana ang Private mode. Ang anumang content na kasalukuyang inililipat sa Pribado ay hindi maililipat.</string>
+    <string name="failed_to_mount">Hindi napagana ang Private mode. Subukang muli.</string>
+    <string name="pattern_help_text_try_again">Maling pattern ang iginuhit mo. Subukang muli.</string>
+    <string name="pin_help_text_try_again">Nagpasok ka ng hindi tamang PIN. Subukang muli.</string>
+    <string name="password_help_text_try_again">Nagpasok ka ng maling password. Subukang muli.</string>
+    <string name="pin_help_text">Ipasok ang iyong PIN para sa Private mode.</string>
+    <string name="personal_page_switch_off_message">Isasara ang anumang nakabukas na content. Mawawala ang anumang mga pagbabagong hindi mo na-save.</string>
+    <string name="private_mode_popup_btn_skip">Laktawan</string>
+    <string name="private_mode_popup_screen_lock_title">Setting ng screen lock</string>
+    <string name="private_mode_popup_screen_lock_msg">Para pahusayin ang seguridad habang ginagamit ang Private mode, inirerekomenda naming palitan mo ang iyong uri ng screen lock sa isang secure na paraan, pagkatapos ay paganahin ang Private mode.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Closing Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">May isa pang proseso na kasalukuyang nagaganap. Subukang muli pagkatapos nito.</string>
+    <string name="private_mode_pop_up_title">Huwag paganahin ang Private mode</string>
+    <string name="private_mode_popup_m2p_msg">Papaganahin ang Private mode habang inililipat ang content sa Pribado, at hindi ito papaganahin ulit sa sandaling makumpleto na ang paglilipat.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Papaganahin ang Private mode habang inililipat ang mga napiling application sa Pribado, at idi-disable ulit sa sandaling makumpleto na ang paglilipat.
+
+Ang paglilipat ng mga application sa Pribado ay maglilipat din ng mga naka-link na application at kaugnay na widget ng mga iyon, at tatanggalin ang mga shortcut ng mga iyon. Habang naka-disable ang Private mode, hindi ka makakatanggap ng mga notification mula sa mga application na inilipat mo sa Private."</string>
+    <string name="private_mode_popup_m2p_title">Paganahin ang Private mode</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Nagbago ang mga setting mo sa fingerprint. Iguhit ang pattern mo para sa Dobleng pag-verify para paganahin ang Private mode.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Nagbago ang mga setting mo sa fingerprint. Ipasok ang PIN mo sa Dobleng pag-verify para paganahin ang Private mode.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Nagbago ang mga setting mo sa fingerprint. Ipasok ang password mo sa Dobleng pag-verify para paganahin ang Private mode.</string>
+    <string name="private_mode_bakcupkey_bt_text">Gamitin ang dobleng pag-verify</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Pattern</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Password</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Gamitin ang %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Password ng backup</string>
+    <string name="private_mode_migration_body_text">Mag-set ng pattern, PIN o password na gagamitin bilang alternatibo sa mga fingerprint mo para ma-access ang Private mode.</string>
+    <string name="private_mode_migration_next_button">Susunod</string>
+    <string name="private_mode_pattern_backup_pin_desc">Backup na PIN</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Mode privat</string>
+    <string name="personalpage_on">Mode Pribadi diaktifkan.</string>
+    <string name="personalpage_on_available">Konten privat tersedia.</string>
+    <string name="personalpage_off_not_available">Konten privat tidak tersedia. Semua konten yang sedang dipindahkan ke Privat tidak akan dipindahkan.</string>
+    <string name="failed_to_unmount">Tidak dapat menonaktifkan Mode Pribadi. Coba lagi.</string>
+    <string name="pattern_help_text">Gambar pola Anda untuk Mode Privat.</string>
+    <string name="password_help_text">Masukkan kata sandi Mode Pribadi Anda.</string>
+    <string name="personal_page_disclaimer_by_locktype">Sembunyikan konten pribadi. Untuk menggunakan mode ini, pilih metode buka kunci. Nonaktifkan mode ini setelah digunakan untuk melindungi konten tersembunyi.</string>
+    <string name="do_not_show_again">Jangan tampilkan lagi</string>
+    <string name="message_settings">Pngturan</string>
+    <string name="incorrect_backup_pin">PIN cadangan salah.</string>
+    <string name="pattern_backuppin">Masukkan PIN yang digunakan sebagai alternatif pola Anda.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Coba lagi dalam %d detik.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Coba lagi dalam 1 detik.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Coba lagi dalam %d menit</string>
+    <string name="personalpage_off">Mode Pribadi dinonaktifkan.</string>
+    <string name="personalpage_off_move_off">Mode Privat dinonaktifkan. Semua konten yang saat ini sedang dipindahkan ke Privat tidak akan dipindahkan.</string>
+    <string name="failed_to_mount">Gagal mengaktifkan Mode Pribadi. Coba lagi.</string>
+    <string name="pattern_help_text_try_again">Anda menggambar pola yang salah. Coba lagi.</string>
+    <string name="pin_help_text_try_again">Anda telah memasukkan PIN yang salah. Coba lagi.</string>
+    <string name="password_help_text_try_again">Anda telah memasukkan kata sandi yang salah. Coba lagi</string>
+    <string name="pin_help_text">Masukkan PIN Anda untuk Mode Pribadi.</string>
+    <string name="personal_page_switch_off_message">Semua konten yang terbuka akan ditutup. Perubahan yang belum disimpan akan dibuang.</string>
+    <string name="private_mode_popup_btn_skip">Lewati</string>
+    <string name="private_mode_popup_screen_lock_title">Pengaturan kunci layar</string>
+    <string name="private_mode_popup_screen_lock_msg">Untuk meningkatkan keamanan saat menggunakan mode Privat, kami sarankan Anda untuk mengubah tipe kunci layar ke metode yang aman, lalu aktifkan mode Privat.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Mode Privat akan diaktifkan bila konten terpilih ditransfer.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Penyangkalan 
+Perlu diketahui bahwa konten mungkin muncul dalam folder terpisah di perangkat Anda ketika secara otomatis disinkronisasi dengan aplikasi pihak ketiga, seperti Dropbox. Periksa pengaturan sinkronisasi otomatis dari aplikasi lainnya sebelum menggunakan Mode Privat."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer selesai. 
+Keluar dari Mode Privat."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer tidak selesai. 
+Keluar dari Mode Privat."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Proses lain sudah berjalan. Coba lagi setelah proses tersebut selesai.</string>
+    <string name="private_mode_pop_up_title">Nonaktifkan mode Pribadi</string>
+    <string name="private_mode_popup_m2p_msg">Mode Privat akan diaktifkan jika konten yang dipilih dipindahkan ke Privat, dan akan dinonaktifkan lagi saat transfer selesai.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Mode Privat akan diaktifkan saat aplikasi yang dipilih dipindahkan ke Privat, dan dinonaktifkan kembali setelah transfer selesai.
+
+Memindahkan aplikasi ke Privat juga akan memindahkan aplikasi tertaut dan widget terkait, serta menghapus pintasannya. Saat mode Privat dinonaktifkan, Anda tidak akan menerima notifikasi dari aplikasi yang dipindah ke Privat."</string>
+    <string name="private_mode_popup_m2p_title">Aktifkan mode Privat</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Pengaturan sidik jari telah diubah. Gambar pola Verifikasi ganda Anda untuk mengaktifkan mode Pribadi.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Pengaturan sidik jari telah diubah. Masukkan PIN Verifikasi ganda Anda untuk mengaktifkan mode Pribadi.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Pengaturan sidik jari telah diubah. Masukkan kata sandi Verifikasi ganda Anda untuk mengaktifkan mode Pribadi.</string>
+    <string name="private_mode_bakcupkey_bt_text">Gunakan verifikasi ganda</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Pola</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Kata sandi</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Gunakan %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Kata sandi cadangan</string>
+    <string name="private_mode_migration_body_text">Atur pola, PIN, atau kata sandi untuk digunakan sebagai alternatif dari sidik jari saat mengakses Mode pribadi.</string>
+    <string name="private_mode_migration_next_button">Berikutnya</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN cadangan</string>
+</resources>

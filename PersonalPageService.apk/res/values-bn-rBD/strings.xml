@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ব্যক্তিগত মোড</string>
+    <string name="personalpage_on">ব্যক্তিগত মোড সক্ষম হয়েছে।</string>
+    <string name="personalpage_on_available">ব্যক্তিগত সামগ্রী বিদ্যমান।</string>
+    <string name="personalpage_off_not_available">ব্যক্তিগত সামগ্রী নেই। বর্তমানে ব্যক্তিগততে সরানো যে কোনো সামগ্রী সরানো হবে না।</string>
+    <string name="failed_to_unmount">ব্যক্তিগত মোড নিষ্ক্রিয় করা সম্ভব নয়। পুনরায় চেষ্টা করুন।</string>
+    <string name="pattern_help_text">ব্যক্তিগত মোডের জন্য আপনার প্যাটার্ন আঁকুন।</string>
+    <string name="password_help_text">আপনার ব্যক্তিগত মোডের পাসওয়ার্ডটি লিখুন।</string>
+    <string name="personal_page_disclaimer_by_locktype">ব্যক্তিগত সামগ্রী লুকান। এই মোডটি ব্যবহার করতে একটি আনলকের পদ্ধতি নির্বাচন করুন। লুকায়িত সামগ্রী সুরক্ষিত করতে ব্যবহারের পরে এই মোডটি নিষ্ক্রিয় করুন।</string>
+    <string name="do_not_show_again">পুনরায় দেখাবেন না।</string>
+    <string name="message_settings">সেটিংস</string>
+    <string name="incorrect_backup_pin">ভুল ব্যাকআপ PIN।</string>
+    <string name="pattern_backuppin">আপনার বিন্যাসে বিকল্প হিসাবে ব্যবহৃত PINটি লিখুন।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d সেকেন্ড এর মধ্যে আবার চেষ্টা করুন।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 সেকেন্ডের মধ্যে আবার চেষ্টা করুন।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d মিনিট পর আবার চেষ্টা করুন</string>
+    <string name="personalpage_off">ব্যক্তিগত মোড অক্ষম হয়েছে।</string>
+    <string name="personalpage_off_move_off">ব্যক্তিগত মোড নিষ্ক্রিয় হয়েছে। বর্তমানে ব্যক্তিগততে সরানো হচ্ছে এমন কোনো সামগ্রী সরানো যাবে না।</string>
+    <string name="failed_to_mount">ব্যক্তিগত মোড সক্ষম করতে ব্যর্থ হয়েছে। পুনরায় চেষ্টা করুন।</string>
+    <string name="pattern_help_text_try_again">আপনি একটি ভুল প্যাটার্ন এঁকেছেন। পুনরায় চেষ্টা করুন।</string>
+    <string name="pin_help_text_try_again">আপনি একটি ভুল PIN প্রবেশ করিয়েছেন। আবার চেষ্টা করুন।</string>
+    <string name="password_help_text_try_again">আপনি একটি ভুল পাসওয়ার্ড লিখেছেন। আবার চেষ্টা করুন।</string>
+    <string name="pin_help_text">ব্যক্তিগত মোডের জন্য আপনার PIN লিখুন।</string>
+    <string name="personal_page_switch_off_message">খোলা যেকোনো সামগ্রী বন্ধ হবে। আপনি সংরক্ষণ করেন নি এমন যেকোনো পরিবর্তন বর্জিত হবে।</string>
+    <string name="private_mode_popup_btn_skip">এড়িয়ে যান</string>
+    <string name="private_mode_popup_screen_lock_title">স্ক্রিন লক সেটিংস</string>
+    <string name="private_mode_popup_screen_lock_msg">ব্যক্তিগত মোড ব্যবহার করার সময় সুরক্ষা বাড়াতে আমরা আপনাকে আপনার স্ক্রিন লকের প্রকারটি একটি সুরক্ষিত পদ্ধতি পরিবর্তন করার ও তারপরে ব্যক্তিগত মোড সক্ষম করার পরামর্শ দিই।</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">নির্বাচিত সামগ্রী স্থানান্তর করার সময় ব্যক্তিগত মোড সক্রিয় করা হবে।</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"স্থানান্তর সম্পন্ন। 
+ব্যক্তিগত মোড বন্ধ হচ্ছে।"</string>
+    <string name="private_mode_popup_m2p_failed_close">"স্থানান্তর অসম্পূর্ণ। 
+ব্যক্তিগত মোড বন্ধ হচ্ছে।"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">অন্য একটি প্রক্রিয়া ইতিমধ্যে প্রগতিতে আছে। এটি শেষ হওয়ার পরে পুনরায় চেষ্টা করুন।</string>
+    <string name="private_mode_pop_up_title">ব্যক্তিগত মোড অক্ষম করুন</string>
+    <string name="private_mode_popup_m2p_msg">নির্বাচিত সামগ্রী ব্যক্তিগততে সরানোর সময় ‘ব্যক্তিগত মোড’টি সক্রিয় হবে এবং একবার স্থানান্তর সম্পূর্ণ হলে এটি পুনরায় নিষ্ক্রিয় হবে।</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"নির্বাচিত অ্যাপ্লিকেশনগুলোকে ব্যক্তিগততে সরানো হলে ‘ব্যক্তিগত মোড’ সক্রিয় হবে এবং স্থানান্তর সম্পূর্ণ হলে পুনরায় নিষ্ক্রিয় হবে।
+
+এছাড়া অ্যাপ্লিকেশনগুলোকে ব্যক্তিগততে সরানো হলে সেগুলোর লিঙ্ক করা অ্যাপ্লিকেশন এবং সম্পর্কিত উইজেটগুলোও সরে এবং সেগুলোর শর্টকাটগুলো মুছে যায়। ‘ব্যক্তিগত মোড’ নিষ্ক্রিয় করা হলে আপনি যে অ্যাপ্লিকেশনগুলোকে ব্যক্তিগততে সরিয়েছেন সেগুলো থেকে নোটিফিকেশন পাবেন না।"</string>
+    <string name="private_mode_popup_m2p_title">ব্যক্তিগত মোড সক্ষম করুন</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">আপনার আঙুলের ছাপের সেটিংস বদলে গেছে৷ প্রাইভেট মোড সক্রিয় করতে আপনার দ্বৈত যাচাইকরণ প্যাটার্ন আঁকুন৷</string>
+    <string name="private_mode_bakcupkey_subtext_pin">আপনার আঙুলের ছাপের সেটিংস বদলে গেছে৷ প্রাইভেট মোড সক্রিয় করতে আপনার দ্বৈত যাচাইকরণ পিন লিখুন৷</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">আপনার আঙুলের ছাপের সেটিংস বদলে গেছে৷ প্রাইভেট মোড সক্রিয় করতে আপনার দ্বৈত যাচাইকরণ পাসওয়ার্ড লিখুন৷</string>
+    <string name="private_mode_bakcupkey_bt_text">দ্বৈত যাচাইকরণ ব্যবহার করুন</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">বিন্যাস</string>
+    <string name="private_mode_bakcupkey_bt_password_text">পাসওয়ার্ড</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ব্যবহার করুন</string>
+    <string name="private_mode_bakcuppwd_bt_text">ব্যাকআপ পাসওয়ার্ড</string>
+    <string name="private_mode_migration_body_text">‘প্রাইভেট মোড’ অ্যাক্সেস করতে আপনার আঙুলের ছাপের বিকল্প হিসেবে একটি প্যাটার্ন, PIN, বা পাসওয়ার্ড সেট করুন৷</string>
+    <string name="private_mode_migration_next_button">পরে</string>
+    <string name="private_mode_pattern_backup_pin_desc">ব্যাকআপ PIN</string>
+</resources>

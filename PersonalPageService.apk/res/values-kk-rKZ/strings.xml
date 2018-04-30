@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Жеке режим</string>
+    <string name="personalpage_on">Жеке режим іске қосылды.</string>
+    <string name="personalpage_on_available">Жеке мазмұн қолжетімді.</string>
+    <string name="personalpage_off_not_available">Жеке мазмұн қолжетімді емес. Қазір “Жеке” тізіміне жылжытылған мазмұн жылжытылмайды.</string>
+    <string name="failed_to_unmount">Жеке режимді өшіру мүмкін емес. Әрекетті қайталап көріңіз.</string>
+    <string name="pattern_help_text">Жеке режимге арналған үлгіңізді салыңыз.</string>
+    <string name="password_help_text">Жеке режим құпия сөзін енгізіңіз.</string>
+    <string name="personal_page_disclaimer_by_locktype">Жеке мазмұнды жасырыңыз. Бұл режимді пайдалану үшін құлыптан босату әдісін таңдаңыз. Жасырылған мазмұнды қорғау үшін пайдаланудан кейін осы режимді өшіріңіз.</string>
+    <string name="do_not_show_again">Қайтадан көрсетпеңіз</string>
+    <string name="message_settings">Қондырғ.</string>
+    <string name="incorrect_backup_pin">Сақтық PIN қате.</string>
+    <string name="pattern_backuppin">Үлгіңізге балама ретінде пайдаланылған PIN кодты енгізіңіз.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Әрекетті %d секундтан кейін қайталаңыз.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Әрекетті 1 секундтан кейін қайталап көріңіз.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d минуттан кейін қайталау</string>
+    <string name="personalpage_off">Жеке режим өшірілді.</string>
+    <string name="personalpage_off_move_off">Жеке режим өшірілді. Қазір “Жеке” тізіміне жылжытылған мазмұн жылжытылмайды.</string>
+    <string name="failed_to_mount">Жеке режимді іске қосу орындалмады. Әрекетті қайталап көріңіз.</string>
+    <string name="pattern_help_text_try_again">Қате үлгіні сыздыңыз. Әрекетті қайталап көріңіз.</string>
+    <string name="pin_help_text_try_again">Қате PIN кодты енгізуіңізге болады. Әрекетті қайталаңыз</string>
+    <string name="password_help_text_try_again">Қате құпия сөз енгіздіңіз. Әрекетті қайталаңыз</string>
+    <string name="pin_help_text">Жеке режим үшін PIN енгізіңіз.</string>
+    <string name="personal_page_switch_off_message">Кез келген ашық мазмұн жабылады. Сақталмаған барлық өзгерістер алып тасталады.</string>
+    <string name="private_mode_popup_btn_skip">Өткізу</string>
+    <string name="private_mode_popup_screen_lock_title">Экран құлып. параметр-рі</string>
+    <string name="private_mode_popup_screen_lock_msg">Жеке режимді пайдаланғанда қауіпсіздікті жақсарту үшін экранды құлыптау түрін қауіпсіз әдіске өзгерту, содан кейін жеке режимді қосу ұсынылады.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Бейресми тәртіп таңдаулы контентті табыстау кезінде іске қосылады.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Жауапкершіліктен бас тарту
+Назар аударыңыз, контент шет қосымшамен, мысалы, Dropbox, орындалатын автоматты синхрондау кезінде құрылғыда жеке мұқабаға орналастырылуы мүмкін. Бейресми тәртіпті қолданар алдында басқа қосымшалардың синхрондау баптауларын тексеріңіз."</string>
+    <string name="private_mode_popup_m2p_success_close">"Табыстау аяқталды. 
+Бейресми тәртіптен шығу."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Табыстау аяқталмады. 
+Бейресми тәртіптен шығу."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Басқа процесс бұрыннан өңделуде. Өңделу аяқталғаннан кейін әрекетті қайталаңыз.</string>
+    <string name="private_mode_pop_up_title">Жеке режимді өшіру</string>
+    <string name="private_mode_popup_m2p_msg">Тасымалдау аяқталғаннан кейін таңдалған мазмұн “Жеке” тізіміне жылжытылған кезде және қайта өшірілген кезде жеке режим қосылады.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Таңдалған бағдарламалар Жеке қалтасына жылжытылғанда Жеке режимі іске қосылады және тасымалдау аяқталғаннан кейін қайта өшіріледі.
+
+Бағдарламаларды Жеке қалтасына жылжыту оларға байланысқан бағдарламаларды және қатысты виджеттерді де жылжытады және олардың белгішелерін жояды. Жеке режим өшірілгенде жеке қалтаға жылжытылған бағдарламалардан хабарландыруларды қабылдау мүмкін емес."</string>
+    <string name="private_mode_popup_m2p_title">Құпиялылық режимін қосу</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Саусақ ізі параметрлері өзгертілген. Жеке режимді қосу үшін, “Екі рет тексеру” үлгісін салыңыз.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Саусақ ізі параметрлері өзгертілген. Жеке режимді қосу үшін, “Екі рет тексеру” PIN кодын енгізіңіз.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Саусақ ізі параметрлері өзгертілген. Жеке режимді қосу үшін, “Екі рет тексеру” құпия сөзін енгізіңіз.</string>
+    <string name="private_mode_bakcupkey_bt_text">Екі рет тексеруді пайда-у</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Үлгі</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Кілтсөз</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s пайдалану</string>
+    <string name="private_mode_bakcuppwd_bt_text">Сақтық көшірме құпия сөзі</string>
+    <string name="private_mode_migration_body_text">Жеке режимге қатынасу мақсатында саусақ іздерін пайдалану үшін баламалы қатынас әдісі ретінде пайдаланылатын үлгіні, PIN кодын не құпия сөзді орнатыңыз.</string>
+    <string name="private_mode_migration_next_button">Келесі</string>
+    <string name="private_mode_pattern_backup_pin_desc">Сақтық PIN</string>
+</resources>

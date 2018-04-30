@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Mod peribadi</string>
+    <string name="personalpage_on">Mod peribadi diaktifkan.</string>
+    <string name="personalpage_on_available">Kandungan peribadi tersedia.</string>
+    <string name="personalpage_off_not_available">Kandungan peribadi tidak tersedia. Sebarang kandungan yang dialihkan ke Peribadi buat masa ini tidak akan dialih.</string>
+    <string name="failed_to_unmount">Tidak dapat menyahaktifkan mod Peribadi. Cuba lagi.</string>
+    <string name="pattern_help_text">Lukis corak anda untuk Mod peribadi.</string>
+    <string name="password_help_text">Masukkan kata laluan mod Peribadi anda.</string>
+    <string name="personal_page_disclaimer_by_locktype">Sembunyikan kandungan peribadi. Untuk menggunakan mod ini, pilih kaedah buka kunci. Nyahaktifkan mod ini selepas penggunaan untuk melindungi kandungan tersembunyi.</string>
+    <string name="do_not_show_again">Jangan papar lagi</string>
+    <string name="message_settings">Aturan</string>
+    <string name="incorrect_backup_pin">PIN sandaran salah.</string>
+    <string name="pattern_backuppin">Masukkan PIN yang digunakan sebagai alternatif kepada corak anda.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Cuba lagi dalam %d saat.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Cuba semula dalam masa 1 saat.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Cuba lagi dalam %d minit</string>
+    <string name="personalpage_off">Mod Peribadi dinyahaktifkan.</string>
+    <string name="personalpage_off_move_off">Mod peribadi dinyahaktifkan. Mana-mana kandungan yang sedang dialihkan ke Peribadi tidak akan dialihkan.</string>
+    <string name="failed_to_mount">Gagal mengaktifkan mod Peribadi. Cuba lagi.</string>
+    <string name="pattern_help_text_try_again">Anda telah melukis corak yang salah. Cuba lagi.</string>
+    <string name="pin_help_text_try_again">Anda telah memasukkan PIN pembayaran yang salah. Cuba lagi.</string>
+    <string name="password_help_text_try_again">Anda telah memasukkan kata laluan yang salah. Cuba lagi</string>
+    <string name="pin_help_text">Masukkan PIN anda untuk mod Peribadi.</string>
+    <string name="personal_page_switch_off_message">Sebarang kandungan terbuka akan ditutup. Sebarang perubahan yang anda belum simpan akan dibuang.</string>
+    <string name="private_mode_popup_btn_skip">Langkau</string>
+    <string name="private_mode_popup_screen_lock_title">Aturan skrin kunci</string>
+    <string name="private_mode_popup_screen_lock_msg">Untuk meningkatkan keselamatan ketika menggunakan Mod peribadi, kami cadangkan anda menukar jenis kunci skrin anda kepada kaedah yang selamat, kemudian aktifkan Mod peribadi.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Mod Peribadi akan diaktifkan apabila kandungan yang dipilih dipindahkan.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Penafian 
+Sila maklum bahawa kandungan boleh muncul dalam pelipat yang berasingan di dalam fail anda apabila ia diselaraskan secara automatik oleh aplikasi pihak ketiga, seperti Dropbox. Semak aturan penyelarasan auto bagi aplikasi yang lain anda sebelum menggunakan Mod Peribadi."</string>
+    <string name="private_mode_popup_m2p_success_close">"Pemindahan lengkap. 
+Keluar Mod Peribadi."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Pemindahan tidak lengkap. 
+Keluar Mod Peribadi."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Proses lain sedang dijalankan. Cuba lagi selepas ia selesai.</string>
+    <string name="private_mode_pop_up_title">Nyahaktifkan mod Peribadi</string>
+    <string name="private_mode_popup_m2p_msg">Mod peribadi akan diaktifkan semasa kandungan dipilih dialihkan ke Peribadi dan dinyahaktifkan sekali lagi sebaik sahaja pemindahan selesai.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Mod peribadi akan diaktifkan ketika aplikasi yang dipilih dialih ke Peribadi, dan dinyahaktifkan semula apabila pemindahan selesai.
+
+Mengalihkan aplikasi ke Peribadi juga akan mengalih aplikasi pautannya dan widget yang berkaitan, dan memadam pintasannya. Ketika Mod peribadi dinyahaktifkan, anda tidak akan menerima pemberitahuan daripada aplikasi yang dialih ke Peribadi."</string>
+    <string name="private_mode_popup_m2p_title">Aktifkan Mod peribadi</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Aturan cap jari anda telah ditukar. Lukis Corak pengesahan dua kali untuk mengaktifkan Mod peribadi.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Aturan cap jari anda telah ditukar. Masukkan PIN pengesahan dua kali untuk mengaktifkan Mod peribadi.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Aturan cap jari anda telah ditukar. Masukkan Kata laluan pengesahan dua kali untuk mengaktifkan Mod peribadi.</string>
+    <string name="private_mode_bakcupkey_bt_text">Gunakan pengesahan ganda</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Corak</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Kata laluan</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Gunakan %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Kata laluan sandaran</string>
+    <string name="private_mode_migration_body_text">Tetapkan corak, PIN atau kata laluan untuk digunakan sebagai alternatif kepada cap jari anda untuk mencapai Mod peribadi.</string>
+    <string name="private_mode_migration_next_button">Berikut</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN sandaran</string>
+</resources>

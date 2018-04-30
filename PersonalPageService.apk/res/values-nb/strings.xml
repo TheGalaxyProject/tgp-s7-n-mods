@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privatmodus</string>
+    <string name="personalpage_on">Privatmodus er aktivert.</string>
+    <string name="personalpage_on_available">Privat innhold er tilgjengelig.</string>
+    <string name="personalpage_off_not_available">Privat innhold er ikke tilgjengelig. Eventuelt innhold som for øyeblikket blir flyttet til Privat, blir ikke flyttet.</string>
+    <string name="failed_to_unmount">Kan ikke deaktiver Privatmodus. Prøv på nytt.</string>
+    <string name="pattern_help_text">Tegn mønsteret ditt for Privatmodus.</string>
+    <string name="password_help_text">Angi passordet ditt for Privatmodus.</string>
+    <string name="personal_page_disclaimer_by_locktype">Skjul personlig innhold. Du må velge en opplåsningsmetode for å bruke denne modusen. Deaktiver denne modusen etter bruk for å beskytte det skjulte innholdet.</string>
+    <string name="do_not_show_again">Ikke vis igjen</string>
+    <string name="message_settings">Innst.</string>
+    <string name="incorrect_backup_pin">Feil reserve-PIN-kode.</string>
+    <string name="pattern_backuppin">Skriv inn PIN-koden som brukes som et alternativ til mønsteret.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Prøv på nytt om %d sekunder.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Prøv på nytt om 1 sekund.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Prøv igjen om %d minutter</string>
+    <string name="personalpage_off">Privatmodus er deaktivert.</string>
+    <string name="personalpage_off_move_off">Privatmodus er deaktivert. Eventuelt innhold som for øyeblikket blir flyttet til Privat, blir ikke flyttet.</string>
+    <string name="failed_to_mount">Kunne ikke aktivere Privatmodus. Prøv på nytt.</string>
+    <string name="pattern_help_text_try_again">Du har tegnet feil mønster. Prøv på nytt.</string>
+    <string name="pin_help_text_try_again">Du har angitt feil PIN-kode. Prøv på nytt.</string>
+    <string name="password_help_text_try_again">Du har angitt feil passord. Prøv på nytt.</string>
+    <string name="pin_help_text">Angi PIN-koden din for Privatmodus.</string>
+    <string name="personal_page_switch_off_message">Alt åpent innhold blir lukket. Eventuelle endringer du ikke har lagret, blir forkastet.</string>
+    <string name="private_mode_popup_btn_skip">Hopp over</string>
+    <string name="private_mode_popup_screen_lock_title">Skjermlåsinnstillinger</string>
+    <string name="private_mode_popup_screen_lock_msg">For å bedre sikkerheten mens du bruker Privatmodus anbefaler vi at du endrer skjermlåstypen til en sikker metode og deretter aktiverer Privatmodus.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privatmodus blir aktivert når det valgte innholdet overføres til Privatmodus.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Ansvarsfraskrivelse
+Vær oppmerksom på at innhold kan vises i en separat mappe som ikke er beskyttet av Privatmodus på enheten når det synkroniseres automatisk av et tredjepartsprogram, som for eksempel Dropbox. Kontroller innstillingene for automatisk synkronisering i de andre programmene dine før du bruker Privatmodus."</string>
+    <string name="private_mode_popup_m2p_success_close">"Overføring fullført. 
+Avslutter Privatmodus."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Overføring ikke fullført. 
+Avslutter Privatmodus."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">En annen prosess er allerede i gang. Prøv på nytt når den er fullført.</string>
+    <string name="private_mode_pop_up_title">Deaktiver Privatmodus</string>
+    <string name="private_mode_popup_m2p_msg">Privatmodus blir aktivert mens det valgte innholdet flyttes til Privat og deaktivert igjen når overføringen er fullført.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privatmodus blir aktivert mens de valgte appene blir flyttet til Privat og deaktivert igjen når overføringen er fullført.
+
+Hvis du flytter apper til Privat, blir også deres tilknyttede apper og relaterte widgeter flyttet, og snarveiene deres blir slettet. Når Privatmodus er deaktivert, mottar du ikke varsler fra appene du flyttet til Privat."</string>
+    <string name="private_mode_popup_m2p_title">Aktiver Privatmodus</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Fingeravtrykksinnstillingene har blitt endret. Tegn Dobbel bekreftelse-mønsteret for å aktivere Privatmodus.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Fingeravtrykksinnstillingene har blitt endret. Angi PIN-koden for Dobbel bekreftelse for å aktivere Privatmodus.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Fingeravtrykksinnstillingene har blitt endret. Angi Dobbel bekreftelse-passordet for å aktivere Privatmodus.</string>
+    <string name="private_mode_bakcupkey_bt_text">Bruk dobbel bekreftelse</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Mønster</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Passord</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Bruk %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Reservepassord</string>
+    <string name="private_mode_migration_body_text">Angi mønster, PIN-kode eller passord å bruke som et alternativ til fingeravtrykkene for å åpne Privatmodus.</string>
+    <string name="private_mode_migration_next_button">Neste</string>
+    <string name="private_mode_pattern_backup_pin_desc">Sikkerhetskopierings-PIN-kode</string>
+</resources>

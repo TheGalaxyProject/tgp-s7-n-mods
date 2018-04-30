@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">私人模式</string>
+    <string name="personalpage_on">[私人模式] 已啟用。</string>
+    <string name="personalpage_on_available">私人內容可用。</string>
+    <string name="personalpage_off_not_available">私人內容不可用。將不會移動目前正在移動至私人資料夾的任何內容。</string>
+    <string name="failed_to_unmount">無法停用 [私人模式]。請重試。</string>
+    <string name="pattern_help_text">繪製私人模式的圖案。</string>
+    <string name="password_help_text">輸入您的 [私人模式] 密碼。</string>
+    <string name="personal_page_disclaimer_by_locktype">隱藏個人內容。若要使用此模式，請選擇解鎖方式。在使用後停用此模式以保護隱藏的內容。</string>
+    <string name="do_not_show_again">不要再顯示。</string>
+    <string name="message_settings">設定</string>
+    <string name="incorrect_backup_pin">備份 PIN 碼錯誤。</string>
+    <string name="pattern_backuppin">輸入作為替代圖案的 PIN 碼。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">請在 %d 秒後重試。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">請在 1 秒後重試。</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">請在 %d 分鐘後重試</string>
+    <string name="personalpage_off">[私人模式] 已停用。</string>
+    <string name="personalpage_off_move_off">[私人模式] 已停用。目前正在移動至 [私人資料夾] 的任何內容將不會移動。</string>
+    <string name="failed_to_mount">啟用 [私人模式] 失敗。請重試。</string>
+    <string name="pattern_help_text_try_again">您已繪製錯誤的圖案。請重試。</string>
+    <string name="pin_help_text_try_again">您輸入了錯誤的 PIN 碼。請重試。</string>
+    <string name="password_help_text_try_again">您輸入的密碼不正確。請重試</string>
+    <string name="pin_help_text">輸入您的 [私人模式] PIN 碼。</string>
+    <string name="personal_page_switch_off_message">任何開啟的內容皆會被關閉。尚未儲存的任何變更皆會被捨棄。</string>
+    <string name="private_mode_popup_btn_skip">略過</string>
+    <string name="private_mode_popup_screen_lock_title">螢幕鎖定設定</string>
+    <string name="private_mode_popup_screen_lock_msg">若要在使用 [私人模式] 時增強安全性，建議您將螢幕鎖定類型變更為安全方式，然後啟用 [私人模式]。</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">所選內容傳輸時私人模式將會啟動。</string>
+    <string name="private_mode_popup_m2p_disclaimer">"免責聲明 
+請注意，如內容由第三方應用程式自動同步，內容可能會出現於裝置的獨立資料夾內。 使用私人模式前，請檢查其他應用程式的自動同步設定。"</string>
+    <string name="private_mode_popup_m2p_success_close">"傳輸完成。
+正在退出 [私人模式]。"</string>
+    <string name="private_mode_popup_m2p_failed_close">"傳輸未完成。
+正在退出 [私人模式]。"</string>
+    <string name="personalpage_on_vzw">[私人模式] 已開啟。</string>
+    <string name="personalpage_off_vzw">[私人模式] 已關閉。</string>
+    <string name="private_mode_toast_ism2p">另一個程序已處於執行狀態。請在其完成後重試。</string>
+    <string name="private_mode_pop_up_title">停用私人模式</string>
+    <string name="private_mode_popup_m2p_msg">當選擇的內容已移動至 [私人資料夾] 時，[私人模式] 將啟用，並且一旦傳輸完成，就會再次停用。</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"當選擇的應用程式已移動至 [私人資料夾] 時，[私人模式] 將啟用，並且一旦傳輸完成，就會再次停用。
+
+將應用程式移動至 [私人資料夾] 也將移動其已連結的應用程式與相關 Widget，且其捷徑將被刪除。當 [私人模式] 已停用時，您將無法從已移動至 [私人資料夾] 的應用程式中接收通知。"</string>
+    <string name="private_mode_popup_m2p_title">啟用私人模式</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">您的指紋設定已變更。請繪製您的雙重驗證圖案以啟用 [私人模式]。</string>
+    <string name="private_mode_bakcupkey_subtext_pin">您的指紋設定已變更。請輸入您的雙重驗證 PIN 碼以啟用 [私人模式]。</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">您的指紋設定已變更。請輸入您的雙重驗證密碼以啟用 [私人模式]。</string>
+    <string name="private_mode_bakcupkey_bt_text">使用雙重驗證</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN 碼</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">圖案</string>
+    <string name="private_mode_bakcupkey_bt_password_text">密碼</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">使用%s</string>
+    <string name="private_mode_bakcuppwd_bt_text">備用密碼</string>
+    <string name="private_mode_migration_body_text">設定圖案、PIN 碼或密碼以作為指紋的替代方式用於存取私人模式。</string>
+    <string name="private_mode_migration_next_button">下一步</string>
+    <string name="private_mode_pattern_backup_pin_desc">備份 PIN 碼</string>
+</resources>

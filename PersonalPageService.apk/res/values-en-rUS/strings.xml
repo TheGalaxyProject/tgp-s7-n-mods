@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Private mode</string>
+    <string name="personalpage_on">Private mode turned on.</string>
+    <string name="personalpage_on_available">Private content available.</string>
+    <string name="personalpage_off_not_available">Private content not available. Any content currently being moved to Private will not be moved.</string>
+    <string name="failed_to_unmount">Unable to turn off Private mode. Try again.</string>
+    <string name="pattern_help_text">Draw your pattern for Private mode.</string>
+    <string name="password_help_text">Enter your Private mode password.</string>
+    <string name="personal_page_disclaimer_by_locktype">Hide personal content. To use this mode, select an unlock method. Turn off this mode after use to protect the hidden content.</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="message_settings">Settings</string>
+    <string name="incorrect_backup_pin">Incorrect backup PIN.</string>
+    <string name="pattern_backuppin">Enter the PIN used as an alternative to your pattern.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Try again in %d seconds.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Try again in 1 second.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Try again in %d minutes</string>
+    <string name="personalpage_off">Private mode turned off</string>
+    <string name="personalpage_off_move_off">Private mode turned off. Any content currently being moved to Private will not be moved.</string>
+    <string name="failed_to_mount">Failed to turn on Private mode. Try again.</string>
+    <string name="pattern_help_text_try_again">You have drawn an incorrect pattern. Try again.</string>
+    <string name="pin_help_text_try_again">You have entered an incorrect PIN. Try again.</string>
+    <string name="password_help_text_try_again">You have entered an incorrect password. Try again.</string>
+    <string name="pin_help_text">Enter your PIN for Private mode.</string>
+    <string name="personal_page_switch_off_message">Any open content will be closed. Any changes that you have not saved will be discarded.</string>
+    <string name="private_mode_popup_btn_skip">Skip</string>
+    <string name="private_mode_popup_screen_lock_title">Screen lock settings</string>
+    <string name="private_mode_popup_screen_lock_msg">To enhance security while using Private mode, we recommend you change your screen lock type to a secure method, then turn on Private mode.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer 
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronized by a third-party application, such as Dropbox. Check the auto synchronization settings of your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Exiting Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Exiting Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Another process already in progress. Try again after it finishes.</string>
+    <string name="private_mode_pop_up_title">Turn off Private mode</string>
+    <string name="private_mode_popup_m2p_msg">Private mode will be turned on while the selected content is moved to Private, and turned off again once the transfer is complete.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Private mode will be turned on while the selected applications are moved to Private, and turned off again once the transfer is complete.
+
+Moving applications to Private will also move their linked applications and related widgets, and delete their shortcuts. While Private mode is off, you will not receive notifications from the applications you moved to Private."</string>
+    <string name="private_mode_popup_m2p_title">Turn on Private mode</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Your fingerprint settings have been changed. Draw your Double verification pattern to turn on Private mode.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Your fingerprint settings have been changed. Enter your Double verification PIN to turn on Private mode.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Your fingerprint settings have been changed. Enter your Double verification password to turn on Private mode.</string>
+    <string name="private_mode_bakcupkey_bt_text">Use double verification</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Pattern</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Password</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Use %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Backup password</string>
+    <string name="private_mode_migration_body_text">Set a pattern, PIN, or password to use as an alternative to your fingerprints to access Private mode.</string>
+    <string name="private_mode_migration_next_button">Next</string>
+    <string name="private_mode_pattern_backup_pin_desc">Backup PIN</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Maxfiy rejim</string>
+    <string name="personalpage_on">Maxfiy rejim yoqildi.</string>
+    <string name="personalpage_on_available">Maxfiy tarkib mavjud.</string>
+    <string name="personalpage_off_not_available">Maxfiy tarkib mavjud emas. Ayni vaqtda Maxfiyga ko‘chirilayotgan tarkib ko‘chirilmaydi.</string>
+    <string name="failed_to_unmount">Maxfiy rejimni o‘chirib bo‘lmaydi. Qayta urinib ko‘ring.</string>
+    <string name="pattern_help_text">Maxfiy rejim uchun namunangizni chizing.</string>
+    <string name="password_help_text">Maxfiy rejimingiz parolini kiriting.</string>
+    <string name="personal_page_disclaimer_by_locktype">Shaxsiy tarkibni yashirish. Ushbu rejimdan foydalanish uchun blokdan chiqarish usulini tanlang. Yashirin tarkibni himoyalash uchun ushbu rejimni o‘chiring.</string>
+    <string name="do_not_show_again">Boshqa ko‘rsatilmasin</string>
+    <string name="message_settings">Parametr</string>
+    <string name="incorrect_backup_pin">Noto‘g‘ri arxivlash PIN-kodi.</string>
+    <string name="pattern_backuppin">Namunangizga muqobil sifatida foydalaniladigan PIN-kodni kiriting.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d soniyada qayta urinib ko‘ring.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 soniyadan keyin qayta urinib ko‘ring.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d daqiqada qayta urining</string>
+    <string name="personalpage_off">Maxfiy rejim o‘chirildi.</string>
+    <string name="personalpage_off_move_off">Maxfiy rejim o‘chirildi. Ayni vaqtda Maxfiyga ko‘chirilayotgan tarkib ko‘chirilmaydi.</string>
+    <string name="failed_to_mount">Maxfiy rejimni yoqib bo‘lmadi. Qayta urinib ko‘ring.</string>
+    <string name="pattern_help_text_try_again">Siz noto‘g‘ri namunani chizdingiz. Qayta urinib ko‘ring.</string>
+    <string name="pin_help_text_try_again">Siz noto‘g‘ri PIN-kodni kiritdingiz. Qayta urinib ko‘ring</string>
+    <string name="password_help_text_try_again">Noto‘g‘ri parolni kiritidingiz. Qayta urinib ko‘ring</string>
+    <string name="pin_help_text">Maxfiy rejim uchun PIN-kodni kiriting.</string>
+    <string name="personal_page_switch_off_message">Barcha ochiq tarkib yopiladi. Siz saqlamagan barcha o‘zgartirishlar tashlab yuboriladi.</string>
+    <string name="private_mode_popup_btn_skip">O‘tkazish</string>
+    <string name="private_mode_popup_screen_lock_title">Ekran blk parametrlari</string>
+    <string name="private_mode_popup_screen_lock_msg">Maxfiy rejimdan foydalanayotganda xavfsizlikni oshirish uchun ekraningiz bloki turini xavfsiz usulga almashtirishingizni tavsiya qilamiz, so‘ngra Maxfiy rejimni yoqing.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Tanlangan tarkib uzatilganda Maxfiy rejim faollashtiriladi.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Mas'uliyat va majburiyatlarni rad etish
+Maxfiy rejimga ko'chirilgan tarkib yashiriladi va maxfiy rejimdan chiqqaningizdan so'ng ko'rsatilmaydi. 
+Iltimos, shuni yodingizda tutingki, qurilmangiz Dropbox kabi uchinchi taraf ilovalari tomonidan avtomatik ravishda sinxronlantirilsa, undagi tarkib qurilmangizda alohida jildda paydo bo'lishi mumkin. Maxfiy rejimdan foydalanishdan avval boshqa ilovalaringizning avtomatik sinxronlash sozlamalarini tekshirishni unutmang."</string>
+    <string name="private_mode_popup_m2p_success_close">"Uzatish yakunlandi. 
+Maxfiy rejimdan chiqish."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Uzatish yakunlanmadi. 
+Maxfiy rejimdan chiqish."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Boshqa jarayon bajarilmoqda. U tugagandan so‘ng qayta urinib ko‘ring.</string>
+    <string name="private_mode_pop_up_title">Maxfiy rejimni o‘chirish</string>
+    <string name="private_mode_popup_m2p_msg">Tanlangan tarkib Maxfiyga ko‘chirilayotganda, Maxfiy rejim yoqiladi va uzatish yakunlangandan so‘ng o‘chiriladi.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Tanlangan ilovalar Maxfiyga ko‘chirilayotganda va uzatish yakunlangandan so‘ng qayta yoqilanayotganda, Maxfiy rejim yoqiladi.
+
+Ilovalarni Maxfiyga ko‘chirish ularga bog‘langan ilovalarni va aloqador vidjetlarni ham ko‘chiradi va ularning yorliqlarini yo‘q qiladi. Maxfiy rejim yoqilgan vaqtda Maxfiyga ko‘chirgan ilovalaringizdan bildirishnomalarni olmaysiz."</string>
+    <string name="private_mode_popup_m2p_title">Maxfiylik rejimini yoqish</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Barmoq izi parametrlari o‘zgartirildi. Maxfiy rejimni yoqish uchun Ikki bosqichli tekshiruv chizmasini chizing.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Barmoq izi parametrlari o‘zgartirildi. Maxfiy rejimni yoqish uchun Ikki bosqichli tekshiruv PIN-kodini kiriting.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Barmoq izi parametrlari o‘zgartirildi. Maxfiy rejimni yoqish uchun Ikki bosqichli tekshiruv parolini kiriting.</string>
+    <string name="private_mode_bakcupkey_bt_text">Ikki bsqch teksh. foydal</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN-kod</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Namuna</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Parol</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%sdan foydalanish</string>
+    <string name="private_mode_bakcuppwd_bt_text">Zaxiradagi parol</string>
+    <string name="private_mode_migration_body_text">Maxfiy rejimga kirishda barmoq iziga muqobil sifatida chizma, PIN-kod yoki parolni o‘rnating.</string>
+    <string name="private_mode_migration_next_button">Keyingi</string>
+    <string name="private_mode_pattern_backup_pin_desc">Arxivlash PIN-kodi</string>
+</resources>

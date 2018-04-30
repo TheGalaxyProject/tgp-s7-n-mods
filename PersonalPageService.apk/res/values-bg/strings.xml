@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Личен режим</string>
+    <string name="personalpage_on">Личен режим е активиран.</string>
+    <string name="personalpage_on_available">Достъпно е лично съдържание.</string>
+    <string name="personalpage_off_not_available">Лично съдържание не е налично. Всякакво съдържание, което в момента се премества в „Лични“, няма да бъде преместено.</string>
+    <string name="failed_to_unmount">Не може да се деактивира Личен режим. Опитайте отново.</string>
+    <string name="pattern_help_text">Нарисувайте своя шаблон за Личен режим.</string>
+    <string name="password_help_text">Въведете своята парола за Личен режим.</string>
+    <string name="personal_page_disclaimer_by_locktype">За скриване на лично съдържание. Изберете начин на отключване за да използвате този режим. За да защитите скритото съдържание, деактивирайте този режим след употреба.</string>
+    <string name="do_not_show_again">Не показвай повече</string>
+    <string name="message_settings">Настр.</string>
+    <string name="incorrect_backup_pin">Неправилен архивен PIN.</string>
+    <string name="pattern_backuppin">Въведете PIN кода, използван като алтернатива на вашия шаблон.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Опитайте отново след %d секунди.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Опитайте пак след 1 секунда.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Опитайте пак след %d минути</string>
+    <string name="personalpage_off">Личен режим е деактивиран.</string>
+    <string name="personalpage_off_move_off">Личен режим е деактивиран. Всякакво съдържание, което в момента се премества в „Лични“, няма да бъде преместено.</string>
+    <string name="failed_to_mount">Неуспешно активиране на Личен режим. Опитайте отново.</string>
+    <string name="pattern_help_text_try_again">Нарисувахте неправилен шаблон. Опитайте отново.</string>
+    <string name="pin_help_text_try_again">Въвели сте неправилен PIN код. Опитайте отново.</string>
+    <string name="password_help_text_try_again">Въвели сте неправилна парола. Опитайте отново</string>
+    <string name="pin_help_text">Въведете своя PIN за Личен режим.</string>
+    <string name="personal_page_switch_off_message">Всякакво отворено съдържание ще бъде затворено. Всички промени, които не са записани, ще бъдат отхвърлени.</string>
+    <string name="private_mode_popup_btn_skip">Преск.</string>
+    <string name="private_mode_popup_screen_lock_title">Настр. заключване екран</string>
+    <string name="private_mode_popup_screen_lock_msg">За да подобрите защитата, докато използвате Личен режим, ви препоръчваме да промените типа заключване на екрана на защитен метод, след което разрешете Личен режим.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Личен режим ще се активира, когато избраното съдържание се прехвърли.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Отказ от права 
+Моля, имайте предвид, че съдържанието може да се появи в отделна папка във вашето устройство, когато се синхронизира автоматично от приложение на трета страна като Dropbox. Проверете настройките за автоматична синхронизация на другите ви приложения, преди да използвате личен режим."</string>
+    <string name="private_mode_popup_m2p_success_close">"Прехвърлянето приключи. 
+Изход от личен режим."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Прехвърлянето е непълно. 
+Изход от личен режим."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Вече е в ход друг процес. Опитайте отново, след като завърши.</string>
+    <string name="private_mode_pop_up_title">Деактивиране на личен режим</string>
+    <string name="private_mode_popup_m2p_msg">Личен режим ще бъде активиран, докато избраното съдържание се премества в „Лични“, и ще бъде деактивиран, след като прехвърлянето приключи.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Личен режим ще бъде активиран, докато избраните приложения се преместват в „Лични“, и ще бъде деактивиран, когато прехвърлянето завърши.
+
+Преместването на приложения в „Лични“ също така ще премести техните свързани приложения и свързани уиджети, а също техните преки пътища ще се изтрият. Докато Личен режим е деактивиран, няма да получавате уведомления от приложенията, които сте преместили в „Лични“."</string>
+    <string name="private_mode_popup_m2p_title">Активиране на Личен режим</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Настройките на пръстовия ви отпечатък са променени. Начертайте своя шаблон за двойно потвърждаване и активирайте Личен режим.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Настройките на пръстовия ви отпечатък са променени. Въведете своя PIN за двойно потвърждаване и активирайте Личен режим.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Настройките на пръстовия ви отпечатък са променени. Въведете своята парола за двойно потвърждаване и активирайте Личен режим.</string>
+    <string name="private_mode_bakcupkey_bt_text">Изп. двойно потвърждаване</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Шаблон</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Парола</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Използване на %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Резервна парола</string>
+    <string name="private_mode_migration_body_text">Задайте шаблон, PIN или парола, които да използвате като алтернатива на пръстовите отпечатъци, за осъществяване на достъп до Личен режим.</string>
+    <string name="private_mode_migration_next_button">Следващ</string>
+    <string name="private_mode_pattern_backup_pin_desc">Резервен PIN</string>
+</resources>

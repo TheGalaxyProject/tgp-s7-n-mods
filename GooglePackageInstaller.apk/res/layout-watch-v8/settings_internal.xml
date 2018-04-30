@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/setting_short_header_text_size" android:textColor="#ff9e9e9e" android:ellipsize="end" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/settings_header_top_margin" android:minHeight="@dimen/settings_header_base_height" android:maxLines="2" android:fontFamily="sans-serif-condensed-light" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/permissions_settings_item_color" android:ellipsize="end" android:id="@id/details" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/settings_header_top_margin" android:minHeight="@dimen/settings_header_base_height" android:maxLines="2" />
+    </LinearLayout>
+    <android.support.wearable.view.WearableListView android:id="@id/wheel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

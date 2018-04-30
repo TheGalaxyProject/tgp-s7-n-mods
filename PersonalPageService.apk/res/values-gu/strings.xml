@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ખાનગી મોડ</string>
+    <string name="personalpage_on">ખાનગી મોડ સક્ષમ કરેલ છે.</string>
+    <string name="personalpage_on_available">ખાનગી સામગ્રી ઉપલબ્ધ છે.</string>
+    <string name="personalpage_off_not_available">ખાનગી સામગ્રી ઉપલબ્ધ નથી. વર્તમાનમાં ખાનગી પર ખસેડવામાં આવી રહેલ કોઈપણ સામગ્રીને ખસેડવામાં આવશે નહીં.</string>
+    <string name="failed_to_unmount">ખાનગી મોડને અક્ષમ કરવામાં અસમર્થ. ફરી પ્રયત્ન કરો.</string>
+    <string name="pattern_help_text">ખાનગી મોડ માટે તમારી પેટર્ન દોરો.</string>
+    <string name="password_help_text">તમારો ખાનગી મોડ પાસવર્ડ દાખલ કરો.</string>
+    <string name="personal_page_disclaimer_by_locktype">વ્યક્તિગત સામગ્રી છુપાવો. આ મોડનો ઉપયોગ કરવા માટે, એક અનલોક પદ્ધતિ પસંદ કરો. છુપાવેલ સામગ્રીની રક્ષા કરવા માટે આ મોડને ઉપયોગ પછી અક્ષમ કરો.</string>
+    <string name="do_not_show_again">ફરી બતાવશો નહીં.</string>
+    <string name="message_settings">સેટિંગ્સ</string>
+    <string name="incorrect_backup_pin">ખોટો બેકઅપ PIN.</string>
+    <string name="pattern_backuppin">તમારી રીત પર વૈકલ્પિક તરીકે વપરાતો PIN દાખલ કરો.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d સેકંડ્સ પછી ફરી પ્રયાસ કરો.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 સેકંડમાં ફરીથી પ્રયાસ કરો</string>
+    <string name="personalpage_off">ખાનગી મોડ અક્ષમ છે.</string>
+    <string name="personalpage_off_move_off">ખાનગી મોડ અક્ષમ છે. વર્તમાનમાં ખાનગીમાં ખસેડાઇ રહેલી કોઇપણ સામગ્રી ખસેડવામાં આવશે નહીં.</string>
+    <string name="failed_to_mount">ખાનગી મોડ સક્ષમ કરવામાં નિષ્ફળ. ફરી પ્રયત્ન કરો.</string>
+    <string name="pattern_help_text_try_again">તમે ખોટી પેટર્ન દોરી છે. ફરી પ્રયાસ કરો.</string>
+    <string name="pin_help_text_try_again">તમે ખોટો ચૂકવણી PIN દાખલ કર્યો છે. ફરી પ્રયાસ કરો.</string>
+    <string name="password_help_text_try_again">તમે ખોટો પાસવર્ડ દાખલ કર્યો છે. ફરી પ્રયાસ કરો.</string>
+    <string name="pin_help_text">ખાનગી મોડ માટે તમારો PIN દાખલ કરો.</string>
+    <string name="personal_page_switch_off_message">કોઇપણ ખુલ્લી સામગ્રી બંધ થશે. તમે સંગ્રહ કરેલ ન હોય તેવા કોઇ ફેરફારોને કાઢી નાખવામાં આવશે.</string>
+    <string name="private_mode_popup_btn_skip">છોડી દો</string>
+    <string name="private_mode_popup_screen_lock_title">સ્ક્રીન લોક સેટિંગ્સ</string>
+    <string name="private_mode_popup_screen_lock_msg">ખાનગી મોડનો ઉપયોગ કરતી વખતે સુરક્ષા વધારવા માટે, અમે તમને તમારા સ્ક્રીન લોક પ્રકારને સુરક્ષિત પદ્ધતિમાં બદલવા, પછી ખાનગી મોડ સક્ષમ કરવાની ભલામણ કરીએ છીએ.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">પસંદ કરેલ સામગ્રીને સ્થળાંતરિત કરવામાં આવશે ત્યારે ખાનગી મોડ સક્રિય થશે.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"જાહેર અસ્વીકાર 
+કૃપયા ધ્યાન રાખો કે ડ્રોપબોક્ષ જેવા તૃતીય પક્ષ એપ્લિકેશન દ્વારા આપમેળ સહકાલીન થયેલ હોય ત્યારે સામગ્રી તમારા ઉપકરણમાં અલગ ફોલ્ડરમાં દેખાઈ શકે છે. ખાનગી મોડનો ઉપયોગ કરતાં પહેલા તમારા અન્ય એપ્લિકેશનોના સ્વત:સહકાલીનતા સેટિંગ્સ તપાસો."</string>
+    <string name="private_mode_popup_m2p_success_close">"સ્થળાંતરણ પૂર્ણ. 
+ખાનગી મોડની બહાર નીકળવું."</string>
+    <string name="private_mode_popup_m2p_failed_close">"સ્થાળાંતરણ અપૂર્ણ. 
+ખાનગી મોડની બહાર નીકળવું."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">બીજી પ્રક્રિયા પહેલેથી ચાલુ છે. તે સમાપ્ત થાય પછી ફરી પ્રયત્ન કરો.</string>
+    <string name="private_mode_pop_up_title">ખાનગી મોડ અક્ષમ કરો</string>
+    <string name="private_mode_popup_m2p_msg">પસંદ કરેલી સામગ્રીને ખાનગી પર ખસેડેલી હોય તે સમયે ખાનગી મોડ સક્ષમ થશે, એકવાર સ્થાનાંતરણ પૂર્ણ થાય પછી ફરીથી અક્ષમ થશે.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"પસંદ કરેલી એપ્લિકેશનોને ખાનગી પર ખસેડેલી હોય તે સમયે ખાનગી મોડ સક્ષમ થશે, એકવાર સ્થાનાંતરણ પૂર્ણ થાય પછી ફરીથી અક્ષમ થશે.
+
+એપ્લિકેશનોને ખાનગી પર ખસેડવું તે તેની લિંક કરેલ એપ્લિકેશનો અને સંબંધિત વિજેટ્સને પણ ખસેડશે અને તેના શોર્ટકટ્સને હટાવશે. જ્યારે ખાનગી મોડ અક્ષમ કરેલો હોય, ત્યારે તમને ખાનગી પર ખસેડેલી હોય તે એપ્લિકેશનો તરફથી તમને સૂચનાઓ પ્રાપ્ત થશે."</string>
+    <string name="private_mode_popup_m2p_title">ખાનગી મોડ સક્ષમ કરો</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">તમારી ફિંગરપ્રિન્ટ સેટિંગ્સ બદલાઈ ગઈ છે. ખાનગી મોડને સક્ષમ કરવા માટે તમારી ડબલ ચકાસણી પેટર્ન દોરો.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">તમારી ફિંગરપ્રિન્ટ સેટિંગ્સ બદલાઈ ગઈ છે. ખાનગી મોડને સક્ષમ કરવા માટે તમારો ડબલ ચકાસણી PIN દાખલ કરો.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">તમારી ફિંગરપ્રિન્ટ સેટિંગ્સ બદલાઈ ગઈ છે. ખાનગી મોડને સક્ષમ કરવા માટે તમારો ડબલ ચકાસણી પાસવર્ડ દાખલ કરો.</string>
+    <string name="private_mode_bakcupkey_bt_text">ડબલ ચકાસણીનો ઉપયોગ કરો</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">પેટર્ન</string>
+    <string name="private_mode_bakcupkey_bt_password_text">પાસવર્ડ</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s નો ઉપયોગ કરો</string>
+    <string name="private_mode_bakcuppwd_bt_text">બેકઅપ પાસવર્ડ</string>
+    <string name="private_mode_migration_body_text">ખાનગી મોડને ઍક્સેસ કરવા માટે તમારા ફિંગરપ્રિન્ટ્સનો એક વિકલ્પ તરીકે ઉપયોગ કરવા માટે પેટર્ન, PIN અથવા પાસવર્ડ સેટ કરો.</string>
+    <string name="private_mode_migration_next_button">પછીનું</string>
+    <string name="private_mode_pattern_backup_pin_desc">બેકઅપ PIN</string>
+</resources>

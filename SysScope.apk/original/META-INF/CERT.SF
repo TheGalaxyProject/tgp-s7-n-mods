@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: nOAG5EUwLY/pv8oosltSE0OhZzQ=
+Created-By: 1.0 (Android SignApk)
+
+Name: assets/databases/SysScope.db
+SHA1-Digest: nBxjYdDmcaH6hVvn6D+cXcV7EU0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: NoLCg/ZwMJbo7wKFonBCj+cZbbI=
+
+Name: SEC-INF/buildConfirm.crt
+SHA1-Digest: ir36zvd3F1FnMg/xKS909hQVlS8=
+
+Name: res/drawable-mdpi-v4/icon.qmg
+SHA1-Digest: uZ9nkL5JLnGIXFJJqSEAMe+hPzE=
+
+Name: res/drawable-ldpi-v4/icon.qmg
+SHA1-Digest: SKlb3I3yjMEmD/5rY2y7d7x2DmQ=
+
+Name: res/layout/main.xml
+SHA1-Digest: cpXDlaH2c29Au0ol5WGr75dVuTE=
+
+Name: SEC-INF/buildinfo.xml
+SHA1-Digest: Bo6MUJ0wcKtH+Vm3L6e2/9o6odc=
+
+Name: resources.arsc
+SHA1-Digest: /N5xoyL0VrE2pjrmVUMzzgIiWJs=
+
+Name: res/drawable-hdpi-v4/icon.qmg
+SHA1-Digest: hzfFY7HApwss2Sf3APJqLCKjvl4=
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/perm_desc_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/permission_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="fitCenter" android:tint="?android:colorAccent" />
+    <TextView android:textSize="20.0sp" android:id="@id/permission_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" style="@android:style/TextAppearance.Material.Subhead" />
+</LinearLayout>

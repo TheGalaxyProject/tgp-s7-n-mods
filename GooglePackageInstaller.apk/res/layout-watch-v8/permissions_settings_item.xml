@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.wearable.view.CircledImageView android:layout_gravity="center_vertical" android:id="@id/image" android:layout_width="52.0dip" android:layout_height="52.0dip" android:alpha="0.5" app:circle_color="#00000000" app:circle_border_width="1.0dip" app:circle_border_color="#ffffffff" app:image_tint="#ffffffff" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_text_margin_left">
+        <TextView android:textSize="14.0sp" android:textColor="@color/permissions_settings_item_color" android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:alpha="0.5" android:fontFamily="sans-serif-condensed-light" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/permissions_settings_item_color" android:ellipsize="end" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:alpha="0.5" android:fontFamily="sans-serif-condensed-light" />
+    </LinearLayout>
+</LinearLayout>

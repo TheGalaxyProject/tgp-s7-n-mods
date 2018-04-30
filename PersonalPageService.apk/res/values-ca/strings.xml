@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Mode privat</string>
+    <string name="personalpage_on">Mode Privat habilitat.</string>
+    <string name="personalpage_on_available">Contingut privat disponible.</string>
+    <string name="personalpage_off_not_available">"Contingut privat no disponible. Qualsevol contingut que s'estigui movent actualment a Privat no es mourà."</string>
+    <string name="failed_to_unmount">No es pot deshabilitar el mode Privat. Torni a intentar.</string>
+    <string name="pattern_help_text">Dibuixi el seu patró del mode Privat.</string>
+    <string name="password_help_text">Introdueixi la seva contrasenya de mode Privat.</string>
+    <string name="personal_page_disclaimer_by_locktype">"Ocultar contingut personal. Per utilitzar aquest mode, seleccioni un mètode de desbloqueig. Deshabiliti aquest mode després d'utilitzar-lo per protegir el contingut ocult."</string>
+    <string name="do_not_show_again">No tornar a mostrar.</string>
+    <string name="message_settings">Ajustam</string>
+    <string name="incorrect_backup_pin">PIN de còpia de seguretat incorrecte</string>
+    <string name="pattern_backuppin">Introdueixi el PIN utilitzat com a alternativa al patró</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Torni-ho a intentar en %d segons</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Torni a intentar-ho en 1 segon</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Torni-ho a intentar en %d minuts</string>
+    <string name="personalpage_off">Mode Privat deshabilitat.</string>
+    <string name="personalpage_off_move_off">"Mode Privat deshabilitat. Qualsevol contingut que s'estigui movent actualment a Privat no es mourà."</string>
+    <string name="failed_to_mount">Error en habilitar el mode Privat. Torni-ho a intentar.</string>
+    <string name="pattern_help_text_try_again">Ha dibuixat un patró incorrecte. Torni-ho a intentar.</string>
+    <string name="pin_help_text_try_again">Ha introduït un PIN incorrecte. Torni-ho a intentar.</string>
+    <string name="password_help_text_try_again">Ha introduït una contrasenya incorrecta. Torni-ho a intentar.</string>
+    <string name="pin_help_text">Introdueixi el PIN per a mode Privat.</string>
+    <string name="personal_page_switch_off_message">Es tancarà qualsevol contingut obert. Els canvis que no hagi desat es descartaran.</string>
+    <string name="private_mode_popup_btn_skip">Ometre</string>
+    <string name="private_mode_popup_screen_lock_title">Ajust. bloq. de pantalla</string>
+    <string name="private_mode_popup_screen_lock_msg">Per millorar la seguretat mentre utilitza el mode Privat, li recomanem que canviï el tipus de bloqueig de pantalla al mètode segur i habiliti el mode Privat.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">"El Mode privat s'activarà quan finalitzi la transferència del contingut seleccionat."</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Exempció de responsabilitat 
+Tingui en compte que el contingut pot aparèixer a una carpeta independent del seu dispositiu quan se sincronitzi automàticament amb una aplicació d'altres proveïdors, com ara Dropbox. Comprovi la configuració de sincronització automàtica de les altres aplicacions abans d'utilitzar el Mode privat."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transferència completa. 
+Sortint del Mode Privat."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transferència incompleta. 
+Sortint del Mode Privat."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Ja hi ha un altre procés en curs. Torni a intentar-ho quan acabi.</string>
+    <string name="private_mode_pop_up_title">Deshabilitar mode Privat</string>
+    <string name="private_mode_popup_m2p_msg">"S'habilitarà el mode Privat mentre el contingut seleccionat es mou a Privat, i es tornarà a deshabilitar quan es completi la transferència."</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"El mode Privat s'habilitarà mentre es mouen les aplicacions seleccionades a Privat i es tornarà a deshabilitar quan es completi la transferència.
+
+Moure les aplicacions a Privat també mourà les seves aplicacions enllaçades i els widgets relacionats, i esborrarà els seus accessos directes. Mentre el mode Privat estigui deshabilitat, no rebrà notificacions de les aplicacions que hagi mogut a Privat."</string>
+    <string name="private_mode_popup_m2p_title">Habilitar mode Privat</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">"Els ajustaments de l'empremta han canviat. Dibuixi el patró de verificació doble per activar el mode Privat."</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"Els ajustaments de l'empremta han canviat. Introdueixi el PIN de verificació doble per activar el mode Privat."</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">"Els ajustaments de l'empremta han canviat. Introdueixi la contrasenya de verificació doble per activar el mode Privat."</string>
+    <string name="private_mode_bakcupkey_bt_text">Utilitz verificació doble</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Patró</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Contrasenya</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Utilitzar %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Contrasenya alternativa</string>
+    <string name="private_mode_migration_body_text">"Estableixi un patró, un PIN o una contrasenya a fi d'utilitzar-los com a alternativa a les empremtes per accedir al mode Privat."</string>
+    <string name="private_mode_migration_next_button">Següent</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN de còpia de seguretat</string>
+</resources>

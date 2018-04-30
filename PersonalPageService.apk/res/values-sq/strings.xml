@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Regjimi privat</string>
+    <string name="personalpage_on">Regjimi privat u aftësua.</string>
+    <string name="personalpage_on_available">Ka materiale private në dispozicion.</string>
+    <string name="personalpage_off_not_available">Materialet private nuk janë në dispozicion. Çdo material që po çohej në Privat nuk do të zhvendoset.</string>
+    <string name="failed_to_unmount">Nuk munda të paaftësoj Regjimin privat. Provo sërish.</string>
+    <string name="pattern_help_text">Vizato motivin për Regjimin privat.</string>
+    <string name="password_help_text">Fut fjalëkalimin tënd për Regjimin privat.</string>
+    <string name="personal_page_disclaimer_by_locktype">Fshih materialet personale. Për ta përdorur këtë regjim, përzgjidh një mënyrë zhbllokimi. Paaftësoje këtë regjim pasi ta përdorësh, për të mbrojtur materialet e fshehura.</string>
+    <string name="do_not_show_again">Mos e shfaq më</string>
+    <string name="message_settings">Cilësimet</string>
+    <string name="incorrect_backup_pin">PIN i pasaktë rezervë.</string>
+    <string name="pattern_backuppin">Fut PIN-in që përdor si alternativë ndaj motivit.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Provo përsëri për %d sekonda.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Provo sërish për 1 sekondë.</string>
+    <string name="personalpage_off">Regjimi privat u paaftësua.</string>
+    <string name="personalpage_off_move_off">Regjimi Privat u paaftësua. Çdo material që po çohej në Privat nuk do të zhvendoset.</string>
+    <string name="failed_to_mount">Dështova të aftësoj Regjimin privat. Provo sërish.</string>
+    <string name="pattern_help_text_try_again">Vizatove një motiv të pasaktë. Provo sërish.</string>
+    <string name="pin_help_text_try_again">E ke futur gabim PIN-in. Provo sërish.</string>
+    <string name="password_help_text_try_again">E ke futur gabim fjalëkalimin. Provo sërish</string>
+    <string name="pin_help_text">Fut PIN-in tënd për Regjimin privat.</string>
+    <string name="personal_page_switch_off_message">Çdo material i hapur do të mbyllet. Të gjitha ndryshimet që nuk ke ruajtur do të shpërfillen.</string>
+    <string name="private_mode_popup_btn_skip">Kalo</string>
+    <string name="private_mode_popup_screen_lock_title">Cil. e bllok. të ekranit</string>
+    <string name="private_mode_popup_screen_lock_msg">Për të përmirësuar sigurinë kur përdor Regjimin privat, rekomandojmë që ta ndryshosh llojin e bllokimit të ekranit në një mënyrë të sigurt, pastaj të aftësosh Regjimin privat.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Regjimi privat do të aktivizohet kur të transferohet përmbajtja e zgjedhur.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Mohimi i përgjegjësisë 
+Ju lutemi të jeni në didjeni se përmbajtja mund të shfaqet në një dosje tjetër në pajisjen tuaj kur sinkronizohet automatikisht nga një aplikacion i palëve të treta, si Dropbox. Kontrolloni parametrat e sinkronizimit automatik të aplikacioneve të tjera para se të përdorni Regjimin privat."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transferimi i plotë. 
+Duke dalë nga Regjimi privat."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transferimi i kryer jo plotësisht. 
+Duke dalë nga Regjimi privat."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Ka një tjetër proces duke u kryer. Provo sërish pasi të përfundojë.</string>
+    <string name="private_mode_pop_up_title">Paaftëso Regjimin privat</string>
+    <string name="private_mode_popup_m2p_msg">Regjimi privat do të aftësohet kur materialet e përzgjedhura çohen në Privat dhe pastaj do të paaftësohet sërish pasi të përfundohet transferimi.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Regjimi privat do të aftësohet gjatë kohës që aplikacionet e përzgjedhura po çohen në Privat dhe do të paaftësohet sapo të kryhet transferimi.
+
+Po të zhvendosësh aplikacionet në Privat, edhe aplikacionet e lidhura dhe widget-et e ndërlidhura me to do të zhvendosen dhe shkurtoret përkatëse do të hiqen. Kur të paaftësohet Regjimi privat, nuk do të marrësh njoftime nga aplikacionet që ke çuar në Privat."</string>
+    <string name="private_mode_popup_m2p_title">Aftëso regjimin Privat</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Cilësimet e shenjave të gishtit janë ndryshuar. Vizato motivin e Verifikimit të dyfishtë për të aftësuar Regjimin privat.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Cilësimet e shenjave të gishtit janë ndryshuar. Fut PIN-in e Verifikimit të dyfishtë për të aftësuar Regjimin privat.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Cilësimet e shenjave të gishtit janë ndryshuar. Fut fjalëkalimin e Verifikimit të dyfishtë për të aftësuar Regjimin privat.</string>
+    <string name="private_mode_bakcupkey_bt_text">Përdor verif. të dyfishtë</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Kombinimi</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Fjalëkalimi</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Përdor %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Fjalëkalimi rezervë</string>
+    <string name="private_mode_migration_body_text">Cilëso një motiv, PIN ose fjalëkalim për ta përdorur si alternativë ndaj shenjave të gishtit, për akses në Regjimin privat.</string>
+    <string name="private_mode_migration_next_button">Tjetri</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN-i rezervë</string>
+</resources>

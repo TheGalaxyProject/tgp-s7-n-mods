@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>በመቃኘት ላይ.....</item>
+        <item>በማገናኘት ላይ…</item>
+        <item>በማረጋገጥ ላይ....</item>
+        <item>የIP አድራሻ በማግኘት ላይ...</item>
+        <item>ተገናኝቷል</item>
+        <item>ታግዷል</item>
+        <item>በማለያየት ላይ....</item>
+        <item>ተለያየ</item>
+        <item>አልተሳካም</item>
+        <item>ታግዷል</item>
+        <item>ለጊዜያዊነት ከደካማ ግኑኝነት በመታቀብ ላይ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>በመቃኘት ላይ.....</item>
+        <item>%1$s በማያያዝ ላይ...</item>
+        <item>በ%1$s በማረጋገጥ ላይ...</item>
+        <item>" ከ%1$s የIP አድራሻ በማግኘት ላይ..."</item>
+        <item>ለ%1$s የተገናኘ</item>
+        <item>ታግዷል</item>
+        <item>ከ%1$s በማለያየት ላይ....</item>
+        <item>ተለያየ</item>
+        <item>አልተሳካም</item>
+        <item>ታግዷል</item>
+        <item>ለጊዜያዊነት ከደካማ ግኑኝነት በመታቀብ ላይ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>በፍፁም አትመልከት</item>
+        <item>የDRM ይዘት ብቻ ተመልከት</item>
+        <item>ሁልጊዜ ተመልከት</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>በፍፁም HDCP ምልከታ አትጠቀም</item>
+        <item>"ለDRM ይዘት ብቻ HDCP  ምልከታን ተጠቀም"</item>
+        <item>ሁልጊዜ የHDCP ምልከታ ተጠቀም</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ</item>
+        <item>256 ኪባ</item>
+        <item>1 ሜባ</item>
+        <item>4 ሜባ</item>
+        <item>16 ሜባ</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ</item>
+        <item>256 ኪባ</item>
+        <item>1 ሜባ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>256 ኪባ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>1 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>4 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>16 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ.5x</item>
+        <item>የእነማ ልኬት ለውጥ1x</item>
+        <item>የእነማ ልኬት ለውጥ1.5x</item>
+        <item>የእነማ ልኬት ለውጥ2x</item>
+        <item>የእነማ ልኬት ለውጥ5x</item>
+        <item>የእነማ ልኬት ለውጥ10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ.5x</item>
+        <item>የእነማ ልኬት ለውጥ1x</item>
+        <item>"የእነማ  ልኬት ለውጥ1.5x"</item>
+        <item>የእነማ ልኬት ለውጥ2x</item>
+        <item>የእነማ ልኬት ለውጥ5x</item>
+        <item>የእነማ ልኬት ለውጥ10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ .5x</item>
+        <item>የእነማ ልኬት ለውጥ 1x</item>
+        <item>የእነማ ልኬት ለውጥ 1.5x</item>
+        <item>የእነማ ልኬት ለውጥ 2x</item>
+        <item>የእነማ ልኬት ለውጥ 5x</item>
+        <item>የእነማ ልኬት ለውጥ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ምንም የለም</item>
+        <item>480ፒክሰል</item>
+        <item>480ፒ (የተጠበቀ)</item>
+        <item>720ፒ</item>
+        <item>720ፒ (የተጠበቀ)</item>
+        <item>1080ፒ</item>
+        <item>1080ፒ (የተጠበቀ)</item>
+        <item>4ኬ</item>
+        <item>4ኬ (የተጠበቀ)</item>
+        <item>4ኬ (ከፍ ተድርጎ የተመጣጠነ)</item>
+        <item>4ኬ (ከፍ ተድርጎ የተመጣጠነ፣ የተጠበቀ)</item>
+        <item>720ፒ፣ 1080ፒ (ሁለትዮሽ ማያ ገጽ)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ምንም</item>
+        <item>Logcat</item>
+        <item>Systrace (ግራፊክስ)</item>
+        <item>የጥሪ ቁልል በ glGetError ላይ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ጠፍቷል</item>
+        <item>አራት ማእዘን ያልሆነ የቅንጥብ ክልልን በሰማያዊ ይሳሉ</item>
+        <item>የተሞከሩ የስእል ትእዛዞችን በአረንጓዴ ያድምቁ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ጠፍቷል</item>
+        <item>ማያ ገጽ ላይ እንደ አሞሌዎች</item>
+        <item>በ adb shell dumpsys gfxinfo ውስጥ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ጠፍቷል</item>
+        <item>ስዕሉ አልፎ የፈሰሰባቸው አካባቢዎችን አሳይ</item>
+        <item>ቀይ እና አረንጓዴ የማይለይባቸው ቦታዎች አሳይ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>መደበኛ ወሰኖች</item>
+        <item>ምንም የዳራ ሂደቶች የሉም</item>
+        <item>"ቢበዛ 1  ሂደት"</item>
+        <item>"ቢበዛ 2  ሂደቶች"</item>
+        <item>"ቢበዛ 3  ሂደቶች"</item>
+        <item>"ቢበዛ 4  ሂደቶች"</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ኃይል በመሙላት ላይ</item>
+        <item>MTP (የሚዲያ ማስተላለፍ ፕሮቶኮል)</item>
+        <item>PTP (የስዕል ማስተላለፍ ፕሮቶኮል)</item>
+        <item>RNDIS (ዩኤስቢ ኤተርኔት)</item>
+        <item>የኦዲዮ ምንጭ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>በጣም ቀርፋፋ</item>
+        <item>ቀርፋፋ</item>
+        <item>መደበኛ</item>
+        <item>ፈጣን</item>
+        <item>በጣም ፈጣን</item>
+        <item>እጅግ በጣም ፈጣን</item>
+        <item>ቀልጣፋ</item>
+        <item>በጣም ቀልጣፋ</item>
+        <item>እጅግ በጣም ቀልጣፋ</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ነዛሪ (ነባሪ)</item>
+        <item>ተፈጥሯዊ</item>
+        <item>መደበኛ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>የበለጸጉ ቀለማት</item>
+        <item>ልክ በዓይን እንደሚታዩት የተፈጥሮ ቀለማት</item>
+        <item>ለዲጂታል ይዘት የላቁ ቀለማት</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+</resources>

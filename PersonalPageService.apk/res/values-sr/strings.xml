@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privatan režim</string>
+    <string name="personalpage_on">Režim Privatno je omogućen.</string>
+    <string name="personalpage_on_available">Privatni sadržaj je dostupan.</string>
+    <string name="personalpage_off_not_available">Privatni sadržaj nije dostupan. Sadržaj koji se trenutno premešta u folder Privatno neće biti premešten.</string>
+    <string name="failed_to_unmount">Nije moguće onemogućiti režim Privatno. Pokušaj ponovo.</string>
+    <string name="pattern_help_text">Nacrtaj obrazac za režim Privatno.</string>
+    <string name="password_help_text">Unesi lozinku za režim Privatno.</string>
+    <string name="personal_page_disclaimer_by_locktype">Sakrij lični sadržaj. Da bi koristio/la ovaj režim, izaberi način otključavanja. Onemogući ovaj režim nakon njegovog korišćenja za zaštitu sakrivenog sadržaja.</string>
+    <string name="do_not_show_again">Ne prikazuj ponovo</string>
+    <string name="message_settings">Podešav.</string>
+    <string name="incorrect_backup_pin">Neispravan bekap PIN koda.</string>
+    <string name="pattern_backuppin">Unesi PIN koji je korišćen kao alternativa za tvoj obrazac.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Probaj ponovo za %d sekundi.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Pokušaj ponovo nakon jedne sekunde.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Pokušajte ponovo za %d minuta</string>
+    <string name="personalpage_off">Režim Privatno nije omogućen.</string>
+    <string name="personalpage_off_move_off">Režim Privatno je onemogućen. Sadržaj koji se trenutno premešta u folder Privatno neće biti premešten.</string>
+    <string name="failed_to_mount">Neuspešno omogućavanje režima Privatno. Pokušaj ponovo.</string>
+    <string name="pattern_help_text_try_again">Nacrtao/la si netačan oblik. Pokušaj ponovo.</string>
+    <string name="pin_help_text_try_again">Uneo/la si netačan PIN. Pokušaj ponovo.</string>
+    <string name="password_help_text_try_again">Uneo/la si netačnu lozinku. Pokušaj ponovo</string>
+    <string name="pin_help_text">Unesi PIN kod za režim Privatno.</string>
+    <string name="personal_page_switch_off_message">Svaki otvoreni sadržaj će biti zatvoren. Sve izmene koje nisi sačuvao/la će biti odbačene.</string>
+    <string name="private_mode_popup_btn_skip">Preskoči</string>
+    <string name="private_mode_popup_screen_lock_title">Podeš. zaključ. ekrana</string>
+    <string name="private_mode_popup_screen_lock_msg">Da bi poboljšao/la zaštitu tokom korišćenja režima Privatno, preporučuje se da promeniš tip zaključavanja ekrana na bezbedan način, a zatim i da omogućiš režim Privatno.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privatan režim će se aktivirati prilikom prebacivanja izabranog sadržaja.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Odricanje odgovornosti 
+Imajte u vidu da sadržaj može da se prikaže u odvojenoj fascikli na uređaju kada ga automatski sinhronizuje nezavisna aplikacija kao što je Dropbox. Proverite postavke drugih aplikacija za automatsku sinhronizaciju pre upotrebe Privatnog režima."</string>
+    <string name="private_mode_popup_m2p_success_close">"Prebacivanje je dovršeno. 
+Zatvaram Privatan režim."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Prebacivanje nije dovršeno. 
+Zatvaram Privatan režim."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Drugi proces je već u toku. Pokušaj ponovo kada se završi.</string>
+    <string name="private_mode_pop_up_title">Onemogućiti režim Privatno</string>
+    <string name="private_mode_popup_m2p_msg">Tokom premeštanja izabranog sadržaja u folder Privatno biće omogućen režim Privatno, a zatim nakon završetka prenosa on će biti ponovo onemogućen.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Režim Privatno će biti omogućen tokom premeštanja izabranih aplikacija u folder Privatno, a zatim nakon završetka prenosa on će biti ponovo onemogućen.
+
+Premeštanjem aplikacija u folder Privatno premestiće se i njihove povezane aplikacije i odgovarajući widget-i a izbrisaće se i njihove prečice. Kada je onemogućen režim Privatno, nećeš primati obaveštenja sa aplikacija koje si premestio/la u folder Privatno."</string>
+    <string name="private_mode_popup_m2p_title">Omogući režim Privatno</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Podešavanja za vaš otisak prsta su promenjena. Nacrtajte obrazac za Dvostruku verifikaciju za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Podešavanja za vaš otisak prsta su promenjena. Unesite svoj PIN kod za Dvostruku verifikaciju za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Podešavanja za vaš otisak prsta su promenjena. Unesite svoju lozinku za Dvostruku verifikaciju za omogućavanje Privatnog režima.</string>
+    <string name="private_mode_bakcupkey_bt_text">Koristi dvost. verifikac.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN kod</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Šema</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Lozinka</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Koristi %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Alternativna lozinka</string>
+    <string name="private_mode_migration_body_text">Podesite obrazac, PIN kod ili lozinku koju ćete koristiti kao alternativu za svoje otiske prstiju da biste pristupili Privatnom režimu.</string>
+    <string name="private_mode_migration_next_button">Naredna</string>
+    <string name="private_mode_pattern_backup_pin_desc">Bekap PIN</string>
+</resources>

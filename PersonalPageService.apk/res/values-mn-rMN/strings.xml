@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Хувийн горим</string>
+    <string name="personalpage_on">Хувийн горим идэвхжсэн.</string>
+    <string name="personalpage_on_available">Хувийн контент байна.</string>
+    <string name="personalpage_off_not_available">Хувийн контент байхгүй. Хувийн горим руу зөөх гэж буй контентуудыг зөөх боломжгүй.</string>
+    <string name="failed_to_unmount">Хувийн горим идэвхгүй болгох боломжгүй. Ахин оролд.</string>
+    <string name="pattern_help_text">Хувийн горимын өөрийн хээг зур.</string>
+    <string name="password_help_text">Хувийн горимын нууц үгээ оруул.</string>
+    <string name="personal_page_disclaimer_by_locktype">Хувийн агуулга нуу. Энэ горимыг ашиглахын тулд нээх арга сонго. Нуусан агуулгыг хамгаалахын тулд хэрэглэсний дараа энэ горимыг идэвхгүй болго.</string>
+    <string name="do_not_show_again">Дахин бүү харуул</string>
+    <string name="message_settings">Тохиргоо</string>
+    <string name="incorrect_backup_pin">Нөөцийн PIN буруу</string>
+    <string name="pattern_backuppin">Хээнийхээ оронд ашиглах PIN оруул</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d секундын дараа дахин оролдоно уу</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 секундын дараа дахин оролд.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d минутын дараа дахин оролд</string>
+    <string name="personalpage_off">Хувийн горим идэвхгүй болсон.</string>
+    <string name="personalpage_off_move_off">Хувийн горим идэвхгүй боллоо. Хувийн горим руу зөөж байгаа ямар ч контент зөөгдөхгүй.</string>
+    <string name="failed_to_mount">Хувийн горим идэвхжүүлж чадсангүй. Ахин оролд.</string>
+    <string name="pattern_help_text_try_again">Та буруу хээ зурсан. Ахин оролд.</string>
+    <string name="pin_help_text_try_again">Та буруу PIN оруулсан. Дахин оролд</string>
+    <string name="password_help_text_try_again">Та буруу нууц үг оруулсан. Дахин оролд</string>
+    <string name="pin_help_text">Хувийн горимын PIN-ээ оруул.</string>
+    <string name="personal_page_switch_off_message">Аливаа нээлттэй агуулга хаагдана. Таны хадгалаагүй аливаа өөрчлөлт орхигдоно.</string>
+    <string name="private_mode_popup_btn_skip">Алгасах</string>
+    <string name="private_mode_popup_screen_lock_title">Дэл. түгжээний тохиргоо</string>
+    <string name="private_mode_popup_screen_lock_msg">Хувийн горимыг ашиглаж байхдаа аюулгүй байдлыг дээшлүүлэхийн тулд дэлгэцийн түгжээний төрлөө хамгаалалттай арга руу шилжүүлээд, Хувийн горимыг идэвхжүүлэхийг зөвлөж байна.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Closing Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Өөр ажиллагаа аль хэдийн явагдаж байна. Үүнийг дууссаны дараа дахин оролд.</string>
+    <string name="private_mode_pop_up_title">Хувийн горим идэвхгүй болгох</string>
+    <string name="private_mode_popup_m2p_msg">Сонгосон контентыг Хувийнх руу зөөх явцад Хувийн горим идэвхжих бөгөөд дамжуулалт дуусангуут дахин идэвхгүй болно.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Сонгосон хэрэглүүрийг Хувийнх руу зөөх явцад Хувийн горим идэвхжих бөгөөд дамжуулалт дуусангуут дахин идэвхгүй болно.
+
+Хэрэглүүрийг Хувийнх руу зөөхөд тэдгээртэй холбоотой хэр-д болон холбогдох тоноглолуудыг мөн зөөж, холбоосуудыг нь устгана. Хувийн горимыг идэвхгүй болгосон үед та Хувийнх руу зөөсөн хэр-н мэдэгдлийг хүлээн авахгүй."</string>
+    <string name="private_mode_popup_m2p_title">Хувийн горим идэвхжүүлэх</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Таны хурууны хээний тохиргоо өөрчлөгдлөө. Та давхар баталгаажуулах хээгээ зураад Хувийн горимыг идэвхжүүлнэ үү.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Таны хурууны хээний тохиргоо өөрчлөгдлөө. Та давхар баталгаажуулах PIN оруулаад Хувийн горимыг идэвхжүүлнэ үү.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Таны хурууны хээний тохиргоо өөрчлөгдлөө. Та давхар баталгаажуулах нууц үгээ оруулаад Хувийн горимыг идэвхжүүлнэ үү.</string>
+    <string name="private_mode_bakcupkey_bt_text">Давхар бат.лт ашигла</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Дүрс</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Нууц үг</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ашиглах</string>
+    <string name="private_mode_bakcuppwd_bt_text">Нууц үг нөөцлөх</string>
+    <string name="private_mode_migration_body_text">Хувийн горимд хандахдаа хурууны хээнийхээ хувилбар болгож ашиглах хээ, PIN, нууц үгийг тохируул.</string>
+    <string name="private_mode_migration_next_button">Цааш</string>
+    <string name="private_mode_pattern_backup_pin_desc">Нөөцийн PIN</string>
+</resources>

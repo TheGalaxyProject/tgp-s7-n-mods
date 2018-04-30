@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">පෞද්ගලික ප්‍රකාරය</string>
+    <string name="personalpage_on">පෞද්ගලික ප්‍රකාරය සක්‍රිය කෙරිණි.</string>
+    <string name="personalpage_on_available">පෞද්ගලික අන්තර්ගතය ඇත.</string>
+    <string name="personalpage_off_not_available">පෞද්ගලික අන්තර්ගතය නොපවතී. දැනට පෞද්ගලික වෙත ගෙන යමින් ඇති අන්තර්ගතය කිසිවක් ගෙන නොයනු ඇත.</string>
+    <string name="failed_to_unmount">පෞද්ගලික ප්‍රකාරය අක්‍රිය කළ නොහැක. නැවත උත්සාහ කරන්න.</string>
+    <string name="pattern_help_text">පෞද්ගලික ප්‍රකාරය සඳහා ඔබේ රටාව අඳින්න.</string>
+    <string name="password_help_text">ඔබේ පෞද්ගලික ප්‍රකාර මුරපදය ඇතුළත් කරන්න.</string>
+    <string name="personal_page_disclaimer_by_locktype">පුද්ගලික අන්තර්ගත සඟවන්න. මෙම ප්‍රකාරය භාවිතා කිරීමට අගුලුහරණ ක්‍රමයක් තෝරන්න. සැඟවුණු අන්තර්ගතය ආරක්ෂා කිරීමට මෙම ප්‍රකාරය භාවිතයෙන් පසු එය නැවත අක්‍රිය කරන්න.</string>
+    <string name="do_not_show_again">නැවත නොපෙන්වන්න.</string>
+    <string name="incorrect_backup_pin">වැරදි අමතර PIN අංකයක්.</string>
+    <string name="pattern_backuppin">ඔබගේ රටාවට විකල්පයක් ලෙස භාවිතා කළ PIN එක ඇතුළු කරන්න.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">තත්පර %d කින් නැවත උත්සාහ කරන්න.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">තත්පර 1 කින් නැවත උත්සාහ කරන්න.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">විනාඩි %d කින් නැවත උත්සාහ කරන්න</string>
+    <string name="personalpage_off">පෞද්ගලික ප්‍රකාරය අක්‍රියයි.</string>
+    <string name="personalpage_off_move_off">පෞද්ගලික ප්‍රකාරය අක්‍රියයි. දැනට පෞද්ගලික වෙත ගෙන යන කිසිදු අන්තර්ගතයක් ගෙන නොයනු ඇත.</string>
+    <string name="failed_to_mount">පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීමට අසමත් විය. නැවත උත්සාහ කරන්න.</string>
+    <string name="pattern_help_text_try_again">ඔබ වැරදි රටාවක් ඇඳ ඇත. නැවත උත්සාහ කරන්න.</string>
+    <string name="pin_help_text_try_again">ඔබ වැරදි ගෙවීම් PIN එකක් ඇතුළු කර ඇත. නැවත උත්සාහ කරන්න.</string>
+    <string name="password_help_text_try_again">ඔබ වැරදි මුරපදයක් ඇතුළු කර ඇත. නැවත උත්සාහ කරන්න.</string>
+    <string name="pin_help_text">පුද්ගලික ප්‍රකාරය සඳහා ඔබගේ PIN ඇතුළු කරන්න.</string>
+    <string name="personal_page_switch_off_message">ඕනෑම විවෘත අන්තර්ගතයක් වැසෙනු ඇත. සුරකිනු නොලැබූ වෙනස්කම් සියල්ල ඉවත ලනු ඇත.</string>
+    <string name="private_mode_popup_btn_skip">මගහරින්න</string>
+    <string name="private_mode_popup_screen_lock_title">තිර අගුළු සැකසුම්</string>
+    <string name="private_mode_popup_screen_lock_msg">පෞද්ගලික ප්‍රකාරය භාවිතා කරන අතරේ වැඩි ආරක්ෂාවක් ලබා ගැනීමට, ඔබේ තිර අගුලු ආකාරය ආරක්ෂිත ක්‍රමයට වෙනස් කොට, අනතුරුව පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීම යෝග්‍ය වේ.</string>
+    <string name="private_mode_popup_m2p_success_close">"මාරු කිරීම සම්පූර්ණයි. 
+පුද්ගලික ප්‍රකාරයෙන් ඉවත් වීම."</string>
+    <string name="private_mode_popup_m2p_failed_close">"මාරු කිරීම අසම්පූර්ණයි. 
+පුද්ගලික ප්‍රකාරයෙන් ඉවත් වීම."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">දැනටමත් වෙනත් ක්‍රියාවලියක් සිදු වෙමින් පවතී. එය අවසන් වූ විට නැවත උත්සාහ කරන්න.</string>
+    <string name="private_mode_pop_up_title">පෞද්ගලික ප්‍රකාරය අක්‍රිය කිරීම</string>
+    <string name="private_mode_popup_m2p_msg">තේරූ අන්තර්ගතය පෞද්ගලික වෙත ගෙන යන අතරතුර පෞද්ගලික ප්‍රකාරය සක්‍රිය වනු ඇති අතර, මාරුව අවසන් වූ පසු නැවත අක්‍රිය වනු ඇත.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"තේරූ යෙදුම් පෞද්ගලික වෙත ගෙන යන අතරතුර පෞද්ගලික ප්‍රකාරය සක්‍රිය වනු ඇති අතර, මාරුව අවසන් වූ විට නැවත අක්‍රිය වනු ඇත.
+
+පෞද්ගලික වෙත යෙදුම් ගෙන යාම මගින් ඒවායේ සබැඳි යෙදුම් සහ ආශ්‍රිත විජෙට්ටු ද ගෙන යනු ලැබී ඒවායේ කෙටිමං මකනු ඇත. පෞද්ගලික ප්‍රකාරය අක්‍රිය අතරතුර, ඔබ පෞද්ගලික වෙත ගෙන ගිය යෙදුම් වෙතින් දැනුම්දීම් නොලැබෙනු ඇත."</string>
+    <string name="private_mode_popup_m2p_title">පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීම</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ඔබේ ඇඟිලි සලකුණු සැකසුම් වෙනස් කෙරිණි. පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීමට ඔබේ ද්වි සත්‍යාපන රටාව අඳින්න.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ඔබේ ඇඟිලි සලකුණු සැකසුම් වෙනස් කෙරිණි. පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීමට ඔබේ ද්වි සත්‍යාපන PIN ඇතුළු කරන්න.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ඔබේ ඇඟිලි සලකුණු සැකසුම් වෙනස් කෙරිණි. පෞද්ගලික ප්‍රකාරය සක්‍රිය කිරීමට ඔබේ ද්වි සත්‍යාපන මුරපදය ඇතුළු කරන්න.</string>
+    <string name="private_mode_bakcupkey_bt_text">ද්වි සත්‍යාපනය භාවිතා කර.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">මෝස්තරය</string>
+    <string name="private_mode_bakcupkey_bt_password_text">මුරපදය</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s භාවිත කරන්න</string>
+    <string name="private_mode_bakcuppwd_bt_text">උපස්ථ මුරපදය</string>
+    <string name="private_mode_migration_body_text">පෞද්ගලික ප්‍රකාරය වෙත ප්‍රවේශයට ඔබේ ඇඟිලි සලකුණුවලට විකල්පයක් ලෙස භාවිතා කිරීමට රටාවක්, PIN, හෝ මුරපදයක් පිහිටුවන්න.</string>
+    <string name="private_mode_migration_next_button">ඊලඟ</string>
+    <string name="private_mode_pattern_backup_pin_desc">උපස්ථම්භක PIN</string>
+</resources>

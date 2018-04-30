@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">מצב פרטי</string>
+    <string name="personalpage_on">מצב פרטי מופעל.</string>
+    <string name="personalpage_on_available">תוכן פרטי זמין.</string>
+    <string name="personalpage_off_not_available">"תוכן פרטי לא זמין. פריטי תוכן שהעברתם לתיקייה 'פרטי' מתבצעת כעת לא יועברו."</string>
+    <string name="failed_to_unmount">לא ניתן להשבית מצב פרטי. נסה שוב.</string>
+    <string name="pattern_help_text">צייר את הדפוס שלך למצב פרטי.</string>
+    <string name="password_help_text">הזן את סיסמתך למצב פרטי.</string>
+    <string name="personal_page_disclaimer_by_locktype">הסתר תוכן אישי. כדי להשתמש במצב זה, בחר שיטת ביטול נעילה. השבת מצב זה לאחר השימוש כדי להגן על התוכן המוסתר.</string>
+    <string name="do_not_show_again">אל תציג שוב</string>
+    <string name="message_settings">הגדרות</string>
+    <string name="incorrect_backup_pin">קוד PIN לגיבוי שגוי.</string>
+    <string name="pattern_backuppin">הזן את קוד ה-PIN המשמש כחלופה לדפוס שלך.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">נסה שוב בעוד %d שניות.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">נסה שוב בעוד שניה אחת.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">נסה שוב בעוד ‎%d‏ דקות</string>
+    <string name="personalpage_off">מצב פרטי מושבת.</string>
+    <string name="personalpage_off_move_off">מצב פרטי מושבת. פריטי תוכן שהעברתם לתיקייה פרטי מתבצעת כעת לא יועברו.</string>
+    <string name="failed_to_mount">נכשלה ההפעלה של מצב פרטי. נסה שוב.</string>
+    <string name="pattern_help_text_try_again">הדפוס שציירת שגוי. נסה שוב.</string>
+    <string name="pin_help_text_try_again">הזנת קוד PIN שגוי. נסה שוב.</string>
+    <string name="password_help_text_try_again">הזנת סיסמה שגויה. נסה שוב.</string>
+    <string name="pin_help_text">הזן קוד PIN למעבר למצב פרטי.</string>
+    <string name="personal_page_switch_off_message">כל פריטי התוכן הפתוחים ייסגרו. כל שינוי שלא נשמר יימחק.</string>
+    <string name="private_mode_popup_btn_skip">דלג</string>
+    <string name="private_mode_popup_screen_lock_title">הגדרות נעילת מסך</string>
+    <string name="private_mode_popup_screen_lock_msg">כדי לשפר את האבטחה בעת השימוש במצב פרטי, מומלץ להחליף את שיטת נעילת המסך לשיטה מאובטחת ולאחר מכן להפעיל את מצב פרטי.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">מצב פרטי יופעל בעת העברת התוכן שנבחר.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"תניית פטור 
+לתשומת לבך, פריטי תוכן עשויים להופיע בתיקייה נפרדת במכשיר שלך, כאשר הסינכרון של אותם פריטים מתבצע באופן אוטומטי על ידי יישום צד שלישי, כמו למשל Dropbox. לפני השימוש ב’מצב פרטי‘, בדוק את הגדרות הסינכרון האוטומטי בשאר היישומים שלך."</string>
+    <string name="private_mode_popup_m2p_success_close">"ההעברה הושלמה. 
+יוצא ממצב פרטי."</string>
+    <string name="private_mode_popup_m2p_failed_close">"ההעברה לא הושלמה. 
+יוצא ממצב פרטי."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">תהליך אחר כבר מתבצע. נסה שוב כאשר אותו תהליך יסתיים.</string>
+    <string name="private_mode_pop_up_title">השבתת מצב פרטי</string>
+    <string name="private_mode_popup_m2p_msg">מצב פרטי יופעל בעת העברת התוכן שנבחר לתיקייה פרטי ויושבת מחדש עם סיום ההעברה.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"מצב פרטי יופעל בעת העברת היישומים שנבחרו אל התיקייה פרטי ויושבת מחדש בסיום ההעברה.
+
+העברת יישומים למצב פרטי תגרום להעברה גם של היישומים המקושרים והיישומונים הקשורים, ולמחיקת קיצורי הדרך שלהם. כל עוד מצב פרטי מושבת, לא תקבל התראות מהיישומים שהועברו לתיקייה פרטי."</string>
+    <string name="private_mode_popup_m2p_title">הפעלת מצב פרטי</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">"חל שינוי בהגדרות טביעת האצבע שלך. צייר את הדפוס של 'אימות כפול' כדי להפעיל את מצב פרטי."</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"חל שינוי בהגדרות טביעת האצבע שלך. הזן קוד PIN של 'אימות כפול' כדי להפעיל את מצב פרטי."</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">"חל שינוי בהגדרות טביעת האצבע שלך. הזן סיסמת 'אימות כפול' כדי להפעיל את מצב פרטי."</string>
+    <string name="private_mode_bakcupkey_bt_text">השתמש באימות כפול</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">דפוס</string>
+    <string name="private_mode_bakcupkey_bt_password_text">סיסמה</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">השתמש ב-%s</string>
+    <string name="private_mode_bakcuppwd_bt_text">סיסמת גיבוי</string>
+    <string name="private_mode_migration_body_text">הגדר דפוס, קוד PIN או סיסמה שישמשו כחלופה לטביעות אצבע לצורך גישה אל מצב פרטי.</string>
+    <string name="private_mode_migration_next_button">הבא</string>
+    <string name="private_mode_pattern_backup_pin_desc">‏PIN לגיבוי</string>
+</resources>

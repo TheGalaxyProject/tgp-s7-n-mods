@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">സ്വകാര്യ മോഡ്</string>
+    <string name="personalpage_on">സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കി.</string>
+    <string name="personalpage_on_available">സ്വകാര്യ ഉള്ളടക്കം ലഭ്യമാണ്.</string>
+    <string name="personalpage_off_not_available">സ്വകാര്യ ഉള്ളടക്കം ലഭ്യമല്ല. സ്വകാര്യം എന്നതിലേക്ക് നിലവിൽ നീക്കിക്കൊണ്ടിരിക്കുന്ന ഏതെങ്കിലും ഉള്ളടക്കം നീക്കപ്പെടുന്നതല്ല.</string>
+    <string name="failed_to_unmount">സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കാനാവില്ല. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pattern_help_text">സ്വകാര്യ മോഡിനുള്ള നിങ്ങളുടെ മാതൃക വരയ്ക്കുക.</string>
+    <string name="password_help_text">നിങ്ങളുടെ സ്വകാര്യ മോഡ് പാസ്‍വേഡ് നൽകുക.</string>
+    <string name="personal_page_disclaimer_by_locktype">വ്യക്തിഗത ഉള്ളടക്കത്തെ മറയ്ക്കുക. ഈ മോഡ് ഉപയോഗിക്കുന്നതിന്, ഒരു അൺലോക്ക് രീതി തിരഞ്ഞെടുക്കുക. മറയ്ക്കപ്പെട്ട ഉള്ളടക്കത്തെ സംരക്ഷിക്കുന്നതിനായി ഉപയോഗ ശേഷം ഈ മോഡിനെ അപ്രാപ്തമാക്കുക.</string>
+    <string name="do_not_show_again">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="message_settings">സെറ്റിംഗ്സ്</string>
+    <string name="incorrect_backup_pin">തെറ്റായ ബാക്കപ്പ് PIN.</string>
+    <string name="pattern_backuppin">നിങ്ങളുടെ പാറ്റേണിന് പകരമായി ഉപയോഗിച്ചിട്ടുള്ള PIN നല്‍കുക.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d സെക്കന്‍റിനുശേഷം വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 സെക്കന്‍റില്‍ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d മിനിറ്റിന് ശേഷം വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="personalpage_off">സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കി.</string>
+    <string name="personalpage_off_move_off">സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കി. സ്വകാര്യം എന്നതിലേക്ക് നിലവിൽ നീക്കിക്കൊണ്ടിരിക്കുന്ന ഏതെങ്കിലും ഉള്ളടക്കം നീക്കപ്പെടുന്നതല്ല.</string>
+    <string name="failed_to_mount">സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കുന്നത് പരാജയം. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pattern_help_text_try_again">നിങ്ങൾ വരച്ചത് തെറ്റായ ഒരു മാതൃകയാണ്. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pin_help_text_try_again">നിങ്ങൾ നൽകിയത് ഒരു തെറ്റായ PIN. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="password_help_text_try_again">നിങ്ങൾ നൽകിയത് തെറ്റായ ഒരു പാസ്‌വേഡാണ്. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pin_help_text">സ്വകാര്യ മോഡിനായി PIN നൽകുക.</string>
+    <string name="personal_page_switch_off_message">തുറന്നിട്ടുള്ള ഏത് ഉള്ളടക്കവും അടയ്ക്കപ്പെടും. നിങ്ങൾ സംരക്ഷിച്ചിട്ടില്ലാത്ത ഏത് മാറ്റങ്ങളും ഉപേക്ഷിക്കപ്പെടും.</string>
+    <string name="private_mode_popup_btn_skip">സ്കിപ്</string>
+    <string name="private_mode_popup_screen_lock_title">സ്ക്രീന്‍ ലോക്ക് ക്രമീകരണങ്ങള്‍</string>
+    <string name="private_mode_popup_screen_lock_msg">സ്വകാര്യ മോഡ് ഉപയോഗിക്കുന്ന സമയത്ത് സുരക്ഷ വർദ്ധിപ്പിക്കുന്നതിന്, നിങ്ങളുടെ സ്ക്രീൻ ലോക്ക് തരം സുരക്ഷിതമായ ഒരു രീതിലേക്ക് മാറ്റിയ ശേഷം സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കുന്നതിന് ഞങ്ങൾ ശുപാർശ ചെയ്യുകയാണ്.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">തിരഞ്ഞെടുത്ത ഉള്ളടക്കം കൈമാറ്റം ചെയ്യപ്പെടുമ്പോൾ സ്വകാര്യ മോഡ് സജീവമാക്കപ്പെടുന്നു.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"നിരാകരണം 
+ഡ്രോപ്പ്ബോക്സ് പോലുള്ള ഒരു മൂന്നാം കക്ഷി ആപ്ലിക്കേഷനാൽ ഓട്ടോമാറ്റിക്കായി ഉള്ളടക്കം സമന്വയിപ്പിക്കപ്പെടുമ്പോൾ നിങ്ങളുടെ ഉപകരണത്തിലെ മറ്റൊരു ഫോൾഡറിൽ അത് ദൃശ്യമായേക്കാമെന്നത് ദയവായി അറിഞ്ഞിരിക്കുക. സ്വകാര്യ മോഡ് ഉപയോഗിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ മറ്റ് ആപ്ലിക്കേഷനുകളുടെ ഓട്ടോ സമന്വയിപ്പിക്കൽ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക."</string>
+    <string name="private_mode_popup_m2p_success_close">"കൈമാറ്റം പൂർത്തിയായി. 
+സ്വകാര്യ മോഡിൽ നിന്ന് പുറത്തുകടക്കുന്നു."</string>
+    <string name="private_mode_popup_m2p_failed_close">"കൈമാറ്റം അപൂർണ്ണം. 
+സ്വകാര്യ മോഡിൽ നിന്ന് പുറത്തുകടക്കുന്നു."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">മറ്റൊരു പ്രക്രിയ ഇതിനകം പുരോഗമിക്കുകയാണ്. അത് പൂർത്തിയായ ശേഷം വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="private_mode_pop_up_title">സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കുക</string>
+    <string name="private_mode_popup_m2p_msg">തിരഞ്ഞെടുത്ത ഉള്ളടക്കം സ്വകാര്യം എന്നതിലേക്ക് നീക്കുന്ന സമയത്ത് സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കപ്പെടുകയും കൈമാറ്റം പൂർത്തിയായി കഴിയുമ്പോൾ വീണ്ടും അപ്രാപ്തമാക്കപ്പെടുകയും ചെയ്യും.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"തിരഞ്ഞെടുത്ത ആപ്ലിക്കേഷനുകളെ സ്വകാര്യം എന്നതിലേക്ക് നീക്കുന്ന സമയത്ത് സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കപ്പെടുകയും കൈമാറ്റം പൂർത്തിയായി കഴിയുമ്പോൾ വീണ്ടും അപ്രാപ്തമാക്കപ്പെടുകയും ചെയ്യും.
+
+ആപ്ലിക്കേഷനുകളെ സ്വകാര്യം എന്നതിലേക്ക് നീക്കുന്നത് അവയുമായി ലിങ്ക് ചെയ്യപ്പെട്ട ആപ്ലിക്കേഷനുകളെയും ബന്ധപ്പെട്ട വിജറ്റുകളെയും കൂടി നീക്കുകയും അവയുടെ എളുപ്പവഴികളെ ഇല്ലാതാക്കുകയും ചെയ്യും. സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കിയിരിക്കുന്ന സമയത്ത്, നിങ്ങൾ സ്വകാര്യത്തിലേക്ക് നീക്കിയ ആപ്ലിക്കേഷനുകളിലെ അറിയിപ്പുകൾ നിങ്ങൾക്ക് ലഭിക്കില്ല."</string>
+    <string name="private_mode_popup_m2p_title">സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കുക</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">നിങ്ങളുടെ വിരലടയാള ക്രമീകരണങ്ങൾ മാറ്റപ്പെട്ടു. സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കാനായി നിങ്ങളുടെ ഇരട്ട പരിശോധിച്ചുറപ്പിക്കൽ പാറ്റേൺ വരയ്ക്കുക.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">നിങ്ങളുടെ വിരലടയാള ക്രമീകരണങ്ങൾ മാറ്റപ്പെട്ടു. സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കാനായി നിങ്ങളുടെ ഇരട്ട പരിശോധിച്ചുറപ്പിക്കൽ PIN നൽകുക.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">നിങ്ങളുടെ വിരലടയാള ക്രമീകരണങ്ങൾ മാറ്റപ്പെട്ടു. സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കാനായി നിങ്ങളുടെ ഇരട്ട പരിശോധിച്ചുറപ്പിക്കൽ പാസ്‌വേഡ് നൽകുക.</string>
+    <string name="private_mode_bakcupkey_bt_text">ഇരട്ട പരിശോധിച്ചുറപ്പിക്കൽ ഉപയോഗിക്കുക</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">മാതൃക</string>
+    <string name="private_mode_bakcupkey_bt_password_text">പാസ്‌വേഡ്</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s ഉപയോഗിക്കുക</string>
+    <string name="private_mode_bakcuppwd_bt_text">ബാക്കപ്പ് പാസ്‌വേഡ്</string>
+    <string name="private_mode_migration_body_text">സ്വകാര്യ മോഡ് ആക്സസ് ചെയ്യാനുള്ള നിങ്ങളുടെ വിരലടയാളങ്ങൾക്ക് ഒരു ഇതരമാർഗ്ഗമായി ഉപയോഗിക്കാനുള്ള ഒരു പാറ്റേൺ, PIN, അല്ലെങ്കിൽ പാസ്‌വേഡ് ക്രമീകരിക്കുക.</string>
+    <string name="private_mode_migration_next_button">അടുത്തത്</string>
+    <string name="private_mode_pattern_backup_pin_desc">ബാക്കപ്പ് PIN</string>
+</resources>

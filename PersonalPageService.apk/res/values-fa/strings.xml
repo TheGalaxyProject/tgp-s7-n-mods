@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">حالت خصوصی</string>
+    <string name="personalpage_on">حالت خصوصی فعال شد.</string>
+    <string name="personalpage_on_available">محتوای خصوصی در دسترس است.</string>
+    <string name="personalpage_off_not_available">محتوای خصوصی در دسترس نیست. هر محتوایی که در حال حاضر به خصوصی منتقل می‌شود، انتقال نخواهد یافت.</string>
+    <string name="failed_to_unmount">غیرفعال کردن حالت خصوصی ممکن نیست. دوباره امتحان کنید.</string>
+    <string name="pattern_help_text">برای حالت خصوصی الگو را ترسیم کنید.</string>
+    <string name="password_help_text">رمز ورود حالت خصوصی را وارد کنید.</string>
+    <string name="personal_page_disclaimer_by_locktype">محتوای شخصی را مخفی کنید. برای استفاده از این حالت، یک روش بازکردن قفل انتخاب کنید. برای حفاظت از محتوای مخفی، پس از استفاده این حالت را غیرفعال کنید.</string>
+    <string name="do_not_show_again">دوباره نمایش داده نشود</string>
+    <string name="message_settings">تنظیمات</string>
+    <string name="incorrect_backup_pin">پین پشتیبان نادرست است.</string>
+    <string name="pattern_backuppin">پینی که به عنوان جایگزین الگوی شما استفاده شده را وارد کنید.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">طی %d ثانیه دوباره امتحان کنید.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">طی 1 ثانیه دوباره امتحان کنید.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d دقیقه دیگر دوباره امتحان کنید</string>
+    <string name="personalpage_off">حالت خصوصی غیرفعال شد.</string>
+    <string name="personalpage_off_move_off">حالت خصوصی غیرفعال شد. هر محتوایی که در حال حاضر به خصوصی منتقل می‌شود، انتقال نخواهد یافت.</string>
+    <string name="failed_to_mount">فعال کردن حالت خصوصی ناموفق بود. دوباره امتحان کنید.</string>
+    <string name="pattern_help_text_try_again">الگو را اشتباه ترسیم کردید. دوباره امتحان کنید.</string>
+    <string name="pin_help_text_try_again">پین نادرستی وارد کرده اید. دوباره امتحان کنید.</string>
+    <string name="password_help_text_try_again">یک رمز ورود نادرست وارد کرده اید. دوباره امتحان کنید.</string>
+    <string name="pin_help_text">پین حالت خصوصی را وارد کنید.</string>
+    <string name="personal_page_switch_off_message">محتواهای باز بسته خواهند شد. تغییرات ذخیره نشده نادیده گرفته می‌شوند.</string>
+    <string name="private_mode_popup_btn_skip">بعدی</string>
+    <string name="private_mode_popup_screen_lock_title">تنظیمات قفل صفحه</string>
+    <string name="private_mode_popup_screen_lock_msg">برای افزایش امنیت در هنگام استفاده از حالت خصوصی، توصیه می‌کنیم نوع قفل صفحه‌تان را به یک روش ایمن تغییر داده و سپس حالت خصوصی را فعال کنید.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">پس از آنکه محتوای انتخابی انتقال یافت، حالت خصوصی فعال می‌شود.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"سلب مسئولیت 
+لطفاً به خاطر داشته باشید که محتوا ممکن است پس از همگام‌سازی خودکار توسط یک برنامه شخص ثالث مانند Dropbox، در پوشه جداگانه‌ای در دستگاهتان قرار بگیرید. قبل از استفاده از حالت خصوصی، تنظیمات همگام‌سازی خودکار برنامه‌های دیگر را بررسی کنید."</string>
+    <string name="private_mode_popup_m2p_success_close">"انتقال کامل شد. 
+در حال خروج از حالت خصوصی."</string>
+    <string name="private_mode_popup_m2p_failed_close">"انتقال کامل نشد. 
+در حال خروج از حالت خصوصی."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">عملکرد دیگری در حال اجرا است. وقتی تمام شد، دوباره امتحان کنید.</string>
+    <string name="private_mode_pop_up_title">غیرفعال کردن حالت خصوصی</string>
+    <string name="private_mode_popup_m2p_msg">وقتی محتوای انتخابی به خصوصی انتقال داده می‌شود، حالت خصوصی فعال شده و پس از تکمیل انتقال، دوباره غیرفعال خواهد شد.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"وقتی برنامه‌های انتخاب شده به خصوصی منتقل می‌شوند، حالت خصوصی فعال شده و زمانیکه انتقال کامل شد، دوباره غیرفعال می‌شود.
+
+با منتقل کردن برنامه‌ها به قسمت خصوصی همچنین برنامه‌های پیوندی و ویجت‌های مرتبط منتقل شده و میانبرها حذف می‌شوند. وقتی حالت خصوصی غیرفعال است، اعلان‌هایی از برنامه‌های انتقال یافته به خصوصی دریافت نخواهید کرد."</string>
+    <string name="private_mode_popup_m2p_title">فعال کردن حالت حریم خصوصی</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">تنظیمات اثر انگشت شما تغییر کرده است. الگوی تأیید اعتبار ترکیبی خود را ترسیم کنید تا حالت خصوصی فعال شود.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">تنظیمات اثر انگشت شما تغییر کرده است. پین تأیید اعتبار ترکیبی خود را وارد کنید تا حالت خصوصی فعال شود.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">تنظیمات اثر انگشت شما تغییر کرده است. رمز ورود تأیید اعتبار ترکیبی خود را وارد کنید تا حالت خصوصی فعال شود.</string>
+    <string name="private_mode_bakcupkey_bt_text">استفاده از دو تأیید</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">پین</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">الگو</string>
+    <string name="private_mode_bakcupkey_bt_password_text">رمز</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">استفاده از ‎%s</string>
+    <string name="private_mode_bakcuppwd_bt_text">رمز ورود پشتیبان</string>
+    <string name="private_mode_migration_body_text">یک الگو، پین یا رمز ورود برای استفاده به عنوان جایگزین اثر انگشت جهت دسترسی به حالت خصوصی تنظیم کنید.</string>
+    <string name="private_mode_migration_next_button">بعدی</string>
+    <string name="private_mode_pattern_backup_pin_desc">پین نسخه پشتیبان</string>
+</resources>

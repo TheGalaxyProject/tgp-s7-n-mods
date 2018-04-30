@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: GooglePackageInstaller.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: com.google.android.packageinstaller
+sdkInfo:
+  minSdkVersion: '24'
+  targetSdkVersion: '24'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.2
+versionInfo:
+  versionCode: '24'
+  versionName: 7.0-4377972

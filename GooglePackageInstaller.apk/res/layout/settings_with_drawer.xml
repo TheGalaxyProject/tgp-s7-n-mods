@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="?android:colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/actionBarStyle">
+            <Toolbar android:theme="?android:actionBarTheme" android:id="@id/action_bar" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationContentDescription="@android:string/date_picker_increment_day_button" style="?android:attr/toolbarStyle"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content_frame" android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ListView android:layout_gravity="start" android:id="@id/left_drawer" android:background="?android:colorBackground" android:layout_width="300.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

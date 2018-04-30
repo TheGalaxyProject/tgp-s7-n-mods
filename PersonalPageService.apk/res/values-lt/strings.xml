@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privatusis režimas</string>
+    <string name="personalpage_on">Privatusis režimas įjungtas.</string>
+    <string name="personalpage_on_available">Asmeninis turinys pasiekiamas.</string>
+    <string name="personalpage_off_not_available">Asmeninis turinys nepasiekiamas. Į asmeninį aplanką siunčiamas turinys nebus perkeltas.</string>
+    <string name="failed_to_unmount">Neįmanoma išjungti privačiojo režimo. Bandykite dar kartą.</string>
+    <string name="pattern_help_text">Nupieškite asmeninio režimo šabloną.</string>
+    <string name="password_help_text">Įveskite privačiojo režimo slaptažodį.</string>
+    <string name="personal_page_disclaimer_by_locktype">Paslėpkite asmeninį turinį. Norėdami naudoti šį režimą turite pasirinkti atrakinimo metodą. Baigę naudoti išjunkite šį režimą ir apsaugokite paslėptą turinį.</string>
+    <string name="do_not_show_again">Nerodyti dar kartą</string>
+    <string name="message_settings">Nustat.</string>
+    <string name="incorrect_backup_pin">Neteisingas atsarginio kopijavimo PIN kodas.</string>
+    <string name="pattern_backuppin">Įveskite PIN, naudotą kaip šablono alternatyvą.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Bandykite dar kartą po %d sek.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Pabandykite dar kartą po 1 sekundės.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Bandykite dar kartą po %d min.</string>
+    <string name="personalpage_off">Privatusis režimas išjungtas.</string>
+    <string name="personalpage_off_move_off">Asmeninis režimas išjungtas. Į asmeninį aplanką siunčiamas turinys nebus perkeltas.</string>
+    <string name="failed_to_mount">Nepavyko įjungti privačiojo režimo. Bandykite dar kartą.</string>
+    <string name="pattern_help_text_try_again">Nupiešėte neteisingą šabloną. Bandykite dar kartą.</string>
+    <string name="pin_help_text_try_again">Įvedėte neteisingą PIN kodą. Bandykite dar kartą.</string>
+    <string name="password_help_text_try_again">Įvedėte neteisingą slaptažodį. Bandykite dar kartą</string>
+    <string name="pin_help_text">Įveskite privačiojo režimo PIN kodą.</string>
+    <string name="personal_page_switch_off_message">Visas atvertas turinys bus uždarytas. Jūsų atlikti, bet neišsaugoti pakeitimai bus pašalinti.</string>
+    <string name="private_mode_popup_btn_skip">Praleisti</string>
+    <string name="private_mode_popup_screen_lock_title">Ekrano užrakto nustat.</string>
+    <string name="private_mode_popup_screen_lock_msg">Jei naudodami asmeninį režimą norite padidinti saugumą, rekomenduojame pakeisti ekrano užrakinimo tipą į saugų, tuomet įjungti asmeninį režimą.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Asmeninis režimas aktyvuojamas tuomet, kai perkeliamas pasirinktas turinys.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Atsakomybės ribojimas 
+Atkreipkite dėmesį, kad turinys gali atsirasti atskirame jūsų prietaiso kataloge tuo atveju, jeigu jis automatiškai yra sinchronizuojamas naudojant trečiosios šalies programą, pavyzdžiui, „Dropbox“. Prieš pradedant naudoti Asmeninį režimą, pirma patikrinkite kitų programų automatinio sinchronizavimo nustatymus."</string>
+    <string name="private_mode_popup_m2p_success_close">"Perdavimas baigtas. 
+Išeinama iš Asmeninio režimo."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Perdavimas neužbaigtas. 
+Išeinama iš Asmeninio režimo."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Jau vyksta kitas procesas. Bandykite dar jam pasibaigus.</string>
+    <string name="private_mode_pop_up_title">Išjungti asmeninį režimą</string>
+    <string name="private_mode_popup_m2p_msg">Asmeninis režimas bus įjungtas perkeliant pasirinktą turinį į privatųjį aplanką ir vėl išjungtas pasibaigus perkėlimui.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Asmeninis režimas bus įjungtas perkeliant pasirinktas programas į privatųjį aplanką ir vėl išjungtas pasibaigus perkėlimui.
+
+Perkėlus programas į privatųjį aplanką, kartu bus perkeltos su jomis susietos programos ir susiję valdikliai, ištrinti jų trumpiniai. Išjungę asmeninį režimą negausite pranešimų iš programų, kurios perkeltos į privatųjį aplanką."</string>
+    <string name="private_mode_popup_m2p_title">Įjungti privatųjį režimą</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Jūsų pirštų atspaudų nustatymai pakeisti. Nupieškite savo dvigubo patvirtinimo šabloną ir įjunkite asmeninį režimą.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Jūsų pirštų atspaudų nustatymai pakeisti. Įveskite savo dvigubo patvirtinimo PIN ir įjunkite asmeninį režimą.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Jūsų pirštų atspaudų nustatymai pakeisti. Įveskite savo dvigubo patvirtinimo slaptažodį ir įjunkite asmeninį režimą.</string>
+    <string name="private_mode_bakcupkey_bt_text">Naud. dvigubą patvirtin.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN kodas</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Pavyzdys</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Slaptažodis</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Naudoti %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Atsarginis slaptažodis</string>
+    <string name="private_mode_migration_body_text">Nustatykite šabloną, PIN arba slaptažodį, kuris bus naudojamas kaip alternatyva pirštų atspaudams pasiekiant asmeninį režimą.</string>
+    <string name="private_mode_migration_next_button">Kitas</string>
+    <string name="private_mode_pattern_backup_pin_desc">Atsarginio kopijavimo PIN</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Mode Privé</string>
+    <string name="personalpage_on">Mode Privé activé.</string>
+    <string name="personalpage_on_available">Le contenu privé est disponible.</string>
+    <string name="personalpage_off_not_available">"Le contenu privé n'est pas disponible. Le contenu actuellement déplacé dans Privé ne sera pas déplacé."</string>
+    <string name="failed_to_unmount">Impossible de désactiver le mode Privé. Réessayez.</string>
+    <string name="pattern_help_text">Dessinez votre modèle de déverrouillage pour accéder au mode Privé.</string>
+    <string name="password_help_text">Entrez votre mot de passe du mode Privé.</string>
+    <string name="personal_page_disclaimer_by_locktype">"Masquez le contenu personnel. Pour utiliser ce mode, sélectionnez une méthode de déverrouillage. Désactivez ce mode après l'avoir utilisé pour protéger le contenu masqué."</string>
+    <string name="do_not_show_again">Ne plus afficher</string>
+    <string name="message_settings">Paramètres</string>
+    <string name="incorrect_backup_pin">Code PIN de secours incorrect</string>
+    <string name="pattern_backuppin">Entrez le code PIN utilisé comme alternative à votre modèle.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Réessayez dans %d secondes.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Réessayer dans 1 seconde.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Réessayer dans %d minutes</string>
+    <string name="personalpage_off">Mode Privé désactivé.</string>
+    <string name="personalpage_off_move_off">Le mode Privé est désactivé. Le contenu actuellement déplacé dans Privé ne sera pas déplacé.</string>
+    <string name="failed_to_mount">"Impossible d'activer le mode Privé. Réessayez."</string>
+    <string name="pattern_help_text_try_again">Vous avez dessiné un schéma erroné. Réessayez.</string>
+    <string name="pin_help_text_try_again">Vous avez saisi un code PIN erroné. Réessayez.</string>
+    <string name="password_help_text_try_again">Vous avez saisi un mot de passe erroné. Réessayez.</string>
+    <string name="pin_help_text">Entrez votre code PIN pour accéder au mode Privé.</string>
+    <string name="personal_page_switch_off_message">"Le contenu ouvert va être fermé. Toutes les modifications qui n'ont pas été enregistrées seront perdues."</string>
+    <string name="private_mode_popup_btn_skip">Ignorer</string>
+    <string name="private_mode_popup_screen_lock_title">Paramètres verr. écran</string>
+    <string name="private_mode_popup_screen_lock_msg">"Pour améliorer la sécurité lorsque vous utilisez le mode Privé, nous vous recommandons de définir une méthode sécurisée de verrouillage d'écran, puis d'activer le mode Privé."</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Le mode Privé est activé lorsque le contenu sélectionné est transféré.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Clause de non-responsabilité 
+Notez que du contenu peut apparaître dans un dossier séparé sur votre appareil lorsqu'il est automatiquement synchronisé par une application tierce . Vérifiez les paramètres de synchronisation automatique de vos autres applications avant d'utiliser le mode Privé."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfert terminé. 
+Sortie du mode Privé."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfert incomplet. 
+Sortie du mode Privé."</string>
+    <string name="personalpage_on_vzw">Mode Privé activé.</string>
+    <string name="personalpage_off_vzw">Mode Privé désactivé.</string>
+    <string name="private_mode_toast_ism2p">Un autre processus est déjà en cours. Une fois terminé, réessayez.</string>
+    <string name="private_mode_pop_up_title">Désactiver le mode Privé</string>
+    <string name="private_mode_popup_m2p_msg">"Le mode Privé sera activé pendant le déplacement du contenu sélectionné vers Privé. Il sera désactivé à l'issue de l'opération."</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Le mode Privé sera activé pendant le déplacement des applications sélectionnées vers Privé. Il sera désactivé à l'issue de l'opération.
+
+Déplacer les applications vers Privé déplacera également les applications et widgets associés, et supprimera leurs raccourcis. Une fois le mode Privé désactivé, vous ne recevrez plus aucune notification des applications que vous avez déplacées vers Privé."</string>
+    <string name="private_mode_popup_m2p_title">Activer le mode Privé</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">"Vos paramètres d'empreinte ont été modifiés. Dessinez votre modèle Double vérification pour activer le mode Privé."</string>
+    <string name="private_mode_bakcupkey_subtext_pin">"Vos paramètres d'empreinte ont été modifiés. Entrez votre code PIN de double vérification pour activer le mode Privé."</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">"Vos paramètres d'empreinte ont été modifiés. Entrez votre mot de passe de double vérification pour activer le mode Privé."</string>
+    <string name="private_mode_bakcupkey_bt_text">Utiliser double vérif.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">Code PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Modèle</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Mot de passe</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Utiliser %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">MDP de sauvegarde</string>
+    <string name="private_mode_migration_body_text">Définissez un modèle, un code PIN ou un mot de passe à utiliser comme alternative à vos empreintes pour accéder au mode Privé.</string>
+    <string name="private_mode_migration_next_button">Suivant</string>
+    <string name="private_mode_pattern_backup_pin_desc">Code PIN de secours</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="pattern_layout">false</item>
+    <item type="id" name="pattern_inner_layout">false</item>
+    <item type="id" name="secretPattern">false</item>
+    <item type="id" name="pattern_inner_layout2">false</item>
+    <item type="id" name="patternTitleText">false</item>
+    <item type="id" name="patternimageButtonPW">false</item>
+    <item type="id" name="backupkeySubText">false</item>
+    <item type="id" name="typingverify_layout">false</item>
+    <item type="id" name="verify_inner_layout">false</item>
+    <item type="id" name="typingverifyTitleText">false</item>
+    <item type="id" name="typingverifyEditText">false</item>
+</resources>

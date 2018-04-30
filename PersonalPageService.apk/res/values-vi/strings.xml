@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Chế độ Riêng tư</string>
+    <string name="personalpage_on">Đã bật chế độ Riêng tư.</string>
+    <string name="personalpage_on_available">Nội dung riêng tư có sẵn.</string>
+    <string name="personalpage_off_not_available">Nội dung riêng tư không có sẵn. Các nội dung đang được chuyển vào Riêng tư sẽ không được chuyển.</string>
+    <string name="failed_to_unmount">Không thể tắt chế độ Riêng tư. Hãy thử lại.</string>
+    <string name="pattern_help_text">Vẽ mẫu hình của bạn cho chế độ Riêng tư.</string>
+    <string name="password_help_text">Hãy nhập mật mã chế độ Riêng tư của bạn.</string>
+    <string name="personal_page_disclaimer_by_locktype">Ẩn nội dung cá nhân. Để sử dụng chế độ này, hãy chọn phương pháp mở khóa. Hãy tắt chế độ này sau khi sử dụng để bảo vệ nội dung ẩn.</string>
+    <string name="do_not_show_again">Không hiện lại</string>
+    <string name="message_settings">Cài đặt</string>
+    <string name="incorrect_backup_pin">PIN dự phòng không đúng.</string>
+    <string name="pattern_backuppin">Nhập mã PIN dùng thay thế cho mẫu hình của bạn.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Thử lại sau %d giây.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Thử lại sau 1 giây.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Hãy thử lại sau %d phút</string>
+    <string name="personalpage_off">Đã tắt chế độ Riêng tư.</string>
+    <string name="personalpage_off_move_off">Đã tắt chế độ Riêng tư. Các nội dung đang được chuyển vào Riêng tư sẽ không được chuyển.</string>
+    <string name="failed_to_mount">Không thể bật chế độ Riêng tư. Hãy thử lại.</string>
+    <string name="pattern_help_text_try_again">Bạn đã vẽ mẫu hình không chính xác. Hãy thử lại.</string>
+    <string name="pin_help_text_try_again">Bạn đã nhập sai mã PIN. Hãy thử lại.</string>
+    <string name="password_help_text_try_again">Bạn đã nhập sai mật mã. Hãy thử lại</string>
+    <string name="pin_help_text">Nhập mã PIN của bạn cho chế độ Riêng tư.</string>
+    <string name="personal_page_switch_off_message">Mọi nội dung đang mở sẽ bị đóng lại. Mọi thay đổi bạn chưa lưu sẽ bị xóa.</string>
+    <string name="private_mode_popup_btn_skip">Bỏ qua</string>
+    <string name="private_mode_popup_screen_lock_title">Cài đặt khóa màn hình</string>
+    <string name="private_mode_popup_screen_lock_msg">Để tăng cường bảo mật khi đang sử dụng chế độ Riêng tư, bạn nên đổi kiểu khóa màn hình sang phương pháp bảo mật, sau đó bật chế độ Riêng tư.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Chế độ Riêng tư sẽ được kích hoạt khi nội dung đã chọn được truyền tải.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Tuyên bố miễn trừ 
+Vui lòng nhận biết rằng nội dung có thể xuất hiện trong một thư mục riêng trên thiết bị của bạn khi được đồng bộ hóa tự động bởi một ứng dụng bên thứ ba như Dropbox. Hãy kiểm tra cài đặt đồng bộ hóa tự động của các ứng dụng khác của bạn trước khi sử dụng Chế độ riêng tư."</string>
+    <string name="private_mode_popup_m2p_success_close">"Truyền tải hoàn tất. 
+Thoát Chế độ Riêng tư."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Truyền tải chưa hoàn tất. 
+Thoát Chế độ Riêng tư."</string>
+    <string name="personalpage_on_vzw">Chế độ Riêng tư đã bật.</string>
+    <string name="personalpage_off_vzw">Chế độ Riêng tư đã tắt.</string>
+    <string name="private_mode_toast_ism2p">Một tiến trình khác đang diễn ra. Hãy thử lại sau khi nó kết thúc.</string>
+    <string name="private_mode_pop_up_title">Tắt chế độ Riêng tư</string>
+    <string name="private_mode_popup_m2p_msg">Chế độ Riêng tư sẽ được bật khi chuyển nội dung đã chọn vào Riêng tư và sẽ tắt trở lại sau khi truyền xong.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Chế độ Riêng tư sẽ bật khi các ứng dụng đã chọn được chuyển vào Riêng tư và sẽ tắt trở lại khi chuyển xong.
+
+Việc chuyển ứng dụng vào Riêng tư cũng sẽ chuyển các ứng dụng liên kết và widget liên quan, đồng thời xóa phím tắt của chúng. Khi chế độ Riêng tư tắt, bạn sẽ không nhận được thông báo từ các ứng dụng mà bạn đã chuyển vào Riêng tư."</string>
+    <string name="private_mode_popup_m2p_title">Bật chế độ Riêng tư</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Cài đặt vân tay của bạn đã thay đổi. Vẽ mẫu hình Xác thực kép của bạn để bật chế độ Riêng tư.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Cài đặt vân tay của bạn đã thay đổi. Hãy nhập mã PIN Xác thực kép để bật chế độ Riêng tư.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Cài đặt vân tay của bạn đã thay đổi. Hãy nhập mật mã Xác thực kép để bật chế độ Riêng tư.</string>
+    <string name="private_mode_bakcupkey_bt_text">Sử dụng xác thực hai lần</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Mẫu hình</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Mật mã</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Sử dụng %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Mật mã dự phòng</string>
+    <string name="private_mode_migration_body_text">Đặt mẫu hình, mã PIN hoặc mật mã để dùng thay cho vân tay để truy cập chế độ Riêng tư.</string>
+    <string name="private_mode_migration_next_button">K.tiếp</string>
+    <string name="private_mode_pattern_backup_pin_desc">Mã PIN dự phòng</string>
+</resources>

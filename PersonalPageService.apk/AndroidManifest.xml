@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.samsung.android.personalpage.service" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <protected-broadcast android:name="com.samsung.android.intent.action.PRIVATE_MODE_ON"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.PRIVATE_MODE_OFF"/>
+    <uses-permission android:name="com.sec.android.permission.LAUNCH_PERSONAL_PAGE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
+    <permission android:name="com.sec.android.permission.LAUNCH_PERSONAL_PAGE_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <application android:allowBackup="true" android:allowClearUserData="false" android:debuggable="false" android:icon="@drawable/ic_setting_grid_private_mode" android:label="@string/personal_page" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.Transparent">
+        <activity android:configChanges="locale|keyboardHidden|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.personalpage.service.activity.PersonalPageModePassword" android:resizeableActivity="false" android:supportsRtl="true" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <meta-data android:name="access" android:value="SS_META"/>
+        <meta-data android:name="lib" android:value="/vendor/lib/libsecure_storage_jni.so"/>
+        <meta-data android:name="lib64" android:value="/vendor/lib64/libsecure_storage_jni.so"/>
+        <activity android:configChanges="locale|keyboardHidden|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.personalpage.service.activity.PersonalPageModePin" android:resizeableActivity="false" android:supportsRtl="true" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:configChanges="locale|keyboardHidden|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.personalpage.service.activity.PersonalPageModePatternBackupPin" android:resizeableActivity="false" android:supportsRtl="true" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:configChanges="locale|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.personalpage.service.activity.PersonalPageModePattern" android:resizeableActivity="false" android:supportsRtl="true"/>
+        <activity android:configChanges="locale|orientation|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.personalpage.service.activity.PersonalPageModeFingerprint" android:resizeableActivity="false" android:supportsRtl="true"/>
+        <receiver android:exported="false" android:name="com.samsung.android.personalpage.service.PrivateModeReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.personalpage.action.CHECK_M2P"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".PersonalPageService" android:permission="com.sec.android.permission.LAUNCH_PERSONAL_PAGE_SERVICE">
+            <intent-filter>
+                <action android:name="com.samsung.android.personalpage.action.ACTION_SHOW_DISCLAIMER"/>
+                <action android:name="com.samsung.android.personalpage.service.PersonalPageService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

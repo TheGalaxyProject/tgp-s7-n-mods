@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/grant_permissions_background_color" android:paddingLeft="@dimen/action_dialog_padding_left" android:paddingTop="@dimen/action_dialog_padding_top" android:paddingRight="@dimen/action_dialog_padding_right" android:paddingBottom="@dimen/action_dialog_padding_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/permission_icon" android:layout_width="@dimen/grant_permissions_app_icon_size" android:layout_height="@dimen/grant_permissions_app_icon_size" android:layout_marginTop="@dimen/grant_permissions_app_icon_margin_top" android:tint="@color/grant_permissions_app_color" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_dialog_content_margin_left" android:layout_marginRight="@dimen/action_dialog_content_margin_right" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/GrantPermissions.BreadcrumbText" android:id="@id/current_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grant_permissions_app_breadcrumb_margin_bottom" />
+        <TextView android:textAppearance="@style/GrantPermissions.TitleText" android:id="@id/permission_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grant_permissions_app_title_margin_bottom" />
+        <TextView android:textAppearance="@style/GrantPermissions.BodyText" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/grant_permissions_app_details_margin_bottom" android:text="@string/grant_dialog_how_to_change" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/action_dialog_actions_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_dialog_actions_margin_left" android:layout_marginTop="@dimen/action_dialog_actions_margin_top">
+        <Button android:id="@id/permission_allow_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/grant_dialog_button_allow" style="@style/GrantPermissions.ActionItem" />
+        <Button android:id="@id/permission_deny_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/grant_dialog_button_deny" style="@style/GrantPermissions.ActionItem" />
+        <Button android:id="@id/permission_deny_dont_ask_again_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/grant_dialog_button_deny_dont_ask_again" style="@style/GrantPermissions.ActionItem" />
+    </LinearLayout>
+</LinearLayout>

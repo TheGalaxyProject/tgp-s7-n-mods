@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Приватный режим</string>
+    <string name="personalpage_on">Включен приватный режим.</string>
+    <string name="personalpage_on_available">Доступно частное содержимое.</string>
+    <string name="personalpage_off_not_available">Частное содержимое недоступно. Любое содержимое, которое в настоящее время перемещается в “Частное” не будет перемещено.</string>
+    <string name="failed_to_unmount">Не удалось отключить приватный режим. Повторить попытку.</string>
+    <string name="pattern_help_text">Начертите рисунок для входа в приватный режим.</string>
+    <string name="password_help_text">Введите пароль приватного режима.</string>
+    <string name="personal_page_disclaimer_by_locktype">Скрытие личного содержимого. Для использования этого режима выберите способ разблокировки. Чтобы защитить скрытое содержимое, отключите этот режим, когда закончите им пользоваться.</string>
+    <string name="do_not_show_again">Не показывать снова</string>
+    <string name="message_settings">Настр-ки</string>
+    <string name="incorrect_backup_pin">Неверный дополнительный PIN-код</string>
+    <string name="pattern_backuppin">Введите PIN-код, используемый в качестве альтернативы рисунку.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Повторите попытку через %d с.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Повторите через 1 секунду.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Повторите попытку через %d мин.</string>
+    <string name="personalpage_off">Приватный режим отключен.</string>
+    <string name="personalpage_off_move_off">Приватный режим отключен. Любое содержимое, которое переносилось в Личное, не будет перенесено.</string>
+    <string name="failed_to_mount">Не удалось включить приватный режим. Повторите попытку.</string>
+    <string name="pattern_help_text_try_again">Введен неправильный рисунок. Повторите попытку.</string>
+    <string name="pin_help_text_try_again">Введен неправильный PIN-код. Повторите попытку</string>
+    <string name="password_help_text_try_again">Вы ввели неправильный пароль. Повторите попытку</string>
+    <string name="pin_help_text">Введите PIN-код приватного режима.</string>
+    <string name="personal_page_switch_off_message">Все открытое содержимое будет закрыто. Все несохраненные изменения будут отменены.</string>
+    <string name="private_mode_popup_btn_skip">Пропустить</string>
+    <string name="private_mode_popup_screen_lock_title">Параметры блокировки</string>
+    <string name="private_mode_popup_screen_lock_msg">Чтобы повысить безопасность в приватном режиме, перед включением приватного режима измените тип блокировки экрана на безопасную блокировку.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Приватный режим будет активирован при передаче выбранного контента.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Отказ от ответственности 
+Обратите внимание, что контент может быть помещен в отдельную папку на устройстве при автоматической синхронизации, выполняемой сторонним приложением, например Dropbox. Проверьте настройки синхронизации других приложений перед использованием приватного режима."</string>
+    <string name="private_mode_popup_m2p_success_close">"Передача завершена. 
+Выход из приватного режима."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Передача не завершена. 
+Выход из приватного режима."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Уже выполняется другой процесс. Попробуйте еще раз, когда он завершится.</string>
+    <string name="private_mode_pop_up_title">Отключить приватный режим</string>
+    <string name="private_mode_popup_m2p_msg">Во время переноса выбранного содержимого будет включен приватный режим. Он отключится после переноса.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Во время переноса выбранных приложений будет включен приватный режим. Он отключится после переноса.
+
+При перемещении приложений в приватный режим также перемещаются связанные с ними приложения и виджеты, а их ярлыки удаляются. Если приватный режим отключен, вы не будете получать уведомления для приложений, перемещенных в него."</string>
+    <string name="private_mode_popup_m2p_title">Включить приватный режим</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Настройки отпечатка пальца изменены. Нарисуйте рисунок функции двухэтапной проверки для включения приватного режима.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Настройки отпечатка пальца изменены. Введите PIN-код функции двухэтапной проверки для включения приватного режима.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Настройки отпечатка пальца изменены. Введите пароль функции двухэтапной проверки для включения приватного режима.</string>
+    <string name="private_mode_bakcupkey_bt_text">Использ. двухэт. проверку</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Узор</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Пароль</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Использовать %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Запасной пароль</string>
+    <string name="private_mode_migration_body_text">Настройте рисунок, PIN-код или пароль для использования в качестве альтернативы распознаванию отпечатка пальца при доступе в приватный режим.</string>
+    <string name="private_mode_migration_next_button">Далее</string>
+    <string name="private_mode_pattern_backup_pin_desc">Доп. PIN-код</string>
+</resources>

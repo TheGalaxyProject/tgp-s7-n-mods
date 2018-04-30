@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ကိုယ်ပိုင် အနေအထား</string>
+    <string name="personalpage_on">သီးသန့်အနေအထား ရစေထားသည်။</string>
+    <string name="personalpage_on_available">သီးသန့် ပါဝင်သည့်အရာ ရနိုင်သည်။</string>
+    <string name="personalpage_off_not_available">သီးသန့် ပါဝင်သည့်အရာ မရနိုင်ပါ။ သီးသန့်သို့ လက်ရှိ ရွှေ့နေသည့် ပါဝင်သည့်အရာ တစ်ခုခုကို ရွှေ့သွားမည် မဟုတ်ပါ။</string>
+    <string name="failed_to_unmount">သီးသန့် အနေအထားကို ပိတ်၍ မရပါ။ ထပ်ကြိုးစားပါ။</string>
+    <string name="pattern_help_text">သီးသန့် မုဒ်သင့် ပုံစံကို ရေးဆွဲပါ။</string>
+    <string name="password_help_text">သင့် သီးသန့် အနေအထား စကားဝှက် ထည့်ပါ။</string>
+    <string name="personal_page_disclaimer_by_locktype">ပုဂ္ဂိုလ်ရေး ပါဝင်သည်ကို ဝှက်ထားပါ။ ဤအနေအထားကိုသုံးရန် သော့ဖွင့်နည်းတစ်ခု ရွေးပါ။ ဝှက်ထားသည့် ပါဝင်မှုကို ကာကွယ်ရန် သုံးပြီးလျှင် ဤအနေအထားကို ပိတ်ထားပါ။</string>
+    <string name="do_not_show_again">ထပ်မပြပါတော့နှင့်</string>
+    <string name="message_settings">သတ်မှတ်ချက်များ</string>
+    <string name="incorrect_backup_pin">မမှန်ကန်သော အရန်သိမ်းမှု PIN။</string>
+    <string name="pattern_backuppin">သင့် ပုံစံသို့ အခြားရွေးချယ်ရန်အဖြစ် သုံးသော PIN တစ်ခု ထည့်ပါ။</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d စက္ကန့်အတွင်း ထပ်မံကြိုးစားပါ</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">၁ စက္ကန့်အကြာမှာ ထပ်ကြိုးစားပါ။</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d မိနစ်အတွင်း ထပ်မံကြိုးစားပါ</string>
+    <string name="personalpage_off">သီးသန့် အနေအထား ပိတ်ထားသည်။</string>
+    <string name="personalpage_off_move_off">သီးသန့် အနေအထား ပိတ်ထားသည်။ သီးသန့်သို့ လက်ရှိ ရွှေ့ထားသည့် ပါဝင်သည့်အရာ တစ်ခုခုကို ရွှေ့သွားမည်မဟုတ်ပါ။</string>
+    <string name="failed_to_mount">သီးသန့် အနေအထားကို ရစေရန် မအောင်မြင်ပါ။ ထပ်ကြိုးစားပါ။</string>
+    <string name="pattern_help_text_try_again">မမှန်သည့်ပုံစုံတစ်ခု ဆွဲထားသည်။ ထပ်ကြိုးစားပါ။</string>
+    <string name="pin_help_text_try_again">မမှန်သော PIN တစ်ခု ထည့်ထားသည်။ ပြန်ကြိုးစားပါ။</string>
+    <string name="password_help_text_try_again">မမှန်ကန်သည့် စကားဝှက် တစ်ခုကို သင် ထည့်သွင်းထားသည်။ ပြန်ကြိုးစားပါ</string>
+    <string name="pin_help_text">သီးသန့် အနေအထားအတွက် သင့် PIN ထည့်ပါ။</string>
+    <string name="personal_page_switch_off_message">ဖွင့်ထားသော မည်သည့် ပါဝင်မှုမဆို ပိတ်မည်။ သိမ်းမထားသော မည်သည့် ပြောင်းလဲမှုမဆို စွန့်ပစ်မည်။</string>
+    <string name="private_mode_popup_btn_skip">ကျော်</string>
+    <string name="private_mode_popup_screen_lock_title">ဖန်သားပြင် သော့ သတ်မှတ်ချက်များ</string>
+    <string name="private_mode_popup_screen_lock_msg">သီးသန့် အနေအထားကို သုံးစဉ် ပိုမို လုံခြံင်္ုစေရန် သင့် ဖန်သားပြင် သော့ အမျိုးအစားကို လုံခြုံသော နည်းလမ်းသို့ ပြောင်းပြီး သီးသန့် အနေအထားကို ဖွင့်ရန် အကြံပြုပါသည်။</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">ရွေးထားသည့် ပါဝင်သည့်အရာကို လွှဲပြောင်းသည့်အခါ ကိုယ်ပိုင် အနေအထားကို သက်ဝင်စေမည်။</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"လွှဲပြောင်းမှု ပြီးပါပြီ။ 
+ကိုယ်ပိုင် အနေအထား ပိတ်နေသည်။"</string>
+    <string name="private_mode_popup_m2p_failed_close">"လွှဲပြောင်းမှု မပြီးစီးပါ။ 
+ကိုယ်ပိုင် အနေအထား ပိတ်နေသည်။"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">အခြား လုပ်ငန်းစဉ်တစ်ခု လုပ်ဆောင်လျက် ရှိသည်။ ထိုဟာ ပြီးမြောက်ပြီးနောက် တစ်ဖန် ပြန်ကြိုးစားပါ။</string>
+    <string name="private_mode_pop_up_title">ကိုယ်ရေးသီးသန့် အနေအထားကို ပိတ်ပါ</string>
+    <string name="private_mode_popup_m2p_msg">ရွေးချယ်ထားသည့် အကြောင်းအရာကို သီးသန့်သို့ ရွှေ့နေစဉ် သီးသန့် အနေအထားကို ဖွင့်လိမ့်မည်ဖြစ်ပြီး လွှဲပြောင်းမှု ပြီးသည်နှင့် တဖန် ပြန်ပိတ်လိမ့်မည်။</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"ရွေးထားသော အပလီကေးရှင်းများကို သီးသန့်သို့ရွှေ့စဉ် သီးသန့် အနေအထားကို ဖွင့်လိမ့်မည်ဖြစ်ပြီး လွှဲပြောင်းမှု ပြီးဆုံးသည်နှင့် တဖန်ပြန်ပိတ်လိမ့်မည်။
+
+အပလီကေးရှင်းများကို သီးသန့်သို့ ရွှေ့ခြင်းဖြင့် ၎င်းတို့နှင့် ချိတ်ဆက်ထားသော အပလီကေးရှင်းများနှင့် ဆက်စပ် ဝစ်ဂျစ်များကို ရွှေ့လိမ့်မည်ဖြစ်ပြီး ၎င်းတို့၏ အတိုကောက်များကို ဖျက်ပစ်လိမ့်မည်။ သီးသန့် အနေအထားကို ပိတ်ထားစဉ် သီးသန့်သို့ ရွှေ့ထားသည့် အပလီကေးရှင်းများမှ အသိပေးချက်များကို သင် လက်ခံရရှိလိမ့်မည် မဟုတ်ပါ။"</string>
+    <string name="private_mode_popup_m2p_title">သီးသန့် အနေအထားကို ဖွင့်ပါ</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">သင့်လက်ဗွေ သတ်မှတ်ချက်များကို ပြောင်းပြီးပါပြီ။ ကိုယ်ပိုင်သီးသန့် အနေအထားကိုဖွင့်ရန် နှစ်ကြိမ် စစ်ဆေးအတည်ပြုချက် ပတ်တန်ကို ဆွဲပါ။</string>
+    <string name="private_mode_bakcupkey_subtext_pin">သင့်လက်ဗွေ သတ်မှတ်ချက်များကို ပြောင်းပြီးပါပြီ။ ကိုယ်ပိုင်သီးသန့် အနေအထားကိုဖွင့်ရန် သင်၏ နှစ်ကြိမ် စစ်ဆေးအတည်ပြုချက် PIN ကို ထည့်သွင်းပါ။</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">သင့်လက်ဗွေ သတ်မှတ်ချက်များကို ပြောင်းပြီးပါပြီ။ ကိုယ်ပိုင်သီးသန့် အနေအထားကိုဖွင့်ရန် သင်၏ နှစ်ကြိမ် စစ်ဆေးအတည်ပြုချက် စကားဝှက်ကို ထည့်သွင်းပါ။</string>
+    <string name="private_mode_bakcupkey_bt_text">နှစ်ဆင့် အတည်ပြုစစ်ဆေးခြင်းသုံးပါ</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">အဆင့်ဒီဇိုင်း</string>
+    <string name="private_mode_bakcupkey_bt_password_text">စကားဝှက်</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s သုံးပါ</string>
+    <string name="private_mode_bakcuppwd_bt_text">အရံသိမ်း စကားဝှက်</string>
+    <string name="private_mode_migration_body_text">သီးသန့်အနေအထားကိုသုံးခွင့်ရရန်အတွက် သင်၏လက်ဗွေရာများကို အခြားနည်းလမ်းအဖြစ် အသုံးပြုရန် ပုံစံ၊ PIN (သို့) စကားဝှက်တစ်ခု သတ်မှတ်ပါ။</string>
+    <string name="private_mode_migration_next_button">နောက်ထပ်</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN အရန်သိမ်းဆည်းထားပါ</string>
+</resources>

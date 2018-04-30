@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">ទម្រង់​ឯកជន</string>
+    <string name="personalpage_on">បាន​បើកប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="personalpage_on_available">មាន​ខ្លឹមព័ត៌មាន​ឯកជន។</string>
+    <string name="personalpage_off_not_available">មិនមាន​ខ្លឹមព័ត៌មាន​ឯកជន។ ខ្លឹមព័ត៌មាន​ទាំងឡាយ​ណា​ដែល​កំពុង​ផ្លាស់ទី​ទៅ ឯកជន នឹង​មិន​ត្រូវ​បាន​ផ្លាស់ទី​ឡើយ។</string>
+    <string name="failed_to_unmount">មិន​អាច​បិទ​ទម្រង់​ឯកជន។ សាកល្បង​ម្តងទៀត។</string>
+    <string name="pattern_help_text">គូស​លំនាំ​របស់​អ្នក សម្រាប់​ទម្រង់​ឯកជន។</string>
+    <string name="password_help_text">វាយបញ្ចូល​ពាក្យសម្ងាត់​ទម្រង់​ឯកជន​របស់​អ្នក។</string>
+    <string name="personal_page_disclaimer_by_locktype">លាក់​ខ្លឹមព័ត៌មាន​ផ្ទាល់ខ្លួន។ ដើម្បី​ប្រើ​ទម្រង់​នេះ សូម​ជ្រើស​វិធី​ដោះសោ​មួយ។ បិទ​ទម្រង់​នេះ​បន្ទាប់​ពី​ប្រើ ដើម្បី​ការពារ​ខ្លឹមព័ត៌មាន​ដែល​បាន​លាក់។</string>
+    <string name="do_not_show_again">កុំ​បង្ហាញ​ម្តង​ទៀត</string>
+    <string name="message_settings">ការកំណត់</string>
+    <string name="incorrect_backup_pin">PIN ជំនួយ​មិន​ត្រឹមត្រូវ។</string>
+    <string name="pattern_backuppin">វាយបញ្ចូល PIN ដែល​បាន​ប្រើ​ជា​វិធី​ជំនួស​លំនាំ​របស់​អ្នក។</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល %d វិនាទី។</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល 1 វិនាទី។</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល %d នាទី</string>
+    <string name="personalpage_off">បាន​បិទ​ទម្រង់​ឯកជន។</string>
+    <string name="personalpage_off_move_off">បាន​បិទ​ទម្រង់​ឯកជន។ ខ្លឹមព័ត៌មាន​ទាំងឡាយ​ណា​ដែល​កំពុង​ផ្លាស់ទី​ទៅ ឯកជន នឹង​មិន​ត្រូវ​បាន​ផ្លាស់ទី​ឡើយ។</string>
+    <string name="failed_to_mount">បាន​បរាជ័យ​ក្នុង​ការ​បើកប្រើ​ទម្រង់​ឯកជន។ សាកល្បង​ម្តងទៀត។</string>
+    <string name="pattern_help_text_try_again">អ្នក​បាន​គូរ​លំនាំ​មិនត្រឹមត្រូវ។ សាកល្បង​ម្តងទៀត។</string>
+    <string name="pin_help_text_try_again">អ្នក​បាន​វាយបញ្ចូល PIN មិនត្រឹមត្រូវ។ សាកល្បង​ម្តងទៀត។</string>
+    <string name="password_help_text_try_again">អ្នក​បាន​វាយបញ្ចូល​ពាក្យសម្ងាត់​មិនត្រឹមត្រូវ។ សាកល្បង​ម្តងទៀត</string>
+    <string name="pin_help_text">វាយបញ្ចូល PIN របស់​អ្នក​សម្រាប់​ទម្រង់​ឯកជន។</string>
+    <string name="personal_page_switch_off_message">នឹង​បិទ​ខ្លឹមព័ត៌មាន​ដែល​បាន​បើក​ទាំងឡាយ។ នឹង​ចោល​ការកែប្រែ​ទាំងឡាយ​ដែល​អ្នក​មិន​បាន​រក្សាទុក។</string>
+    <string name="private_mode_popup_btn_skip">រំលង</string>
+    <string name="private_mode_popup_screen_lock_title">ការកំណត់​អេក្រង់​ជាប់សោ</string>
+    <string name="private_mode_popup_screen_lock_msg">ដើម្បី​ពង្រឹង​សន្តិសុខ ខណៈពេល​កំពុង​ប្រើ​ទម្រង់​ឯកជន យើង​ឲ្យ​យោបល់​អ្នក​ប្ដូរ​ប្រភេទ​សោ​អេក្រង់​របស់​អ្នក​ទៅ​វិធី​ដែល​មាន​សន្តិសុខ រួច​បើកប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Private Mode will be activated when the selected content is transferred.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Disclaimer
+Please be aware that content may appear in a separate folder in your device when it is automatically synchronised by a third-party application, such as Dropbox. Check the auto-synchronisation settings for your other applications before using Private Mode."</string>
+    <string name="private_mode_popup_m2p_success_close">"Transfer complete. 
+Closing Private Mode."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Transfer incomplete. 
+Closing Private Mode."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">ដំណើរការ​ផ្សេង​កំពុង​ដំណើរការ​ហើយ។ សាកល្បង​ម្ដងទៀត​បន្ទាប់​ពី​វា​បញ្ចប់។</string>
+    <string name="private_mode_pop_up_title">បិទ​ទម្រង់​ឯកជន</string>
+    <string name="private_mode_popup_m2p_msg">នឹង​បើកប្រើ​ទម្រង់​ឯកជន ខណៈពេល​ខ្លឹមព័ត៌មាន​ដែល​បាន​ជ្រើស​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ ឯកជន ហើយ​វា​នឹង​ត្រូវ​បាន​បិទ​ម្ដងទៀត នៅពេល​ការផ្ទេរ​បាន​បញ្ចប់។</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"នឹង​បើកប្រើ​ទម្រង់​ឯកជន ខណៈពេល​ផ្លាស់ទី​កម្មវិធី​ដែល​បាន​ជ្រើស​ទៅ ឯកជន ហើយ​នឹង​បិទ​វា​ម្ដងទៀត នៅពេល​ការផ្ទេរ​បាន​បញ្ចប់។
+
+ការផ្លាស់ទី​កម្មវិធី​ទៅ ឯកជន ក៏​នឹង​ផ្លាស់ទី​កម្មវិធី​ដែល​ពួកវា​បាន​ត និង វីដជីត​ដែល​ពាក់ព័ន្ធ​ផងដែរ ព្រមទាំង​លុប​ផ្លូវកាត់​របស់​ពួកវា។ ខណៈពេល​ទម្រង់​ឯកជន​ត្រូវ​បាន​បិទ អ្នក​នឹង​មិន​ទទួល​ការជូនដំណឹង​ពី​កម្មវិធី​ដែល​អ្នក​បាន​ផ្លាស់ទី​ទៅ ឯកជន ឡើយ។"</string>
+    <string name="private_mode_popup_m2p_title">បើកប្រើ​ទម្រង់​ឯកជន</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">ការកំណត់​ស្នាមម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​ប្ដូរ។ គូស​លំនាំ​ផ្ទៀងផ្ទាត់​ពីរ​ដង​របស់​អ្នក ដើម្បី​បើកប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="private_mode_bakcupkey_subtext_pin">ការកំណត់​ស្នាមម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​ប្ដូរ។ វាយបញ្ចូល PIN ផ្ទៀងផ្ទាត់​ពីរ​ដង​របស់​អ្នក ដើម្បី​បើកប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">ការកំណត់​ស្នាមម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​ប្ដូរ។ វាយបញ្ចូល​ពាក្យសម្ងាត់​ផ្ទៀងផ្ទាត់​ពីរ​ដង​របស់​អ្នក ដើម្បី​បើកប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="private_mode_bakcupkey_bt_text">ប្រើ​ការផ្ទៀងផ្ទាត់​ពីរ​ដង</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">លំនាំ</string>
+    <string name="private_mode_bakcupkey_bt_password_text">ពាក្យ​សម្ងាត់</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">ប្រើ %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">ពាក្យសម្ងាត់​ជំនួយ</string>
+    <string name="private_mode_migration_body_text">កំណត់​លំនាំ, PIN ឬ ពាក្យសម្ងាត់ ឲ្យ​ប្រើ​ជា​វិធី​ជំនួស​ស្នាមម្រាមដៃ​របស់​អ្នក ដើម្បី​ចូលប្រើ​ទម្រង់​ឯកជន។</string>
+    <string name="private_mode_migration_next_button">បន្ទាប់</string>
+    <string name="private_mode_pattern_backup_pin_desc">PIN ជំនួយ</string>
+</resources>

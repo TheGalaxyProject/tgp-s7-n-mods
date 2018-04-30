@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Modu pribatua</string>
+    <string name="personalpage_on">Modu pribatua gaitu da.</string>
+    <string name="personalpage_on_available">Modu pribatuko edukia erabilgarri dago.</string>
+    <string name="personalpage_off_not_available">Modu pribatuko edukia ez dago erabilgarri. Modu pribatura mugitzen ari den edukia ez da mugituko.</string>
+    <string name="failed_to_unmount">Ezin da Modu pribatua ezgaitu. Saiatu berriz.</string>
+    <string name="pattern_help_text">Marraztu Modu pribaturako eredua.</string>
+    <string name="password_help_text">Adierazi Modu pribatuaren pasahitza.</string>
+    <string name="personal_page_disclaimer_by_locktype">Ezkutatu eduki pertsonala. Modu hau erabiltzeko, hautatu desblokeo metodo bat. Ezgaitu modu hau erabili ondoren, ezkutatutako edukia babesteko.</string>
+    <string name="do_not_show_again">Ez erakutsi berriz</string>
+    <string name="message_settings">Ezarpena</string>
+    <string name="incorrect_backup_pin">Babes kopia PIN okerra</string>
+    <string name="pattern_backuppin">Idatzi ereduaren ordez erabilitako PINa</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Saiatu berriro hemendik %d segundotara</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Saiatu berriz segundo 1 barru</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Saiatu berriz %d minutu barru</string>
+    <string name="personalpage_off">Modu pribatua ezgaitu da.</string>
+    <string name="personalpage_off_move_off">Modu pribatua desgaituta dago. Modu pribatura mugitzen duzun edukia ez da mugituko.</string>
+    <string name="failed_to_mount">Ezin da Modu pribatua gaitu. Saiatu berriz.</string>
+    <string name="pattern_help_text_try_again">Patroi okerra marraztu duzu. Saiatu berriz.</string>
+    <string name="pin_help_text_try_again">PIN okerra adierazi duzu. Saiatu berriz.</string>
+    <string name="password_help_text_try_again">Pasahitz okerra adierazi duzu. Saiatu berriz.</string>
+    <string name="pin_help_text">Adierazi Modu pribatuaren PINa.</string>
+    <string name="personal_page_switch_off_message">Irekitako edozein eduki itxiko da. Gorde ez duzun aldaketa oro baztertuko da.</string>
+    <string name="private_mode_popup_btn_skip">Pasatu</string>
+    <string name="private_mode_popup_screen_lock_title">Pantaila blokeatz. ezarp.</string>
+    <string name="private_mode_popup_screen_lock_msg">Pribatu modua erabili bitartean segurtasuna areagotzeko, zure pantaila blokeatzeko mota metodo seguru batera aldatzea gomendatzen dizugu, eta ondoren Pribatu modua gaitzea.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Hautatutako edukia transferitzen denean, modu pribatua aktibatuko da.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Ezespena 
+Kontuan izan edukia gailuko beste karpeta batean ager daitekeela Dropbox gisako hirugarren baten aplikazioarekin automatikoki sinkronizatzen denean. Modu pribatua erabili baino lehen, begiratu zure beste aplikazioen automatikoki sinkronizatzeko ezarpenak."</string>
+    <string name="private_mode_popup_m2p_success_close">Transferentzia beteta. Modu Pribatutik irteten.</string>
+    <string name="private_mode_popup_m2p_failed_close">Transferentzia osatugabea. Modu Pribatutik irteten.</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Beste prozesu bat abiarazita dago. Saiatu berriz amaitu ondoren.</string>
+    <string name="private_mode_pop_up_title">Ezgaitu Modu pribatua</string>
+    <string name="private_mode_popup_m2p_msg">Pribatua modua gaituko da hautatutako edukia Pribatura mugitu bitartean eta berriz ere ezgaituko da transferentzia osatzean.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Pribatua modua gaituko da hautatutako aplikazioak Pribatura mugitu bitartean eta berriz ere ezgaituko da transferentzia osatzean.
+
+Aplikazioak Pribatura mugituta, haiei lotutako aplikazioak eta widgetak ere mugituko ditu, beren lasterbideak ezabatzeaz gain. Pribatua modua ezgaituta badago, ez duzu Pribatura mugitutako aplikazioen jakinarazpenik jasoko."</string>
+    <string name="private_mode_popup_m2p_title">Gaitu Pribatua modua</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Hatz aztarnen ezarpenak aldatu dira. Marraztu Egiaztapen bikoitzaren patroia Modu pribatua gaitzeko.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Hatz aztarnen ezarpenak aldatu dira. Idatzi Egiaztapen bikoitzaren PINa Modu pribatua gaitzeko.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Hatz aztarnen ezarpenak aldatu dira. Idatzi Egiaztapen bikoitzaren pasahitza Modu pribatua gaitzeko.</string>
+    <string name="private_mode_bakcupkey_bt_text">Erab. egiaztapen bikoitza</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PINa</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Eredua</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Pasahitza</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Erabili %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Babeskopia pasahitza</string>
+    <string name="private_mode_migration_body_text">Ezarri Modu pribatuan sartzeko hatz aztarnen ordez erabili nahi duzun patroia, PINa edo pasahitza.</string>
+    <string name="private_mode_migration_next_button">Hurrengoa</string>
+    <string name="private_mode_pattern_backup_pin_desc">Egin PINaren babes kopia</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grant_permissions_app_color">@color/grant_permissions_white_text_alpha_100</color>
+    <color name="grant_permissions_progress_color">@color/grant_permissions_white_text_alpha_100</color>
+    <color name="grant_permissions_title_color">@color/grant_permissions_white_text_alpha_70</color>
+    <color name="grant_permissions_white_text_alpha_100">@color/off_white</color>
+    <color name="grant_permissions_white_text_alpha_70">#b2eeeeee</color>
+    <color name="off_white">#ffeeeeee</color>
+    <color name="permissions_settings_item_color">#ffffffff</color>
+    <color name="primary_text_light">#ff424242</color>
+    <color name="circular_button_disabled">#ff757575</color>
+    <color name="cw_dark_gray">#ff424242</color>
+</resources>

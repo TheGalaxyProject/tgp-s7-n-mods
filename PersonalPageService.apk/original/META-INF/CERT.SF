@@ -1,0 +1,110 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA-256-Digest-Manifest: qdteFM6jZaK9p35tRZZ8IyqofykD/mGj6uyu38BATEA=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout-sw600dp-land-v13/private_mode_pin.xml
+SHA-256-Digest: kj3WRh1t5rNHWFrICCHGmEKCwSupBUGvItfe4RLyMLY=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_private_mode.pio
+SHA-256-Digest: UC92C4//ceL0rxoTJ68+bQ51Xzux555Qp6NWyV4X4+0=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: mNQDwU9jPa5LtL2cMp3bhdEQojSXUtFb8RNCXEjvzfY=
+
+Name: res/drawable-sw800dp-hdpi-v13/stat_sys_private_mode.pio
+SHA-256-Digest: IzT/6h4+y+PDx7yRGrN+svPWwqKYINVcdvoT05YQbyY=
+
+Name: res/layout/private_mode_pattern.xml
+SHA-256-Digest: Rtk4jTeQ23nLdDVgFJN4dvO4repstesMcv3ZwLfAne0=
+
+Name: res/drawable/stat_sys_private_mode.spr
+SHA-256-Digest: bABEA8/XT9IJOZ6fq9SOrmLApSuPdYTa9A8JmAATU8A=
+
+Name: res/layout-land/private_mode_typingverify.xml
+SHA-256-Digest: +8NbZ/tTFim4TPYiWVzZ1CPyC9F/7LHrB1vQm/Ij8H8=
+
+Name: res/layout-land-v21/private_mode_pin.xml
+SHA-256-Digest: lS5ZnK1TYeFBzEaM+8MgLBdJ+4bigndZV88RsBiZ4wU=
+
+Name: res/layout-land/private_mode_pin.xml
+SHA-256-Digest: S2ch0QrTox6HiqFLzZ2YGEP9XcN2lgo4jht+gZs58oQ=
+
+Name: SEC-INF/buildConfirm.crt
+SHA-256-Digest: P3ynqIdbDmwF1PsNloTMDkK1dQ1IUV/iAEjaKUKMbUg=
+
+Name: res/drawable/private_mode_textfield_selector.xml
+SHA-256-Digest: GGmoFTwgJ33KYDLdsi+DhWGX2TAtyPMLJUyxRiuRuqs=
+
+Name: res/layout-sw600dp-v13/private_mode_pattern.xml
+SHA-256-Digest: l5cqdSLwMgN3pwgYhLRT4NgTEQBKNm1F4imLrGf1JsY=
+
+Name: res/layout-land-v21/private_mode_pattern.xml
+SHA-256-Digest: sZuzNy2NZWDwV19rPIfKM1SAiWMYSuTM1jSzz05Qn1c=
+
+Name: res/drawable/private_textfield_square.xml
+SHA-256-Digest: ca9+JtdNTp+zJ/9jdHLXsX1bY2iLsFUQC/6EDT0RgFY=
+
+Name: res/layout-land-v21/private_mode_typingverify.xml
+SHA-256-Digest: cFKb0YE1LTv/FtaRWbl9H0oqt4qTYyYN4d9k2RYCnIc=
+
+Name: res/layout/private_mode_pin.xml
+SHA-256-Digest: h2T1k2IGmLY1tLg2Pn288gVYZ8Xroagm9pNfh6i14Gw=
+
+Name: res/layout-land/private_mode_pattern.xml
+SHA-256-Digest: nqlEXK7RHY8kP12bhpS/KFg2mnGKtby8mgS7H1pfeMs=
+
+Name: res/drawable-sw411dp-xxhdpi-v13/stat_sys_private_mode.spr
+SHA-256-Digest: YjfSJj0gOJEBaVZuqP4BMNJsZgKpncQl+tOhkUW6lBs=
+
+Name: res/drawable-xxxhdpi-v4/stat_sys_private_mode.spr
+SHA-256-Digest: n67NMivyeRZtWw4zf4pU0zhjS/LKW2RIcnDruIbOMsQ=
+
+Name: res/layout-v21/private_mode_pattern.xml
+SHA-256-Digest: Syl9wT7k86IZ6izC8WLNIf5BERqUs0kik8z8TfzfSy4=
+
+Name: res/drawable/private_mode_edit_text_cursor.xml
+SHA-256-Digest: XmpogGTVum/hM4mYW7drnndIlWlwaiIB/aIgkVBiy/Q=
+
+Name: res/layout-v21/private_mode_pin.xml
+SHA-256-Digest: WrY63pYqxoyjlx4LMIbmvvZGOLtoLkMJlTWrDSWJU3I=
+
+Name: SEC-INF/buildinfo.xml
+SHA-256-Digest: 6duWTVReP+Uum+s/XedFayEYd7F8UnDx0Sz2JoM1/5E=
+
+Name: res/layout-sw600dp-v13/private_mode_pin.xml
+SHA-256-Digest: YdxG7dxGnTsF1R48FcXdxrBQ6UGvcsTSsP5xwQQxKKg=
+
+Name: res/drawable-sw600dp-xhdpi-v13/stat_sys_private_mode.spr
+SHA-256-Digest: jZGaoBfy0rAIMBpMr4opWdWm/VDWieudNMWWucZSDeY=
+
+Name: res/drawable-xxxhdpi-v4/private_mode_unlock_ic_pwd.pio
+SHA-256-Digest: Snexl8Yao3LWWn8wJ9PoE0yCVJfGiX3c0aB9+a9fE7s=
+
+Name: res/drawable-xxxhdpi-v4/ic_setting_grid_private_mode.qmg
+SHA-256-Digest: zKtGEfLUllTem0AlIVFGEABTNiHKbfW4UDwyXXYYH+Q=
+
+Name: res/layout-sw600dp-v13/private_mode_typingverify.xml
+SHA-256-Digest: qcVwjs/g5u6QpVJzD5vZlsa0y77Hm1OXHCsZMwxIDMg=
+
+Name: res/layout-v21/private_mode_typingverify.xml
+SHA-256-Digest: 1BW9xKQdjkvSWN/k1NWhDkfiQW+tiU55Flg08qzYw0I=
+
+Name: res/layout-sw600dp-v21/private_mode_pattern.xml
+SHA-256-Digest: bbpBzR+djjy1T32RMxlEsfUr+J2wOLV7LGY/gISwKXE=
+
+Name: resources.arsc
+SHA-256-Digest: SxeOWj/HXUicJN6grIN0arVeBqqfL6wWfbLjcnx6zrM=
+
+Name: res/drawable-xxxhdpi-v4/tw_textfield_default_mtrl_alpha.9.qmg
+SHA-256-Digest: pfOfQavD9wndAsun4dapxtvSKZe7nxV8fcMEcW+SsvE=
+
+Name: res/layout-sw600dp-land-v13/private_mode_typingverify.xml
+SHA-256-Digest: O/C23AjCVAVzEMBNyrNDCDAicx+cPCp/iviNNZ+v3nk=
+
+Name: res/drawable-xxxhdpi-v4/tw_textfield_activated_mtrl_alpha.9.qmg
+SHA-256-Digest: sBdFoSnW2NubTiZtNiTi7/OkTe8o8SxW47f4mq+aPBs=
+
+Name: res/layout/private_mode_typingverify.xml
+SHA-256-Digest: YQ/PDRnrz2EranGXieGXjYo5nForGAtOeUP1WRISutc=
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
+    <string name="date_and_time" formatted="false">%Y-%m-%d, %-l:%M:%S %p</string>
+    <string name="date_time">%1$s, %2$s</string>
+    <string name="ext_media_status_unmountable">Corrupted</string>
+    <string name="lacking_filenode_internal_storage_view_title">File system limit</string>
+    <string name="lacking_filenode_internal_storage_view_text">Too many files have been created on your phone. Apps may stop working correctly and your phone may no longer start up. Back up any important data and factory reset your phone.</string>
+</resources>

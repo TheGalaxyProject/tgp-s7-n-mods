@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Особистий режим</string>
+    <string name="personalpage_on">Особистий режим увімкнено.</string>
+    <string name="personalpage_on_available">Доступний особистий вміст.</string>
+    <string name="personalpage_off_not_available">Особистий вміст недоступний. Будь-які дані, які наразі переміщуються до особистого режиму, не буде переміщено.</string>
+    <string name="failed_to_unmount">Неможливо вимкнути особистий режим. Cпробуйте ще раз.</string>
+    <string name="pattern_help_text">Накресліть зразок для особистого режиму.</string>
+    <string name="password_help_text">Введіть пароль для особистого режиму.</string>
+    <string name="personal_page_disclaimer_by_locktype">Приховання особистого вмісту. Щоб скористатися цим режимом, виберіть спосіб розблокування. Вимкніть цей режим після використання для захисту прихованого вмісту.</string>
+    <string name="do_not_show_again">Більше не показувати</string>
+    <string name="message_settings">Устан.</string>
+    <string name="incorrect_backup_pin">Хибний резервний PIN-код.</string>
+    <string name="pattern_backuppin">Введіть PIN-код, що використовується як альтернатива зразку.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Спробуйте ще раз через %d секунд.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Спробуйте ще раз через 1 секунду.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Спробуйте знову через %d хв.</string>
+    <string name="personalpage_off">Особистий режим вимкнено.</string>
+    <string name="personalpage_off_move_off">Особистий режим вимкнено. Будь-які дані, які наразі переміщуються до особистого режиму, не буде переміщено.</string>
+    <string name="failed_to_mount">Не вдалося увімкнути особистий режим. Cпробуйте ще раз.</string>
+    <string name="pattern_help_text_try_again">Накреслено хибний зразок. Cпробуйте ще раз.</string>
+    <string name="pin_help_text_try_again">Введено хибний PIN-код. Cпробуйте ще раз</string>
+    <string name="password_help_text_try_again">Введено невірний пароль. Cпробуйте ще раз</string>
+    <string name="pin_help_text">Введіть PIN-код для особистого режиму.</string>
+    <string name="personal_page_switch_off_message">Будь-який відкритий вміст буде закрито. Будь-які незбережені зміни буде відхилено.</string>
+    <string name="private_mode_popup_btn_skip">Пропустити</string>
+    <string name="private_mode_popup_screen_lock_title">Установки блок. екрана</string>
+    <string name="private_mode_popup_screen_lock_msg">Для підвищення рівня захисту під час використання особистого режиму рекомендується змінити тип блокування екрану на захищений спосіб, а потім увімкнути особистий режим.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Особистий режим буде активовано при передачі вибраного вмісту.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Застереження 
+Зауважте, що підчас автоматичної синхронізації прикладною програмою стороннього виробника, наприклад Dropbox, вміст може бути переміщений в окрему папку на вашому пристрої. Перед використанням Особистого режиму перевірте параметри автоматичної синхронізації інших прикладних програм."</string>
+    <string name="private_mode_popup_m2p_success_close">"Передачу завершено. 
+Вихід з Особистого режиму."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Передачу не завершено. 
+Вихід з Особистого режиму."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Уже виконується інший процес. Спробуйте ще раз після його завершення.</string>
+    <string name="private_mode_pop_up_title">Вимкнення особистого режиму</string>
+    <string name="private_mode_popup_m2p_msg">Особистий режим буде ввімкнено в разі переміщення до нього вибраного вмісту та знову вимкнено після завершення передавання.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Особистий режим буде ввімкнено в разі переміщення до нього вибраних програм і знову вимкнено після завершення передавання.
+
+Переміщення програм до особистого режиму призведе до переміщення зв’язаних з ними програм і пов’язаних віджетів, а також видалення ярликів до них. За вимкненого особистого режиму не можна отримувати сповіщення з програм, переміщених до особистого режиму."</string>
+    <string name="private_mode_popup_m2p_title">Увімкнення особистого режиму</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Змінено налаштування розпізнавання за відбитком пальця. Щоб увімкнути особистий режим, задайте малюнок подвійної перевірки.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Змінено налаштування розпізнавання за відбитком пальця. Щоб увімкнути особистий режим, уведіть PIN-код подвійної перевірки.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Змінено налаштування розпізнавання за відбитком пальця. Щоб увімкнути особистий режим, уведіть пароль подвійної перевірки.</string>
+    <string name="private_mode_bakcupkey_bt_text">Використ. подв. перевірки</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Візерунок</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Пароль</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Використання %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Резервний пароль</string>
+    <string name="private_mode_migration_body_text">Створіть малюнок розблокування, PIN-код або пароль, які будуть використовуватись у якості альтернативи розпізнаванню відбитка пальця під час входу в особистий режим.</string>
+    <string name="private_mode_migration_next_button">Далі</string>
+    <string name="private_mode_pattern_backup_pin_desc">Резервний PIN-код</string>
+</resources>

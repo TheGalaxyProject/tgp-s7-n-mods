@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">निजी मोड</string>
+    <string name="personalpage_on">निजी मोड सक्षम गरिएको छ।</string>
+    <string name="personalpage_on_available">निजी सामग्री उपलब्ध।</string>
+    <string name="personalpage_off_not_available">निजी सामग्री उपलब्ध छैन। हालै निजीमा सारिरहेको कुनैपनि सामग्री सारिनेछैन।</string>
+    <string name="failed_to_unmount">निजी मोड असक्षम गर्न असमर्थ। पुन: प्रयास गर्नुहोस्।</string>
+    <string name="pattern_help_text">निजी मोडको लागि तपाइँको ढाँचा कोर्नुहोस्।</string>
+    <string name="password_help_text">तपाईको निजी मोडको पासवर्ड प्रविष्‍ट गर्नुहोस्।</string>
+    <string name="personal_page_disclaimer_by_locktype">व्यक्तिगत सामग्री लुकाउनुहोस्। यो मोड प्रयोग गर्न, एउटा अनलक पद्धति चयन गर्नुहोस्। लुकाइएको सामग्री सुरक्षित गर्न, प्रयोग पछि यो मोड असक्षम गर्नुहोस्।</string>
+    <string name="do_not_show_again">फेरि नदेखाउनुहोस्।</string>
+    <string name="incorrect_backup_pin">भुल ब्याकप PIN।</string>
+    <string name="pattern_backuppin">तपाईको ढाँचा विकल्पको रूपमा प्रयोग गरिने PIN प्रविष्‍ट गर्नुहोस्।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">%d सेकेन्डमा पुनः प्रयास गर्नुहोस्।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">1 सेकेन्डमा फेरि प्रयास गर्नुहोस्।</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">%d मिनटमा फेरि प्रयास गर्नुहोस्</string>
+    <string name="personalpage_off">निजी मोड असक्षम गरिएको छ।</string>
+    <string name="personalpage_off_move_off">निजी मोड असक्षम गरियो। हाल निजीमा सरिरहेको कुनैपनि सामग्री सर्ने छैन।</string>
+    <string name="failed_to_mount">निजी मोड सक्षम गर्न असफल भयो। पुन: प्रयास गर्नुहोस्।</string>
+    <string name="pattern_help_text_try_again">तपाईले एउटा गलत ढाँचा कोर्नुभएको छ। पुन: प्रयास गर्नुहोस्।</string>
+    <string name="pin_help_text_try_again">तपाईले गलत PIN प्रविष्‍ट गर्नुभएको छ। पुन: प्रयास गर्नुहोस्।</string>
+    <string name="password_help_text_try_again">तपाईले गलत पासवर्ड प्रविष्‍ट गर्नुभएको छ। पुन: प्रयास गर्नुहोस्।</string>
+    <string name="pin_help_text">निजी मोडको लागि तपाईको PIN प्रविष्‍ट गर्नुहोस्।</string>
+    <string name="personal_page_switch_off_message">कुनै पनि खुल्ला भएको सामग्री बन्द हुनेछ। तपाईलाई सेव नगरिएको कुनै परिवर्तनहरू त्यागिनेछ।</string>
+    <string name="private_mode_popup_btn_skip">छोड्नु</string>
+    <string name="private_mode_popup_screen_lock_title">स्क्रीन लक सेटिङहरू</string>
+    <string name="private_mode_popup_screen_lock_msg">निजी मोड प्रयोग गरेको बेला सुरक्षा बढाउन, हामी तपाईको स्क्रीन लक प्रकारलाई कुनै सुरक्षित पद्धतिमा परिवर्तन गर्ने सिफारिस गर्दछौं, त्यसपछि निजी मोड सक्षम गर्नुहोस्।</string>
+    <string name="private_mode_popup_m2p_success_close">"स्थानान्तरण पूर्ण भयो। 
+निजी मोडबाट बाहिर निस्किँदैछ।"</string>
+    <string name="private_mode_popup_m2p_failed_close">"स्थानान्तरण पूर्ण भएन। 
+निजी मोडबाट बाहिर निस्किँदैछ।"</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">अन्य प्रक्रिया पहिले नै प्रगतिमा छ। यो समाप्‍त भएपछि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="private_mode_pop_up_title">निजी मोड असक्षम गर्नुहोस्</string>
+    <string name="private_mode_popup_m2p_msg">चयन गरिएको सामग्री निजीमा सारेको बेला निजी मोडलाई सक्षम गरिनेछ र स्थानान्तरण गर्नुहोस् पूरा भएपछि फेरि एक पटक असक्षम हुनेछ।</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"चयन गरिएका अनुप्रयोगहरू निजीमा सार्दा निजी मोड सक्षम हुनेछ, र स्थानान्तरण पूर्ण भएपछि पुनः असक्षम हुनेछ।
+
+अनुप्रयोगहरू निजीमा सार्नाले तिनीहरूसंग लिंक भएका अनुप्रयोगहरू र सम्बन्धित विजेटहरू पनि सारिनेछन्, र तिनीहरूका शर्टकटहरू मेटिनेछन्। निजी मोड असक्षम छँदा, तपाई तपाईले निजीमा सारेका अनुप्रयोगहरूबाट आउने सूचनाहरू प्राप्त गर्नुहुनेछैन।"</string>
+    <string name="private_mode_popup_m2p_title">निजी मोड सक्षम गर्नुहोस्</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">तपाईका फिंगरप्रिन्ट सेटिङहरू परिवर्तन गरिएका छन्। निजी मोड सक्षम गर्न तपाईको दोहोरो प्रमाणीकरण ढाँचा कोर्नुहोस्।</string>
+    <string name="private_mode_bakcupkey_subtext_pin">तपाईका फिंगरप्रिन्ट सेटिङहरू परिवर्तन गरिएका छन्। निजी मोड सक्षम गर्न तपाईको दोहोरो प्रमाणीकरण PIN प्रविष्ट गर्नुहोस्।</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">तपाईका फिंगरप्रिन्ट सेटिङहरू परिवर्तन गरिएका छन्। निजी मोड सक्षम गर्न तपाईको दोहोरो प्रमाणीकरण पासवर्ड प्रविष्ट गर्नुहोस्।</string>
+    <string name="private_mode_bakcupkey_bt_text">दोहोरो प्रमाणीकरण प्रयोग</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">ढाँचा</string>
+    <string name="private_mode_bakcupkey_bt_password_text">पासवर्ड</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">%s प्रयोग गर्नुहोस्</string>
+    <string name="private_mode_bakcuppwd_bt_text">पासवर्ड ब्याकअप गर्नुहोस्</string>
+    <string name="private_mode_migration_body_text">निजी मोडमा पहुँच गर्नको लागि तपाईको फिंगरप्रिन्टहरूको विकल्पको रूपमा प्रयोग गर्न ढाँचा, PIN, वा पासवर्ड सेट गर्नुहोस्।</string>
+    <string name="private_mode_migration_next_button">अर्को</string>
+    <string name="private_mode_pattern_backup_pin_desc">ब्याकअप PIN</string>
+</resources>

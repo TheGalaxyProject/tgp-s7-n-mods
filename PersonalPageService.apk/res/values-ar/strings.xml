@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">الوضع الخاص</string>
+    <string name="personalpage_on">تم تفعيل الوضع الخاص.</string>
+    <string name="personalpage_on_available">يتوفر المحتوى الخاص.</string>
+    <string name="personalpage_off_not_available">لا يتوفر المحتوى الخاص. لن يتم نقل أي محتوى يتم نقله حالياً إلى الخاص.</string>
+    <string name="failed_to_unmount">يتعذّر إلغاء تفعيل الوضع الخاص. حاول مرة أخرى.</string>
+    <string name="pattern_help_text">ارسم النمط للوضع الخاص.</string>
+    <string name="password_help_text">أدخل كلمة مرور الوضع الخاص.</string>
+    <string name="personal_page_disclaimer_by_locktype">إخفاء المحتوى الشخصي. لاستخدام هذا الوضع، حدّد طريقة إلغاء قفل. إلغاء تفعيل هذا الوضع بعد الاستخدام لحماية المحتوى المخفي.</string>
+    <string name="do_not_show_again">عدم العرض مرة أخرى</string>
+    <string name="message_settings">الضبط</string>
+    <string name="incorrect_backup_pin">رقم PIN الاحتياطي غير صحيح.</string>
+    <string name="pattern_backuppin">أدخل رمز PIN المستخدم كبديل للنمط.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">حاول مرة أخرى خلال %d ثواني.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">حاول مرة أخرى خلال ثانية واحدة.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">حاول مجدداً بعد %d من الدقائق</string>
+    <string name="personalpage_off">تم إلغاء تفعيل الوضع الخاص.</string>
+    <string name="personalpage_off_move_off">تم إلغاء تفعيل الوضع الخاص. لن يتم نقل أي محتوى يتم نقله حالياً إلى الخاص.</string>
+    <string name="failed_to_mount">فشل تفعيل الوضع الخاص. حاول مرة أخرى.</string>
+    <string name="pattern_help_text_try_again">لقد رسمت نمطًا غير صحيح. حاول مرة أخرى.</string>
+    <string name="pin_help_text_try_again">لقد أدخلت رمز PIN غير صحيح. حاول مرة أخرى.</string>
+    <string name="password_help_text_try_again">لقد أدخلت كلمة مرور غير صحيحة. أعد المحاولة.</string>
+    <string name="pin_help_text">أدخل رقم PIN للوضع الشخصي.</string>
+    <string name="personal_page_switch_off_message">سيتم إغلاق أي محتوى مفتوح. سيتم تجاهل أي تغييرات لم تحفظ.</string>
+    <string name="private_mode_popup_btn_skip">تخطي</string>
+    <string name="private_mode_popup_screen_lock_title">إعدادات قفل الشاشة</string>
+    <string name="private_mode_popup_screen_lock_msg">لتحسين الحماية أثناء استخدام الوضع الخاص، نوصيك بتغيير نوع قفل الشاشة إلى طريقة آمنة وبتفعيل الوضع الخاص بعد ذلك.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">سيتم تنشيط الوضع الخاص بعد نقل المحتوى المحدد.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"إخلاء المسؤولية 
+نلفت انتباهك إلى أنّ المحتوى قد يظهر في مجلد منفصل في جهازك عند مزامنته تلقائيًا من قبل تطبيق تابع لجهة خارجية مثل Dropbox. تحقق من ضبط المزامنة التلقائية لتطبيقاتك الأخرى قبل استخدام الوضع الخاص."</string>
+    <string name="private_mode_popup_m2p_success_close">"اكتملت عملية النقل. 
+جارٍ الخروج من الوضع الخاص."</string>
+    <string name="private_mode_popup_m2p_failed_close">"لم تكتمل عملية النقل. 
+جارٍ الخروج من الوضع الخاص."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">توجد عملية أخرى قيد التقدم بالفعل. حاول مرة أخرى بعد الانتهاء.</string>
+    <string name="private_mode_pop_up_title">إلغاء تفعيل الوضع الخاص</string>
+    <string name="private_mode_popup_m2p_msg">سيتم تفعيل الوضع الخاص أثناء نقل المحتوى المحدد إلى الخاص، ومن ثم إلغاء تفعيله مرة أخرى فور اكتمال النقل.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"سيتم تفعيل الوضع الخاص بينما يتم نقل التطبيقات المحددة إلى الخاص، وسيتم إلغاء تفعيله مرة أخرى فور اكتمال النقل.
+
+كذلك، سيؤدي نقل التطبيقات إلى الخاص إلى نقل التطبيقات المرتبطة بها والتطبيقات المصغرة ذات الصلة، وحذف اختصاراتها. بينما يكون الوضع الخاص قد تم إلغاء تفعيله، لن تتلقى الإشعارات من التطبيقات التي نقلتها إلى الخاص."</string>
+    <string name="private_mode_popup_m2p_title">تفعيل الوضع الخاص</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">تم تغيير ضبط بصمة الإصبع. ارسم نقش التحقق المزدوج لتفعيل الوضع الخاص.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">تم تغيير ضبط بصمة إصبعك. قم بإدخال رقم PIN الخاص بالتحقق المزدوج لتفعيل الوضع الخاص.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">تم تغيير ضبط بصمة إصبعك. قم بإدخال كلمة المرور الخاصة بالتحقق المزدوج لتفعيل الوضع الخاص.</string>
+    <string name="private_mode_bakcupkey_bt_text">استخدام التحقق المزدوج</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">نمط</string>
+    <string name="private_mode_bakcupkey_bt_password_text">كلمة المرور</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">استخدام %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">كلمة المرور الاحتياطية</string>
+    <string name="private_mode_migration_body_text">اضبط نقشاً أو رقم PIN أو كلمة مرور لاستخدامها كبديل لبصماتك للوصول إلى الوضع الخاص.</string>
+    <string name="private_mode_migration_next_button">التالي</string>
+    <string name="private_mode_pattern_backup_pin_desc">رقم PIN للنسخ الاحتياطي</string>
+</resources>

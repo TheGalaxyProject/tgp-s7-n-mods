@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="conf_diag_button_container_height">96.0dip</dimen>
+    <dimen name="conf_diag_2button_margin_side">32.0dip</dimen>
+    <dimen name="conf_diag_2button_margin_top">10.0dip</dimen>
+    <dimen name="conf_diag_min_space_above_message">26.0dip</dimen>
+</resources>

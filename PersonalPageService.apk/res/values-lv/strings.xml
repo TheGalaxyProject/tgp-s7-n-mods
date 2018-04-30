@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_page">Privātais režīms</string>
+    <string name="personalpage_on">Privātais režīms ir aktivizēts.</string>
+    <string name="personalpage_on_available">Privātais saturs ir pieejams.</string>
+    <string name="personalpage_off_not_available">Privātais saturs nav pieejams. Saturs, kas šobrīd tiek pārvietots uz privāto režīmu, netiks pārvietots.</string>
+    <string name="failed_to_unmount">Nevar deaktivizēt privāto režīmu. Mēģiniet vēlreiz.</string>
+    <string name="pattern_help_text">Uzzīmējiet privātā režīma figūru.</string>
+    <string name="password_help_text">Ievadiet savu privātā režīma paroli.</string>
+    <string name="personal_page_disclaimer_by_locktype">Slēpt personīgo saturu. Lai izmantotu šo režīmu, izvēlieties atbloķēšanas metodi. Deaktivizējiet šo režīmu pēc lietošanas, lai aizsargātu slēpto saturu.</string>
+    <string name="do_not_show_again">Vairs nerādīt</string>
+    <string name="message_settings">Iestat.</string>
+    <string name="incorrect_backup_pin">Nepareizs rezerves PIN kods.</string>
+    <string name="pattern_backuppin">Ievadiet PIN kodu, kas tiek izmantots kā figūras alternatīva.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Mēģiniet vēlreiz pēc %d sekundēm.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempt_footer">Pēc 1 sekundes mēģiniet vēlreiz.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer_min">Mēģiniet vēlreiz pēc %d minūtēm</string>
+    <string name="personalpage_off">Privātais režīms ir deaktivizēts.</string>
+    <string name="personalpage_off_move_off">Privātais režīms ir deaktivizēts. Saturs, kas šobrīd tiek pārvietots uz privāto režīmu, netiks pārvietots.</string>
+    <string name="failed_to_mount">Neizdevās aktivizēt privāto režīmu. Mēģiniet vēlreiz.</string>
+    <string name="pattern_help_text_try_again">Jūs uzvilkāt nepareizu figūru. Mēģiniet vēlreiz.</string>
+    <string name="pin_help_text_try_again">Jūs ievadījāt nepareizu PIN kodu. Mēģiniet vēlreiz.</string>
+    <string name="password_help_text_try_again">Jūs ievadījāt nepareizu paroli. Mēģiniet vēlreiz</string>
+    <string name="pin_help_text">Ievadiet savu privātā režīma PIN.</string>
+    <string name="personal_page_switch_off_message">Viss atvērtais saturs tiks aizvērts. Visas nesaglabātās izmaiņas tiks atmestas.</string>
+    <string name="private_mode_popup_btn_skip">Izlaist</string>
+    <string name="private_mode_popup_screen_lock_title">Ekrāna bloķēšanas iest.</string>
+    <string name="private_mode_popup_screen_lock_msg">Lai uzlabotu drošību, kad lietojat privāto režīmu, ekrāna bloķēšanas veidu ieteicams mainīt uz drošu metodi un pēc tam aktivizēt privāto režīmu.</string>
+    <string name="private_mode_popup_m2p_disclaimer_msg">Privātais režīms tiks aktivizēts, kad tiks pārsūtīts izvēlētais saturs.</string>
+    <string name="private_mode_popup_m2p_disclaimer">"Atruna 
+Lūdzu, ņemiet vērā, ka saturs var tikt parādīts atsevišķā ierīces mapē, ja tas tiks automātiski sinhronizēts, izmantojot trešās puses lietojumprogrammu, piemēram, lietojumprogrammu Dropbox. Pirms Privātā režīma lietošanas pārbaudiet citu lietojumprogrammu automātiskās sinhronizēšanas iestatījumus."</string>
+    <string name="private_mode_popup_m2p_success_close">"Pārsūtīšana ir pabeigta. 
+Notiek Privātā režīma aizvēršana."</string>
+    <string name="private_mode_popup_m2p_failed_close">"Pārsūtīšana nav pabeigta. 
+Notiek Privātā režīma aizvēršana."</string>
+    <string name="personalpage_on_vzw">Private mode turned on.</string>
+    <string name="personalpage_off_vzw">Private mode turned off.</string>
+    <string name="private_mode_toast_ism2p">Jau notiek cits process. Pēc tā pabeigšanas mēģiniet vēlreiz.</string>
+    <string name="private_mode_pop_up_title">Deaktivizēt privāto režīmu</string>
+    <string name="private_mode_popup_m2p_msg">Privātais režīms tiks aktivizēts, kamēr izvēlētais saturs tiek pārvietots uz privāto mapi, un pēc pārsūtīšanas atkal tiks deaktivizēts.</string>
+    <string name="private_mode_popup_m2p_msg_apphide">"Privātais režīms tiks aktivizēts, kamēr notiks izvēlēto programmu pārvietošana uz privāto režīmu, un pēc pārsūtīšanas atkal tiks deaktivizēts.
+
+Pārvietojot programmas uz privāto režīmu, tiks pārvietotas arī ar tām saistītās programmas un logrīki un izdzēsti to īsceļi. Kad privātais režīms būs deaktivizēts, jūs nesaņemsit paziņojumus no programmām, kas ir pārvietotas uz privāto režīmu."</string>
+    <string name="private_mode_popup_m2p_title">Aktivizēt privāto režīmu</string>
+    <string name="private_mode_bakcupkey_subtext_pattern">Jūsu pirkstu nospiedumu iestatījumi ir mainīti. Uzvelciet savu dubultās verifikācijas figūru, lai aktivizētu privāto režīmu.</string>
+    <string name="private_mode_bakcupkey_subtext_pin">Jūsu pirkstu nospiedumu iestatījumi ir mainīti. Ievadiet savu dubultās verifikācijas PIN kodu, lai aktivizētu privāto režīmu.</string>
+    <string name="private_mode_bakcupkey_subtext_pwd">Jūsu pirkstu nospiedumu iestatījumi ir mainīti. Ievadiet savu dubultās verifikācijas paroli, lai aktivizētu privāto režīmu.</string>
+    <string name="private_mode_bakcupkey_bt_text">Izmantot dubulto verifik.</string>
+    <string name="private_mode_bakcupkey_bt_pin_text">PIN</string>
+    <string name="private_mode_bakcupkey_bt_pattern_text">Shēma</string>
+    <string name="private_mode_bakcupkey_bt_password_text">Parole</string>
+    <string name="private_mode_bakcupkey_bt_ppp_text">Izmantot %s</string>
+    <string name="private_mode_bakcuppwd_bt_text">Rezerves parole</string>
+    <string name="private_mode_migration_body_text">Iestatiet figūru, PIN kodu vai paroli, ko izmantot kā alternatīvu pirkstu nospiedumiem, lai piekļūtu privātajam režīmam.</string>
+    <string name="private_mode_migration_next_button">Tālāk</string>
+    <string name="private_mode_pattern_backup_pin_desc">Rezerves PIN kods</string>
+</resources>
