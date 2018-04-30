@@ -8991,7 +8991,7 @@
 .method public isUnlockingWithFingerprintAllowed()Z
     .locals 2
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     iget-object v1, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mStrongAuthTracker:Lcom/android/keyguard/KeyguardUpdateMonitor$StrongAuthTracker;
 
