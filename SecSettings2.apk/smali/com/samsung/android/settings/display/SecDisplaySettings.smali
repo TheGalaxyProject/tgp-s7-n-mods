@@ -6644,7 +6644,7 @@
     goto/16 :goto_12
 
     :cond_2a
-    const/16 v29, 0x0
+    const/16 v29, 0x1
 
     goto/16 :goto_13
 
